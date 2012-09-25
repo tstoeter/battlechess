@@ -1,12 +1,15 @@
-CC      := clang
-CFLAGS  := -g -Wall -Ilib/glib -Ilib/glib/glib
-LDFLAGS := -Llib/glib/glib/.libs
-LIBS    := -lglib-2.0
+CC           := clang
+TARGET       := game
 
-SOURCES := $(shell find src -type f -name *.c)
-OBJECTS := $(patsubst src/%,build/%,$(SOURCES:.c=.o))
-DEPS    := $(OBJECTS:.o=.deps)
-TARGET  := game
+GLIB_CFLAGS  := -Ilib/glib -Ilib/glib/glib
+GLIB_LDFLAGS := -Llib/glib/glib/.libs
+CFLAGS       := -g -Wall $(GLIB_CFLAGS)
+LDFLAGS      := $(GLIB_CFLAGS)
+
+SOURCES      := $(shell find src -type f -name *.c)
+OBJECTS      := $(patsubst src/%,build/%,$(SOURCES:.c=.o))
+DEPS         := $(OBJECTS:.o=.deps)
+LIBS         := -lglib-2.0
 
 all: $(TARGET)
 
