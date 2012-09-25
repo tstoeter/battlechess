@@ -1,15 +1,19 @@
 CC           := clang
 TARGET       := game
 
+AL_CFLAGS    := -Ilib/allegro/include
+AL_LDFLAGS   := -Llib/allegro/lib
 GLIB_CFLAGS  := -Ilib/glib -Ilib/glib/glib
 GLIB_LDFLAGS := -Llib/glib/glib/.libs
-CFLAGS       := -g -Wall $(GLIB_CFLAGS)
-LDFLAGS      := $(GLIB_CFLAGS)
+CFLAGS       := -g -Wall $(AL_CFLAGS) $(GLIB_CFLAGS)
+LDFLAGS      := $(AL_LDFLAGS) $(GLIB_LDFLAGS)
 
 SOURCES      := $(shell find src -type f -name *.c)
 OBJECTS      := $(patsubst src/%,build/%,$(SOURCES:.c=.o))
 DEPS         := $(OBJECTS:.o=.deps)
-LIBS         := -lglib-2.0
+LIBS         := -lglib-2.0 -lallegro
+
+LIB_PATH     := lib/allegro/lib:lib/glib/glib/.libs
 
 all: $(TARGET)
 
@@ -25,6 +29,9 @@ init:
 clean:
 	@echo "  Cleaning..."; $(RM) -r build $(TARGET)
 
+run: $(TARGET)
+	@LD_LIBRARY_PATH=$(LIB_PATH) ./$(TARGET)
+
 glib:
 	cd lib/glib && configure && $(MAKE)
 
@@ -33,4 +40,4 @@ clean-glib:
 
 -include $(DEPS)
 
-.PHONY: all init clean glib clean-glib
+.PHONY: all init clean run glib clean-glib

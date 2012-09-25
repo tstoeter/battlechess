@@ -36,7 +36,8 @@ host_triplet = @host@
 subdir = build/win32/dirent
 DIST_COMMON = README $(srcdir)/Makefile.am $(srcdir)/Makefile.in
 ACLOCAL_M4 = $(top_srcdir)/aclocal.m4
-am__aclocal_m4_deps = $(top_srcdir)/m4macros/libtool.m4 \
+am__aclocal_m4_deps = $(top_srcdir)/m4macros/gtk-doc.m4 \
+	$(top_srcdir)/m4macros/libtool.m4 \
 	$(top_srcdir)/m4macros/ltoptions.m4 \
 	$(top_srcdir)/m4macros/ltsugar.m4 \
 	$(top_srcdir)/m4macros/ltversion.m4 \
@@ -126,6 +127,11 @@ GMSGFMT = @GMSGFMT@
 GREP = @GREP@
 GSPAWN = @GSPAWN@
 GTHREAD_COMPILE_IMPL_DEFINES = @GTHREAD_COMPILE_IMPL_DEFINES@
+GTKDOC_CHECK = @GTKDOC_CHECK@
+GTKDOC_DEPS_CFLAGS = @GTKDOC_DEPS_CFLAGS@
+GTKDOC_DEPS_LIBS = @GTKDOC_DEPS_LIBS@
+GTKDOC_MKPDF = @GTKDOC_MKPDF@
+GTKDOC_REBASE = @GTKDOC_REBASE@
 G_LIBS_EXTRA = @G_LIBS_EXTRA@
 G_MODULE_BROKEN_RTLD_GLOBAL = @G_MODULE_BROKEN_RTLD_GLOBAL@
 G_MODULE_HAVE_DLERROR = @G_MODULE_HAVE_DLERROR@
@@ -140,6 +146,7 @@ G_THREAD_CFLAGS = @G_THREAD_CFLAGS@
 G_THREAD_LIBS = @G_THREAD_LIBS@
 G_THREAD_LIBS_EXTRA = @G_THREAD_LIBS_EXTRA@
 G_THREAD_LIBS_FOR_GTHREAD = @G_THREAD_LIBS_FOR_GTHREAD@
+HTML_DIR = @HTML_DIR@
 ICONV_LIBS = @ICONV_LIBS@
 INDENT = @INDENT@
 INSTALL = @INSTALL@
