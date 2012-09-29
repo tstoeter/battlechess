@@ -11,7 +11,7 @@ LDFLAGS      := $(AL_LDFLAGS) $(GLIB_LDFLAGS)
 SOURCES      := $(shell find src -type f -name *.c)
 OBJECTS      := $(patsubst src/%,build/%,$(SOURCES:.c=.o))
 DEPS         := $(OBJECTS:.o=.deps)
-LIBS         := -lglib-2.0 -lallegro
+LIBS         := -lglib-2.0 -lallegro -lallegro_image
 
 LIB_PATH     := lib/allegro/lib:lib/glib/glib/.libs
 
@@ -32,11 +32,8 @@ clean:
 run: $(TARGET)
 	@LD_LIBRARY_PATH=$(LIB_PATH) ./$(TARGET)
 
-glib:
-	cd lib/glib && configure && $(MAKE)
-
-clean-glib:
-	@echo "  Cleaning glib..."; cd lib/glib && $(MAKE) clean
+debug: $(TARGET)
+	@LD_LIBRARY_PATH=$(LIB_PATH) gdb ./$(TARGET)
 
 -include $(DEPS)
 
