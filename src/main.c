@@ -103,6 +103,9 @@ int main(int argc, char *argv[])
 		return 1;
 	}
 
+	// Install the font addon
+	al_init_font_addon();
+
 	// Create the display
 	display = al_create_display(screen_width, screen_height);
 	if (!display) {

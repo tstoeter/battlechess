@@ -57,13 +57,15 @@ static void handle_click(Square *square)
 	if (selected_square == square) {
 		selected_square = NULL;
 		g_list_free(threats);
+		// ???: not sure why free'ing alone isn't enough, check for memory leaks
+		threats = NULL;
 	}
 	// if we click one of our pieces, select it
 	else if (square->piece != NULL && square->piece->color == turn) {
 		selected_square = square;
 		ALLEGRO_BITMAP *bmp = get_piece_bitmap(square->piece->type, square->piece->color);
 		threat_ghost = draw_ghost(bmp, al_map_rgba(255, 0, 0, 0), true);
-		threats = get_valid_moves(&board, square);
+		threats = get_valid_moves(&board, square, false);
 	}
 	// if we clicked on a threatened square, move it
 	else if (g_list_find(threats, square)) {
@@ -74,12 +76,13 @@ static void handle_click(Square *square)
 		selected_square->piece = NULL;
 		selected_square = NULL;
 		g_list_free(threats);
+		threats = NULL;
 		turn = !turn;
 	}
 }
 
 /*
- * foreach method for drawing square highlights
+ * foreach method for drawing threat ghosts
  */
 static void draw_threat(gpointer data, gpointer user_data)
 {
@@ -152,23 +155,6 @@ void load_game()
  */
 void game_run()
 {
-	/*
-	// check if the mouse is over a square
-	int left = board_x;
-	int right = board_x + (8*SQUARE_SIZE);
-	int top = board_y;
-	int bottom = board_y + (8*SQUARE_SIZE);
-
-	if (mouse_x > left && mouse_x < right && mouse_y > top && mouse_y < bottom) {
-
-		Square *square = &(board[y][x]);
-		if (selected != square) {
-			g_list_free(threats);
-			threats = get_valid_moves(&board, square);
-			selected = square;
-		}
-	}
-	*/
 }
 
 void game_event(ALLEGRO_EVENT *event)

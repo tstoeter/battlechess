@@ -131,9 +131,6 @@ void init_graphics()
 	black_knight = al_load_bitmap("data/img/pieces/black/knight.png");
 	black_pawn = al_load_bitmap("data/img/pieces/black/pawn.png");
 	black_queen = al_load_bitmap("data/img/pieces/black/queen.png");
-	if (!black_queen) {
-		printf("FUCK!\n");
-	}
 	black_rook = al_load_bitmap("data/img/pieces/black/rook.png");
 
 	square_highlight = al_create_bitmap(SQUARE_SIZE, SQUARE_SIZE);
