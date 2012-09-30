@@ -9,10 +9,10 @@ DEVZIP=/tmp/glib-dev-2.34.0.zip
 cd /usr/local
 
 mkdir -p share/doc/glib-2.34.0
-cp -p /home/damien/workspace/battlechess/lib/glib/COPYING share/doc/glib-2.34.0
+cp -p /home/damien/workspace/games/battlechess/lib/glib/COPYING share/doc/glib-2.34.0
 
 mkdir -p share/doc/glib-dev-2.34.0
-cp -p /home/damien/workspace/battlechess/lib/glib/COPYING share/doc/glib-dev-2.34.0
+cp -p /home/damien/workspace/games/battlechess/lib/glib/COPYING share/doc/glib-dev-2.34.0
 
 if test X86 = X64; then
   helperbits=64

@@ -6,45 +6,45 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
 allegro5/platform/alplatf.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/allegro5/platform/alplatf.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/allegro5/platform/alplatf.h
 allegro5/internal/aintern_image_cfg.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/allegro5/internal/aintern_image_cfg.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/allegro5/internal/aintern_image_cfg.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/bmp.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/bmp.c
 string.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro.h
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
 allegro5/internal/aintern_convert.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_convert.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_convert.h
 allegro5/internal/aintern_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
 iio.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/iio.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/iio.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/iio.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/iio.c
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro.h
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
 allegro5/internal/aintern_image_cfg.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image_cfg.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image_cfg.h
 allegro5/internal/aintern_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
 allegro5/internal/aintern.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/iio.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/iio.h
 allegro5/internal/aintern_image_cfg.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image_cfg.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image_cfg.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/jpg.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/jpg.c
 stdio.h
 -
 stdlib.h
@@ -54,53 +54,53 @@ setjmp.h
 stdint.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro.h
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
 allegro5/internal/aintern_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
 iio.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/iio.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/iio.h
 jpeglib.h
 -
 jerror.h
 -
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/pcx.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/pcx.c
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro.h
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
 allegro5/internal/aintern_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
 iio.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/iio.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/iio.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/png.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/png.c
 png.h
 -
 zlib.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro.h
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
 allegro5/internal/aintern_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
 iio.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/iio.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/iio.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/image/tga.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/tga.c
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro.h
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/allegro_image.h
 allegro5/internal/aintern_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_image.h
 allegro5/internal/aintern_pixels.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_pixels.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/allegro5/internal/aintern_pixels.h
 iio.h
-/home/damien/workspace/battlechess/lib/allegro/addons/image/iio.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/image/iio.h
 
 include/allegro5/alcompat.h
 

@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/ex_acodec_multi.dir/depend.make
@@ -51,17 +51,17 @@ include examples/CMakeFiles/ex_acodec_multi.dir/flags.make
 
 examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o: examples/CMakeFiles/ex_acodec_multi.dir/flags.make
 examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o: examples/ex_acodec_multi.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o   -c /home/damien/workspace/battlechess/lib/allegro/examples/ex_acodec_multi.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_acodec_multi.c
 
 examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/examples/ex_acodec_multi.c > CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_acodec_multi.c > CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.i
 
 examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/examples/ex_acodec_multi.c -o CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_acodec_multi.c -o CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.s
 
 examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o.requires:
 .PHONY : examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o.requires
@@ -80,31 +80,23 @@ ex_acodec_multi_OBJECTS = \
 ex_acodec_multi_EXTERNAL_OBJECTS =
 
 examples/ex_acodec_multi: examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o
+examples/ex_acodec_multi: examples/CMakeFiles/ex_acodec_multi.dir/build.make
 examples/ex_acodec_multi: lib/liballegro_audio.so.5.0.7
 examples/ex_acodec_multi: lib/liballegro_acodec.so.5.0.7
 examples/ex_acodec_multi: lib/liballegro.so.5.0.7
 examples/ex_acodec_multi: lib/liballegro_main.so.5.0.7
 examples/ex_acodec_multi: lib/liballegro_dialog.so.5.0.7
 examples/ex_acodec_multi: lib/liballegro_audio.so.5.0.7
-examples/ex_acodec_multi: /usr/lib/libopenal.so
-examples/ex_acodec_multi: /usr/lib/libFLAC.so
-examples/ex_acodec_multi: /usr/lib/libogg.so
-examples/ex_acodec_multi: /usr/lib/libvorbisfile.so
-examples/ex_acodec_multi: /usr/lib/libvorbis.so
-examples/ex_acodec_multi: /usr/lib/libogg.so
-examples/ex_acodec_multi: /usr/lib/libvorbisfile.so
-examples/ex_acodec_multi: /usr/lib/libvorbis.so
 examples/ex_acodec_multi: lib/liballegro.so.5.0.7
-examples/ex_acodec_multi: /usr/lib/libSM.so
-examples/ex_acodec_multi: /usr/lib/libICE.so
-examples/ex_acodec_multi: /usr/lib/libX11.so
-examples/ex_acodec_multi: /usr/lib/libXext.so
-examples/ex_acodec_multi: /usr/lib/libGL.so
-examples/ex_acodec_multi: /usr/lib/libGLU.so
-examples/ex_acodec_multi: examples/CMakeFiles/ex_acodec_multi.dir/build.make
+examples/ex_acodec_multi: /usr/lib64/libSM.so
+examples/ex_acodec_multi: /usr/lib64/libICE.so
+examples/ex_acodec_multi: /usr/lib64/libX11.so
+examples/ex_acodec_multi: /usr/lib64/libXext.so
+examples/ex_acodec_multi: /usr/lib64/libGL.so
+examples/ex_acodec_multi: /usr/lib64/libGLU.so
 examples/ex_acodec_multi: examples/CMakeFiles/ex_acodec_multi.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ex_acodec_multi"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_acodec_multi.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_acodec_multi.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/ex_acodec_multi.dir/build: examples/ex_acodec_multi
@@ -114,10 +106,10 @@ examples/CMakeFiles/ex_acodec_multi.dir/requires: examples/CMakeFiles/ex_acodec_
 .PHONY : examples/CMakeFiles/ex_acodec_multi.dir/requires
 
 examples/CMakeFiles/ex_acodec_multi.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -P CMakeFiles/ex_acodec_multi.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -P CMakeFiles/ex_acodec_multi.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/ex_acodec_multi.dir/clean
 
 examples/CMakeFiles/ex_acodec_multi.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/examples /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/examples /home/damien/workspace/battlechess/lib/allegro/examples/CMakeFiles/ex_acodec_multi.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/examples /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/examples /home/damien/workspace/games/battlechess/lib/allegro/examples/CMakeFiles/ex_acodec_multi.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/ex_acodec_multi.dir/depend
 

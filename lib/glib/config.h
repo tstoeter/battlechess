@@ -8,10 +8,10 @@
 #define ALIGNOF_GUINT32 4
 
 /* The normal alignment of `guint64', in bytes. */
-#define ALIGNOF_GUINT64 4
+#define ALIGNOF_GUINT64 8
 
 /* The normal alignment of `unsigned long', in bytes. */
-#define ALIGNOF_UNSIGNED_LONG 4
+#define ALIGNOF_UNSIGNED_LONG 8
 
 /* poll doesn't work on devices */
 /* #undef BROKEN_POLL */
@@ -67,7 +67,7 @@
 #define G_VA_COPY va_copy
 
 /* 'va_lists' cannot be copies as values */
-/* #undef G_VA_COPY_AS_ARRAY */
+#define G_VA_COPY_AS_ARRAY 1
 
 /* Define to 1 if you have `alloca', as a function or macro. */
 #define HAVE_ALLOCA 1
@@ -115,7 +115,7 @@
 /* #undef HAVE_CRT_EXTERNS_H */
 
 /* Define if dbus-1 is available */
-/* #undef HAVE_DBUS1 */
+#define HAVE_DBUS1 1
 
 /* Define to 1 if you have the `dcgettext' function. */
 #define HAVE_DCGETTEXT 1
@@ -683,7 +683,7 @@
 #define SIZEOF_INT 4
 
 /* The size of `long', as computed by sizeof. */
-#define SIZEOF_LONG 4
+#define SIZEOF_LONG 8
 
 /* The size of `long long', as computed by sizeof. */
 #define SIZEOF_LONG_LONG 8
@@ -692,10 +692,10 @@
 #define SIZEOF_SHORT 2
 
 /* The size of `size_t', as computed by sizeof. */
-#define SIZEOF_SIZE_T 4
+#define SIZEOF_SIZE_T 8
 
 /* The size of `void *', as computed by sizeof. */
-#define SIZEOF_VOID_P 4
+#define SIZEOF_VOID_P 8
 
 /* The size of `__int64', as computed by sizeof. */
 #define SIZEOF___INT64 0
@@ -741,8 +741,13 @@
 # endif
 #endif
 
+/* Enable large inode numbers on Mac OS X 10.5.  */
+#ifndef _DARWIN_USE_64_BIT_INODE
+# define _DARWIN_USE_64_BIT_INODE 1
+#endif
+
 /* Number of bits in a file offset, on hosts where this is settable. */
-#define _FILE_OFFSET_BITS 64
+/* #undef _FILE_OFFSET_BITS */
 
 /* Make all glibc extensions visible */
 #define _GNU_SOURCE 1

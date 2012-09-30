@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/addons/audio/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 addons/audio/CMakeFiles/allegro_audio.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/CMakeFiles/allegro_audio.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/CMakeFiles/allegro_audio.dir/rule
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ allegro_audio: addons/audio/CMakeFiles/allegro_audio.dir/rule
 
 # fast build rule for target.
 allegro_audio/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/build
 .PHONY : allegro_audio/fast
 
 # Manual pre-install relink rule for target.
 allegro_audio/preinstall:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/CMakeFiles/allegro_audio.dir/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/audio/CMakeFiles/allegro_audio.dir/preinstall
 .PHONY : allegro_audio/preinstall
 
 alsa.o: alsa.c.o
@@ -163,7 +163,7 @@ alsa.o: alsa.c.o
 
 # target to build an object file
 alsa.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o
 .PHONY : alsa.c.o
 
 alsa.i: alsa.c.i
@@ -171,7 +171,7 @@ alsa.i: alsa.c.i
 
 # target to preprocess a source file
 alsa.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.i
 .PHONY : alsa.c.i
 
 alsa.s: alsa.c.s
@@ -179,7 +179,7 @@ alsa.s: alsa.c.s
 
 # target to generate assembly for a file
 alsa.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.s
 .PHONY : alsa.c.s
 
 audio.o: audio.c.o
@@ -187,7 +187,7 @@ audio.o: audio.c.o
 
 # target to build an object file
 audio.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o
 .PHONY : audio.c.o
 
 audio.i: audio.c.i
@@ -195,7 +195,7 @@ audio.i: audio.c.i
 
 # target to preprocess a source file
 audio.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio.c.i
 .PHONY : audio.c.i
 
 audio.s: audio.c.s
@@ -203,7 +203,7 @@ audio.s: audio.c.s
 
 # target to generate assembly for a file
 audio.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio.c.s
 .PHONY : audio.c.s
 
 audio_io.o: audio_io.c.o
@@ -211,7 +211,7 @@ audio_io.o: audio_io.c.o
 
 # target to build an object file
 audio_io.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o
 .PHONY : audio_io.c.o
 
 audio_io.i: audio_io.c.i
@@ -219,7 +219,7 @@ audio_io.i: audio_io.c.i
 
 # target to preprocess a source file
 audio_io.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.i
 .PHONY : audio_io.c.i
 
 audio_io.s: audio_io.c.s
@@ -227,7 +227,7 @@ audio_io.s: audio_io.c.s
 
 # target to generate assembly for a file
 audio_io.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.s
 .PHONY : audio_io.c.s
 
 kcm_dtor.o: kcm_dtor.c.o
@@ -235,7 +235,7 @@ kcm_dtor.o: kcm_dtor.c.o
 
 # target to build an object file
 kcm_dtor.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o
 .PHONY : kcm_dtor.c.o
 
 kcm_dtor.i: kcm_dtor.c.i
@@ -243,7 +243,7 @@ kcm_dtor.i: kcm_dtor.c.i
 
 # target to preprocess a source file
 kcm_dtor.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.i
 .PHONY : kcm_dtor.c.i
 
 kcm_dtor.s: kcm_dtor.c.s
@@ -251,7 +251,7 @@ kcm_dtor.s: kcm_dtor.c.s
 
 # target to generate assembly for a file
 kcm_dtor.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.s
 .PHONY : kcm_dtor.c.s
 
 kcm_instance.o: kcm_instance.c.o
@@ -259,7 +259,7 @@ kcm_instance.o: kcm_instance.c.o
 
 # target to build an object file
 kcm_instance.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o
 .PHONY : kcm_instance.c.o
 
 kcm_instance.i: kcm_instance.c.i
@@ -267,7 +267,7 @@ kcm_instance.i: kcm_instance.c.i
 
 # target to preprocess a source file
 kcm_instance.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.i
 .PHONY : kcm_instance.c.i
 
 kcm_instance.s: kcm_instance.c.s
@@ -275,7 +275,7 @@ kcm_instance.s: kcm_instance.c.s
 
 # target to generate assembly for a file
 kcm_instance.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.s
 .PHONY : kcm_instance.c.s
 
 kcm_mixer.o: kcm_mixer.c.o
@@ -283,7 +283,7 @@ kcm_mixer.o: kcm_mixer.c.o
 
 # target to build an object file
 kcm_mixer.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o
 .PHONY : kcm_mixer.c.o
 
 kcm_mixer.i: kcm_mixer.c.i
@@ -291,7 +291,7 @@ kcm_mixer.i: kcm_mixer.c.i
 
 # target to preprocess a source file
 kcm_mixer.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.i
 .PHONY : kcm_mixer.c.i
 
 kcm_mixer.s: kcm_mixer.c.s
@@ -299,7 +299,7 @@ kcm_mixer.s: kcm_mixer.c.s
 
 # target to generate assembly for a file
 kcm_mixer.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.s
 .PHONY : kcm_mixer.c.s
 
 kcm_sample.o: kcm_sample.c.o
@@ -307,7 +307,7 @@ kcm_sample.o: kcm_sample.c.o
 
 # target to build an object file
 kcm_sample.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o
 .PHONY : kcm_sample.c.o
 
 kcm_sample.i: kcm_sample.c.i
@@ -315,7 +315,7 @@ kcm_sample.i: kcm_sample.c.i
 
 # target to preprocess a source file
 kcm_sample.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.i
 .PHONY : kcm_sample.c.i
 
 kcm_sample.s: kcm_sample.c.s
@@ -323,7 +323,7 @@ kcm_sample.s: kcm_sample.c.s
 
 # target to generate assembly for a file
 kcm_sample.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.s
 .PHONY : kcm_sample.c.s
 
 kcm_stream.o: kcm_stream.c.o
@@ -331,7 +331,7 @@ kcm_stream.o: kcm_stream.c.o
 
 # target to build an object file
 kcm_stream.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o
 .PHONY : kcm_stream.c.o
 
 kcm_stream.i: kcm_stream.c.i
@@ -339,7 +339,7 @@ kcm_stream.i: kcm_stream.c.i
 
 # target to preprocess a source file
 kcm_stream.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.i
 .PHONY : kcm_stream.c.i
 
 kcm_stream.s: kcm_stream.c.s
@@ -347,7 +347,7 @@ kcm_stream.s: kcm_stream.c.s
 
 # target to generate assembly for a file
 kcm_stream.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.s
 .PHONY : kcm_stream.c.s
 
 kcm_voice.o: kcm_voice.c.o
@@ -355,7 +355,7 @@ kcm_voice.o: kcm_voice.c.o
 
 # target to build an object file
 kcm_voice.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o
 .PHONY : kcm_voice.c.o
 
 kcm_voice.i: kcm_voice.c.i
@@ -363,7 +363,7 @@ kcm_voice.i: kcm_voice.c.i
 
 # target to preprocess a source file
 kcm_voice.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.i
 .PHONY : kcm_voice.c.i
 
 kcm_voice.s: kcm_voice.c.s
@@ -371,39 +371,15 @@ kcm_voice.s: kcm_voice.c.s
 
 # target to generate assembly for a file
 kcm_voice.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.s
 .PHONY : kcm_voice.c.s
-
-openal.o: openal.c.o
-.PHONY : openal.o
-
-# target to build an object file
-openal.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o
-.PHONY : openal.c.o
-
-openal.i: openal.c.i
-.PHONY : openal.i
-
-# target to preprocess a source file
-openal.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/openal.c.i
-.PHONY : openal.c.i
-
-openal.s: openal.c.s
-.PHONY : openal.s
-
-# target to generate assembly for a file
-openal.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/openal.c.s
-.PHONY : openal.c.s
 
 oss.o: oss.c.o
 .PHONY : oss.o
 
 # target to build an object file
 oss.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o
 .PHONY : oss.c.o
 
 oss.i: oss.c.i
@@ -411,7 +387,7 @@ oss.i: oss.c.i
 
 # target to preprocess a source file
 oss.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/oss.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/oss.c.i
 .PHONY : oss.c.i
 
 oss.s: oss.c.s
@@ -419,32 +395,8 @@ oss.s: oss.c.s
 
 # target to generate assembly for a file
 oss.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/oss.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/oss.c.s
 .PHONY : oss.c.s
-
-pulseaudio.o: pulseaudio.c.o
-.PHONY : pulseaudio.o
-
-# target to build an object file
-pulseaudio.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o
-.PHONY : pulseaudio.c.o
-
-pulseaudio.i: pulseaudio.c.i
-.PHONY : pulseaudio.i
-
-# target to preprocess a source file
-pulseaudio.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.i
-.PHONY : pulseaudio.c.i
-
-pulseaudio.s: pulseaudio.c.s
-.PHONY : pulseaudio.s
-
-# target to generate assembly for a file
-pulseaudio.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.s
-.PHONY : pulseaudio.c.s
 
 # Help Target
 help:
@@ -486,15 +438,9 @@ help:
 	@echo "... kcm_voice.o"
 	@echo "... kcm_voice.i"
 	@echo "... kcm_voice.s"
-	@echo "... openal.o"
-	@echo "... openal.i"
-	@echo "... openal.s"
 	@echo "... oss.o"
 	@echo "... oss.i"
 	@echo "... oss.s"
-	@echo "... pulseaudio.o"
-	@echo "... pulseaudio.i"
-	@echo "... pulseaudio.s"
 .PHONY : help
 
 
@@ -506,6 +452,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

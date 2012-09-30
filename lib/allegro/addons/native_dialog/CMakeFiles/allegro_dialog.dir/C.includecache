@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro5/allegro.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/dialog.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/dialog.c
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro.h
 allegro5/allegro_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
 allegro5/internal/aintern_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
 allegro5/internal/aintern_dtor.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_dtor.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_dtor.h
 allegro5/internal/aintern_system.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_system.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_system.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/gtk_dialog.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/gtk_dialog.c
 gtk/gtk.h
 -
 gdk/gdkkeysyms.h
@@ -32,31 +32,31 @@ gdk/gdkkeysyms.h
 pango/pango.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro.h
 allegro5/allegro_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
 allegro5/internal/aintern_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
 allegro5/internal/aintern_xglx.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_xglx.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_xglx.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/textlog.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/textlog.c
 stdarg.h
 -
 stdio.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro.h
 allegro5/allegro_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/allegro_native_dialog.h
 allegro5/internal/aintern_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog.h
 allegro5/internal/aintern_native_dialog_cfg.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog_cfg.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_native_dialog_cfg.h
 allegro5/internal/aintern_dtor.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_dtor.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_dtor.h
 allegro5/internal/aintern_system.h
-/home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_system.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/allegro5/internal/aintern_system.h
 
 /usr/include/atk-1.0/atk/atk.h
 atk/atkobject.h
@@ -1278,16 +1278,8 @@ glib/gerror.h
 time.h
 -
 
-/usr/include/glib-2.0/glib/gcache.h
-glib/glist.h
--
-
 /usr/include/glib-2.0/glib/gchecksum.h
 glib/gtypes.h
--
-
-/usr/include/glib-2.0/glib/gcompletion.h
-glib/glist.h
 -
 
 /usr/include/glib-2.0/glib/gconvert.h
@@ -1440,10 +1432,6 @@ glib/gtypes.h
 glib/gerror.h
 -
 glib/gstring.h
--
-
-/usr/include/glib-2.0/glib/grel.h
-glib/gtypes.h
 -
 
 /usr/include/glib-2.0/glib/gscanner.h
@@ -3646,7 +3634,7 @@ pango/pango.h
 cairo.h
 -
 
-/usr/lib/glib-2.0/include/glibconfig.h
+/usr/lib64/glib-2.0/include/glibconfig.h
 glib/gmacros.h
 -
 limits.h
@@ -3654,7 +3642,7 @@ limits.h
 float.h
 -
 
-/usr/lib/gtk-2.0/include/gdkconfig.h
+/usr/lib64/gtk-2.0/include/gdkconfig.h
 
 include/allegro5/alcompat.h
 

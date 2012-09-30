@@ -590,3 +590,297 @@ gmake[1]: *** [CMakeFiles/cmTryCompileExec.dir/CheckIncludeFile.c.o] Error 1
 gmake: *** [cmTryCompileExec/fast] Error 2
 
 
+Determining if the system is big endian passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2155603088/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2155603088.dir/build.make CMakeFiles/cmTryCompileExec2155603088.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2155603088.dir/TestEndianess.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2155603088.dir/TestEndianess.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/TestEndianess.c
+Linking C executable cmTryCompileExec2155603088
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2155603088.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2155603088.dir/TestEndianess.c.o  -o cmTryCompileExec2155603088 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+TestEndianess.c:
+/* A 16 bit integer is required. */
+typedef unsigned short cmakeint16;
+
+/* On a little endian machine, these 16bit ints will give "THIS IS LITTLE ENDIAN."
+   On a big endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_little[] =  {0x4854, 0x5349, 0x4920, 0x2053, 0x494c, 0x5454, 0x454c, 0x4520, 0x444e, 0x4149, 0x2e4e, 0x0000};
+
+/* on a big endian machine, these 16bit ints will give "THIS IS BIG ENDIAN."
+   On a little endian machine the characters will be exchanged pairwise. */
+const cmakeint16 info_big[] =     {0x5448, 0x4953, 0x2049, 0x5320, 0x4249, 0x4720, 0x454e, 0x4449, 0x414e, 0x2e2e, 0x0000};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_little[argc];
+  require += info_big[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if files soundcard.h exist failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2119322383/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2119322383.dir/build.make CMakeFiles/cmTryCompileExec2119322383.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2119322383.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2119322383.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:23: fatal error: soundcard.h: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2119322383.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2119322383/fast] Error 2
+
+Source:
+/* */
+#include <soundcard.h>
+
+
+int main(){return 0;}
+
+Determining if files machine/soundcard.h exist failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1650384926/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1650384926.dir/build.make CMakeFiles/cmTryCompileExec1650384926.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1650384926.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1650384926.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:31: fatal error: machine/soundcard.h: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1650384926.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1650384926/fast] Error 2
+
+Source:
+/* */
+#include <machine/soundcard.h>
+
+
+int main(){return 0;}
+
+Determining if files libkern/OSAtomic.h exist failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec80356996/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec80356996.dir/build.make CMakeFiles/cmTryCompileExec80356996.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec80356996.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec80356996.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:30: fatal error: libkern/OSAtomic.h: No such file or directory
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTryCompileExec80356996.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec80356996/fast] Error 2
+
+Source:
+/* */
+#include <libkern/OSAtomic.h>
+
+
+int main(){return 0;}
+
+Determining if the function getexecname exists failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3069406509/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3069406509.dir/build.make CMakeFiles/cmTryCompileExec3069406509.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3069406509.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=getexecname   -o CMakeFiles/cmTryCompileExec3069406509.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3069406509
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3069406509.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=getexecname    CMakeFiles/cmTryCompileExec3069406509.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3069406509 -rdynamic 
+CMakeFiles/cmTryCompileExec3069406509.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `getexecname'
+collect2: error: ld returned 1 exit status
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec3069406509] Error 1
+gmake: *** [cmTryCompileExec3069406509/fast] Error 2
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_PROCFS_ARGCV failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec685428945/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec685428945.dir/build.make CMakeFiles/cmTryCompileExec685428945.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec685428945.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DALLEGRO_HAVE_PROCFS_ARGCV   -o CMakeFiles/cmTryCompileExec685428945.dir/src.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c:4:25: error: storage size of ‘psinfo’ isn’t known
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c:4:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+gmake[1]: *** [CMakeFiles/cmTryCompileExec685428945.dir/src.c.o] Error 1
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec685428945/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        psinfo.pr_argc = 0;
+        return 0;
+    }
+Performing C SOURCE FILE Test ALLEGRO_HAVE_SV_PROCFS_H failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2971736681/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2971736681.dir/build.make CMakeFiles/cmTryCompileExec2971736681.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2971736681.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DALLEGRO_HAVE_SV_PROCFS_H   -o CMakeFiles/cmTryCompileExec2971736681.dir/src.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c:5:25: error: storage size of ‘psinfo’ isn’t known
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c:6:18: error: ‘PIOCPSINFO’ undeclared (first use in this function)
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c:6:18: note: each undeclared identifier is reported only once for each function it appears in
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c:5:25: warning: unused variable ‘psinfo’ [-Wunused-variable]
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2971736681.dir/src.c.o] Error 1
+gmake: *** [cmTryCompileExec2971736681/fast] Error 2
+
+Source file was:
+
+    #include <sys/procfs.h>
+    #include <sys/ioctl.h>
+    int main(void) {
+        struct prpsinfo psinfo;
+        ioctl(0, PIOCPSINFO, &psinfo);
+        return 0;
+    }
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1209089923/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1209089923.dir/build.make CMakeFiles/cmTryCompileExec1209089923.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1209089923.dir/CheckSymbolExists.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1209089923.dir/CheckSymbolExists.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec1209089923
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1209089923.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1209089923.dir/CheckSymbolExists.c.o  -o cmTryCompileExec1209089923 -rdynamic 
+CMakeFiles/cmTryCompileExec1209089923.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1209089923] Error 1
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1209089923/fast] Error 2
+
+File /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec448744994/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec448744994.dir/build.make CMakeFiles/cmTryCompileExec448744994.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec448744994.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec448744994.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec448744994
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec448744994.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec448744994.dir/CheckFunctionExists.c.o  -o cmTryCompileExec448744994 -rdynamic -lpthreads 
+/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec448744994] Error 1
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec448744994/fast] Error 2
+
+
+Determining if the include file X11/extensions/xf86vmode.h exists failed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2059603929/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2059603929.dir/build.make CMakeFiles/cmTryCompileExec2059603929.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2059603929.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2059603929.dir/CheckIncludeFile.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+In file included from /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFile.c:1:0:
+/usr/include/X11/extensions/xf86vmode.h:127:5: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:128:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:129:5: error: unknown type name ‘Window’
+/usr/include/X11/extensions/xf86vmode.h:132:5: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:133:5: error: unknown type name ‘Time’
+/usr/include/X11/extensions/xf86vmode.h:150:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:151:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:156:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:157:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:162:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:163:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:166:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:167:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:173:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:174:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:180:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:181:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:187:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:188:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:193:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:194:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:199:1: error: unknown type name ‘Status’
+/usr/include/X11/extensions/xf86vmode.h:200:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:205:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:206:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:211:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:212:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:217:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:218:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:223:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:224:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:229:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:230:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:236:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:237:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:243:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:244:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:252:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:253:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:258:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:259:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:264:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:265:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:273:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:274:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:282:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:283:5: error: unknown type name ‘Display’
+/usr/include/X11/extensions/xf86vmode.h:288:1: error: unknown type name ‘Bool’
+/usr/include/X11/extensions/xf86vmode.h:289:5: error: unknown type name ‘Display’
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2059603929.dir/CheckIncludeFile.c.o] Error 1
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2059603929/fast] Error 2
+
+

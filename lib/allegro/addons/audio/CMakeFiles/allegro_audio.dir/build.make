@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include addons/audio/CMakeFiles/allegro_audio.dir/depend.make
@@ -51,17 +51,17 @@ include addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o: addons/audio/audio.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/audio.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/audio.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/audio.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/audio.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/audio.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/audio.c > CMakeFiles/allegro_audio.dir/audio.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/audio.c > CMakeFiles/allegro_audio.dir/audio.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/audio.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/audio.c -o CMakeFiles/allegro_audio.dir/audio.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/audio.c -o CMakeFiles/allegro_audio.dir/audio.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o.requires
@@ -74,17 +74,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/audio.c.o.provides.build: addons/audio
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o: addons/audio/audio_io.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/audio_io.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/audio_io.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/audio_io.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/audio_io.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/audio_io.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/audio_io.c > CMakeFiles/allegro_audio.dir/audio_io.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/audio_io.c > CMakeFiles/allegro_audio.dir/audio_io.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/audio_io.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/audio_io.c -o CMakeFiles/allegro_audio.dir/audio_io.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/audio_io.c -o CMakeFiles/allegro_audio.dir/audio_io.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o.requires
@@ -97,17 +97,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/audio_io.c.o.provides.build: addons/au
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o: addons/audio/kcm_dtor.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_dtor.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_dtor.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_dtor.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_dtor.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/kcm_dtor.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_dtor.c > CMakeFiles/allegro_audio.dir/kcm_dtor.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_dtor.c > CMakeFiles/allegro_audio.dir/kcm_dtor.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/kcm_dtor.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_dtor.c -o CMakeFiles/allegro_audio.dir/kcm_dtor.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_dtor.c -o CMakeFiles/allegro_audio.dir/kcm_dtor.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o.requires
@@ -120,17 +120,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/kcm_dtor.c.o.provides.build: addons/au
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o: addons/audio/kcm_instance.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_instance.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_instance.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_instance.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_instance.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/kcm_instance.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_instance.c > CMakeFiles/allegro_audio.dir/kcm_instance.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_instance.c > CMakeFiles/allegro_audio.dir/kcm_instance.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/kcm_instance.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_instance.c -o CMakeFiles/allegro_audio.dir/kcm_instance.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_instance.c -o CMakeFiles/allegro_audio.dir/kcm_instance.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o.requires
@@ -143,17 +143,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/kcm_instance.c.o.provides.build: addon
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o: addons/audio/kcm_mixer.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_mixer.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_mixer.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_mixer.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_mixer.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/kcm_mixer.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_mixer.c > CMakeFiles/allegro_audio.dir/kcm_mixer.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_mixer.c > CMakeFiles/allegro_audio.dir/kcm_mixer.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/kcm_mixer.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_mixer.c -o CMakeFiles/allegro_audio.dir/kcm_mixer.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_mixer.c -o CMakeFiles/allegro_audio.dir/kcm_mixer.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o.requires
@@ -166,17 +166,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/kcm_mixer.c.o.provides.build: addons/a
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o: addons/audio/kcm_sample.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_sample.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_sample.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_sample.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_sample.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/kcm_sample.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_sample.c > CMakeFiles/allegro_audio.dir/kcm_sample.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_sample.c > CMakeFiles/allegro_audio.dir/kcm_sample.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/kcm_sample.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_sample.c -o CMakeFiles/allegro_audio.dir/kcm_sample.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_sample.c -o CMakeFiles/allegro_audio.dir/kcm_sample.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o.requires
@@ -189,17 +189,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/kcm_sample.c.o.provides.build: addons/
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o: addons/audio/kcm_stream.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_stream.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_stream.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_stream.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_stream.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/kcm_stream.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_stream.c > CMakeFiles/allegro_audio.dir/kcm_stream.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_stream.c > CMakeFiles/allegro_audio.dir/kcm_stream.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/kcm_stream.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_stream.c -o CMakeFiles/allegro_audio.dir/kcm_stream.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_stream.c -o CMakeFiles/allegro_audio.dir/kcm_stream.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o.requires
@@ -212,17 +212,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o.provides.build: addons/
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o: addons/audio/kcm_voice.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_voice.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_voice.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/kcm_voice.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_voice.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/kcm_voice.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_voice.c > CMakeFiles/allegro_audio.dir/kcm_voice.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_voice.c > CMakeFiles/allegro_audio.dir/kcm_voice.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/kcm_voice.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/kcm_voice.c -o CMakeFiles/allegro_audio.dir/kcm_voice.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/kcm_voice.c -o CMakeFiles/allegro_audio.dir/kcm_voice.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o.requires
@@ -235,17 +235,17 @@ addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o.provides.build: addons/a
 
 addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o: addons/audio/oss.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/oss.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/oss.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/oss.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/oss.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/oss.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/oss.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/oss.c > CMakeFiles/allegro_audio.dir/oss.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/oss.c > CMakeFiles/allegro_audio.dir/oss.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/oss.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/oss.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/oss.c -o CMakeFiles/allegro_audio.dir/oss.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/oss.c -o CMakeFiles/allegro_audio.dir/oss.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o.requires
@@ -256,42 +256,19 @@ addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o.provides: addons/audio/CMakeFi
 
 addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o.provides.build: addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o
 
-addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
-addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o: addons/audio/pulseaudio.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/pulseaudio.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/pulseaudio.c
-
-addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/pulseaudio.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/pulseaudio.c > CMakeFiles/allegro_audio.dir/pulseaudio.c.i
-
-addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/pulseaudio.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/pulseaudio.c -o CMakeFiles/allegro_audio.dir/pulseaudio.c.s
-
-addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.requires:
-.PHONY : addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.requires
-
-addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.provides: addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.requires
-	$(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.provides.build
-.PHONY : addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.provides
-
-addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.provides.build: addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o
-
 addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
 addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o: addons/audio/alsa.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/alsa.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/alsa.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/alsa.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/alsa.c
 
 addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/alsa.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/alsa.c > CMakeFiles/allegro_audio.dir/alsa.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/alsa.c > CMakeFiles/allegro_audio.dir/alsa.c.i
 
 addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/alsa.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/alsa.c -o CMakeFiles/allegro_audio.dir/alsa.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/alsa.c -o CMakeFiles/allegro_audio.dir/alsa.c.s
 
 addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o.requires:
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o.requires
@@ -301,29 +278,6 @@ addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o.provides: addons/audio/CMakeF
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o.provides
 
 addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o.provides.build: addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o
-
-addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o: addons/audio/CMakeFiles/allegro_audio.dir/flags.make
-addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o: addons/audio/openal.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_audio.dir/openal.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/audio/openal.c
-
-addons/audio/CMakeFiles/allegro_audio.dir/openal.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_audio.dir/openal.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/audio/openal.c > CMakeFiles/allegro_audio.dir/openal.c.i
-
-addons/audio/CMakeFiles/allegro_audio.dir/openal.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_audio.dir/openal.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_KCM_AUDIO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/audio/openal.c -o CMakeFiles/allegro_audio.dir/openal.c.s
-
-addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.requires:
-.PHONY : addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.requires
-
-addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.provides: addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.requires
-	$(MAKE) -f addons/audio/CMakeFiles/allegro_audio.dir/build.make addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.provides.build
-.PHONY : addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.provides
-
-addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.provides.build: addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o
 
 # Object files for target allegro_audio
 allegro_audio_OBJECTS = \
@@ -336,9 +290,7 @@ allegro_audio_OBJECTS = \
 "CMakeFiles/allegro_audio.dir/kcm_stream.c.o" \
 "CMakeFiles/allegro_audio.dir/kcm_voice.c.o" \
 "CMakeFiles/allegro_audio.dir/oss.c.o" \
-"CMakeFiles/allegro_audio.dir/pulseaudio.c.o" \
-"CMakeFiles/allegro_audio.dir/alsa.c.o" \
-"CMakeFiles/allegro_audio.dir/openal.c.o"
+"CMakeFiles/allegro_audio.dir/alsa.c.o"
 
 # External object files for target allegro_audio
 allegro_audio_EXTERNAL_OBJECTS =
@@ -352,22 +304,19 @@ lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/kcm_sam
 lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o
 lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o
 lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o
-lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o
 lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o
-lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o
-lib/liballegro_audio.so.5.0.7: lib/liballegro.so.5.0.7
-lib/liballegro_audio.so.5.0.7: /usr/lib/libopenal.so
-lib/liballegro_audio.so.5.0.7: /usr/lib/libSM.so
-lib/liballegro_audio.so.5.0.7: /usr/lib/libICE.so
-lib/liballegro_audio.so.5.0.7: /usr/lib/libX11.so
-lib/liballegro_audio.so.5.0.7: /usr/lib/libXext.so
-lib/liballegro_audio.so.5.0.7: /usr/lib/libGL.so
-lib/liballegro_audio.so.5.0.7: /usr/lib/libGLU.so
 lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/build.make
+lib/liballegro_audio.so.5.0.7: lib/liballegro.so.5.0.7
+lib/liballegro_audio.so.5.0.7: /usr/lib64/libSM.so
+lib/liballegro_audio.so.5.0.7: /usr/lib64/libICE.so
+lib/liballegro_audio.so.5.0.7: /usr/lib64/libX11.so
+lib/liballegro_audio.so.5.0.7: /usr/lib64/libXext.so
+lib/liballegro_audio.so.5.0.7: /usr/lib64/libGL.so
+lib/liballegro_audio.so.5.0.7: /usr/lib64/libGLU.so
 lib/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../lib/liballegro_audio.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_audio.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_audio.so.5.0.7 ../../lib/liballegro_audio.so.5.0 ../../lib/liballegro_audio.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_audio.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_audio.so.5.0.7 ../../lib/liballegro_audio.so.5.0 ../../lib/liballegro_audio.so
 
 lib/liballegro_audio.so.5.0: lib/liballegro_audio.so.5.0.7
 
@@ -388,9 +337,7 @@ allegro_audio_OBJECTS = \
 "CMakeFiles/allegro_audio.dir/kcm_stream.c.o" \
 "CMakeFiles/allegro_audio.dir/kcm_voice.c.o" \
 "CMakeFiles/allegro_audio.dir/oss.c.o" \
-"CMakeFiles/allegro_audio.dir/pulseaudio.c.o" \
-"CMakeFiles/allegro_audio.dir/alsa.c.o" \
-"CMakeFiles/allegro_audio.dir/openal.c.o"
+"CMakeFiles/allegro_audio.dir/alsa.c.o"
 
 # External object files for target allegro_audio
 allegro_audio_EXTERNAL_OBJECTS =
@@ -404,22 +351,19 @@ addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/
 addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o
 addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o
 addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o
 addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: lib/liballegro.so.5.0.7
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib/libopenal.so
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib/libSM.so
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib/libICE.so
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib/libX11.so
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib/libXext.so
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib/libGL.so
-addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib/libGLU.so
 addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/build.make
+addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: lib/liballegro.so.5.0.7
+addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib64/libSM.so
+addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib64/libICE.so
+addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib64/libX11.so
+addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib64/libXext.so
+addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib64/libGL.so
+addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: /usr/lib64/libGLU.so
 addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7: addons/audio/CMakeFiles/allegro_audio.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library CMakeFiles/CMakeRelink.dir/liballegro_audio.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_audio.dir/relink.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_audio.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_audio.dir/relink.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_audio.so
 
 addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0: addons/audio/CMakeFiles/CMakeRelink.dir/liballegro_audio.so.5.0.7
 
@@ -438,16 +382,14 @@ addons/audio/CMakeFiles/allegro_audio.dir/requires: addons/audio/CMakeFiles/alle
 addons/audio/CMakeFiles/allegro_audio.dir/requires: addons/audio/CMakeFiles/allegro_audio.dir/kcm_stream.c.o.requires
 addons/audio/CMakeFiles/allegro_audio.dir/requires: addons/audio/CMakeFiles/allegro_audio.dir/kcm_voice.c.o.requires
 addons/audio/CMakeFiles/allegro_audio.dir/requires: addons/audio/CMakeFiles/allegro_audio.dir/oss.c.o.requires
-addons/audio/CMakeFiles/allegro_audio.dir/requires: addons/audio/CMakeFiles/allegro_audio.dir/pulseaudio.c.o.requires
 addons/audio/CMakeFiles/allegro_audio.dir/requires: addons/audio/CMakeFiles/allegro_audio.dir/alsa.c.o.requires
-addons/audio/CMakeFiles/allegro_audio.dir/requires: addons/audio/CMakeFiles/allegro_audio.dir/openal.c.o.requires
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/requires
 
 addons/audio/CMakeFiles/allegro_audio.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -P CMakeFiles/allegro_audio.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/audio && $(CMAKE_COMMAND) -P CMakeFiles/allegro_audio.dir/cmake_clean.cmake
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/clean
 
 addons/audio/CMakeFiles/allegro_audio.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/audio /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/audio /home/damien/workspace/battlechess/lib/allegro/addons/audio/CMakeFiles/allegro_audio.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/audio /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/audio /home/damien/workspace/games/battlechess/lib/allegro/addons/audio/CMakeFiles/allegro_audio.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : addons/audio/CMakeFiles/allegro_audio.dir/depend
 

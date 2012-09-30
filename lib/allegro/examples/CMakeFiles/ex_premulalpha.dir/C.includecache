@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/examples/ex_premulalpha.c
+/home/damien/workspace/games/battlechess/lib/allegro/examples/ex_premulalpha.c
 stdio.h
 -
 stdlib.h
@@ -14,11 +14,11 @@ stdlib.h
 math.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/examples/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/examples/allegro5/allegro.h
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/examples/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/examples/allegro5/allegro_image.h
 allegro5/allegro_font.h
-/home/damien/workspace/battlechess/lib/allegro/examples/allegro5/allegro_font.h
+/home/damien/workspace/games/battlechess/lib/allegro/examples/allegro5/allegro_font.h
 
 examples/../addons/font/allegro5/allegro_font.h
 allegro5/allegro.h

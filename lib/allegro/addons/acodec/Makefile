@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/addons/acodec/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/addons/acodec/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 addons/acodec/CMakeFiles/allegro_acodec.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/CMakeFiles/allegro_acodec.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/CMakeFiles/allegro_acodec.dir/rule
 .PHONY : addons/acodec/CMakeFiles/allegro_acodec.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ allegro_acodec: addons/acodec/CMakeFiles/allegro_acodec.dir/rule
 
 # fast build rule for target.
 allegro_acodec/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/build
 .PHONY : allegro_acodec/fast
 
 # Manual pre-install relink rule for target.
 allegro_acodec/preinstall:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/CMakeFiles/allegro_acodec.dir/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/acodec/CMakeFiles/allegro_acodec.dir/preinstall
 .PHONY : allegro_acodec/preinstall
 
 acodec.o: acodec.c.o
@@ -163,7 +163,7 @@ acodec.o: acodec.c.o
 
 # target to build an object file
 acodec.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/acodec.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/acodec.c.o
 .PHONY : acodec.c.o
 
 acodec.i: acodec.c.i
@@ -171,7 +171,7 @@ acodec.i: acodec.c.i
 
 # target to preprocess a source file
 acodec.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/acodec.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/acodec.c.i
 .PHONY : acodec.c.i
 
 acodec.s: acodec.c.s
@@ -179,63 +179,15 @@ acodec.s: acodec.c.s
 
 # target to generate assembly for a file
 acodec.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/acodec.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/acodec.c.s
 .PHONY : acodec.c.s
-
-flac.o: flac.c.o
-.PHONY : flac.o
-
-# target to build an object file
-flac.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/flac.c.o
-.PHONY : flac.c.o
-
-flac.i: flac.c.i
-.PHONY : flac.i
-
-# target to preprocess a source file
-flac.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/flac.c.i
-.PHONY : flac.c.i
-
-flac.s: flac.c.s
-.PHONY : flac.s
-
-# target to generate assembly for a file
-flac.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/flac.c.s
-.PHONY : flac.c.s
-
-ogg.o: ogg.c.o
-.PHONY : ogg.o
-
-# target to build an object file
-ogg.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/ogg.c.o
-.PHONY : ogg.c.o
-
-ogg.i: ogg.c.i
-.PHONY : ogg.i
-
-# target to preprocess a source file
-ogg.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/ogg.c.i
-.PHONY : ogg.c.i
-
-ogg.s: ogg.c.s
-.PHONY : ogg.s
-
-# target to generate assembly for a file
-ogg.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/ogg.c.s
-.PHONY : ogg.c.s
 
 wav.o: wav.c.o
 .PHONY : wav.o
 
 # target to build an object file
 wav.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/wav.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/wav.c.o
 .PHONY : wav.c.o
 
 wav.i: wav.c.i
@@ -243,7 +195,7 @@ wav.i: wav.c.i
 
 # target to preprocess a source file
 wav.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/wav.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/wav.c.i
 .PHONY : wav.c.i
 
 wav.s: wav.c.s
@@ -251,7 +203,7 @@ wav.s: wav.c.s
 
 # target to generate assembly for a file
 wav.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/wav.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/acodec/CMakeFiles/allegro_acodec.dir/build.make addons/acodec/CMakeFiles/allegro_acodec.dir/wav.c.s
 .PHONY : wav.c.s
 
 # Help Target
@@ -270,12 +222,6 @@ help:
 	@echo "... acodec.o"
 	@echo "... acodec.i"
 	@echo "... acodec.s"
-	@echo "... flac.o"
-	@echo "... flac.i"
-	@echo "... flac.s"
-	@echo "... ogg.o"
-	@echo "... ogg.i"
-	@echo "... ogg.s"
 	@echo "... wav.o"
 	@echo "... wav.i"
 	@echo "... wav.s"
@@ -290,6 +236,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

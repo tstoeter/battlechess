@@ -1,6 +1,6 @@
 prefix=/usr/local
 exec_prefix=${prefix}
-libdir=${exec_prefix}/lib
+libdir=${exec_prefix}/lib64
 includedir=${prefix}/include
 
 giomoduledir=${libdir}/gio/modules
@@ -14,5 +14,5 @@ Version: 2.34.0
 Requires: glib-2.0 gobject-2.0
 Requires.private: gmodule-no-export-2.0
 Libs: -L${libdir} -lgio-2.0
-Libs.private: -L/lib -lz   -lresolv 
+Libs.private: -L/lib64 -lz   -lresolv 
 Cflags:

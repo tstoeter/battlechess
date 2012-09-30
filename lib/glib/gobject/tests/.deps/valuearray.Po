@@ -1,29 +1,24 @@
 valuearray.o: valuearray.c ../../glib/glib-object.h \
  ../../gobject/gbinding.h ../../glib/glib.h ../../glib/galloca.h \
  ../../glib/gtypes.h ../../glib/glibconfig.h ../../glib/gmacros.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h /usr/include/bits/posix1_lim.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/float.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h \
  ../../glib/gversionmacros.h /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/xlocale.h ../../glib/garray.h ../../glib/gasyncqueue.h \
  ../../glib/gthread.h ../../glib/gatomic.h ../../glib/gerror.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h ../../glib/gquark.h \
- ../../glib/gbacktrace.h /usr/include/signal.h /usr/include/bits/sigset.h \
- /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
- /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
- /usr/include/asm/sigcontext.h /usr/include/linux/types.h \
- /usr/include/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
- /usr/include/asm/posix_types_32.h /usr/include/bits/sigstack.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h \
+ ../../glib/gquark.h ../../glib/gbacktrace.h /usr/include/signal.h \
+ /usr/include/bits/sigset.h /usr/include/bits/signum.h \
+ /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
  /usr/include/sys/ucontext.h /usr/include/bits/pthreadtypes.h \
  /usr/include/bits/sigthread.h ../../glib/gbase64.h ../../glib/gbitlock.h \
  ../../glib/gbookmarkfile.h ../../glib/gbytes.h ../../glib/gcharset.h \
@@ -73,11 +68,11 @@ valuearray.o: valuearray.c ../../glib/glib-object.h \
 
 ../../glib/gmacros.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -89,7 +84,7 @@ valuearray.o: valuearray.c ../../glib/glib-object.h \
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/posix1_lim.h:
 
@@ -99,7 +94,7 @@ valuearray.o: valuearray.c ../../glib/glib-object.h \
 
 /usr/include/bits/posix2_lim.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/float.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h:
 
 ../../glib/gversionmacros.h:
 
@@ -123,7 +118,7 @@ valuearray.o: valuearray.c ../../glib/glib-object.h \
 
 ../../glib/gerror.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h:
 
 ../../glib/gquark.h:
 
@@ -140,28 +135,6 @@ valuearray.o: valuearray.c ../../glib/glib-object.h \
 /usr/include/bits/sigaction.h:
 
 /usr/include/bits/sigcontext.h:
-
-/usr/include/asm/sigcontext.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/asm/types.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/asm/posix_types_32.h:
 
 /usr/include/bits/sigstack.h:
 

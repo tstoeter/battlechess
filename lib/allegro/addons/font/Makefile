@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/addons/font/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/addons/font/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 addons/font/CMakeFiles/allegro_font.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/CMakeFiles/allegro_font.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/CMakeFiles/allegro_font.dir/rule
 .PHONY : addons/font/CMakeFiles/allegro_font.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ allegro_font: addons/font/CMakeFiles/allegro_font.dir/rule
 
 # fast build rule for target.
 allegro_font/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/build
 .PHONY : allegro_font/fast
 
 # Manual pre-install relink rule for target.
 allegro_font/preinstall:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/CMakeFiles/allegro_font.dir/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/font/CMakeFiles/allegro_font.dir/preinstall
 .PHONY : allegro_font/preinstall
 
 font.o: font.c.o
@@ -163,7 +163,7 @@ font.o: font.c.o
 
 # target to build an object file
 font.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/font.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/font.c.o
 .PHONY : font.c.o
 
 font.i: font.c.i
@@ -171,7 +171,7 @@ font.i: font.c.i
 
 # target to preprocess a source file
 font.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/font.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/font.c.i
 .PHONY : font.c.i
 
 font.s: font.c.s
@@ -179,7 +179,7 @@ font.s: font.c.s
 
 # target to generate assembly for a file
 font.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/font.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/font.c.s
 .PHONY : font.c.s
 
 fontbmp.o: fontbmp.c.o
@@ -187,7 +187,7 @@ fontbmp.o: fontbmp.c.o
 
 # target to build an object file
 fontbmp.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o
 .PHONY : fontbmp.c.o
 
 fontbmp.i: fontbmp.c.i
@@ -195,7 +195,7 @@ fontbmp.i: fontbmp.c.i
 
 # target to preprocess a source file
 fontbmp.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.i
 .PHONY : fontbmp.c.i
 
 fontbmp.s: fontbmp.c.s
@@ -203,7 +203,7 @@ fontbmp.s: fontbmp.c.s
 
 # target to generate assembly for a file
 fontbmp.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.s
 .PHONY : fontbmp.c.s
 
 text.o: text.c.o
@@ -211,7 +211,7 @@ text.o: text.c.o
 
 # target to build an object file
 text.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/text.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/text.c.o
 .PHONY : text.c.o
 
 text.i: text.c.i
@@ -219,7 +219,7 @@ text.i: text.c.i
 
 # target to preprocess a source file
 text.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/text.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/text.c.i
 .PHONY : text.c.i
 
 text.s: text.c.s
@@ -227,7 +227,7 @@ text.s: text.c.s
 
 # target to generate assembly for a file
 text.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/text.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/font/CMakeFiles/allegro_font.dir/build.make addons/font/CMakeFiles/allegro_font.dir/text.c.s
 .PHONY : text.c.s
 
 # Help Target
@@ -263,6 +263,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

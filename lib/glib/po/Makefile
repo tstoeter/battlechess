@@ -27,7 +27,7 @@ prefix = /usr/local
 exec_prefix = ${prefix}
 datarootdir = ${prefix}/share
 datadir = ${datarootdir}
-libdir = ${exec_prefix}/lib
+libdir = ${exec_prefix}/lib64
 localedir = $(libdir)/locale
 gnulocaledir = $(datadir)/locale
 gettextsrcdir = $(datadir)/glib-2.0/gettext/po
@@ -42,7 +42,7 @@ GENCAT = @GENCAT@
 GMSGFMT = /usr/bin/msgfmt
 MSGFMT = /usr/bin/msgfmt
 MSGFMT_OPTS = -c
-XGETTEXT = :
+XGETTEXT = /usr/bin/xgettext
 MSGMERGE = msgmerge
 
 DEFS = -DHAVE_CONFIG_H

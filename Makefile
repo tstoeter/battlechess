@@ -11,7 +11,7 @@ LDFLAGS      := $(AL_LDFLAGS) $(GLIB_LDFLAGS)
 SOURCES      := $(shell find src -type f -name *.c)
 OBJECTS      := $(patsubst src/%,build/%,$(SOURCES:.c=.o))
 DEPS         := $(OBJECTS:.o=.deps)
-LIBS         := -lglib-2.0 -lallegro -lallegro_image
+LIBS         := -lglib-2.0 -lallegro -lallegro_image -lm
 
 LIB_PATH     := lib/allegro/lib:lib/glib/glib/.libs
 

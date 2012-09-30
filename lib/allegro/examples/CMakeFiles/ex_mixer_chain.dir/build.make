@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/ex_mixer_chain.dir/depend.make
@@ -51,17 +51,17 @@ include examples/CMakeFiles/ex_mixer_chain.dir/flags.make
 
 examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o: examples/CMakeFiles/ex_mixer_chain.dir/flags.make
 examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o: examples/ex_mixer_chain.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o   -c /home/damien/workspace/battlechess/lib/allegro/examples/ex_mixer_chain.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_mixer_chain.c
 
 examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/examples/ex_mixer_chain.c > CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_mixer_chain.c > CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.i
 
 examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/examples/ex_mixer_chain.c -o CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_mixer_chain.c -o CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.s
 
 examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o.requires:
 .PHONY : examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o.requires
@@ -80,31 +80,23 @@ ex_mixer_chain_OBJECTS = \
 ex_mixer_chain_EXTERNAL_OBJECTS =
 
 examples/ex_mixer_chain: examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o
+examples/ex_mixer_chain: examples/CMakeFiles/ex_mixer_chain.dir/build.make
 examples/ex_mixer_chain: lib/liballegro_audio.so.5.0.7
 examples/ex_mixer_chain: lib/liballegro_acodec.so.5.0.7
 examples/ex_mixer_chain: lib/liballegro.so.5.0.7
 examples/ex_mixer_chain: lib/liballegro_main.so.5.0.7
 examples/ex_mixer_chain: lib/liballegro_dialog.so.5.0.7
 examples/ex_mixer_chain: lib/liballegro_audio.so.5.0.7
-examples/ex_mixer_chain: /usr/lib/libopenal.so
-examples/ex_mixer_chain: /usr/lib/libFLAC.so
-examples/ex_mixer_chain: /usr/lib/libogg.so
-examples/ex_mixer_chain: /usr/lib/libvorbisfile.so
-examples/ex_mixer_chain: /usr/lib/libvorbis.so
-examples/ex_mixer_chain: /usr/lib/libogg.so
-examples/ex_mixer_chain: /usr/lib/libvorbisfile.so
-examples/ex_mixer_chain: /usr/lib/libvorbis.so
 examples/ex_mixer_chain: lib/liballegro.so.5.0.7
-examples/ex_mixer_chain: /usr/lib/libSM.so
-examples/ex_mixer_chain: /usr/lib/libICE.so
-examples/ex_mixer_chain: /usr/lib/libX11.so
-examples/ex_mixer_chain: /usr/lib/libXext.so
-examples/ex_mixer_chain: /usr/lib/libGL.so
-examples/ex_mixer_chain: /usr/lib/libGLU.so
-examples/ex_mixer_chain: examples/CMakeFiles/ex_mixer_chain.dir/build.make
+examples/ex_mixer_chain: /usr/lib64/libSM.so
+examples/ex_mixer_chain: /usr/lib64/libICE.so
+examples/ex_mixer_chain: /usr/lib64/libX11.so
+examples/ex_mixer_chain: /usr/lib64/libXext.so
+examples/ex_mixer_chain: /usr/lib64/libGL.so
+examples/ex_mixer_chain: /usr/lib64/libGLU.so
 examples/ex_mixer_chain: examples/CMakeFiles/ex_mixer_chain.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ex_mixer_chain"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_mixer_chain.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_mixer_chain.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/ex_mixer_chain.dir/build: examples/ex_mixer_chain
@@ -114,10 +106,10 @@ examples/CMakeFiles/ex_mixer_chain.dir/requires: examples/CMakeFiles/ex_mixer_ch
 .PHONY : examples/CMakeFiles/ex_mixer_chain.dir/requires
 
 examples/CMakeFiles/ex_mixer_chain.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -P CMakeFiles/ex_mixer_chain.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -P CMakeFiles/ex_mixer_chain.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/ex_mixer_chain.dir/clean
 
 examples/CMakeFiles/ex_mixer_chain.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/examples /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/examples /home/damien/workspace/battlechess/lib/allegro/examples/CMakeFiles/ex_mixer_chain.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/examples /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/examples /home/damien/workspace/games/battlechess/lib/allegro/examples/CMakeFiles/ex_mixer_chain.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/ex_mixer_chain.dir/depend
 

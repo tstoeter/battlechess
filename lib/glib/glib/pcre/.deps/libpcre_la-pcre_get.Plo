@@ -1,19 +1,20 @@
 libpcre_la-pcre_get.lo: pcre_get.c ../../config.h pcre_internal.h \
  /usr/include/ctype.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/endian.h \
  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
  /usr/include/xlocale.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/stdio_lim.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h /usr/include/stdio.h \
- /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h \
+ /usr/include/stdio.h /usr/include/libio.h /usr/include/_G_config.h \
+ /usr/include/wchar.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h \
  /usr/include/bits/sys_errlist.h /usr/include/bits/stdio.h \
  /usr/include/stdlib.h /usr/include/bits/waitflags.h \
  /usr/include/bits/waitstatus.h /usr/include/sys/types.h \
@@ -22,11 +23,11 @@ libpcre_la-pcre_get.lo: pcre_get.c ../../config.h pcre_internal.h \
  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
  /usr/include/alloca.h /usr/include/string.h /usr/include/bits/string.h \
  /usr/include/bits/string2.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stdint.h /usr/include/stdint.h \
- /usr/include/bits/wchar.h pcre.h ucp.h ../../glib/gunicode.h \
- ../../glib/gerror.h ../../glib/gquark.h ../../glib/gtypes.h \
- ../../glib/glibconfig.h ../../glib/gmacros.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/float.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/wchar.h pcre.h ucp.h \
+ ../../glib/gunicode.h ../../glib/gerror.h ../../glib/gquark.h \
+ ../../glib/gtypes.h ../../glib/glibconfig.h ../../glib/gmacros.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h \
  ../../glib/gversionmacros.h /usr/include/bits/timex.h
 
 ../../config.h:
@@ -43,7 +44,7 @@ pcre_internal.h:
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/types.h:
 
@@ -57,9 +58,9 @@ pcre_internal.h:
 
 /usr/include/xlocale.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -75,7 +76,7 @@ pcre_internal.h:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h:
 
 /usr/include/stdio.h:
 
@@ -85,7 +86,7 @@ pcre_internal.h:
 
 /usr/include/wchar.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h:
 
 /usr/include/bits/sys_errlist.h:
 
@@ -121,7 +122,7 @@ pcre_internal.h:
 
 /usr/include/bits/string2.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stdint.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdint.h:
 
 /usr/include/stdint.h:
 
@@ -143,7 +144,7 @@ ucp.h:
 
 ../../glib/gmacros.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/float.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h:
 
 ../../glib/gversionmacros.h:
 

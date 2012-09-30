@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/test_driver.dir/depend.make
@@ -51,17 +51,17 @@ include tests/CMakeFiles/test_driver.dir/flags.make
 
 tests/CMakeFiles/test_driver.dir/test_driver.c.o: tests/CMakeFiles/test_driver.dir/flags.make
 tests/CMakeFiles/test_driver.dir/test_driver.c.o: tests/test_driver.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object tests/CMakeFiles/test_driver.dir/test_driver.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/test_driver.dir/test_driver.c.o   -c /home/damien/workspace/battlechess/lib/allegro/tests/test_driver.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/test_driver.dir/test_driver.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/tests/test_driver.c
 
 tests/CMakeFiles/test_driver.dir/test_driver.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/test_driver.dir/test_driver.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/tests/test_driver.c > CMakeFiles/test_driver.dir/test_driver.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/tests/test_driver.c > CMakeFiles/test_driver.dir/test_driver.c.i
 
 tests/CMakeFiles/test_driver.dir/test_driver.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/test_driver.dir/test_driver.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/tests/test_driver.c -o CMakeFiles/test_driver.dir/test_driver.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/tests && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/tests/test_driver.c -o CMakeFiles/test_driver.dir/test_driver.c.s
 
 tests/CMakeFiles/test_driver.dir/test_driver.c.o.requires:
 .PHONY : tests/CMakeFiles/test_driver.dir/test_driver.c.o.requires
@@ -80,6 +80,7 @@ test_driver_OBJECTS = \
 test_driver_EXTERNAL_OBJECTS =
 
 tests/test_driver: tests/CMakeFiles/test_driver.dir/test_driver.c.o
+tests/test_driver: tests/CMakeFiles/test_driver.dir/build.make
 tests/test_driver: lib/liballegro.so.5.0.7
 tests/test_driver: lib/liballegro_main.so.5.0.7
 tests/test_driver: lib/liballegro_image.so.5.0.7
@@ -87,22 +88,21 @@ tests/test_driver: lib/liballegro_color.so.5.0.7
 tests/test_driver: lib/liballegro_font.so.5.0.7
 tests/test_driver: lib/liballegro_ttf.so.5.0.7
 tests/test_driver: lib/liballegro_primitives.so.5.0.7
-tests/test_driver: /usr/lib/libpng.so
-tests/test_driver: /usr/lib/libjpeg.so
+tests/test_driver: /usr/lib64/libpng.so
+tests/test_driver: /usr/lib64/libjpeg.so
 tests/test_driver: lib/liballegro_font.so.5.0.7
-tests/test_driver: /usr/lib/libfreetype.so
-tests/test_driver: /usr/lib/libz.so
+tests/test_driver: /usr/lib64/libfreetype.so
+tests/test_driver: /usr/lib64/libz.so
 tests/test_driver: lib/liballegro.so.5.0.7
-tests/test_driver: /usr/lib/libSM.so
-tests/test_driver: /usr/lib/libICE.so
-tests/test_driver: /usr/lib/libX11.so
-tests/test_driver: /usr/lib/libXext.so
-tests/test_driver: /usr/lib/libGL.so
-tests/test_driver: /usr/lib/libGLU.so
-tests/test_driver: tests/CMakeFiles/test_driver.dir/build.make
+tests/test_driver: /usr/lib64/libSM.so
+tests/test_driver: /usr/lib64/libICE.so
+tests/test_driver: /usr/lib64/libX11.so
+tests/test_driver: /usr/lib64/libXext.so
+tests/test_driver: /usr/lib64/libGL.so
+tests/test_driver: /usr/lib64/libGLU.so
 tests/test_driver: tests/CMakeFiles/test_driver.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable test_driver"
-	cd /home/damien/workspace/battlechess/lib/allegro/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_driver.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/test_driver.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/test_driver.dir/build: tests/test_driver
@@ -112,10 +112,10 @@ tests/CMakeFiles/test_driver.dir/requires: tests/CMakeFiles/test_driver.dir/test
 .PHONY : tests/CMakeFiles/test_driver.dir/requires
 
 tests/CMakeFiles/test_driver.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_driver.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/tests && $(CMAKE_COMMAND) -P CMakeFiles/test_driver.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/test_driver.dir/clean
 
 tests/CMakeFiles/test_driver.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/tests /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/tests /home/damien/workspace/battlechess/lib/allegro/tests/CMakeFiles/test_driver.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/tests /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/tests /home/damien/workspace/games/battlechess/lib/allegro/tests/CMakeFiles/test_driver.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/test_driver.dir/depend
 

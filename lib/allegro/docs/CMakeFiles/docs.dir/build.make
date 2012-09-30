@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,12 +35,15 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Utility rule file for docs.
+
+# Include the progress variables for this target.
+include docs/CMakeFiles/docs.dir/progress.make
 
 docs/CMakeFiles/docs:
 
@@ -53,10 +56,10 @@ docs/CMakeFiles/docs.dir/build: docs
 .PHONY : docs/CMakeFiles/docs.dir/build
 
 docs/CMakeFiles/docs.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/docs && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/docs && $(CMAKE_COMMAND) -P CMakeFiles/docs.dir/cmake_clean.cmake
 .PHONY : docs/CMakeFiles/docs.dir/clean
 
 docs/CMakeFiles/docs.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/docs /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/docs /home/damien/workspace/battlechess/lib/allegro/docs/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/docs /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/docs /home/damien/workspace/games/battlechess/lib/allegro/docs/CMakeFiles/docs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : docs/CMakeFiles/docs.dir/depend
 

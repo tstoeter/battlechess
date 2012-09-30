@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,16 +35,19 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Utility rule file for run_tests_d3d.
 
+# Include the progress variables for this target.
+include tests/CMakeFiles/run_tests_d3d.dir/progress.make
+
 tests/CMakeFiles/run_tests_d3d: tests/test_driver
 tests/CMakeFiles/run_tests_d3d: tests/copy_tests_example_data
-	cd /home/damien/workspace/battlechess/lib/allegro/tests && ./test_driver --force-d3d /home/damien/workspace/battlechess/lib/allegro/tests/test_bitmaps.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_bitmaps2.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_blend.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_locking.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_locking2.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_backbuffer.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_image.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_fonts.ini /home/damien/workspace/battlechess/lib/allegro/tests/test_prim.ini
+	cd /home/damien/workspace/games/battlechess/lib/allegro/tests && ./test_driver --force-d3d /home/damien/workspace/games/battlechess/lib/allegro/tests/test_bitmaps.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_bitmaps2.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_blend.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_locking.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_locking2.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_backbuffer.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_image.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_fonts.ini /home/damien/workspace/games/battlechess/lib/allegro/tests/test_prim.ini
 
 run_tests_d3d: tests/CMakeFiles/run_tests_d3d
 run_tests_d3d: tests/CMakeFiles/run_tests_d3d.dir/build.make
@@ -55,10 +58,10 @@ tests/CMakeFiles/run_tests_d3d.dir/build: run_tests_d3d
 .PHONY : tests/CMakeFiles/run_tests_d3d.dir/build
 
 tests/CMakeFiles/run_tests_d3d.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/tests && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_d3d.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/tests && $(CMAKE_COMMAND) -P CMakeFiles/run_tests_d3d.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/run_tests_d3d.dir/clean
 
 tests/CMakeFiles/run_tests_d3d.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/tests /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/tests /home/damien/workspace/battlechess/lib/allegro/tests/CMakeFiles/run_tests_d3d.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/tests /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/tests /home/damien/workspace/games/battlechess/lib/allegro/tests/CMakeFiles/run_tests_d3d.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/run_tests_d3d.dir/depend
 

@@ -1,20 +1,20 @@
 gtimer.lo: gtimer.c ../config.h glibconfig.h ../glib/gmacros.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h /usr/include/bits/posix1_lim.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/stdio_lim.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/float.h /usr/include/stdlib.h \
- /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
- /usr/include/endian.h /usr/include/bits/endian.h \
- /usr/include/bits/byteswap.h /usr/include/xlocale.h \
- /usr/include/sys/types.h /usr/include/bits/types.h \
- /usr/include/bits/typesizes.h /usr/include/time.h \
- /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h \
+ /usr/include/stdlib.h /usr/include/bits/waitflags.h \
+ /usr/include/bits/waitstatus.h /usr/include/endian.h \
+ /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
+ /usr/include/xlocale.h /usr/include/sys/types.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/time.h /usr/include/sys/select.h /usr/include/bits/select.h \
  /usr/include/bits/sigset.h /usr/include/bits/time.h \
  /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
  /usr/include/alloca.h /usr/include/unistd.h \
@@ -25,7 +25,7 @@ gtimer.lo: gtimer.c ../config.h glibconfig.h ../glib/gmacros.h \
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h gtimer.h ../glib/gtypes.h \
  glibconfig.h ../glib/gversionmacros.h gmem.h gstrfuncs.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h gtestutils.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h gtestutils.h \
  ../glib/gmessages.h ../glib/gstring.h ../glib/gunicode.h \
  ../glib/gerror.h ../glib/gquark.h ../glib/gbytes.h ../glib/garray.h \
  ../glib/gutils.h ../glib/gslist.h ../glib/gmem.h ../glib/gnode.h gmain.h \
@@ -37,11 +37,11 @@ glibconfig.h:
 
 ../glib/gmacros.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -53,7 +53,7 @@ glibconfig.h:
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/posix1_lim.h:
 
@@ -67,7 +67,7 @@ glibconfig.h:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/float.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h:
 
 /usr/include/stdlib.h:
 
@@ -143,7 +143,7 @@ gmem.h:
 
 gstrfuncs.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h:
 
 gtestutils.h:
 

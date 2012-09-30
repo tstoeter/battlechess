@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/addons/primitives/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/addons/primitives/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 addons/primitives/CMakeFiles/allegro_primitives.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/CMakeFiles/allegro_primitives.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/CMakeFiles/allegro_primitives.dir/rule
 .PHONY : addons/primitives/CMakeFiles/allegro_primitives.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ allegro_primitives: addons/primitives/CMakeFiles/allegro_primitives.dir/rule
 
 # fast build rule for target.
 allegro_primitives/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/build
 .PHONY : allegro_primitives/fast
 
 # Manual pre-install relink rule for target.
 allegro_primitives/preinstall:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/CMakeFiles/allegro_primitives.dir/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/primitives/CMakeFiles/allegro_primitives.dir/preinstall
 .PHONY : allegro_primitives/preinstall
 
 directx_shaders.o: directx_shaders.c.o
@@ -163,7 +163,7 @@ directx_shaders.o: directx_shaders.c.o
 
 # target to build an object file
 directx_shaders.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/directx_shaders.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/directx_shaders.c.o
 .PHONY : directx_shaders.c.o
 
 directx_shaders.i: directx_shaders.c.i
@@ -171,7 +171,7 @@ directx_shaders.i: directx_shaders.c.i
 
 # target to preprocess a source file
 directx_shaders.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/directx_shaders.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/directx_shaders.c.i
 .PHONY : directx_shaders.c.i
 
 directx_shaders.s: directx_shaders.c.s
@@ -179,7 +179,7 @@ directx_shaders.s: directx_shaders.c.s
 
 # target to generate assembly for a file
 directx_shaders.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/directx_shaders.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/directx_shaders.c.s
 .PHONY : directx_shaders.c.s
 
 high_primitives.o: high_primitives.c.o
@@ -187,7 +187,7 @@ high_primitives.o: high_primitives.c.o
 
 # target to build an object file
 high_primitives.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/high_primitives.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/high_primitives.c.o
 .PHONY : high_primitives.c.o
 
 high_primitives.i: high_primitives.c.i
@@ -195,7 +195,7 @@ high_primitives.i: high_primitives.c.i
 
 # target to preprocess a source file
 high_primitives.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/high_primitives.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/high_primitives.c.i
 .PHONY : high_primitives.c.i
 
 high_primitives.s: high_primitives.c.s
@@ -203,7 +203,7 @@ high_primitives.s: high_primitives.c.s
 
 # target to generate assembly for a file
 high_primitives.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/high_primitives.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/high_primitives.c.s
 .PHONY : high_primitives.c.s
 
 line_soft.o: line_soft.c.o
@@ -211,7 +211,7 @@ line_soft.o: line_soft.c.o
 
 # target to build an object file
 line_soft.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/line_soft.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/line_soft.c.o
 .PHONY : line_soft.c.o
 
 line_soft.i: line_soft.c.i
@@ -219,7 +219,7 @@ line_soft.i: line_soft.c.i
 
 # target to preprocess a source file
 line_soft.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/line_soft.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/line_soft.c.i
 .PHONY : line_soft.c.i
 
 line_soft.s: line_soft.c.s
@@ -227,7 +227,7 @@ line_soft.s: line_soft.c.s
 
 # target to generate assembly for a file
 line_soft.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/line_soft.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/line_soft.c.s
 .PHONY : line_soft.c.s
 
 point_soft.o: point_soft.c.o
@@ -235,7 +235,7 @@ point_soft.o: point_soft.c.o
 
 # target to build an object file
 point_soft.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/point_soft.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/point_soft.c.o
 .PHONY : point_soft.c.o
 
 point_soft.i: point_soft.c.i
@@ -243,7 +243,7 @@ point_soft.i: point_soft.c.i
 
 # target to preprocess a source file
 point_soft.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/point_soft.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/point_soft.c.i
 .PHONY : point_soft.c.i
 
 point_soft.s: point_soft.c.s
@@ -251,7 +251,7 @@ point_soft.s: point_soft.c.s
 
 # target to generate assembly for a file
 point_soft.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/point_soft.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/point_soft.c.s
 .PHONY : point_soft.c.s
 
 prim_directx.o: prim_directx.c.o
@@ -259,7 +259,7 @@ prim_directx.o: prim_directx.c.o
 
 # target to build an object file
 prim_directx.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_directx.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_directx.c.o
 .PHONY : prim_directx.c.o
 
 prim_directx.i: prim_directx.c.i
@@ -267,7 +267,7 @@ prim_directx.i: prim_directx.c.i
 
 # target to preprocess a source file
 prim_directx.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_directx.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_directx.c.i
 .PHONY : prim_directx.c.i
 
 prim_directx.s: prim_directx.c.s
@@ -275,7 +275,7 @@ prim_directx.s: prim_directx.c.s
 
 # target to generate assembly for a file
 prim_directx.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_directx.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_directx.c.s
 .PHONY : prim_directx.c.s
 
 prim_opengl.o: prim_opengl.c.o
@@ -283,7 +283,7 @@ prim_opengl.o: prim_opengl.c.o
 
 # target to build an object file
 prim_opengl.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_opengl.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_opengl.c.o
 .PHONY : prim_opengl.c.o
 
 prim_opengl.i: prim_opengl.c.i
@@ -291,7 +291,7 @@ prim_opengl.i: prim_opengl.c.i
 
 # target to preprocess a source file
 prim_opengl.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_opengl.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_opengl.c.i
 .PHONY : prim_opengl.c.i
 
 prim_opengl.s: prim_opengl.c.s
@@ -299,7 +299,7 @@ prim_opengl.s: prim_opengl.c.s
 
 # target to generate assembly for a file
 prim_opengl.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_opengl.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_opengl.c.s
 .PHONY : prim_opengl.c.s
 
 prim_soft.o: prim_soft.c.o
@@ -307,7 +307,7 @@ prim_soft.o: prim_soft.c.o
 
 # target to build an object file
 prim_soft.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_soft.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_soft.c.o
 .PHONY : prim_soft.c.o
 
 prim_soft.i: prim_soft.c.i
@@ -315,7 +315,7 @@ prim_soft.i: prim_soft.c.i
 
 # target to preprocess a source file
 prim_soft.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_soft.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_soft.c.i
 .PHONY : prim_soft.c.i
 
 prim_soft.s: prim_soft.c.s
@@ -323,7 +323,7 @@ prim_soft.s: prim_soft.c.s
 
 # target to generate assembly for a file
 prim_soft.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_soft.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/prim_soft.c.s
 .PHONY : prim_soft.c.s
 
 primitives.o: primitives.c.o
@@ -331,7 +331,7 @@ primitives.o: primitives.c.o
 
 # target to build an object file
 primitives.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/primitives.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/primitives.c.o
 .PHONY : primitives.c.o
 
 primitives.i: primitives.c.i
@@ -339,7 +339,7 @@ primitives.i: primitives.c.i
 
 # target to preprocess a source file
 primitives.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/primitives.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/primitives.c.i
 .PHONY : primitives.c.i
 
 primitives.s: primitives.c.s
@@ -347,7 +347,7 @@ primitives.s: primitives.c.s
 
 # target to generate assembly for a file
 primitives.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/primitives.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/primitives/CMakeFiles/allegro_primitives.dir/build.make addons/primitives/CMakeFiles/allegro_primitives.dir/primitives.c.s
 .PHONY : primitives.c.s
 
 # Help Target
@@ -398,6 +398,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

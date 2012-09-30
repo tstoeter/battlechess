@@ -1,8 +1,8 @@
 gdatetime.lo: gdatetime.c ../config.h /usr/include/stdlib.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h \
+ /usr/include/gnu/stubs-64.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/endian.h /usr/include/bits/endian.h \
  /usr/include/bits/byteswap.h /usr/include/xlocale.h \
@@ -18,16 +18,16 @@ gdatetime.lo: gdatetime.c ../config.h /usr/include/stdlib.h \
  /usr/include/langinfo.h /usr/include/nl_types.h \
  /usr/include/bits/locale.h gdatetime.h ../glib/gtimezone.h \
  ../glib/gtypes.h glibconfig.h ../glib/gmacros.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/stdio_lim.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/float.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h \
  ../glib/gversionmacros.h /usr/include/bits/timex.h gslice.h gatomic.h \
  gcharset.h gconvert.h ../glib/gerror.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h ../glib/gquark.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h ../glib/gquark.h \
  gfileutils.h ghash.h ../glib/glist.h ../glib/gmem.h ../glib/gnode.h \
  gmain.h ../glib/gpoll.h ../glib/gslist.h ../glib/gthread.h \
  ../glib/gatomic.h gmappedfile.h ../glib/gbytes.h ../glib/garray.h \
@@ -47,9 +47,9 @@ gdatetime.lo: gdatetime.c ../config.h /usr/include/stdlib.h \
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h:
 
 /usr/include/bits/waitflags.h:
 
@@ -117,9 +117,9 @@ glibconfig.h:
 
 ../glib/gmacros.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -135,7 +135,7 @@ glibconfig.h:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/float.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h:
 
 ../glib/gversionmacros.h:
 
@@ -151,7 +151,7 @@ gconvert.h:
 
 ../glib/gerror.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h:
 
 ../glib/gquark.h:
 

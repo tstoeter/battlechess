@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include addons/color/CMakeFiles/allegro_color.dir/depend.make
@@ -51,17 +51,17 @@ include addons/color/CMakeFiles/allegro_color.dir/flags.make
 
 addons/color/CMakeFiles/allegro_color.dir/color.c.o: addons/color/CMakeFiles/allegro_color.dir/flags.make
 addons/color/CMakeFiles/allegro_color.dir/color.c.o: addons/color/color.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/color/CMakeFiles/allegro_color.dir/color.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_COLOR_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_color.dir/color.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/color/color.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_COLOR_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_color.dir/color.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/color/color.c
 
 addons/color/CMakeFiles/allegro_color.dir/color.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_color.dir/color.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_COLOR_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/color/color.c > CMakeFiles/allegro_color.dir/color.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_COLOR_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/color/color.c > CMakeFiles/allegro_color.dir/color.c.i
 
 addons/color/CMakeFiles/allegro_color.dir/color.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_color.dir/color.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_COLOR_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/color/color.c -o CMakeFiles/allegro_color.dir/color.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_COLOR_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/color/color.c -o CMakeFiles/allegro_color.dir/color.c.s
 
 addons/color/CMakeFiles/allegro_color.dir/color.c.o.requires:
 .PHONY : addons/color/CMakeFiles/allegro_color.dir/color.c.o.requires
@@ -80,18 +80,18 @@ allegro_color_OBJECTS = \
 allegro_color_EXTERNAL_OBJECTS =
 
 lib/liballegro_color.so.5.0.7: addons/color/CMakeFiles/allegro_color.dir/color.c.o
-lib/liballegro_color.so.5.0.7: lib/liballegro.so.5.0.7
-lib/liballegro_color.so.5.0.7: /usr/lib/libSM.so
-lib/liballegro_color.so.5.0.7: /usr/lib/libICE.so
-lib/liballegro_color.so.5.0.7: /usr/lib/libX11.so
-lib/liballegro_color.so.5.0.7: /usr/lib/libXext.so
-lib/liballegro_color.so.5.0.7: /usr/lib/libGL.so
-lib/liballegro_color.so.5.0.7: /usr/lib/libGLU.so
 lib/liballegro_color.so.5.0.7: addons/color/CMakeFiles/allegro_color.dir/build.make
+lib/liballegro_color.so.5.0.7: lib/liballegro.so.5.0.7
+lib/liballegro_color.so.5.0.7: /usr/lib64/libSM.so
+lib/liballegro_color.so.5.0.7: /usr/lib64/libICE.so
+lib/liballegro_color.so.5.0.7: /usr/lib64/libX11.so
+lib/liballegro_color.so.5.0.7: /usr/lib64/libXext.so
+lib/liballegro_color.so.5.0.7: /usr/lib64/libGL.so
+lib/liballegro_color.so.5.0.7: /usr/lib64/libGLU.so
 lib/liballegro_color.so.5.0.7: addons/color/CMakeFiles/allegro_color.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../lib/liballegro_color.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_color.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_color.so.5.0.7 ../../lib/liballegro_color.so.5.0 ../../lib/liballegro_color.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_color.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_color.so.5.0.7 ../../lib/liballegro_color.so.5.0 ../../lib/liballegro_color.so
 
 lib/liballegro_color.so.5.0: lib/liballegro_color.so.5.0.7
 
@@ -109,18 +109,18 @@ allegro_color_OBJECTS = \
 allegro_color_EXTERNAL_OBJECTS =
 
 addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: addons/color/CMakeFiles/allegro_color.dir/color.c.o
-addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: lib/liballegro.so.5.0.7
-addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib/libSM.so
-addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib/libICE.so
-addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib/libX11.so
-addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib/libXext.so
-addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib/libGL.so
-addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib/libGLU.so
 addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: addons/color/CMakeFiles/allegro_color.dir/build.make
+addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: lib/liballegro.so.5.0.7
+addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib64/libSM.so
+addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib64/libICE.so
+addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib64/libX11.so
+addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib64/libXext.so
+addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib64/libGL.so
+addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: /usr/lib64/libGLU.so
 addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7: addons/color/CMakeFiles/allegro_color.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library CMakeFiles/CMakeRelink.dir/liballegro_color.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_color.dir/relink.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_color.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_color.dir/relink.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_color.so
 
 addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0: addons/color/CMakeFiles/CMakeRelink.dir/liballegro_color.so.5.0.7
 
@@ -134,10 +134,10 @@ addons/color/CMakeFiles/allegro_color.dir/requires: addons/color/CMakeFiles/alle
 .PHONY : addons/color/CMakeFiles/allegro_color.dir/requires
 
 addons/color/CMakeFiles/allegro_color.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -P CMakeFiles/allegro_color.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/color && $(CMAKE_COMMAND) -P CMakeFiles/allegro_color.dir/cmake_clean.cmake
 .PHONY : addons/color/CMakeFiles/allegro_color.dir/clean
 
 addons/color/CMakeFiles/allegro_color.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/color /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/color /home/damien/workspace/battlechess/lib/allegro/addons/color/CMakeFiles/allegro_color.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/color /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/color /home/damien/workspace/games/battlechess/lib/allegro/addons/color/CMakeFiles/allegro_color.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : addons/color/CMakeFiles/allegro_color.dir/depend
 

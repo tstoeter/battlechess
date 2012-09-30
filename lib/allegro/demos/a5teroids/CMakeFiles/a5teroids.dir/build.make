@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include demos/a5teroids/CMakeFiles/a5teroids.dir/depend.make
@@ -51,17 +51,17 @@ include demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o: demos/a5teroids/src/Asteroid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Asteroid.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp > CMakeFiles/a5teroids.dir/src/Asteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp > CMakeFiles/a5teroids.dir/src/Asteroid.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Asteroid.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp -o CMakeFiles/a5teroids.dir/src/Asteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp -o CMakeFiles/a5teroids.dir/src/Asteroid.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o.requires
@@ -74,17 +74,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o.provides.build: demo
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o: demos/a5teroids/src/BitmapResource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp > CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp > CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp -o CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp -o CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o.requires
@@ -97,17 +97,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o.provides.build
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o: demos/a5teroids/src/Bullet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Bullet.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Bullet.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Bullet.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp > CMakeFiles/a5teroids.dir/src/Bullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp > CMakeFiles/a5teroids.dir/src/Bullet.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Bullet.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp -o CMakeFiles/a5teroids.dir/src/Bullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp -o CMakeFiles/a5teroids.dir/src/Bullet.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o.requires
@@ -120,17 +120,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o.provides.build: demos/
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o: demos/a5teroids/src/ButtonWidget.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp > CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp > CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp -o CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp -o CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o.requires
@@ -143,17 +143,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o.provides.build: 
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o: demos/a5teroids/src/Debug.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Debug.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Debug.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Debug.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp > CMakeFiles/a5teroids.dir/src/Debug.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp > CMakeFiles/a5teroids.dir/src/Debug.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Debug.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp -o CMakeFiles/a5teroids.dir/src/Debug.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp -o CMakeFiles/a5teroids.dir/src/Debug.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o.requires
@@ -166,17 +166,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o.provides.build: demos/a
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o: demos/a5teroids/src/DisplayResource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp > CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp > CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp -o CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp -o CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o.requires
@@ -189,17 +189,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o.provides.buil
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o: demos/a5teroids/src/Entity.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Entity.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Entity.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Entity.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp > CMakeFiles/a5teroids.dir/src/Entity.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp > CMakeFiles/a5teroids.dir/src/Entity.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Entity.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp -o CMakeFiles/a5teroids.dir/src/Entity.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp -o CMakeFiles/a5teroids.dir/src/Entity.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o.requires
@@ -212,17 +212,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o.provides.build: demos/
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o: demos/a5teroids/src/Explosion.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Explosion.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Explosion.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Explosion.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp > CMakeFiles/a5teroids.dir/src/Explosion.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp > CMakeFiles/a5teroids.dir/src/Explosion.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Explosion.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp -o CMakeFiles/a5teroids.dir/src/Explosion.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp -o CMakeFiles/a5teroids.dir/src/Explosion.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o.requires
@@ -235,17 +235,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o.provides.build: dem
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o: demos/a5teroids/src/FontResource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/FontResource.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/FontResource.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/FontResource.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp > CMakeFiles/a5teroids.dir/src/FontResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp > CMakeFiles/a5teroids.dir/src/FontResource.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/FontResource.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp -o CMakeFiles/a5teroids.dir/src/FontResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp -o CMakeFiles/a5teroids.dir/src/FontResource.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o.requires
@@ -258,17 +258,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o.provides.build: 
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o: demos/a5teroids/src/Game.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Game.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Game.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Game.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp > CMakeFiles/a5teroids.dir/src/Game.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp > CMakeFiles/a5teroids.dir/src/Game.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Game.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp -o CMakeFiles/a5teroids.dir/src/Game.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp -o CMakeFiles/a5teroids.dir/src/Game.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o.requires
@@ -281,17 +281,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o.provides.build: demos/a5
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o: demos/a5teroids/src/GUI.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/GUI.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/GUI.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/GUI.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp > CMakeFiles/a5teroids.dir/src/GUI.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp > CMakeFiles/a5teroids.dir/src/GUI.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/GUI.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp -o CMakeFiles/a5teroids.dir/src/GUI.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp -o CMakeFiles/a5teroids.dir/src/GUI.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o.requires
@@ -304,17 +304,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o.provides.build: demos/a5t
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o: demos/a5teroids/src/Input.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Input.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Input.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Input.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp > CMakeFiles/a5teroids.dir/src/Input.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp > CMakeFiles/a5teroids.dir/src/Input.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Input.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp -o CMakeFiles/a5teroids.dir/src/Input.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp -o CMakeFiles/a5teroids.dir/src/Input.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o.requires
@@ -327,17 +327,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o.provides.build: demos/a
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o: demos/a5teroids/src/LargeAsteroid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp > CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp > CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp -o CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp -o CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o.requires
@@ -350,17 +350,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o.provides.build:
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o: demos/a5teroids/src/LargeBullet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp > CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp > CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp -o CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp -o CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o.requires
@@ -373,17 +373,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o.provides.build: d
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o: demos/a5teroids/src/LargeSlowBullet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp > CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp > CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp -o CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp -o CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o.requires
@@ -396,17 +396,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o.provides.buil
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o: demos/a5teroids/src/MediumAsteroid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp > CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp > CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp -o CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp -o CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o.requires
@@ -419,17 +419,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o.provides.build
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o: demos/a5teroids/src/Player.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Player.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Player.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Player.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp > CMakeFiles/a5teroids.dir/src/Player.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp > CMakeFiles/a5teroids.dir/src/Player.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Player.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp -o CMakeFiles/a5teroids.dir/src/Player.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp -o CMakeFiles/a5teroids.dir/src/Player.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o.requires
@@ -442,17 +442,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o.provides.build: demos/
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o: demos/a5teroids/src/PowerUp.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/PowerUp.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp > CMakeFiles/a5teroids.dir/src/PowerUp.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp > CMakeFiles/a5teroids.dir/src/PowerUp.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/PowerUp.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp -o CMakeFiles/a5teroids.dir/src/PowerUp.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp -o CMakeFiles/a5teroids.dir/src/PowerUp.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o.requires
@@ -465,17 +465,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o.provides.build: demos
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o: demos/a5teroids/src/Resource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Resource.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/Resource.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/Resource.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp > CMakeFiles/a5teroids.dir/src/Resource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp > CMakeFiles/a5teroids.dir/src/Resource.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/Resource.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp -o CMakeFiles/a5teroids.dir/src/Resource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp -o CMakeFiles/a5teroids.dir/src/Resource.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o.requires
@@ -488,17 +488,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o.provides.build: demo
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o: demos/a5teroids/src/ResourceManager.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp > CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp > CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp -o CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp -o CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o.requires
@@ -511,17 +511,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o.provides.buil
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o: demos/a5teroids/src/SampleResource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/SampleResource.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp > CMakeFiles/a5teroids.dir/src/SampleResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp > CMakeFiles/a5teroids.dir/src/SampleResource.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/SampleResource.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp -o CMakeFiles/a5teroids.dir/src/SampleResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp -o CMakeFiles/a5teroids.dir/src/SampleResource.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o.requires
@@ -534,17 +534,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o.provides.build
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o: demos/a5teroids/src/StreamResource.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/StreamResource.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp > CMakeFiles/a5teroids.dir/src/StreamResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp > CMakeFiles/a5teroids.dir/src/StreamResource.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/StreamResource.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp -o CMakeFiles/a5teroids.dir/src/StreamResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp -o CMakeFiles/a5teroids.dir/src/StreamResource.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o.requires
@@ -557,17 +557,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o.provides.build
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o: demos/a5teroids/src/SmallAsteroid.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp > CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp > CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp -o CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp -o CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o.requires
@@ -580,17 +580,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o.provides.build:
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o: demos/a5teroids/src/SmallBullet.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp > CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp > CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp -o CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp -o CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o.requires
@@ -603,17 +603,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o.provides.build: d
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o: demos/a5teroids/src/UFO.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/UFO.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/UFO.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/UFO.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp > CMakeFiles/a5teroids.dir/src/UFO.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp > CMakeFiles/a5teroids.dir/src/UFO.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/UFO.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp -o CMakeFiles/a5teroids.dir/src/UFO.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp -o CMakeFiles/a5teroids.dir/src/UFO.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o.requires
@@ -626,17 +626,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o.provides.build: demos/a5t
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o: demos/a5teroids/src/a5teroids.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/a5teroids.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp > CMakeFiles/a5teroids.dir/src/a5teroids.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp > CMakeFiles/a5teroids.dir/src/a5teroids.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/a5teroids.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp -o CMakeFiles/a5teroids.dir/src/a5teroids.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp -o CMakeFiles/a5teroids.dir/src/a5teroids.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o.requires
@@ -649,17 +649,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o.provides.build: dem
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o: demos/a5teroids/src/collision.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/collision.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/collision.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/collision.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp > CMakeFiles/a5teroids.dir/src/collision.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp > CMakeFiles/a5teroids.dir/src/collision.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/collision.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp -o CMakeFiles/a5teroids.dir/src/collision.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp -o CMakeFiles/a5teroids.dir/src/collision.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o.requires
@@ -672,17 +672,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o.provides.build: dem
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o: demos/a5teroids/src/logic.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/logic.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/logic.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/logic.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp > CMakeFiles/a5teroids.dir/src/logic.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp > CMakeFiles/a5teroids.dir/src/logic.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/logic.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp -o CMakeFiles/a5teroids.dir/src/logic.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp -o CMakeFiles/a5teroids.dir/src/logic.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o.requires
@@ -695,17 +695,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o.provides.build: demos/a
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o: demos/a5teroids/src/render.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/render.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/render.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/render.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/render.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/render.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/render.cpp > CMakeFiles/a5teroids.dir/src/render.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/render.cpp > CMakeFiles/a5teroids.dir/src/render.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/render.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/render.cpp -o CMakeFiles/a5teroids.dir/src/render.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/render.cpp -o CMakeFiles/a5teroids.dir/src/render.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o.requires
@@ -718,17 +718,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o.provides.build: demos/
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o: demos/a5teroids/src/sound.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/sound.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/sound.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/sound.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp > CMakeFiles/a5teroids.dir/src/sound.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp > CMakeFiles/a5teroids.dir/src/sound.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/sound.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp -o CMakeFiles/a5teroids.dir/src/sound.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp -o CMakeFiles/a5teroids.dir/src/sound.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o.requires
@@ -741,17 +741,17 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o.provides.build: demos/a
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o: demos/a5teroids/CMakeFiles/a5teroids.dir/flags.make
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o: demos/a5teroids/src/wave.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/wave.cpp.o -c /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a5teroids.dir/src/wave.cpp.o -c /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a5teroids.dir/src/wave.cpp.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp > CMakeFiles/a5teroids.dir/src/wave.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp > CMakeFiles/a5teroids.dir/src/wave.cpp.i
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a5teroids.dir/src/wave.cpp.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp -o CMakeFiles/a5teroids.dir/src/wave.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && /usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp -o CMakeFiles/a5teroids.dir/src/wave.cpp.s
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o.requires:
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o.requires
@@ -830,34 +830,26 @@ demos/a5teroids/a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cp
 demos/a5teroids/a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o
 demos/a5teroids/a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o
 demos/a5teroids/a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o
+demos/a5teroids/a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/build.make
 demos/a5teroids/a5teroids: lib/liballegro_main.so.5.0.7
 demos/a5teroids/a5teroids: lib/liballegro_font.so.5.0.7
 demos/a5teroids/a5teroids: lib/liballegro_image.so.5.0.7
 demos/a5teroids/a5teroids: lib/liballegro_audio.so.5.0.7
 demos/a5teroids/a5teroids: lib/liballegro_acodec.so.5.0.7
-demos/a5teroids/a5teroids: /usr/lib/libpng.so
-demos/a5teroids/a5teroids: /usr/lib/libz.so
-demos/a5teroids/a5teroids: /usr/lib/libjpeg.so
+demos/a5teroids/a5teroids: /usr/lib64/libpng.so
+demos/a5teroids/a5teroids: /usr/lib64/libz.so
+demos/a5teroids/a5teroids: /usr/lib64/libjpeg.so
 demos/a5teroids/a5teroids: lib/liballegro_audio.so.5.0.7
 demos/a5teroids/a5teroids: lib/liballegro.so.5.0.7
-demos/a5teroids/a5teroids: /usr/lib/libSM.so
-demos/a5teroids/a5teroids: /usr/lib/libICE.so
-demos/a5teroids/a5teroids: /usr/lib/libX11.so
-demos/a5teroids/a5teroids: /usr/lib/libXext.so
-demos/a5teroids/a5teroids: /usr/lib/libGL.so
-demos/a5teroids/a5teroids: /usr/lib/libGLU.so
-demos/a5teroids/a5teroids: /usr/lib/libopenal.so
-demos/a5teroids/a5teroids: /usr/lib/libFLAC.so
-demos/a5teroids/a5teroids: /usr/lib/libogg.so
-demos/a5teroids/a5teroids: /usr/lib/libvorbisfile.so
-demos/a5teroids/a5teroids: /usr/lib/libvorbis.so
-demos/a5teroids/a5teroids: /usr/lib/libogg.so
-demos/a5teroids/a5teroids: /usr/lib/libvorbisfile.so
-demos/a5teroids/a5teroids: /usr/lib/libvorbis.so
-demos/a5teroids/a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/build.make
+demos/a5teroids/a5teroids: /usr/lib64/libSM.so
+demos/a5teroids/a5teroids: /usr/lib64/libICE.so
+demos/a5teroids/a5teroids: /usr/lib64/libX11.so
+demos/a5teroids/a5teroids: /usr/lib64/libXext.so
+demos/a5teroids/a5teroids: /usr/lib64/libGL.so
+demos/a5teroids/a5teroids: /usr/lib64/libGLU.so
 demos/a5teroids/a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable a5teroids"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a5teroids.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/a5teroids.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 demos/a5teroids/CMakeFiles/a5teroids.dir/build: demos/a5teroids/a5teroids
@@ -897,10 +889,10 @@ demos/a5teroids/CMakeFiles/a5teroids.dir/requires: demos/a5teroids/CMakeFiles/a5
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/requires
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids && $(CMAKE_COMMAND) -P CMakeFiles/a5teroids.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids && $(CMAKE_COMMAND) -P CMakeFiles/a5teroids.dir/cmake_clean.cmake
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/clean
 
 demos/a5teroids/CMakeFiles/a5teroids.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/CMakeFiles/a5teroids.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/CMakeFiles/a5teroids.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/depend
 

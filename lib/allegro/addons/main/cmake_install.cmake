@@ -1,4 +1,4 @@
-# Install script for directory: /home/damien/workspace/battlechess/lib/allegro/addons/main
+# Install script for directory: /home/damien/workspace/games/battlechess/lib/allegro/addons/main
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/damien/workspace/battlechess/lib/allegro/addons/main/CMakeFiles/CMakeRelink.dir/liballegro_main.so.5.0.7"
-    "/home/damien/workspace/battlechess/lib/allegro/addons/main/CMakeFiles/CMakeRelink.dir/liballegro_main.so.5.0"
-    "/home/damien/workspace/battlechess/lib/allegro/addons/main/CMakeFiles/CMakeRelink.dir/liballegro_main.so"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/main/CMakeFiles/CMakeRelink.dir/liballegro_main.so.5.0.7"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/main/CMakeFiles/CMakeRelink.dir/liballegro_main.so.5.0"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/main/CMakeFiles/CMakeRelink.dir/liballegro_main.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liballegro_main.so.5.0.7"

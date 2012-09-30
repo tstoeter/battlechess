@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include examples/CMakeFiles/ex_mouse_events.dir/depend.make
@@ -51,17 +51,17 @@ include examples/CMakeFiles/ex_mouse_events.dir/flags.make
 
 examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o: examples/CMakeFiles/ex_mouse_events.dir/flags.make
 examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o: examples/ex_mouse_events.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o   -c /home/damien/workspace/battlechess/lib/allegro/examples/ex_mouse_events.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_mouse_events.c
 
 examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/examples/ex_mouse_events.c > CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_mouse_events.c > CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.i
 
 examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/examples/ex_mouse_events.c -o CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/examples/ex_mouse_events.c -o CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.s
 
 examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o.requires:
 .PHONY : examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o.requires
@@ -80,26 +80,26 @@ ex_mouse_events_OBJECTS = \
 ex_mouse_events_EXTERNAL_OBJECTS =
 
 examples/ex_mouse_events: examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o
+examples/ex_mouse_events: examples/CMakeFiles/ex_mouse_events.dir/build.make
 examples/ex_mouse_events: lib/liballegro_font.so.5.0.7
 examples/ex_mouse_events: lib/liballegro_image.so.5.0.7
 examples/ex_mouse_events: lib/liballegro_primitives.so.5.0.7
 examples/ex_mouse_events: lib/liballegro.so.5.0.7
 examples/ex_mouse_events: lib/liballegro_main.so.5.0.7
 examples/ex_mouse_events: lib/liballegro_dialog.so.5.0.7
-examples/ex_mouse_events: /usr/lib/libpng.so
-examples/ex_mouse_events: /usr/lib/libz.so
-examples/ex_mouse_events: /usr/lib/libjpeg.so
+examples/ex_mouse_events: /usr/lib64/libpng.so
+examples/ex_mouse_events: /usr/lib64/libz.so
+examples/ex_mouse_events: /usr/lib64/libjpeg.so
 examples/ex_mouse_events: lib/liballegro.so.5.0.7
-examples/ex_mouse_events: /usr/lib/libSM.so
-examples/ex_mouse_events: /usr/lib/libICE.so
-examples/ex_mouse_events: /usr/lib/libX11.so
-examples/ex_mouse_events: /usr/lib/libXext.so
-examples/ex_mouse_events: /usr/lib/libGL.so
-examples/ex_mouse_events: /usr/lib/libGLU.so
-examples/ex_mouse_events: examples/CMakeFiles/ex_mouse_events.dir/build.make
+examples/ex_mouse_events: /usr/lib64/libSM.so
+examples/ex_mouse_events: /usr/lib64/libICE.so
+examples/ex_mouse_events: /usr/lib64/libX11.so
+examples/ex_mouse_events: /usr/lib64/libXext.so
+examples/ex_mouse_events: /usr/lib64/libGL.so
+examples/ex_mouse_events: /usr/lib64/libGLU.so
 examples/ex_mouse_events: examples/CMakeFiles/ex_mouse_events.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable ex_mouse_events"
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_mouse_events.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ex_mouse_events.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 examples/CMakeFiles/ex_mouse_events.dir/build: examples/ex_mouse_events
@@ -109,10 +109,10 @@ examples/CMakeFiles/ex_mouse_events.dir/requires: examples/CMakeFiles/ex_mouse_e
 .PHONY : examples/CMakeFiles/ex_mouse_events.dir/requires
 
 examples/CMakeFiles/ex_mouse_events.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -P CMakeFiles/ex_mouse_events.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/examples && $(CMAKE_COMMAND) -P CMakeFiles/ex_mouse_events.dir/cmake_clean.cmake
 .PHONY : examples/CMakeFiles/ex_mouse_events.dir/clean
 
 examples/CMakeFiles/ex_mouse_events.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/examples /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/examples /home/damien/workspace/battlechess/lib/allegro/examples/CMakeFiles/ex_mouse_events.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/examples /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/examples /home/damien/workspace/games/battlechess/lib/allegro/examples/CMakeFiles/ex_mouse_events.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/ex_mouse_events.dir/depend
 

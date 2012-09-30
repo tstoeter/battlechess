@@ -1,14 +1,14 @@
 gmem.lo: gmem.c ../config.h gmem.h ../glib/gtypes.h glibconfig.h \
- ../glib/gmacros.h /usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h \
+ ../glib/gmacros.h /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h /usr/include/bits/posix1_lim.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h \
  /usr/include/bits/posix2_lim.h /usr/include/bits/xopen_lim.h \
  /usr/include/bits/stdio_lim.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/float.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h \
  ../glib/gversionmacros.h /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/types.h /usr/include/bits/typesizes.h \
  /usr/include/bits/timex.h /usr/include/xlocale.h /usr/include/stdlib.h \
@@ -22,14 +22,9 @@ gmem.lo: gmem.c ../config.h gmem.h ../glib/gtypes.h glibconfig.h \
  /usr/include/bits/string2.h /usr/include/signal.h \
  /usr/include/bits/signum.h /usr/include/bits/siginfo.h \
  /usr/include/bits/sigaction.h /usr/include/bits/sigcontext.h \
- /usr/include/asm/sigcontext.h /usr/include/linux/types.h \
- /usr/include/asm/types.h /usr/include/asm-generic/types.h \
- /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
- /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
- /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
- /usr/include/asm/posix_types_32.h /usr/include/bits/sigstack.h \
- /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h glib-init.h \
- gmessages.h /usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h gslice.h \
+ /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
+ /usr/include/bits/sigthread.h glib-init.h gmessages.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h gslice.h \
  gbacktrace.h gtestutils.h ../glib/gmessages.h ../glib/gstring.h \
  ../glib/gunicode.h ../glib/gerror.h ../glib/gquark.h ../glib/gbytes.h \
  ../glib/garray.h ../glib/gutils.h ../glib/gslist.h ../glib/gmem.h \
@@ -45,11 +40,11 @@ glibconfig.h:
 
 ../glib/gmacros.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -61,7 +56,7 @@ glibconfig.h:
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/posix1_lim.h:
 
@@ -75,7 +70,7 @@ glibconfig.h:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/float.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h:
 
 ../glib/gversionmacros.h:
 
@@ -133,28 +128,6 @@ glibconfig.h:
 
 /usr/include/bits/sigcontext.h:
 
-/usr/include/asm/sigcontext.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/asm/types.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/asm/posix_types_32.h:
-
 /usr/include/bits/sigstack.h:
 
 /usr/include/sys/ucontext.h:
@@ -165,7 +138,7 @@ glib-init.h:
 
 gmessages.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h:
 
 gslice.h:
 

@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 demos/a5teroids/CMakeFiles/a5teroids.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/CMakeFiles/a5teroids.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/a5teroids/CMakeFiles/a5teroids.dir/rule
 .PHONY : demos/a5teroids/CMakeFiles/a5teroids.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ a5teroids: demos/a5teroids/CMakeFiles/a5teroids.dir/rule
 
 # fast build rule for target.
 a5teroids/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/build
 .PHONY : a5teroids/fast
 
 src/Asteroid.o: src/Asteroid.cpp.o
@@ -158,7 +158,7 @@ src/Asteroid.o: src/Asteroid.cpp.o
 
 # target to build an object file
 src/Asteroid.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.o
 .PHONY : src/Asteroid.cpp.o
 
 src/Asteroid.i: src/Asteroid.cpp.i
@@ -166,7 +166,7 @@ src/Asteroid.i: src/Asteroid.cpp.i
 
 # target to preprocess a source file
 src/Asteroid.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.i
 .PHONY : src/Asteroid.cpp.i
 
 src/Asteroid.s: src/Asteroid.cpp.s
@@ -174,7 +174,7 @@ src/Asteroid.s: src/Asteroid.cpp.s
 
 # target to generate assembly for a file
 src/Asteroid.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Asteroid.cpp.s
 .PHONY : src/Asteroid.cpp.s
 
 src/BitmapResource.o: src/BitmapResource.cpp.o
@@ -182,7 +182,7 @@ src/BitmapResource.o: src/BitmapResource.cpp.o
 
 # target to build an object file
 src/BitmapResource.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.o
 .PHONY : src/BitmapResource.cpp.o
 
 src/BitmapResource.i: src/BitmapResource.cpp.i
@@ -190,7 +190,7 @@ src/BitmapResource.i: src/BitmapResource.cpp.i
 
 # target to preprocess a source file
 src/BitmapResource.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.i
 .PHONY : src/BitmapResource.cpp.i
 
 src/BitmapResource.s: src/BitmapResource.cpp.s
@@ -198,7 +198,7 @@ src/BitmapResource.s: src/BitmapResource.cpp.s
 
 # target to generate assembly for a file
 src/BitmapResource.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/BitmapResource.cpp.s
 .PHONY : src/BitmapResource.cpp.s
 
 src/Bullet.o: src/Bullet.cpp.o
@@ -206,7 +206,7 @@ src/Bullet.o: src/Bullet.cpp.o
 
 # target to build an object file
 src/Bullet.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.o
 .PHONY : src/Bullet.cpp.o
 
 src/Bullet.i: src/Bullet.cpp.i
@@ -214,7 +214,7 @@ src/Bullet.i: src/Bullet.cpp.i
 
 # target to preprocess a source file
 src/Bullet.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.i
 .PHONY : src/Bullet.cpp.i
 
 src/Bullet.s: src/Bullet.cpp.s
@@ -222,7 +222,7 @@ src/Bullet.s: src/Bullet.cpp.s
 
 # target to generate assembly for a file
 src/Bullet.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Bullet.cpp.s
 .PHONY : src/Bullet.cpp.s
 
 src/ButtonWidget.o: src/ButtonWidget.cpp.o
@@ -230,7 +230,7 @@ src/ButtonWidget.o: src/ButtonWidget.cpp.o
 
 # target to build an object file
 src/ButtonWidget.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.o
 .PHONY : src/ButtonWidget.cpp.o
 
 src/ButtonWidget.i: src/ButtonWidget.cpp.i
@@ -238,7 +238,7 @@ src/ButtonWidget.i: src/ButtonWidget.cpp.i
 
 # target to preprocess a source file
 src/ButtonWidget.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.i
 .PHONY : src/ButtonWidget.cpp.i
 
 src/ButtonWidget.s: src/ButtonWidget.cpp.s
@@ -246,7 +246,7 @@ src/ButtonWidget.s: src/ButtonWidget.cpp.s
 
 # target to generate assembly for a file
 src/ButtonWidget.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ButtonWidget.cpp.s
 .PHONY : src/ButtonWidget.cpp.s
 
 src/Debug.o: src/Debug.cpp.o
@@ -254,7 +254,7 @@ src/Debug.o: src/Debug.cpp.o
 
 # target to build an object file
 src/Debug.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.o
 .PHONY : src/Debug.cpp.o
 
 src/Debug.i: src/Debug.cpp.i
@@ -262,7 +262,7 @@ src/Debug.i: src/Debug.cpp.i
 
 # target to preprocess a source file
 src/Debug.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.i
 .PHONY : src/Debug.cpp.i
 
 src/Debug.s: src/Debug.cpp.s
@@ -270,7 +270,7 @@ src/Debug.s: src/Debug.cpp.s
 
 # target to generate assembly for a file
 src/Debug.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Debug.cpp.s
 .PHONY : src/Debug.cpp.s
 
 src/DisplayResource.o: src/DisplayResource.cpp.o
@@ -278,7 +278,7 @@ src/DisplayResource.o: src/DisplayResource.cpp.o
 
 # target to build an object file
 src/DisplayResource.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.o
 .PHONY : src/DisplayResource.cpp.o
 
 src/DisplayResource.i: src/DisplayResource.cpp.i
@@ -286,7 +286,7 @@ src/DisplayResource.i: src/DisplayResource.cpp.i
 
 # target to preprocess a source file
 src/DisplayResource.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.i
 .PHONY : src/DisplayResource.cpp.i
 
 src/DisplayResource.s: src/DisplayResource.cpp.s
@@ -294,7 +294,7 @@ src/DisplayResource.s: src/DisplayResource.cpp.s
 
 # target to generate assembly for a file
 src/DisplayResource.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/DisplayResource.cpp.s
 .PHONY : src/DisplayResource.cpp.s
 
 src/Entity.o: src/Entity.cpp.o
@@ -302,7 +302,7 @@ src/Entity.o: src/Entity.cpp.o
 
 # target to build an object file
 src/Entity.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.o
 .PHONY : src/Entity.cpp.o
 
 src/Entity.i: src/Entity.cpp.i
@@ -310,7 +310,7 @@ src/Entity.i: src/Entity.cpp.i
 
 # target to preprocess a source file
 src/Entity.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.i
 .PHONY : src/Entity.cpp.i
 
 src/Entity.s: src/Entity.cpp.s
@@ -318,7 +318,7 @@ src/Entity.s: src/Entity.cpp.s
 
 # target to generate assembly for a file
 src/Entity.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Entity.cpp.s
 .PHONY : src/Entity.cpp.s
 
 src/Explosion.o: src/Explosion.cpp.o
@@ -326,7 +326,7 @@ src/Explosion.o: src/Explosion.cpp.o
 
 # target to build an object file
 src/Explosion.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.o
 .PHONY : src/Explosion.cpp.o
 
 src/Explosion.i: src/Explosion.cpp.i
@@ -334,7 +334,7 @@ src/Explosion.i: src/Explosion.cpp.i
 
 # target to preprocess a source file
 src/Explosion.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.i
 .PHONY : src/Explosion.cpp.i
 
 src/Explosion.s: src/Explosion.cpp.s
@@ -342,7 +342,7 @@ src/Explosion.s: src/Explosion.cpp.s
 
 # target to generate assembly for a file
 src/Explosion.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Explosion.cpp.s
 .PHONY : src/Explosion.cpp.s
 
 src/FontResource.o: src/FontResource.cpp.o
@@ -350,7 +350,7 @@ src/FontResource.o: src/FontResource.cpp.o
 
 # target to build an object file
 src/FontResource.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.o
 .PHONY : src/FontResource.cpp.o
 
 src/FontResource.i: src/FontResource.cpp.i
@@ -358,7 +358,7 @@ src/FontResource.i: src/FontResource.cpp.i
 
 # target to preprocess a source file
 src/FontResource.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.i
 .PHONY : src/FontResource.cpp.i
 
 src/FontResource.s: src/FontResource.cpp.s
@@ -366,7 +366,7 @@ src/FontResource.s: src/FontResource.cpp.s
 
 # target to generate assembly for a file
 src/FontResource.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/FontResource.cpp.s
 .PHONY : src/FontResource.cpp.s
 
 src/GUI.o: src/GUI.cpp.o
@@ -374,7 +374,7 @@ src/GUI.o: src/GUI.cpp.o
 
 # target to build an object file
 src/GUI.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.o
 .PHONY : src/GUI.cpp.o
 
 src/GUI.i: src/GUI.cpp.i
@@ -382,7 +382,7 @@ src/GUI.i: src/GUI.cpp.i
 
 # target to preprocess a source file
 src/GUI.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.i
 .PHONY : src/GUI.cpp.i
 
 src/GUI.s: src/GUI.cpp.s
@@ -390,7 +390,7 @@ src/GUI.s: src/GUI.cpp.s
 
 # target to generate assembly for a file
 src/GUI.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/GUI.cpp.s
 .PHONY : src/GUI.cpp.s
 
 src/Game.o: src/Game.cpp.o
@@ -398,7 +398,7 @@ src/Game.o: src/Game.cpp.o
 
 # target to build an object file
 src/Game.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.o
 .PHONY : src/Game.cpp.o
 
 src/Game.i: src/Game.cpp.i
@@ -406,7 +406,7 @@ src/Game.i: src/Game.cpp.i
 
 # target to preprocess a source file
 src/Game.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.i
 .PHONY : src/Game.cpp.i
 
 src/Game.s: src/Game.cpp.s
@@ -414,7 +414,7 @@ src/Game.s: src/Game.cpp.s
 
 # target to generate assembly for a file
 src/Game.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Game.cpp.s
 .PHONY : src/Game.cpp.s
 
 src/Input.o: src/Input.cpp.o
@@ -422,7 +422,7 @@ src/Input.o: src/Input.cpp.o
 
 # target to build an object file
 src/Input.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.o
 .PHONY : src/Input.cpp.o
 
 src/Input.i: src/Input.cpp.i
@@ -430,7 +430,7 @@ src/Input.i: src/Input.cpp.i
 
 # target to preprocess a source file
 src/Input.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.i
 .PHONY : src/Input.cpp.i
 
 src/Input.s: src/Input.cpp.s
@@ -438,7 +438,7 @@ src/Input.s: src/Input.cpp.s
 
 # target to generate assembly for a file
 src/Input.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Input.cpp.s
 .PHONY : src/Input.cpp.s
 
 src/LargeAsteroid.o: src/LargeAsteroid.cpp.o
@@ -446,7 +446,7 @@ src/LargeAsteroid.o: src/LargeAsteroid.cpp.o
 
 # target to build an object file
 src/LargeAsteroid.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.o
 .PHONY : src/LargeAsteroid.cpp.o
 
 src/LargeAsteroid.i: src/LargeAsteroid.cpp.i
@@ -454,7 +454,7 @@ src/LargeAsteroid.i: src/LargeAsteroid.cpp.i
 
 # target to preprocess a source file
 src/LargeAsteroid.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.i
 .PHONY : src/LargeAsteroid.cpp.i
 
 src/LargeAsteroid.s: src/LargeAsteroid.cpp.s
@@ -462,7 +462,7 @@ src/LargeAsteroid.s: src/LargeAsteroid.cpp.s
 
 # target to generate assembly for a file
 src/LargeAsteroid.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeAsteroid.cpp.s
 .PHONY : src/LargeAsteroid.cpp.s
 
 src/LargeBullet.o: src/LargeBullet.cpp.o
@@ -470,7 +470,7 @@ src/LargeBullet.o: src/LargeBullet.cpp.o
 
 # target to build an object file
 src/LargeBullet.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.o
 .PHONY : src/LargeBullet.cpp.o
 
 src/LargeBullet.i: src/LargeBullet.cpp.i
@@ -478,7 +478,7 @@ src/LargeBullet.i: src/LargeBullet.cpp.i
 
 # target to preprocess a source file
 src/LargeBullet.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.i
 .PHONY : src/LargeBullet.cpp.i
 
 src/LargeBullet.s: src/LargeBullet.cpp.s
@@ -486,7 +486,7 @@ src/LargeBullet.s: src/LargeBullet.cpp.s
 
 # target to generate assembly for a file
 src/LargeBullet.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeBullet.cpp.s
 .PHONY : src/LargeBullet.cpp.s
 
 src/LargeSlowBullet.o: src/LargeSlowBullet.cpp.o
@@ -494,7 +494,7 @@ src/LargeSlowBullet.o: src/LargeSlowBullet.cpp.o
 
 # target to build an object file
 src/LargeSlowBullet.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.o
 .PHONY : src/LargeSlowBullet.cpp.o
 
 src/LargeSlowBullet.i: src/LargeSlowBullet.cpp.i
@@ -502,7 +502,7 @@ src/LargeSlowBullet.i: src/LargeSlowBullet.cpp.i
 
 # target to preprocess a source file
 src/LargeSlowBullet.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.i
 .PHONY : src/LargeSlowBullet.cpp.i
 
 src/LargeSlowBullet.s: src/LargeSlowBullet.cpp.s
@@ -510,7 +510,7 @@ src/LargeSlowBullet.s: src/LargeSlowBullet.cpp.s
 
 # target to generate assembly for a file
 src/LargeSlowBullet.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/LargeSlowBullet.cpp.s
 .PHONY : src/LargeSlowBullet.cpp.s
 
 src/MediumAsteroid.o: src/MediumAsteroid.cpp.o
@@ -518,7 +518,7 @@ src/MediumAsteroid.o: src/MediumAsteroid.cpp.o
 
 # target to build an object file
 src/MediumAsteroid.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.o
 .PHONY : src/MediumAsteroid.cpp.o
 
 src/MediumAsteroid.i: src/MediumAsteroid.cpp.i
@@ -526,7 +526,7 @@ src/MediumAsteroid.i: src/MediumAsteroid.cpp.i
 
 # target to preprocess a source file
 src/MediumAsteroid.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.i
 .PHONY : src/MediumAsteroid.cpp.i
 
 src/MediumAsteroid.s: src/MediumAsteroid.cpp.s
@@ -534,7 +534,7 @@ src/MediumAsteroid.s: src/MediumAsteroid.cpp.s
 
 # target to generate assembly for a file
 src/MediumAsteroid.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/MediumAsteroid.cpp.s
 .PHONY : src/MediumAsteroid.cpp.s
 
 src/Player.o: src/Player.cpp.o
@@ -542,7 +542,7 @@ src/Player.o: src/Player.cpp.o
 
 # target to build an object file
 src/Player.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.o
 .PHONY : src/Player.cpp.o
 
 src/Player.i: src/Player.cpp.i
@@ -550,7 +550,7 @@ src/Player.i: src/Player.cpp.i
 
 # target to preprocess a source file
 src/Player.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.i
 .PHONY : src/Player.cpp.i
 
 src/Player.s: src/Player.cpp.s
@@ -558,7 +558,7 @@ src/Player.s: src/Player.cpp.s
 
 # target to generate assembly for a file
 src/Player.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
 src/PowerUp.o: src/PowerUp.cpp.o
@@ -566,7 +566,7 @@ src/PowerUp.o: src/PowerUp.cpp.o
 
 # target to build an object file
 src/PowerUp.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.o
 .PHONY : src/PowerUp.cpp.o
 
 src/PowerUp.i: src/PowerUp.cpp.i
@@ -574,7 +574,7 @@ src/PowerUp.i: src/PowerUp.cpp.i
 
 # target to preprocess a source file
 src/PowerUp.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.i
 .PHONY : src/PowerUp.cpp.i
 
 src/PowerUp.s: src/PowerUp.cpp.s
@@ -582,7 +582,7 @@ src/PowerUp.s: src/PowerUp.cpp.s
 
 # target to generate assembly for a file
 src/PowerUp.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/PowerUp.cpp.s
 .PHONY : src/PowerUp.cpp.s
 
 src/Resource.o: src/Resource.cpp.o
@@ -590,7 +590,7 @@ src/Resource.o: src/Resource.cpp.o
 
 # target to build an object file
 src/Resource.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.o
 .PHONY : src/Resource.cpp.o
 
 src/Resource.i: src/Resource.cpp.i
@@ -598,7 +598,7 @@ src/Resource.i: src/Resource.cpp.i
 
 # target to preprocess a source file
 src/Resource.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.i
 .PHONY : src/Resource.cpp.i
 
 src/Resource.s: src/Resource.cpp.s
@@ -606,7 +606,7 @@ src/Resource.s: src/Resource.cpp.s
 
 # target to generate assembly for a file
 src/Resource.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/Resource.cpp.s
 .PHONY : src/Resource.cpp.s
 
 src/ResourceManager.o: src/ResourceManager.cpp.o
@@ -614,7 +614,7 @@ src/ResourceManager.o: src/ResourceManager.cpp.o
 
 # target to build an object file
 src/ResourceManager.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.o
 .PHONY : src/ResourceManager.cpp.o
 
 src/ResourceManager.i: src/ResourceManager.cpp.i
@@ -622,7 +622,7 @@ src/ResourceManager.i: src/ResourceManager.cpp.i
 
 # target to preprocess a source file
 src/ResourceManager.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.i
 .PHONY : src/ResourceManager.cpp.i
 
 src/ResourceManager.s: src/ResourceManager.cpp.s
@@ -630,7 +630,7 @@ src/ResourceManager.s: src/ResourceManager.cpp.s
 
 # target to generate assembly for a file
 src/ResourceManager.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/ResourceManager.cpp.s
 .PHONY : src/ResourceManager.cpp.s
 
 src/SampleResource.o: src/SampleResource.cpp.o
@@ -638,7 +638,7 @@ src/SampleResource.o: src/SampleResource.cpp.o
 
 # target to build an object file
 src/SampleResource.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.o
 .PHONY : src/SampleResource.cpp.o
 
 src/SampleResource.i: src/SampleResource.cpp.i
@@ -646,7 +646,7 @@ src/SampleResource.i: src/SampleResource.cpp.i
 
 # target to preprocess a source file
 src/SampleResource.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.i
 .PHONY : src/SampleResource.cpp.i
 
 src/SampleResource.s: src/SampleResource.cpp.s
@@ -654,7 +654,7 @@ src/SampleResource.s: src/SampleResource.cpp.s
 
 # target to generate assembly for a file
 src/SampleResource.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SampleResource.cpp.s
 .PHONY : src/SampleResource.cpp.s
 
 src/SmallAsteroid.o: src/SmallAsteroid.cpp.o
@@ -662,7 +662,7 @@ src/SmallAsteroid.o: src/SmallAsteroid.cpp.o
 
 # target to build an object file
 src/SmallAsteroid.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.o
 .PHONY : src/SmallAsteroid.cpp.o
 
 src/SmallAsteroid.i: src/SmallAsteroid.cpp.i
@@ -670,7 +670,7 @@ src/SmallAsteroid.i: src/SmallAsteroid.cpp.i
 
 # target to preprocess a source file
 src/SmallAsteroid.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.i
 .PHONY : src/SmallAsteroid.cpp.i
 
 src/SmallAsteroid.s: src/SmallAsteroid.cpp.s
@@ -678,7 +678,7 @@ src/SmallAsteroid.s: src/SmallAsteroid.cpp.s
 
 # target to generate assembly for a file
 src/SmallAsteroid.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallAsteroid.cpp.s
 .PHONY : src/SmallAsteroid.cpp.s
 
 src/SmallBullet.o: src/SmallBullet.cpp.o
@@ -686,7 +686,7 @@ src/SmallBullet.o: src/SmallBullet.cpp.o
 
 # target to build an object file
 src/SmallBullet.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.o
 .PHONY : src/SmallBullet.cpp.o
 
 src/SmallBullet.i: src/SmallBullet.cpp.i
@@ -694,7 +694,7 @@ src/SmallBullet.i: src/SmallBullet.cpp.i
 
 # target to preprocess a source file
 src/SmallBullet.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.i
 .PHONY : src/SmallBullet.cpp.i
 
 src/SmallBullet.s: src/SmallBullet.cpp.s
@@ -702,7 +702,7 @@ src/SmallBullet.s: src/SmallBullet.cpp.s
 
 # target to generate assembly for a file
 src/SmallBullet.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/SmallBullet.cpp.s
 .PHONY : src/SmallBullet.cpp.s
 
 src/StreamResource.o: src/StreamResource.cpp.o
@@ -710,7 +710,7 @@ src/StreamResource.o: src/StreamResource.cpp.o
 
 # target to build an object file
 src/StreamResource.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.o
 .PHONY : src/StreamResource.cpp.o
 
 src/StreamResource.i: src/StreamResource.cpp.i
@@ -718,7 +718,7 @@ src/StreamResource.i: src/StreamResource.cpp.i
 
 # target to preprocess a source file
 src/StreamResource.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.i
 .PHONY : src/StreamResource.cpp.i
 
 src/StreamResource.s: src/StreamResource.cpp.s
@@ -726,7 +726,7 @@ src/StreamResource.s: src/StreamResource.cpp.s
 
 # target to generate assembly for a file
 src/StreamResource.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/StreamResource.cpp.s
 .PHONY : src/StreamResource.cpp.s
 
 src/UFO.o: src/UFO.cpp.o
@@ -734,7 +734,7 @@ src/UFO.o: src/UFO.cpp.o
 
 # target to build an object file
 src/UFO.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.o
 .PHONY : src/UFO.cpp.o
 
 src/UFO.i: src/UFO.cpp.i
@@ -742,7 +742,7 @@ src/UFO.i: src/UFO.cpp.i
 
 # target to preprocess a source file
 src/UFO.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.i
 .PHONY : src/UFO.cpp.i
 
 src/UFO.s: src/UFO.cpp.s
@@ -750,7 +750,7 @@ src/UFO.s: src/UFO.cpp.s
 
 # target to generate assembly for a file
 src/UFO.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/UFO.cpp.s
 .PHONY : src/UFO.cpp.s
 
 src/a5teroids.o: src/a5teroids.cpp.o
@@ -758,7 +758,7 @@ src/a5teroids.o: src/a5teroids.cpp.o
 
 # target to build an object file
 src/a5teroids.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.o
 .PHONY : src/a5teroids.cpp.o
 
 src/a5teroids.i: src/a5teroids.cpp.i
@@ -766,7 +766,7 @@ src/a5teroids.i: src/a5teroids.cpp.i
 
 # target to preprocess a source file
 src/a5teroids.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.i
 .PHONY : src/a5teroids.cpp.i
 
 src/a5teroids.s: src/a5teroids.cpp.s
@@ -774,7 +774,7 @@ src/a5teroids.s: src/a5teroids.cpp.s
 
 # target to generate assembly for a file
 src/a5teroids.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/a5teroids.cpp.s
 .PHONY : src/a5teroids.cpp.s
 
 src/collision.o: src/collision.cpp.o
@@ -782,7 +782,7 @@ src/collision.o: src/collision.cpp.o
 
 # target to build an object file
 src/collision.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.o
 .PHONY : src/collision.cpp.o
 
 src/collision.i: src/collision.cpp.i
@@ -790,7 +790,7 @@ src/collision.i: src/collision.cpp.i
 
 # target to preprocess a source file
 src/collision.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.i
 .PHONY : src/collision.cpp.i
 
 src/collision.s: src/collision.cpp.s
@@ -798,7 +798,7 @@ src/collision.s: src/collision.cpp.s
 
 # target to generate assembly for a file
 src/collision.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/collision.cpp.s
 .PHONY : src/collision.cpp.s
 
 src/logic.o: src/logic.cpp.o
@@ -806,7 +806,7 @@ src/logic.o: src/logic.cpp.o
 
 # target to build an object file
 src/logic.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.o
 .PHONY : src/logic.cpp.o
 
 src/logic.i: src/logic.cpp.i
@@ -814,7 +814,7 @@ src/logic.i: src/logic.cpp.i
 
 # target to preprocess a source file
 src/logic.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.i
 .PHONY : src/logic.cpp.i
 
 src/logic.s: src/logic.cpp.s
@@ -822,7 +822,7 @@ src/logic.s: src/logic.cpp.s
 
 # target to generate assembly for a file
 src/logic.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/logic.cpp.s
 .PHONY : src/logic.cpp.s
 
 src/render.o: src/render.cpp.o
@@ -830,7 +830,7 @@ src/render.o: src/render.cpp.o
 
 # target to build an object file
 src/render.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.o
 .PHONY : src/render.cpp.o
 
 src/render.i: src/render.cpp.i
@@ -838,7 +838,7 @@ src/render.i: src/render.cpp.i
 
 # target to preprocess a source file
 src/render.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.i
 .PHONY : src/render.cpp.i
 
 src/render.s: src/render.cpp.s
@@ -846,7 +846,7 @@ src/render.s: src/render.cpp.s
 
 # target to generate assembly for a file
 src/render.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/render.cpp.s
 .PHONY : src/render.cpp.s
 
 src/sound.o: src/sound.cpp.o
@@ -854,7 +854,7 @@ src/sound.o: src/sound.cpp.o
 
 # target to build an object file
 src/sound.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.o
 .PHONY : src/sound.cpp.o
 
 src/sound.i: src/sound.cpp.i
@@ -862,7 +862,7 @@ src/sound.i: src/sound.cpp.i
 
 # target to preprocess a source file
 src/sound.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.i
 .PHONY : src/sound.cpp.i
 
 src/sound.s: src/sound.cpp.s
@@ -870,7 +870,7 @@ src/sound.s: src/sound.cpp.s
 
 # target to generate assembly for a file
 src/sound.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/sound.cpp.s
 .PHONY : src/sound.cpp.s
 
 src/wave.o: src/wave.cpp.o
@@ -878,7 +878,7 @@ src/wave.o: src/wave.cpp.o
 
 # target to build an object file
 src/wave.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.o
 .PHONY : src/wave.cpp.o
 
 src/wave.i: src/wave.cpp.i
@@ -886,7 +886,7 @@ src/wave.i: src/wave.cpp.i
 
 # target to preprocess a source file
 src/wave.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.i
 .PHONY : src/wave.cpp.i
 
 src/wave.s: src/wave.cpp.s
@@ -894,7 +894,7 @@ src/wave.s: src/wave.cpp.s
 
 # target to generate assembly for a file
 src/wave.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/a5teroids/CMakeFiles/a5teroids.dir/build.make demos/a5teroids/CMakeFiles/a5teroids.dir/src/wave.cpp.s
 .PHONY : src/wave.cpp.s
 
 # Help Target
@@ -1014,6 +1014,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

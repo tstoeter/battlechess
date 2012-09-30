@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/a4_aux.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/a4_aux.c
 math.h
 -
 stdio.h
@@ -20,19 +20,19 @@ allegro5/allegro_font.h
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/a4_aux.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/a4_aux.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/badguys.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/badguys.c
 math.h
 -
 allegro5/allegro.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/bullets.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/bullets.c
 math.h
 -
 allegro5/allegro.h
@@ -40,17 +40,17 @@ allegro5/allegro.h
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/explode.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/explode.c
 allegro5/allegro.h
 -
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/hiscore.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/hiscore.c
 stdio.h
 -
 string.h
@@ -62,9 +62,9 @@ allegro5/allegro_font.h
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/main.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/main.c
 time.h
 -
 stdio.h
@@ -82,17 +82,17 @@ allegro5/allegro_image.h
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/message.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/message.c
 allegro5/allegro.h
 -
 allegro5/allegro_font.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/player.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/player.c
 stdio.h
 -
 allegro5/allegro.h
@@ -100,9 +100,9 @@ allegro5/allegro.h
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/sound.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/sound.c
 math.h
 -
 allegro5/allegro.h
@@ -110,13 +110,13 @@ allegro5/allegro.h
 allegro5/allegro_audio.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 a4_aux.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/a4_aux.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/a4_aux.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/title.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/title.c
 math.h
 -
 stdio.h
@@ -130,9 +130,9 @@ allegro5/allegro_font.h
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/view.c
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/view.c
 math.h
 -
 allegro5/allegro.h
@@ -142,7 +142,7 @@ allegro5/allegro_font.h
 allegro5/allegro_primitives.h
 -
 speed.h
-/home/damien/workspace/battlechess/lib/allegro/demos/speed/speed.h
+/home/damien/workspace/games/battlechess/lib/allegro/demos/speed/speed.h
 
 addons/audio/allegro5/allegro_audio.h
 allegro5/allegro.h

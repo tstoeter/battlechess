@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/examples/common.c
+/home/damien/workspace/games/battlechess/lib/allegro/examples/common.c
 stdio.h
 -
 stdarg.h
 -
 allegro5/allegro_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/examples/allegro5/allegro_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/examples/allegro5/allegro_native_dialog.h
 
-/home/damien/workspace/battlechess/lib/allegro/examples/ex_opengl.c
+/home/damien/workspace/games/battlechess/lib/allegro/examples/ex_opengl.c
 stdio.h
 -
 math.h
@@ -24,7 +24,7 @@ allegro5/allegro.h
 allegro5/allegro_opengl.h
 -
 common.c
-/home/damien/workspace/battlechess/lib/allegro/examples/common.c
+/home/damien/workspace/games/battlechess/lib/allegro/examples/common.c
 
 examples/../addons/native_dialog/allegro5/allegro_native_dialog.h
 allegro5/allegro.h

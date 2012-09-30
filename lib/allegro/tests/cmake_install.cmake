@@ -1,4 +1,4 @@
-# Install script for directory: /home/damien/workspace/battlechess/lib/allegro/tests
+# Install script for directory: /home/damien/workspace/games/battlechess/lib/allegro/tests
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)

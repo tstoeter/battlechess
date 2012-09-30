@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include addons/memfile/CMakeFiles/allegro_memfile.dir/depend.make
@@ -51,17 +51,17 @@ include addons/memfile/CMakeFiles/allegro_memfile.dir/flags.make
 
 addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.o: addons/memfile/CMakeFiles/allegro_memfile.dir/flags.make
 addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.o: addons/memfile/memfile.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_MEMFILE_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_memfile.dir/memfile.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/memfile/memfile.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_MEMFILE_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_memfile.dir/memfile.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/memfile.c
 
 addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_memfile.dir/memfile.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_MEMFILE_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/memfile/memfile.c > CMakeFiles/allegro_memfile.dir/memfile.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_MEMFILE_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/memfile.c > CMakeFiles/allegro_memfile.dir/memfile.c.i
 
 addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_memfile.dir/memfile.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_MEMFILE_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/memfile/memfile.c -o CMakeFiles/allegro_memfile.dir/memfile.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_MEMFILE_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/memfile.c -o CMakeFiles/allegro_memfile.dir/memfile.c.s
 
 addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.o.requires:
 .PHONY : addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.o.requires
@@ -80,18 +80,18 @@ allegro_memfile_OBJECTS = \
 allegro_memfile_EXTERNAL_OBJECTS =
 
 lib/liballegro_memfile.so.5.0.7: addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.o
-lib/liballegro_memfile.so.5.0.7: lib/liballegro.so.5.0.7
-lib/liballegro_memfile.so.5.0.7: /usr/lib/libSM.so
-lib/liballegro_memfile.so.5.0.7: /usr/lib/libICE.so
-lib/liballegro_memfile.so.5.0.7: /usr/lib/libX11.so
-lib/liballegro_memfile.so.5.0.7: /usr/lib/libXext.so
-lib/liballegro_memfile.so.5.0.7: /usr/lib/libGL.so
-lib/liballegro_memfile.so.5.0.7: /usr/lib/libGLU.so
 lib/liballegro_memfile.so.5.0.7: addons/memfile/CMakeFiles/allegro_memfile.dir/build.make
+lib/liballegro_memfile.so.5.0.7: lib/liballegro.so.5.0.7
+lib/liballegro_memfile.so.5.0.7: /usr/lib64/libSM.so
+lib/liballegro_memfile.so.5.0.7: /usr/lib64/libICE.so
+lib/liballegro_memfile.so.5.0.7: /usr/lib64/libX11.so
+lib/liballegro_memfile.so.5.0.7: /usr/lib64/libXext.so
+lib/liballegro_memfile.so.5.0.7: /usr/lib64/libGL.so
+lib/liballegro_memfile.so.5.0.7: /usr/lib64/libGLU.so
 lib/liballegro_memfile.so.5.0.7: addons/memfile/CMakeFiles/allegro_memfile.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../lib/liballegro_memfile.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_memfile.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_memfile.so.5.0.7 ../../lib/liballegro_memfile.so.5.0 ../../lib/liballegro_memfile.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_memfile.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_memfile.so.5.0.7 ../../lib/liballegro_memfile.so.5.0 ../../lib/liballegro_memfile.so
 
 lib/liballegro_memfile.so.5.0: lib/liballegro_memfile.so.5.0.7
 
@@ -109,18 +109,18 @@ allegro_memfile_OBJECTS = \
 allegro_memfile_EXTERNAL_OBJECTS =
 
 addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: addons/memfile/CMakeFiles/allegro_memfile.dir/memfile.c.o
-addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: lib/liballegro.so.5.0.7
-addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib/libSM.so
-addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib/libICE.so
-addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib/libX11.so
-addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib/libXext.so
-addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib/libGL.so
-addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib/libGLU.so
 addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: addons/memfile/CMakeFiles/allegro_memfile.dir/build.make
+addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: lib/liballegro.so.5.0.7
+addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib64/libSM.so
+addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib64/libICE.so
+addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib64/libX11.so
+addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib64/libXext.so
+addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib64/libGL.so
+addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: /usr/lib64/libGLU.so
 addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7: addons/memfile/CMakeFiles/allegro_memfile.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library CMakeFiles/CMakeRelink.dir/liballegro_memfile.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_memfile.dir/relink.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_memfile.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_memfile.dir/relink.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_memfile.so
 
 addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0: addons/memfile/CMakeFiles/CMakeRelink.dir/liballegro_memfile.so.5.0.7
 
@@ -134,10 +134,10 @@ addons/memfile/CMakeFiles/allegro_memfile.dir/requires: addons/memfile/CMakeFile
 .PHONY : addons/memfile/CMakeFiles/allegro_memfile.dir/requires
 
 addons/memfile/CMakeFiles/allegro_memfile.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -P CMakeFiles/allegro_memfile.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile && $(CMAKE_COMMAND) -P CMakeFiles/allegro_memfile.dir/cmake_clean.cmake
 .PHONY : addons/memfile/CMakeFiles/allegro_memfile.dir/clean
 
 addons/memfile/CMakeFiles/allegro_memfile.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/memfile /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/memfile /home/damien/workspace/battlechess/lib/allegro/addons/memfile/CMakeFiles/allegro_memfile.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile /home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/CMakeFiles/allegro_memfile.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : addons/memfile/CMakeFiles/allegro_memfile.dir/depend
 

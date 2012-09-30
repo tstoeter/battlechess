@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include addons/ttf/CMakeFiles/allegro_ttf.dir/depend.make
@@ -51,17 +51,17 @@ include addons/ttf/CMakeFiles/allegro_ttf.dir/flags.make
 
 addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.o: addons/ttf/CMakeFiles/allegro_ttf.dir/flags.make
 addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.o: addons/ttf/ttf.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_TTF_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_ttf.dir/ttf.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/ttf/ttf.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_TTF_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_ttf.dir/ttf.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/ttf.c
 
 addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_ttf.dir/ttf.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_TTF_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/ttf/ttf.c > CMakeFiles/allegro_ttf.dir/ttf.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_TTF_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/ttf.c > CMakeFiles/allegro_ttf.dir/ttf.c.i
 
 addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_ttf.dir/ttf.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_TTF_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/ttf/ttf.c -o CMakeFiles/allegro_ttf.dir/ttf.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_TTF_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/ttf.c -o CMakeFiles/allegro_ttf.dir/ttf.c.s
 
 addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.o.requires:
 .PHONY : addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.o.requires
@@ -80,21 +80,21 @@ allegro_ttf_OBJECTS = \
 allegro_ttf_EXTERNAL_OBJECTS =
 
 lib/liballegro_ttf.so.5.0.7: addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.o
-lib/liballegro_ttf.so.5.0.7: lib/liballegro_font.so.5.0.7
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libfreetype.so
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libz.so
-lib/liballegro_ttf.so.5.0.7: lib/liballegro.so.5.0.7
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libSM.so
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libICE.so
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libX11.so
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libXext.so
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libGL.so
-lib/liballegro_ttf.so.5.0.7: /usr/lib/libGLU.so
 lib/liballegro_ttf.so.5.0.7: addons/ttf/CMakeFiles/allegro_ttf.dir/build.make
+lib/liballegro_ttf.so.5.0.7: lib/liballegro_font.so.5.0.7
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libfreetype.so
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libz.so
+lib/liballegro_ttf.so.5.0.7: lib/liballegro.so.5.0.7
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libSM.so
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libICE.so
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libX11.so
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libXext.so
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libGL.so
+lib/liballegro_ttf.so.5.0.7: /usr/lib64/libGLU.so
 lib/liballegro_ttf.so.5.0.7: addons/ttf/CMakeFiles/allegro_ttf.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../lib/liballegro_ttf.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_ttf.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_ttf.so.5.0.7 ../../lib/liballegro_ttf.so.5.0 ../../lib/liballegro_ttf.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_ttf.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_ttf.so.5.0.7 ../../lib/liballegro_ttf.so.5.0 ../../lib/liballegro_ttf.so
 
 lib/liballegro_ttf.so.5.0: lib/liballegro_ttf.so.5.0.7
 
@@ -112,21 +112,21 @@ allegro_ttf_OBJECTS = \
 allegro_ttf_EXTERNAL_OBJECTS =
 
 addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: addons/ttf/CMakeFiles/allegro_ttf.dir/ttf.c.o
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: lib/liballegro_font.so.5.0.7
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libfreetype.so
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libz.so
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: lib/liballegro.so.5.0.7
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libSM.so
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libICE.so
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libX11.so
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libXext.so
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libGL.so
-addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib/libGLU.so
 addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: addons/ttf/CMakeFiles/allegro_ttf.dir/build.make
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: lib/liballegro_font.so.5.0.7
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libfreetype.so
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libz.so
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: lib/liballegro.so.5.0.7
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libSM.so
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libICE.so
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libX11.so
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libXext.so
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libGL.so
+addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: /usr/lib64/libGLU.so
 addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7: addons/ttf/CMakeFiles/allegro_ttf.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library CMakeFiles/CMakeRelink.dir/liballegro_ttf.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_ttf.dir/relink.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_ttf.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_ttf.dir/relink.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_ttf.so
 
 addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0: addons/ttf/CMakeFiles/CMakeRelink.dir/liballegro_ttf.so.5.0.7
 
@@ -140,10 +140,10 @@ addons/ttf/CMakeFiles/allegro_ttf.dir/requires: addons/ttf/CMakeFiles/allegro_tt
 .PHONY : addons/ttf/CMakeFiles/allegro_ttf.dir/requires
 
 addons/ttf/CMakeFiles/allegro_ttf.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -P CMakeFiles/allegro_ttf.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf && $(CMAKE_COMMAND) -P CMakeFiles/allegro_ttf.dir/cmake_clean.cmake
 .PHONY : addons/ttf/CMakeFiles/allegro_ttf.dir/clean
 
 addons/ttf/CMakeFiles/allegro_ttf.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/ttf /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/ttf /home/damien/workspace/battlechess/lib/allegro/addons/ttf/CMakeFiles/allegro_ttf.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf /home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/CMakeFiles/allegro_ttf.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : addons/ttf/CMakeFiles/allegro_ttf.dir/depend
 

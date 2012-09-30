@@ -1,4 +1,4 @@
-# Install script for directory: /home/damien/workspace/battlechess/lib/allegro/addons/acodec
+# Install script for directory: /home/damien/workspace/games/battlechess/lib/allegro/addons/acodec
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/damien/workspace/battlechess/lib/allegro/addons/acodec/CMakeFiles/CMakeRelink.dir/liballegro_acodec.so.5.0.7"
-    "/home/damien/workspace/battlechess/lib/allegro/addons/acodec/CMakeFiles/CMakeRelink.dir/liballegro_acodec.so.5.0"
-    "/home/damien/workspace/battlechess/lib/allegro/addons/acodec/CMakeFiles/CMakeRelink.dir/liballegro_acodec.so"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/acodec/CMakeFiles/CMakeRelink.dir/liballegro_acodec.so.5.0.7"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/acodec/CMakeFiles/CMakeRelink.dir/liballegro_acodec.so.5.0"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/acodec/CMakeFiles/CMakeRelink.dir/liballegro_acodec.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liballegro_acodec.so.5.0.7"
@@ -53,6 +53,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/allegro5" TYPE FILE FILES "/home/damien/workspace/battlechess/lib/allegro/addons/acodec/allegro5/allegro_acodec.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/allegro5" TYPE FILE FILES "/home/damien/workspace/games/battlechess/lib/allegro/addons/acodec/allegro5/allegro_acodec.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

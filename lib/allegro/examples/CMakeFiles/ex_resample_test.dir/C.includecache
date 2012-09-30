@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/examples/common.c
+/home/damien/workspace/games/battlechess/lib/allegro/examples/common.c
 stdio.h
 -
 stdarg.h
 -
 allegro5/allegro_native_dialog.h
-/home/damien/workspace/battlechess/lib/allegro/examples/allegro5/allegro_native_dialog.h
+/home/damien/workspace/games/battlechess/lib/allegro/examples/allegro5/allegro_native_dialog.h
 
-/home/damien/workspace/battlechess/lib/allegro/examples/ex_resample_test.c
+/home/damien/workspace/games/battlechess/lib/allegro/examples/ex_resample_test.c
 stdio.h
 -
 math.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/examples/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/examples/allegro5/allegro.h
 allegro5/allegro_audio.h
-/home/damien/workspace/battlechess/lib/allegro/examples/allegro5/allegro_audio.h
+/home/damien/workspace/games/battlechess/lib/allegro/examples/allegro5/allegro_audio.h
 common.c
-/home/damien/workspace/battlechess/lib/allegro/examples/common.c
+/home/damien/workspace/games/battlechess/lib/allegro/examples/common.c
 
 examples/../addons/audio/allegro5/allegro_audio.h
 allegro5/allegro.h

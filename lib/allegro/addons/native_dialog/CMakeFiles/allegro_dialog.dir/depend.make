@@ -230,9 +230,7 @@ addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gbase64.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gbitlock.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gbookmarkfile.h
-addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gcache.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gchecksum.h
-addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gcompletion.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gconvert.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gdataset.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gdate.h
@@ -263,7 +261,6 @@ addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gqueue.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/grand.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gregex.h
-addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/grel.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gscanner.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gsequence.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/glib-2.0/glib/gshell.h
@@ -570,8 +567,8 @@ addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/pango-1.0/pango/pango-utils.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/pango-1.0/pango/pango.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/include/pango-1.0/pango/pangocairo.h
-addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/lib/glib-2.0/include/glibconfig.h
-addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/lib/gtk-2.0/include/gdkconfig.h
+addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/lib64/glib-2.0/include/glibconfig.h
+addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: /usr/lib64/gtk-2.0/include/gdkconfig.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: include/allegro5/alcompat.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: include/allegro5/allegro.h
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o: include/allegro5/allegro_opengl.h

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/tests/test_driver.c
+/home/damien/workspace/games/battlechess/lib/allegro/tests/test_driver.c
 ctype.h
 -
 math.h

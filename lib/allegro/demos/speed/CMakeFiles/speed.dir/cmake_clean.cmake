@@ -1,4 +1,5 @@
 FILE(REMOVE_RECURSE
+  "a4_font.tga"
   "CMakeFiles/speed.dir/a4_aux.c.o"
   "CMakeFiles/speed.dir/badguys.c.o"
   "CMakeFiles/speed.dir/bullets.c.o"
@@ -10,7 +11,6 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/speed.dir/sound.c.o"
   "CMakeFiles/speed.dir/title.c.o"
   "CMakeFiles/speed.dir/view.c.o"
-  "a4_font.tga"
   "speed.pdb"
   "speed"
 )

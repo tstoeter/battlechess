@@ -1925,3 +1925,979 @@ Source file was:
                 PHYSFS_deinit();
                 return 0;
             }
+The system is: Linux - 3.4.6-2.10-desktop - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/gcc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1617112009/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1617112009.dir/build.make CMakeFiles/cmTryCompileExec1617112009.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1617112009.dir/testCCompiler.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec1617112009.dir/testCCompiler.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec1617112009
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1617112009.dir/link.txt --verbose=1
+/usr/bin/gcc         CMakeFiles/cmTryCompileExec1617112009.dir/testCCompiler.c.o  -o cmTryCompileExec1617112009 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec703729606/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec703729606.dir/build.make CMakeFiles/cmTryCompileExec703729606.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o
+/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec703729606
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec703729606.dir/link.txt --verbose=1
+/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec703729606 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/gcc
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.7/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.7 --enable-ssp --disable-libssp --disable-libitm --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.7 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux
+Thread model: posix
+gcc version 4.7.1 20120723 [gcc-4_7-branch revision 189773] (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec703729606' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec703729606 /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.7/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.7 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../.. CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec703729606/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec703729606.dir/build.make CMakeFiles/cmTryCompileExec703729606.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/gcc    -o CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec703729606]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec703729606.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/gcc       -v CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec703729606 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.7 --enable-ssp --disable-libssp --disable-libitm --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.7 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120723 [gcc-4_7-branch revision 189773] (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec703729606' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.7/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec703729606 /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.7/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.7 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../.. CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib64/gcc/x86_64-suse-linux/4.7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec703729606] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec703729606.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.7]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../..] ==> [/usr/lib64]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.7;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1887720079/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1887720079.dir/build.make CMakeFiles/cmTryCompileExec1887720079.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1887720079.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1887720079.dir/testCXXCompiler.cxx.o -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1887720079
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1887720079.dir/link.txt --verbose=1
+/usr/bin/c++          CMakeFiles/cmTryCompileExec1887720079.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1887720079 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec730777609/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec730777609.dir/build.make CMakeFiles/cmTryCompileExec730777609.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec730777609
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec730777609.dir/link.txt --verbose=1
+/usr/bin/c++        -v CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec730777609 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.7/lto-wrapper
+Target: x86_64-suse-linux
+Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.7 --enable-ssp --disable-libssp --disable-libitm --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.7 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux
+Thread model: posix
+gcc version 4.7.1 20120723 [gcc-4_7-branch revision 189773] (SUSE Linux) 
+COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/bin/
+LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec730777609' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec730777609 /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.7/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.7 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../.. CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crtn.o
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:/usr/bin/gmake "cmTryCompileExec730777609/fast"]
+  ignore line: [/usr/bin/gmake -f CMakeFiles/cmTryCompileExec730777609.dir/build.make CMakeFiles/cmTryCompileExec730777609.dir/build]
+  ignore line: [gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec730777609]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec730777609.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++        -v CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec730777609 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib64/gcc/x86_64-suse-linux/4.7/lto-wrapper]
+  ignore line: [Target: x86_64-suse-linux]
+  ignore line: [Configured with: ../configure --prefix=/usr --infodir=/usr/share/info --mandir=/usr/share/man --libdir=/usr/lib64 --libexecdir=/usr/lib64 --enable-languages=c,c++,objc,fortran,obj-c++,java,ada --enable-checking=release --with-gxx-include-dir=/usr/include/c++/4.7 --enable-ssp --disable-libssp --disable-libitm --disable-plugin --with-bugurl=http://bugs.opensuse.org/ --with-pkgversion='SUSE Linux' --disable-libgcj --disable-libmudflap --with-slibdir=/lib64 --with-system-zlib --enable-__cxa_atexit --enable-libstdcxx-allocator=new --disable-libstdcxx-pch --enable-version-specific-runtime-libs --enable-linker-build-id --program-suffix=-4.7 --enable-linux-futex --without-system-libunwind --with-arch-32=i586 --with-tune=generic --build=x86_64-suse-linux]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.7.1 20120723 [gcc-4_7-branch revision 189773] (SUSE Linux) ]
+  ignore line: [COMPILER_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/bin/]
+  ignore line: [LIBRARY_PATH=/usr/lib64/gcc/x86_64-suse-linux/4.7/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/:/lib/../lib64/:/usr/lib/../lib64/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib/:/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec730777609' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib64/gcc/x86_64-suse-linux/4.7/collect2 --build-id --eh-frame-hdr -m elf_x86_64 -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec730777609 /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crt1.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crti.o /usr/lib64/gcc/x86_64-suse-linux/4.7/crtbegin.o -L/usr/lib64/gcc/x86_64-suse-linux/4.7 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64 -L/lib/../lib64 -L/usr/lib/../lib64 -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib -L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../.. CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib64/gcc/x86_64-suse-linux/4.7/crtend.o /usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crtn.o]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/collect2] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec730777609] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crt1.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crti.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/crtbegin.o] ==> ignore
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64]
+    arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+    arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib]
+    arg [-L/usr/lib64/gcc/x86_64-suse-linux/4.7/../../..] ==> dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../..]
+    arg [CMakeFiles/cmTryCompileExec730777609.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/crtend.o] ==> ignore
+    arg [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7] ==> [/usr/lib64/gcc/x86_64-suse-linux/4.7]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../lib64] ==> [/usr/lib64]
+  collapse dir [/lib/../lib64] ==> [/lib64]
+  collapse dir [/usr/lib/../lib64] ==> [/usr/lib64]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../../../x86_64-suse-linux/lib] ==> [/usr/x86_64-suse-linux/lib]
+  collapse dir [/usr/lib64/gcc/x86_64-suse-linux/4.7/../../..] ==> [/usr/lib64]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib64/gcc/x86_64-suse-linux/4.7;/usr/lib64;/lib64;/usr/x86_64-suse-linux/lib]
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2574238664/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2574238664.dir/build.make CMakeFiles/cmTryCompileExec2574238664.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2574238664.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2574238664.dir/CheckIncludeFile.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2574238664
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2574238664.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2574238664.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2574238664 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3593526031/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3593526031.dir/build.make CMakeFiles/cmTryCompileExec3593526031.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3593526031.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3593526031.dir/CheckIncludeFile.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3593526031
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3593526031.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3593526031.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3593526031 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3956253593/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3956253593.dir/build.make CMakeFiles/cmTryCompileExec3956253593.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3956253593.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3956253593.dir/CheckIncludeFile.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3956253593
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3956253593.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3956253593.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3956253593 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining size of unsigned short passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2521471513/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2521471513.dir/build.make CMakeFiles/cmTryCompileExec2521471513.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2521471513.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2521471513.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CheckTypeSize/CMAKE_SIZEOF_UNSIGNED_SHORT.c
+Linking C executable cmTryCompileExec2521471513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2521471513.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2521471513.dir/CMAKE_SIZEOF_UNSIGNED_SHORT.c.o  -o cmTryCompileExec2521471513 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files dirent.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1810244599/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1810244599.dir/build.make CMakeFiles/cmTryCompileExec1810244599.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1810244599.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1810244599.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1810244599
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1810244599.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1810244599.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1810244599 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files inttypes.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3659972564/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3659972564.dir/build.make CMakeFiles/cmTryCompileExec3659972564.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3659972564.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3659972564.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3659972564
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3659972564.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3659972564.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3659972564 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h;linux/joystick.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1223364486/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1223364486.dir/build.make CMakeFiles/cmTryCompileExec1223364486.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1223364486.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1223364486.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1223364486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1223364486.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1223364486.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1223364486 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdbool.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1887585251/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1887585251.dir/build.make CMakeFiles/cmTryCompileExec1887585251.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1887585251.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1887585251.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1887585251
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1887585251.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1887585251.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1887585251 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files stdint.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1770661385/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1770661385.dir/build.make CMakeFiles/cmTryCompileExec1770661385.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1770661385.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1770661385.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1770661385
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1770661385.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1770661385.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1770661385 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/io.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec308727367/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec308727367.dir/build.make CMakeFiles/cmTryCompileExec308727367.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec308727367.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec308727367.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec308727367
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec308727367.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec308727367.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec308727367 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/stat.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3751739023/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3751739023.dir/build.make CMakeFiles/cmTryCompileExec3751739023.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3751739023.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3751739023.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3751739023
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3751739023.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3751739023.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3751739023 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/time.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1858061442/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1858061442.dir/build.make CMakeFiles/cmTryCompileExec1858061442.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1858061442.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1858061442.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec1858061442
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1858061442.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1858061442.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec1858061442 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files time.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3592273953/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3592273953.dir/build.make CMakeFiles/cmTryCompileExec3592273953.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3592273953.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3592273953.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3592273953
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3592273953.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3592273953.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3592273953 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/utsname.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3534567389/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3534567389.dir/build.make CMakeFiles/cmTryCompileExec3534567389.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3534567389.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3534567389.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3534567389
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3534567389.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3534567389.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3534567389 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/types.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec649610168/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec649610168.dir/build.make CMakeFiles/cmTryCompileExec649610168.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec649610168.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec649610168.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec649610168
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec649610168.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec649610168.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec649610168 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/soundcard.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2569201215/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2569201215.dir/build.make CMakeFiles/cmTryCompileExec2569201215.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2569201215.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2569201215.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec2569201215
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2569201215.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2569201215.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec2569201215 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files linux/soundcard.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4158377543/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4158377543.dir/build.make CMakeFiles/cmTryCompileExec4158377543.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4158377543.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec4158377543.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4158377543
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4158377543.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec4158377543.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4158377543 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/inotify.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec753331760/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec753331760.dir/build.make CMakeFiles/cmTryCompileExec753331760.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec753331760.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec753331760.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec753331760
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec753331760.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec753331760.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec753331760 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files sys/timerfd.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4001729466/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4001729466.dir/build.make CMakeFiles/cmTryCompileExec4001729466.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4001729466.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec4001729466.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec4001729466
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4001729466.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec4001729466.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec4001729466 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mkstemp exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1208836553/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1208836553.dir/build.make CMakeFiles/cmTryCompileExec1208836553.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1208836553.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mkstemp   -o CMakeFiles/cmTryCompileExec1208836553.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1208836553
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1208836553.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mkstemp    CMakeFiles/cmTryCompileExec1208836553.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1208836553 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mmap exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2223611209/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2223611209.dir/build.make CMakeFiles/cmTryCompileExec2223611209.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2223611209.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mmap   -o CMakeFiles/cmTryCompileExec2223611209.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2223611209
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2223611209.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mmap    CMakeFiles/cmTryCompileExec2223611209.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2223611209 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function mprotect exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec912704722/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec912704722.dir/build.make CMakeFiles/cmTryCompileExec912704722.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec912704722.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mprotect   -o CMakeFiles/cmTryCompileExec912704722.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec912704722
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec912704722.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=mprotect    CMakeFiles/cmTryCompileExec912704722.dir/CheckFunctionExists.c.o  -o cmTryCompileExec912704722 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sched_yield exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec911212486/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec911212486.dir/build.make CMakeFiles/cmTryCompileExec911212486.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec911212486.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sched_yield   -o CMakeFiles/cmTryCompileExec911212486.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec911212486
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec911212486.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sched_yield    CMakeFiles/cmTryCompileExec911212486.dir/CheckFunctionExists.c.o  -o cmTryCompileExec911212486 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2571864050/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2571864050.dir/build.make CMakeFiles/cmTryCompileExec2571864050.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2571864050.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sysconf   -o CMakeFiles/cmTryCompileExec2571864050.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2571864050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2571864050.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=sysconf    CMakeFiles/cmTryCompileExec2571864050.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2571864050 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4214854665/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4214854665.dir/build.make CMakeFiles/cmTryCompileExec4214854665.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4214854665.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=fseeko   -o CMakeFiles/cmTryCompileExec4214854665.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4214854665
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4214854665.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=fseeko    CMakeFiles/cmTryCompileExec4214854665.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4214854665 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function ftello exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2671516033/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2671516033.dir/build.make CMakeFiles/cmTryCompileExec2671516033.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2671516033.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=ftello   -o CMakeFiles/cmTryCompileExec2671516033.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2671516033
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2671516033.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=ftello    CMakeFiles/cmTryCompileExec2671516033.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2671516033 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec750959730/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec750959730.dir/build.make CMakeFiles/cmTryCompileExec750959730.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec750959730.dir/ALLEGRO_HAVE__BOOL.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec750959730.dir/ALLEGRO_HAVE__BOOL.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CheckTypeSize/ALLEGRO_HAVE__BOOL.c
+Linking C executable cmTryCompileExec750959730
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec750959730.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec750959730.dir/ALLEGRO_HAVE__BOOL.c.o  -o cmTryCompileExec750959730 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test ALLEGRO_HAVE_VA_COPY succeded with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec108919018/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec108919018.dir/build.make CMakeFiles/cmTryCompileExec108919018.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec108919018.dir/src.c.o
+/usr/bin/gcc   -msse -W -Wall   -DALLEGRO_HAVE_VA_COPY   -o CMakeFiles/cmTryCompileExec108919018.dir/src.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec108919018
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec108919018.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DALLEGRO_HAVE_VA_COPY    CMakeFiles/cmTryCompileExec108919018.dir/src.c.o  -o cmTryCompileExec108919018 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+    #include <stdarg.h>
+    int main(void) {
+        va_list a, b;
+        va_copy(a, b);
+        return 0;
+    }
+Determining if the function XOpenDisplay exists in the /usr/lib64/libX11.so;/usr/lib64/libXext.so passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec634773576/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec634773576.dir/build.make CMakeFiles/cmTryCompileExec634773576.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec634773576.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenDisplay   -o CMakeFiles/cmTryCompileExec634773576.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec634773576
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec634773576.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenDisplay    CMakeFiles/cmTryCompileExec634773576.dir/CheckFunctionExists.c.o  -o cmTryCompileExec634773576 -rdynamic -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function gethostbyname exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4120368881/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4120368881.dir/build.make CMakeFiles/cmTryCompileExec4120368881.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4120368881.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=gethostbyname   -o CMakeFiles/cmTryCompileExec4120368881.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4120368881
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4120368881.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=gethostbyname    CMakeFiles/cmTryCompileExec4120368881.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4120368881 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function connect exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3534676762/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3534676762.dir/build.make CMakeFiles/cmTryCompileExec3534676762.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3534676762.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=connect   -o CMakeFiles/cmTryCompileExec3534676762.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3534676762
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3534676762.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=connect    CMakeFiles/cmTryCompileExec3534676762.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3534676762 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function remove exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1309553329/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1309553329.dir/build.make CMakeFiles/cmTryCompileExec1309553329.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1309553329.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=remove   -o CMakeFiles/cmTryCompileExec1309553329.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1309553329
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1309553329.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=remove    CMakeFiles/cmTryCompileExec1309553329.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1309553329 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function shmat exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec570725235/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec570725235.dir/build.make CMakeFiles/cmTryCompileExec570725235.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec570725235.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=shmat   -o CMakeFiles/cmTryCompileExec570725235.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec570725235
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec570725235.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=shmat    CMakeFiles/cmTryCompileExec570725235.dir/CheckFunctionExists.c.o  -o cmTryCompileExec570725235 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function IceConnectionNumber exists in the ICE passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec926162237/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec926162237.dir/build.make CMakeFiles/cmTryCompileExec926162237.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec926162237.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber   -o CMakeFiles/cmTryCompileExec926162237.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec926162237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec926162237.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=IceConnectionNumber    CMakeFiles/cmTryCompileExec926162237.dir/CheckFunctionExists.c.o  -o cmTryCompileExec926162237 -rdynamic -lICE 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files pthread.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3045306590/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3045306590.dir/build.make CMakeFiles/cmTryCompileExec3045306590.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3045306590.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3045306590.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3045306590
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3045306590.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3045306590.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3045306590 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pthread_create exists in the pthread passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3038016769/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3038016769.dir/build.make CMakeFiles/cmTryCompileExec3038016769.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3038016769.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec3038016769.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3038016769
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3038016769.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec3038016769.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3038016769 -rdynamic -lpthread 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XShmQueryExtension exists in the Xext passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec454252342/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec454252342.dir/build.make CMakeFiles/cmTryCompileExec454252342.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec454252342.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XShmQueryExtension   -o CMakeFiles/cmTryCompileExec454252342.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec454252342
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec454252342.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XShmQueryExtension    CMakeFiles/cmTryCompileExec454252342.dir/CheckFunctionExists.c.o  -o cmTryCompileExec454252342 -rdynamic -lXext -lSM -lICE -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XcursorImageCreate exists in the Xcursor passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4029749518/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4029749518.dir/build.make CMakeFiles/cmTryCompileExec4029749518.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4029749518.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XcursorImageCreate   -o CMakeFiles/cmTryCompileExec4029749518.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4029749518
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4029749518.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XcursorImageCreate    CMakeFiles/cmTryCompileExec4029749518.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4029749518 -rdynamic -lXcursor -lSM -lICE -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XF86VidModeQueryExtension exists in the Xxf86vm passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3623322253/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3623322253.dir/build.make CMakeFiles/cmTryCompileExec3623322253.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3623322253.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension   -o CMakeFiles/cmTryCompileExec3623322253.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3623322253
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3623322253.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XF86VidModeQueryExtension    CMakeFiles/cmTryCompileExec3623322253.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3623322253 -rdynamic -lXxf86vm -lSM -lICE -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xinerama.h exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1032074039/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1032074039.dir/build.make CMakeFiles/cmTryCompileExec1032074039.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1032074039.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec1032074039.dir/CheckIncludeFile.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1032074039
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1032074039.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec1032074039.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1032074039 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XineramaQueryExtension exists in the Xinerama passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec300058350/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec300058350.dir/build.make CMakeFiles/cmTryCompileExec300058350.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec300058350.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension   -o CMakeFiles/cmTryCompileExec300058350.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec300058350
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec300058350.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XineramaQueryExtension    CMakeFiles/cmTryCompileExec300058350.dir/CheckFunctionExists.c.o  -o cmTryCompileExec300058350 -rdynamic -lXinerama -lSM -lICE -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file X11/extensions/Xrandr.h exists passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2718961507/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2718961507.dir/build.make CMakeFiles/cmTryCompileExec2718961507.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2718961507.dir/CheckIncludeFile.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec2718961507.dir/CheckIncludeFile.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec2718961507
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2718961507.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec2718961507.dir/CheckIncludeFile.c.o  -o cmTryCompileExec2718961507 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XRRQueryExtension exists in the Xrandr passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2454228462/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2454228462.dir/build.make CMakeFiles/cmTryCompileExec2454228462.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2454228462.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension   -o CMakeFiles/cmTryCompileExec2454228462.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2454228462
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2454228462.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XRRQueryExtension    CMakeFiles/cmTryCompileExec2454228462.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2454228462 -rdynamic -lXrandr -lSM -lICE -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XOpenIM exists in the X11 passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec547670974/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec547670974.dir/build.make CMakeFiles/cmTryCompileExec547670974.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec547670974.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenIM   -o CMakeFiles/cmTryCompileExec547670974.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec547670974
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec547670974.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XOpenIM    CMakeFiles/cmTryCompileExec547670974.dir/CheckFunctionExists.c.o  -o cmTryCompileExec547670974 -rdynamic -lX11 -lSM -lICE -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if files X11/xpm.h exist passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3324831897/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3324831897.dir/build.make CMakeFiles/cmTryCompileExec3324831897.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3324831897.dir/CheckIncludeFiles.c.o
+/usr/bin/gcc   -msse -W -Wall      -o CMakeFiles/cmTryCompileExec3324831897.dir/CheckIncludeFiles.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTryCompileExec3324831897
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3324831897.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall       CMakeFiles/cmTryCompileExec3324831897.dir/CheckIncludeFiles.c.o  -o cmTryCompileExec3324831897 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Determining if the function XpmCreatePixmapFromData exists in the Xpm passed with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1273796781/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1273796781.dir/build.make CMakeFiles/cmTryCompileExec1273796781.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1273796781.dir/CheckFunctionExists.c.o
+/usr/bin/gcc   -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XpmCreatePixmapFromData   -o CMakeFiles/cmTryCompileExec1273796781.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1273796781
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1273796781.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DCHECK_FUNCTION_EXISTS=XpmCreatePixmapFromData    CMakeFiles/cmTryCompileExec1273796781.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1273796781 -rdynamic -lXpm -lSM -lICE -lX11 -lXext 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test OSS_COMPILES succeded with the following output:
+Change Dir: /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec763340911/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec763340911.dir/build.make CMakeFiles/cmTryCompileExec763340911.dir/build
+gmake[1]: Entering directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec763340911.dir/src.c.o
+/usr/bin/gcc  -DALLEGRO_HAVE_LINUX_SOUNDCARD_H -DALLEGRO_HAVE_SYS_SOUNDCARD_H -msse -W -Wall   -DOSS_COMPILES   -o CMakeFiles/cmTryCompileExec763340911.dir/src.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp/src.c:15:28: warning: unused variable ‘abi’ [-Wunused-variable]
+Linking C executable cmTryCompileExec763340911
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec763340911.dir/link.txt --verbose=1
+/usr/bin/gcc    -msse -W -Wall   -DOSS_COMPILES    CMakeFiles/cmTryCompileExec763340911.dir/src.c.o  -o cmTryCompileExec763340911 -rdynamic 
+gmake[1]: Leaving directory `/home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+        #ifdef ALLEGRO_HAVE_SOUNDCARD_H
+        #include <soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_SYS_SOUNDCARD_H
+        #include <sys/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_LINUX_SOUNDCARD_H
+        #include <linux/soundcard.h>
+        #endif
+        #ifdef ALLEGRO_HAVE_MACHINE_SOUNDCARD_H
+        #include <machine/soundcard.h>
+        #endif
+        int main(void) {
+            audio_buf_info abi;
+            return 0;
+        }

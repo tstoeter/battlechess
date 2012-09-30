@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/demos/speed/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 demos/speed/CMakeFiles/speed.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/CMakeFiles/speed.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 demos/speed/CMakeFiles/speed.dir/rule
 .PHONY : demos/speed/CMakeFiles/speed.dir/rule
 
 # Convenience name for target.
@@ -150,7 +150,7 @@ speed: demos/speed/CMakeFiles/speed.dir/rule
 
 # fast build rule for target.
 speed/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/build
 .PHONY : speed/fast
 
 a4_aux.o: a4_aux.c.o
@@ -158,7 +158,7 @@ a4_aux.o: a4_aux.c.o
 
 # target to build an object file
 a4_aux.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/a4_aux.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/a4_aux.c.o
 .PHONY : a4_aux.c.o
 
 a4_aux.i: a4_aux.c.i
@@ -166,7 +166,7 @@ a4_aux.i: a4_aux.c.i
 
 # target to preprocess a source file
 a4_aux.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/a4_aux.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/a4_aux.c.i
 .PHONY : a4_aux.c.i
 
 a4_aux.s: a4_aux.c.s
@@ -174,7 +174,7 @@ a4_aux.s: a4_aux.c.s
 
 # target to generate assembly for a file
 a4_aux.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/a4_aux.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/a4_aux.c.s
 .PHONY : a4_aux.c.s
 
 badguys.o: badguys.c.o
@@ -182,7 +182,7 @@ badguys.o: badguys.c.o
 
 # target to build an object file
 badguys.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/badguys.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/badguys.c.o
 .PHONY : badguys.c.o
 
 badguys.i: badguys.c.i
@@ -190,7 +190,7 @@ badguys.i: badguys.c.i
 
 # target to preprocess a source file
 badguys.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/badguys.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/badguys.c.i
 .PHONY : badguys.c.i
 
 badguys.s: badguys.c.s
@@ -198,7 +198,7 @@ badguys.s: badguys.c.s
 
 # target to generate assembly for a file
 badguys.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/badguys.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/badguys.c.s
 .PHONY : badguys.c.s
 
 bullets.o: bullets.c.o
@@ -206,7 +206,7 @@ bullets.o: bullets.c.o
 
 # target to build an object file
 bullets.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/bullets.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/bullets.c.o
 .PHONY : bullets.c.o
 
 bullets.i: bullets.c.i
@@ -214,7 +214,7 @@ bullets.i: bullets.c.i
 
 # target to preprocess a source file
 bullets.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/bullets.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/bullets.c.i
 .PHONY : bullets.c.i
 
 bullets.s: bullets.c.s
@@ -222,7 +222,7 @@ bullets.s: bullets.c.s
 
 # target to generate assembly for a file
 bullets.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/bullets.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/bullets.c.s
 .PHONY : bullets.c.s
 
 explode.o: explode.c.o
@@ -230,7 +230,7 @@ explode.o: explode.c.o
 
 # target to build an object file
 explode.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/explode.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/explode.c.o
 .PHONY : explode.c.o
 
 explode.i: explode.c.i
@@ -238,7 +238,7 @@ explode.i: explode.c.i
 
 # target to preprocess a source file
 explode.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/explode.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/explode.c.i
 .PHONY : explode.c.i
 
 explode.s: explode.c.s
@@ -246,7 +246,7 @@ explode.s: explode.c.s
 
 # target to generate assembly for a file
 explode.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/explode.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/explode.c.s
 .PHONY : explode.c.s
 
 hiscore.o: hiscore.c.o
@@ -254,7 +254,7 @@ hiscore.o: hiscore.c.o
 
 # target to build an object file
 hiscore.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/hiscore.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/hiscore.c.o
 .PHONY : hiscore.c.o
 
 hiscore.i: hiscore.c.i
@@ -262,7 +262,7 @@ hiscore.i: hiscore.c.i
 
 # target to preprocess a source file
 hiscore.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/hiscore.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/hiscore.c.i
 .PHONY : hiscore.c.i
 
 hiscore.s: hiscore.c.s
@@ -270,7 +270,7 @@ hiscore.s: hiscore.c.s
 
 # target to generate assembly for a file
 hiscore.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/hiscore.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/hiscore.c.s
 .PHONY : hiscore.c.s
 
 main.o: main.c.o
@@ -278,7 +278,7 @@ main.o: main.c.o
 
 # target to build an object file
 main.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/main.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/main.c.o
 .PHONY : main.c.o
 
 main.i: main.c.i
@@ -286,7 +286,7 @@ main.i: main.c.i
 
 # target to preprocess a source file
 main.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/main.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/main.c.i
 .PHONY : main.c.i
 
 main.s: main.c.s
@@ -294,7 +294,7 @@ main.s: main.c.s
 
 # target to generate assembly for a file
 main.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/main.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/main.c.s
 .PHONY : main.c.s
 
 message.o: message.c.o
@@ -302,7 +302,7 @@ message.o: message.c.o
 
 # target to build an object file
 message.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/message.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/message.c.o
 .PHONY : message.c.o
 
 message.i: message.c.i
@@ -310,7 +310,7 @@ message.i: message.c.i
 
 # target to preprocess a source file
 message.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/message.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/message.c.i
 .PHONY : message.c.i
 
 message.s: message.c.s
@@ -318,7 +318,7 @@ message.s: message.c.s
 
 # target to generate assembly for a file
 message.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/message.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/message.c.s
 .PHONY : message.c.s
 
 player.o: player.c.o
@@ -326,7 +326,7 @@ player.o: player.c.o
 
 # target to build an object file
 player.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/player.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/player.c.o
 .PHONY : player.c.o
 
 player.i: player.c.i
@@ -334,7 +334,7 @@ player.i: player.c.i
 
 # target to preprocess a source file
 player.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/player.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/player.c.i
 .PHONY : player.c.i
 
 player.s: player.c.s
@@ -342,7 +342,7 @@ player.s: player.c.s
 
 # target to generate assembly for a file
 player.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/player.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/player.c.s
 .PHONY : player.c.s
 
 sound.o: sound.c.o
@@ -350,7 +350,7 @@ sound.o: sound.c.o
 
 # target to build an object file
 sound.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/sound.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/sound.c.o
 .PHONY : sound.c.o
 
 sound.i: sound.c.i
@@ -358,7 +358,7 @@ sound.i: sound.c.i
 
 # target to preprocess a source file
 sound.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/sound.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/sound.c.i
 .PHONY : sound.c.i
 
 sound.s: sound.c.s
@@ -366,7 +366,7 @@ sound.s: sound.c.s
 
 # target to generate assembly for a file
 sound.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/sound.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/sound.c.s
 .PHONY : sound.c.s
 
 title.o: title.c.o
@@ -374,7 +374,7 @@ title.o: title.c.o
 
 # target to build an object file
 title.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/title.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/title.c.o
 .PHONY : title.c.o
 
 title.i: title.c.i
@@ -382,7 +382,7 @@ title.i: title.c.i
 
 # target to preprocess a source file
 title.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/title.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/title.c.i
 .PHONY : title.c.i
 
 title.s: title.c.s
@@ -390,7 +390,7 @@ title.s: title.c.s
 
 # target to generate assembly for a file
 title.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/title.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/title.c.s
 .PHONY : title.c.s
 
 view.o: view.c.o
@@ -398,7 +398,7 @@ view.o: view.c.o
 
 # target to build an object file
 view.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/view.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/view.c.o
 .PHONY : view.c.o
 
 view.i: view.c.i
@@ -406,7 +406,7 @@ view.i: view.c.i
 
 # target to preprocess a source file
 view.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/view.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/view.c.i
 .PHONY : view.c.i
 
 view.s: view.c.s
@@ -414,7 +414,7 @@ view.s: view.c.s
 
 # target to generate assembly for a file
 view.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/view.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f demos/speed/CMakeFiles/speed.dir/build.make demos/speed/CMakeFiles/speed.dir/view.c.s
 .PHONY : view.c.s
 
 # Help Target
@@ -474,6 +474,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/examples/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/examples/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 examples/CMakeFiles/ex_acodec.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_acodec.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_acodec.dir/rule
 .PHONY : examples/CMakeFiles/ex_acodec.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ ex_acodec: examples/CMakeFiles/ex_acodec.dir/rule
 
 # fast build rule for target.
 ex_acodec/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/build
 .PHONY : ex_acodec/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_acodec_multi.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_acodec_multi.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_acodec_multi.dir/rule
 .PHONY : examples/CMakeFiles/ex_acodec_multi.dir/rule
 
 # Convenience name for target.
@@ -164,12 +164,12 @@ ex_acodec_multi: examples/CMakeFiles/ex_acodec_multi.dir/rule
 
 # fast build rule for target.
 ex_acodec_multi/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/build
 .PHONY : ex_acodec_multi/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_audio_chain.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_audio_chain.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_audio_chain.dir/rule
 .PHONY : examples/CMakeFiles/ex_audio_chain.dir/rule
 
 # Convenience name for target.
@@ -178,12 +178,12 @@ ex_audio_chain: examples/CMakeFiles/ex_audio_chain.dir/rule
 
 # fast build rule for target.
 ex_audio_chain/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/build
 .PHONY : ex_audio_chain/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_audio_props.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_audio_props.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_audio_props.dir/rule
 .PHONY : examples/CMakeFiles/ex_audio_props.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ ex_audio_props: examples/CMakeFiles/ex_audio_props.dir/rule
 
 # fast build rule for target.
 ex_audio_props/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/build
 .PHONY : ex_audio_props/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_audio_simple.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_audio_simple.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_audio_simple.dir/rule
 .PHONY : examples/CMakeFiles/ex_audio_simple.dir/rule
 
 # Convenience name for target.
@@ -206,12 +206,12 @@ ex_audio_simple: examples/CMakeFiles/ex_audio_simple.dir/rule
 
 # fast build rule for target.
 ex_audio_simple/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/build
 .PHONY : ex_audio_simple/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_bitmap.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_bitmap.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_bitmap.dir/rule
 .PHONY : examples/CMakeFiles/ex_bitmap.dir/rule
 
 # Convenience name for target.
@@ -220,12 +220,12 @@ ex_bitmap: examples/CMakeFiles/ex_bitmap.dir/rule
 
 # fast build rule for target.
 ex_bitmap/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/build
 .PHONY : ex_bitmap/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_bitmap_flip.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_bitmap_flip.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_bitmap_flip.dir/rule
 .PHONY : examples/CMakeFiles/ex_bitmap_flip.dir/rule
 
 # Convenience name for target.
@@ -234,12 +234,12 @@ ex_bitmap_flip: examples/CMakeFiles/ex_bitmap_flip.dir/rule
 
 # fast build rule for target.
 ex_bitmap_flip/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/build
 .PHONY : ex_bitmap_flip/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_bitmap_target.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_bitmap_target.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_bitmap_target.dir/rule
 .PHONY : examples/CMakeFiles/ex_bitmap_target.dir/rule
 
 # Convenience name for target.
@@ -248,12 +248,12 @@ ex_bitmap_target: examples/CMakeFiles/ex_bitmap_target.dir/rule
 
 # fast build rule for target.
 ex_bitmap_target/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/build
 .PHONY : ex_bitmap_target/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_blend.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend.dir/rule
 .PHONY : examples/CMakeFiles/ex_blend.dir/rule
 
 # Convenience name for target.
@@ -262,12 +262,12 @@ ex_blend: examples/CMakeFiles/ex_blend.dir/rule
 
 # fast build rule for target.
 ex_blend/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/build
 .PHONY : ex_blend/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_blend2.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend2.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend2.dir/rule
 .PHONY : examples/CMakeFiles/ex_blend2.dir/rule
 
 # Convenience name for target.
@@ -276,12 +276,12 @@ ex_blend2: examples/CMakeFiles/ex_blend2.dir/rule
 
 # fast build rule for target.
 ex_blend2/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/build
 .PHONY : ex_blend2/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_blend_bench.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend_bench.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend_bench.dir/rule
 .PHONY : examples/CMakeFiles/ex_blend_bench.dir/rule
 
 # Convenience name for target.
@@ -290,12 +290,12 @@ ex_blend_bench: examples/CMakeFiles/ex_blend_bench.dir/rule
 
 # fast build rule for target.
 ex_blend_bench/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/build
 .PHONY : ex_blend_bench/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_blend_test.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend_test.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blend_test.dir/rule
 .PHONY : examples/CMakeFiles/ex_blend_test.dir/rule
 
 # Convenience name for target.
@@ -304,12 +304,12 @@ ex_blend_test: examples/CMakeFiles/ex_blend_test.dir/rule
 
 # fast build rule for target.
 ex_blend_test/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/build
 .PHONY : ex_blend_test/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_blit.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blit.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_blit.dir/rule
 .PHONY : examples/CMakeFiles/ex_blit.dir/rule
 
 # Convenience name for target.
@@ -318,12 +318,12 @@ ex_blit: examples/CMakeFiles/ex_blit.dir/rule
 
 # fast build rule for target.
 ex_blit/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/build
 .PHONY : ex_blit/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_clip.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_clip.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_clip.dir/rule
 .PHONY : examples/CMakeFiles/ex_clip.dir/rule
 
 # Convenience name for target.
@@ -332,12 +332,12 @@ ex_clip: examples/CMakeFiles/ex_clip.dir/rule
 
 # fast build rule for target.
 ex_clip/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/build
 .PHONY : ex_clip/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_color.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_color.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_color.dir/rule
 .PHONY : examples/CMakeFiles/ex_color.dir/rule
 
 # Convenience name for target.
@@ -346,12 +346,12 @@ ex_color: examples/CMakeFiles/ex_color.dir/rule
 
 # fast build rule for target.
 ex_color/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/build
 .PHONY : ex_color/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_config.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_config.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_config.dir/rule
 .PHONY : examples/CMakeFiles/ex_config.dir/rule
 
 # Convenience name for target.
@@ -360,12 +360,12 @@ ex_config: examples/CMakeFiles/ex_config.dir/rule
 
 # fast build rule for target.
 ex_config/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/build
 .PHONY : ex_config/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_convert.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_convert.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_convert.dir/rule
 .PHONY : examples/CMakeFiles/ex_convert.dir/rule
 
 # Convenience name for target.
@@ -374,12 +374,12 @@ ex_convert: examples/CMakeFiles/ex_convert.dir/rule
 
 # fast build rule for target.
 ex_convert/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/build
 .PHONY : ex_convert/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_dir.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_dir.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_dir.dir/rule
 .PHONY : examples/CMakeFiles/ex_dir.dir/rule
 
 # Convenience name for target.
@@ -388,12 +388,12 @@ ex_dir: examples/CMakeFiles/ex_dir.dir/rule
 
 # fast build rule for target.
 ex_dir/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/build
 .PHONY : ex_dir/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_disable_screensaver.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_disable_screensaver.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_disable_screensaver.dir/rule
 .PHONY : examples/CMakeFiles/ex_disable_screensaver.dir/rule
 
 # Convenience name for target.
@@ -402,12 +402,12 @@ ex_disable_screensaver: examples/CMakeFiles/ex_disable_screensaver.dir/rule
 
 # fast build rule for target.
 ex_disable_screensaver/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/build
 .PHONY : ex_disable_screensaver/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_display_events.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_display_events.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_display_events.dir/rule
 .PHONY : examples/CMakeFiles/ex_display_events.dir/rule
 
 # Convenience name for target.
@@ -416,12 +416,12 @@ ex_display_events: examples/CMakeFiles/ex_display_events.dir/rule
 
 # fast build rule for target.
 ex_display_events/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/build
 .PHONY : ex_display_events/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_display_options.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_display_options.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_display_options.dir/rule
 .PHONY : examples/CMakeFiles/ex_display_options.dir/rule
 
 # Convenience name for target.
@@ -430,12 +430,12 @@ ex_display_options: examples/CMakeFiles/ex_display_options.dir/rule
 
 # fast build rule for target.
 ex_display_options/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/build
 .PHONY : ex_display_options/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_draw.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_draw.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_draw.dir/rule
 .PHONY : examples/CMakeFiles/ex_draw.dir/rule
 
 # Convenience name for target.
@@ -444,12 +444,12 @@ ex_draw: examples/CMakeFiles/ex_draw.dir/rule
 
 # fast build rule for target.
 ex_draw/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/build
 .PHONY : ex_draw/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_draw_bitmap.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_draw_bitmap.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_draw_bitmap.dir/rule
 .PHONY : examples/CMakeFiles/ex_draw_bitmap.dir/rule
 
 # Convenience name for target.
@@ -458,12 +458,12 @@ ex_draw_bitmap: examples/CMakeFiles/ex_draw_bitmap.dir/rule
 
 # fast build rule for target.
 ex_draw_bitmap/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/build
 .PHONY : ex_draw_bitmap/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_drawpixels.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_drawpixels.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_drawpixels.dir/rule
 .PHONY : examples/CMakeFiles/ex_drawpixels.dir/rule
 
 # Convenience name for target.
@@ -472,12 +472,12 @@ ex_drawpixels: examples/CMakeFiles/ex_drawpixels.dir/rule
 
 # fast build rule for target.
 ex_drawpixels/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/build
 .PHONY : ex_drawpixels/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_dualies.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_dualies.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_dualies.dir/rule
 .PHONY : examples/CMakeFiles/ex_dualies.dir/rule
 
 # Convenience name for target.
@@ -486,12 +486,12 @@ ex_dualies: examples/CMakeFiles/ex_dualies.dir/rule
 
 # fast build rule for target.
 ex_dualies/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/build
 .PHONY : ex_dualies/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_expose.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_expose.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_expose.dir/rule
 .PHONY : examples/CMakeFiles/ex_expose.dir/rule
 
 # Convenience name for target.
@@ -500,12 +500,12 @@ ex_expose: examples/CMakeFiles/ex_expose.dir/rule
 
 # fast build rule for target.
 ex_expose/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/build
 .PHONY : ex_expose/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_file_slice.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_file_slice.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_file_slice.dir/rule
 .PHONY : examples/CMakeFiles/ex_file_slice.dir/rule
 
 # Convenience name for target.
@@ -514,12 +514,12 @@ ex_file_slice: examples/CMakeFiles/ex_file_slice.dir/rule
 
 # fast build rule for target.
 ex_file_slice/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/build
 .PHONY : ex_file_slice/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_filter.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_filter.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_filter.dir/rule
 .PHONY : examples/CMakeFiles/ex_filter.dir/rule
 
 # Convenience name for target.
@@ -528,12 +528,12 @@ ex_filter: examples/CMakeFiles/ex_filter.dir/rule
 
 # fast build rule for target.
 ex_filter/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/build
 .PHONY : ex_filter/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_font.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_font.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_font.dir/rule
 .PHONY : examples/CMakeFiles/ex_font.dir/rule
 
 # Convenience name for target.
@@ -542,12 +542,12 @@ ex_font: examples/CMakeFiles/ex_font.dir/rule
 
 # fast build rule for target.
 ex_font/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/build
 .PHONY : ex_font/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_font_justify.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_font_justify.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_font_justify.dir/rule
 .PHONY : examples/CMakeFiles/ex_font_justify.dir/rule
 
 # Convenience name for target.
@@ -556,12 +556,12 @@ ex_font_justify: examples/CMakeFiles/ex_font_justify.dir/rule
 
 # fast build rule for target.
 ex_font_justify/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/build
 .PHONY : ex_font_justify/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_fs_resize.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_fs_resize.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_fs_resize.dir/rule
 .PHONY : examples/CMakeFiles/ex_fs_resize.dir/rule
 
 # Convenience name for target.
@@ -570,12 +570,12 @@ ex_fs_resize: examples/CMakeFiles/ex_fs_resize.dir/rule
 
 # fast build rule for target.
 ex_fs_resize/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/build
 .PHONY : ex_fs_resize/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_fs_window.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_fs_window.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_fs_window.dir/rule
 .PHONY : examples/CMakeFiles/ex_fs_window.dir/rule
 
 # Convenience name for target.
@@ -584,12 +584,12 @@ ex_fs_window: examples/CMakeFiles/ex_fs_window.dir/rule
 
 # fast build rule for target.
 ex_fs_window/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/build
 .PHONY : ex_fs_window/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_get_path.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_get_path.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_get_path.dir/rule
 .PHONY : examples/CMakeFiles/ex_get_path.dir/rule
 
 # Convenience name for target.
@@ -598,12 +598,12 @@ ex_get_path: examples/CMakeFiles/ex_get_path.dir/rule
 
 # fast build rule for target.
 ex_get_path/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/build
 .PHONY : ex_get_path/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_gldepth.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_gldepth.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_gldepth.dir/rule
 .PHONY : examples/CMakeFiles/ex_gldepth.dir/rule
 
 # Convenience name for target.
@@ -612,12 +612,12 @@ ex_gldepth: examples/CMakeFiles/ex_gldepth.dir/rule
 
 # fast build rule for target.
 ex_gldepth/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/build
 .PHONY : ex_gldepth/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_glext.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_glext.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_glext.dir/rule
 .PHONY : examples/CMakeFiles/ex_glext.dir/rule
 
 # Convenience name for target.
@@ -626,12 +626,12 @@ ex_glext: examples/CMakeFiles/ex_glext.dir/rule
 
 # fast build rule for target.
 ex_glext/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/build
 .PHONY : ex_glext/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_haiku.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_haiku.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_haiku.dir/rule
 .PHONY : examples/CMakeFiles/ex_haiku.dir/rule
 
 # Convenience name for target.
@@ -640,12 +640,12 @@ ex_haiku: examples/CMakeFiles/ex_haiku.dir/rule
 
 # fast build rule for target.
 ex_haiku/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/build
 .PHONY : ex_haiku/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_icon.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_icon.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_icon.dir/rule
 .PHONY : examples/CMakeFiles/ex_icon.dir/rule
 
 # Convenience name for target.
@@ -654,12 +654,12 @@ ex_icon: examples/CMakeFiles/ex_icon.dir/rule
 
 # fast build rule for target.
 ex_icon/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/build
 .PHONY : ex_icon/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_joystick_events.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_joystick_events.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_joystick_events.dir/rule
 .PHONY : examples/CMakeFiles/ex_joystick_events.dir/rule
 
 # Convenience name for target.
@@ -668,12 +668,12 @@ ex_joystick_events: examples/CMakeFiles/ex_joystick_events.dir/rule
 
 # fast build rule for target.
 ex_joystick_events/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/build
 .PHONY : ex_joystick_events/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_joystick_hotplugging.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_joystick_hotplugging.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_joystick_hotplugging.dir/rule
 .PHONY : examples/CMakeFiles/ex_joystick_hotplugging.dir/rule
 
 # Convenience name for target.
@@ -682,12 +682,12 @@ ex_joystick_hotplugging: examples/CMakeFiles/ex_joystick_hotplugging.dir/rule
 
 # fast build rule for target.
 ex_joystick_hotplugging/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/build
 .PHONY : ex_joystick_hotplugging/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_kcm_direct.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_kcm_direct.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_kcm_direct.dir/rule
 .PHONY : examples/CMakeFiles/ex_kcm_direct.dir/rule
 
 # Convenience name for target.
@@ -696,12 +696,12 @@ ex_kcm_direct: examples/CMakeFiles/ex_kcm_direct.dir/rule
 
 # fast build rule for target.
 ex_kcm_direct/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/build
 .PHONY : ex_kcm_direct/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_keyboard_events.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_keyboard_events.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_keyboard_events.dir/rule
 .PHONY : examples/CMakeFiles/ex_keyboard_events.dir/rule
 
 # Convenience name for target.
@@ -710,12 +710,12 @@ ex_keyboard_events: examples/CMakeFiles/ex_keyboard_events.dir/rule
 
 # fast build rule for target.
 ex_keyboard_events/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/build
 .PHONY : ex_keyboard_events/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_keyboard_focus.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_keyboard_focus.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_keyboard_focus.dir/rule
 .PHONY : examples/CMakeFiles/ex_keyboard_focus.dir/rule
 
 # Convenience name for target.
@@ -724,12 +724,12 @@ ex_keyboard_focus: examples/CMakeFiles/ex_keyboard_focus.dir/rule
 
 # fast build rule for target.
 ex_keyboard_focus/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/build
 .PHONY : ex_keyboard_focus/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_lines.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_lines.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_lines.dir/rule
 .PHONY : examples/CMakeFiles/ex_lines.dir/rule
 
 # Convenience name for target.
@@ -738,12 +738,12 @@ ex_lines: examples/CMakeFiles/ex_lines.dir/rule
 
 # fast build rule for target.
 ex_lines/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/build
 .PHONY : ex_lines/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_lockbitmap.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_lockbitmap.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_lockbitmap.dir/rule
 .PHONY : examples/CMakeFiles/ex_lockbitmap.dir/rule
 
 # Convenience name for target.
@@ -752,12 +752,12 @@ ex_lockbitmap: examples/CMakeFiles/ex_lockbitmap.dir/rule
 
 # fast build rule for target.
 ex_lockbitmap/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/build
 .PHONY : ex_lockbitmap/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_logo.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_logo.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_logo.dir/rule
 .PHONY : examples/CMakeFiles/ex_logo.dir/rule
 
 # Convenience name for target.
@@ -766,12 +766,12 @@ ex_logo: examples/CMakeFiles/ex_logo.dir/rule
 
 # fast build rule for target.
 ex_logo/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/build
 .PHONY : ex_logo/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_membmp.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_membmp.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_membmp.dir/rule
 .PHONY : examples/CMakeFiles/ex_membmp.dir/rule
 
 # Convenience name for target.
@@ -780,12 +780,12 @@ ex_membmp: examples/CMakeFiles/ex_membmp.dir/rule
 
 # fast build rule for target.
 ex_membmp/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/build
 .PHONY : ex_membmp/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_memfile.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_memfile.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_memfile.dir/rule
 .PHONY : examples/CMakeFiles/ex_memfile.dir/rule
 
 # Convenience name for target.
@@ -794,12 +794,12 @@ ex_memfile: examples/CMakeFiles/ex_memfile.dir/rule
 
 # fast build rule for target.
 ex_memfile/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/build
 .PHONY : ex_memfile/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_mixer_chain.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mixer_chain.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mixer_chain.dir/rule
 .PHONY : examples/CMakeFiles/ex_mixer_chain.dir/rule
 
 # Convenience name for target.
@@ -808,12 +808,12 @@ ex_mixer_chain: examples/CMakeFiles/ex_mixer_chain.dir/rule
 
 # fast build rule for target.
 ex_mixer_chain/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/build
 .PHONY : ex_mixer_chain/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_mixer_pp.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mixer_pp.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mixer_pp.dir/rule
 .PHONY : examples/CMakeFiles/ex_mixer_pp.dir/rule
 
 # Convenience name for target.
@@ -822,12 +822,12 @@ ex_mixer_pp: examples/CMakeFiles/ex_mixer_pp.dir/rule
 
 # fast build rule for target.
 ex_mixer_pp/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/build
 .PHONY : ex_mixer_pp/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_monitorinfo.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_monitorinfo.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_monitorinfo.dir/rule
 .PHONY : examples/CMakeFiles/ex_monitorinfo.dir/rule
 
 # Convenience name for target.
@@ -836,12 +836,12 @@ ex_monitorinfo: examples/CMakeFiles/ex_monitorinfo.dir/rule
 
 # fast build rule for target.
 ex_monitorinfo/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/build
 .PHONY : ex_monitorinfo/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_mouse.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse.dir/rule
 .PHONY : examples/CMakeFiles/ex_mouse.dir/rule
 
 # Convenience name for target.
@@ -850,12 +850,12 @@ ex_mouse: examples/CMakeFiles/ex_mouse.dir/rule
 
 # fast build rule for target.
 ex_mouse/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/build
 .PHONY : ex_mouse/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_mouse_cursor.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse_cursor.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse_cursor.dir/rule
 .PHONY : examples/CMakeFiles/ex_mouse_cursor.dir/rule
 
 # Convenience name for target.
@@ -864,12 +864,12 @@ ex_mouse_cursor: examples/CMakeFiles/ex_mouse_cursor.dir/rule
 
 # fast build rule for target.
 ex_mouse_cursor/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/build
 .PHONY : ex_mouse_cursor/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_mouse_events.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse_events.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse_events.dir/rule
 .PHONY : examples/CMakeFiles/ex_mouse_events.dir/rule
 
 # Convenience name for target.
@@ -878,12 +878,12 @@ ex_mouse_events: examples/CMakeFiles/ex_mouse_events.dir/rule
 
 # fast build rule for target.
 ex_mouse_events/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/build
 .PHONY : ex_mouse_events/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_mouse_focus.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse_focus.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_mouse_focus.dir/rule
 .PHONY : examples/CMakeFiles/ex_mouse_focus.dir/rule
 
 # Convenience name for target.
@@ -892,12 +892,12 @@ ex_mouse_focus: examples/CMakeFiles/ex_mouse_focus.dir/rule
 
 # fast build rule for target.
 ex_mouse_focus/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/build
 .PHONY : ex_mouse_focus/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_multisample.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_multisample.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_multisample.dir/rule
 .PHONY : examples/CMakeFiles/ex_multisample.dir/rule
 
 # Convenience name for target.
@@ -906,12 +906,12 @@ ex_multisample: examples/CMakeFiles/ex_multisample.dir/rule
 
 # fast build rule for target.
 ex_multisample/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/build
 .PHONY : ex_multisample/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_multiwin.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_multiwin.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_multiwin.dir/rule
 .PHONY : examples/CMakeFiles/ex_multiwin.dir/rule
 
 # Convenience name for target.
@@ -920,12 +920,12 @@ ex_multiwin: examples/CMakeFiles/ex_multiwin.dir/rule
 
 # fast build rule for target.
 ex_multiwin/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/build
 .PHONY : ex_multiwin/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_native_filechooser.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_native_filechooser.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_native_filechooser.dir/rule
 .PHONY : examples/CMakeFiles/ex_native_filechooser.dir/rule
 
 # Convenience name for target.
@@ -934,12 +934,12 @@ ex_native_filechooser: examples/CMakeFiles/ex_native_filechooser.dir/rule
 
 # fast build rule for target.
 ex_native_filechooser/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/build
 .PHONY : ex_native_filechooser/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_nodisplay.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_nodisplay.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_nodisplay.dir/rule
 .PHONY : examples/CMakeFiles/ex_nodisplay.dir/rule
 
 # Convenience name for target.
@@ -948,12 +948,12 @@ ex_nodisplay: examples/CMakeFiles/ex_nodisplay.dir/rule
 
 # fast build rule for target.
 ex_nodisplay/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/build
 .PHONY : ex_nodisplay/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_noframe.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_noframe.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_noframe.dir/rule
 .PHONY : examples/CMakeFiles/ex_noframe.dir/rule
 
 # Convenience name for target.
@@ -962,12 +962,12 @@ ex_noframe: examples/CMakeFiles/ex_noframe.dir/rule
 
 # fast build rule for target.
 ex_noframe/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/build
 .PHONY : ex_noframe/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_opengl.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_opengl.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_opengl.dir/rule
 .PHONY : examples/CMakeFiles/ex_opengl.dir/rule
 
 # Convenience name for target.
@@ -976,12 +976,12 @@ ex_opengl: examples/CMakeFiles/ex_opengl.dir/rule
 
 # fast build rule for target.
 ex_opengl/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/build
 .PHONY : ex_opengl/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_opengl_pixel_shader.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_opengl_pixel_shader.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_opengl_pixel_shader.dir/rule
 .PHONY : examples/CMakeFiles/ex_opengl_pixel_shader.dir/rule
 
 # Convenience name for target.
@@ -990,12 +990,12 @@ ex_opengl_pixel_shader: examples/CMakeFiles/ex_opengl_pixel_shader.dir/rule
 
 # fast build rule for target.
 ex_opengl_pixel_shader/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/build
 .PHONY : ex_opengl_pixel_shader/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_path.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_path.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_path.dir/rule
 .PHONY : examples/CMakeFiles/ex_path.dir/rule
 
 # Convenience name for target.
@@ -1004,12 +1004,12 @@ ex_path: examples/CMakeFiles/ex_path.dir/rule
 
 # fast build rule for target.
 ex_path/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/build
 .PHONY : ex_path/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_path_test.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_path_test.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_path_test.dir/rule
 .PHONY : examples/CMakeFiles/ex_path_test.dir/rule
 
 # Convenience name for target.
@@ -1018,26 +1018,12 @@ ex_path_test: examples/CMakeFiles/ex_path_test.dir/rule
 
 # fast build rule for target.
 ex_path_test/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/build
 .PHONY : ex_path_test/fast
 
 # Convenience name for target.
-examples/CMakeFiles/ex_physfs.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_physfs.dir/rule
-.PHONY : examples/CMakeFiles/ex_physfs.dir/rule
-
-# Convenience name for target.
-ex_physfs: examples/CMakeFiles/ex_physfs.dir/rule
-.PHONY : ex_physfs
-
-# fast build rule for target.
-ex_physfs/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_physfs.dir/build.make examples/CMakeFiles/ex_physfs.dir/build
-.PHONY : ex_physfs/fast
-
-# Convenience name for target.
 examples/CMakeFiles/ex_pixelformat.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_pixelformat.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_pixelformat.dir/rule
 .PHONY : examples/CMakeFiles/ex_pixelformat.dir/rule
 
 # Convenience name for target.
@@ -1046,12 +1032,12 @@ ex_pixelformat: examples/CMakeFiles/ex_pixelformat.dir/rule
 
 # fast build rule for target.
 ex_pixelformat/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/build
 .PHONY : ex_pixelformat/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_premulalpha.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_premulalpha.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_premulalpha.dir/rule
 .PHONY : examples/CMakeFiles/ex_premulalpha.dir/rule
 
 # Convenience name for target.
@@ -1060,12 +1046,12 @@ ex_premulalpha: examples/CMakeFiles/ex_premulalpha.dir/rule
 
 # fast build rule for target.
 ex_premulalpha/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/build
 .PHONY : ex_premulalpha/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_prim.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_prim.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_prim.dir/rule
 .PHONY : examples/CMakeFiles/ex_prim.dir/rule
 
 # Convenience name for target.
@@ -1074,12 +1060,12 @@ ex_prim: examples/CMakeFiles/ex_prim.dir/rule
 
 # fast build rule for target.
 ex_prim/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/build
 .PHONY : ex_prim/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_resample_test.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_resample_test.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_resample_test.dir/rule
 .PHONY : examples/CMakeFiles/ex_resample_test.dir/rule
 
 # Convenience name for target.
@@ -1088,12 +1074,12 @@ ex_resample_test: examples/CMakeFiles/ex_resample_test.dir/rule
 
 # fast build rule for target.
 ex_resample_test/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/build
 .PHONY : ex_resample_test/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_resize.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_resize.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_resize.dir/rule
 .PHONY : examples/CMakeFiles/ex_resize.dir/rule
 
 # Convenience name for target.
@@ -1102,12 +1088,12 @@ ex_resize: examples/CMakeFiles/ex_resize.dir/rule
 
 # fast build rule for target.
 ex_resize/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/build
 .PHONY : ex_resize/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_resize2.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_resize2.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_resize2.dir/rule
 .PHONY : examples/CMakeFiles/ex_resize2.dir/rule
 
 # Convenience name for target.
@@ -1116,12 +1102,12 @@ ex_resize2: examples/CMakeFiles/ex_resize2.dir/rule
 
 # fast build rule for target.
 ex_resize2/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/build
 .PHONY : ex_resize2/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_rotate.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_rotate.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_rotate.dir/rule
 .PHONY : examples/CMakeFiles/ex_rotate.dir/rule
 
 # Convenience name for target.
@@ -1130,12 +1116,12 @@ ex_rotate: examples/CMakeFiles/ex_rotate.dir/rule
 
 # fast build rule for target.
 ex_rotate/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/build
 .PHONY : ex_rotate/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_saw.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_saw.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_saw.dir/rule
 .PHONY : examples/CMakeFiles/ex_saw.dir/rule
 
 # Convenience name for target.
@@ -1144,12 +1130,12 @@ ex_saw: examples/CMakeFiles/ex_saw.dir/rule
 
 # fast build rule for target.
 ex_saw/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/build
 .PHONY : ex_saw/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_scale.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_scale.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_scale.dir/rule
 .PHONY : examples/CMakeFiles/ex_scale.dir/rule
 
 # Convenience name for target.
@@ -1158,12 +1144,12 @@ ex_scale: examples/CMakeFiles/ex_scale.dir/rule
 
 # fast build rule for target.
 ex_scale/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/build
 .PHONY : ex_scale/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_stream_file.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_stream_file.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_stream_file.dir/rule
 .PHONY : examples/CMakeFiles/ex_stream_file.dir/rule
 
 # Convenience name for target.
@@ -1172,12 +1158,12 @@ ex_stream_file: examples/CMakeFiles/ex_stream_file.dir/rule
 
 # fast build rule for target.
 ex_stream_file/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/build
 .PHONY : ex_stream_file/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_stream_seek.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_stream_seek.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_stream_seek.dir/rule
 .PHONY : examples/CMakeFiles/ex_stream_seek.dir/rule
 
 # Convenience name for target.
@@ -1186,12 +1172,12 @@ ex_stream_seek: examples/CMakeFiles/ex_stream_seek.dir/rule
 
 # fast build rule for target.
 ex_stream_seek/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/build
 .PHONY : ex_stream_seek/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_subbitmap.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_subbitmap.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_subbitmap.dir/rule
 .PHONY : examples/CMakeFiles/ex_subbitmap.dir/rule
 
 # Convenience name for target.
@@ -1200,12 +1186,12 @@ ex_subbitmap: examples/CMakeFiles/ex_subbitmap.dir/rule
 
 # fast build rule for target.
 ex_subbitmap/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/build
 .PHONY : ex_subbitmap/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_synth.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_synth.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_synth.dir/rule
 .PHONY : examples/CMakeFiles/ex_synth.dir/rule
 
 # Convenience name for target.
@@ -1214,12 +1200,12 @@ ex_synth: examples/CMakeFiles/ex_synth.dir/rule
 
 # fast build rule for target.
 ex_synth/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/build
 .PHONY : ex_synth/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_threads.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_threads.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_threads.dir/rule
 .PHONY : examples/CMakeFiles/ex_threads.dir/rule
 
 # Convenience name for target.
@@ -1228,12 +1214,12 @@ ex_threads: examples/CMakeFiles/ex_threads.dir/rule
 
 # fast build rule for target.
 ex_threads/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/build
 .PHONY : ex_threads/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_threads2.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_threads2.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_threads2.dir/rule
 .PHONY : examples/CMakeFiles/ex_threads2.dir/rule
 
 # Convenience name for target.
@@ -1242,12 +1228,12 @@ ex_threads2: examples/CMakeFiles/ex_threads2.dir/rule
 
 # fast build rule for target.
 ex_threads2/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/build
 .PHONY : ex_threads2/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_timedwait.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_timedwait.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_timedwait.dir/rule
 .PHONY : examples/CMakeFiles/ex_timedwait.dir/rule
 
 # Convenience name for target.
@@ -1256,12 +1242,12 @@ ex_timedwait: examples/CMakeFiles/ex_timedwait.dir/rule
 
 # fast build rule for target.
 ex_timedwait/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/build
 .PHONY : ex_timedwait/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_timer.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_timer.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_timer.dir/rule
 .PHONY : examples/CMakeFiles/ex_timer.dir/rule
 
 # Convenience name for target.
@@ -1270,12 +1256,12 @@ ex_timer: examples/CMakeFiles/ex_timer.dir/rule
 
 # fast build rule for target.
 ex_timer/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/build
 .PHONY : ex_timer/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_transform.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_transform.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_transform.dir/rule
 .PHONY : examples/CMakeFiles/ex_transform.dir/rule
 
 # Convenience name for target.
@@ -1284,12 +1270,12 @@ ex_transform: examples/CMakeFiles/ex_transform.dir/rule
 
 # fast build rule for target.
 ex_transform/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/build
 .PHONY : ex_transform/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_ttf.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_ttf.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_ttf.dir/rule
 .PHONY : examples/CMakeFiles/ex_ttf.dir/rule
 
 # Convenience name for target.
@@ -1298,12 +1284,12 @@ ex_ttf: examples/CMakeFiles/ex_ttf.dir/rule
 
 # fast build rule for target.
 ex_ttf/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/build
 .PHONY : ex_ttf/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_user_events.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_user_events.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_user_events.dir/rule
 .PHONY : examples/CMakeFiles/ex_user_events.dir/rule
 
 # Convenience name for target.
@@ -1312,12 +1298,12 @@ ex_user_events: examples/CMakeFiles/ex_user_events.dir/rule
 
 # fast build rule for target.
 ex_user_events/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/build
 .PHONY : ex_user_events/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_utf8.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_utf8.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_utf8.dir/rule
 .PHONY : examples/CMakeFiles/ex_utf8.dir/rule
 
 # Convenience name for target.
@@ -1326,12 +1312,12 @@ ex_utf8: examples/CMakeFiles/ex_utf8.dir/rule
 
 # fast build rule for target.
 ex_utf8/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/build
 .PHONY : ex_utf8/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_vsync.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_vsync.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_vsync.dir/rule
 .PHONY : examples/CMakeFiles/ex_vsync.dir/rule
 
 # Convenience name for target.
@@ -1340,12 +1326,12 @@ ex_vsync: examples/CMakeFiles/ex_vsync.dir/rule
 
 # fast build rule for target.
 ex_vsync/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/build
 .PHONY : ex_vsync/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_warp_mouse.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_warp_mouse.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_warp_mouse.dir/rule
 .PHONY : examples/CMakeFiles/ex_warp_mouse.dir/rule
 
 # Convenience name for target.
@@ -1354,12 +1340,12 @@ ex_warp_mouse: examples/CMakeFiles/ex_warp_mouse.dir/rule
 
 # fast build rule for target.
 ex_warp_mouse/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/build
 .PHONY : ex_warp_mouse/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_windows.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_windows.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_windows.dir/rule
 .PHONY : examples/CMakeFiles/ex_windows.dir/rule
 
 # Convenience name for target.
@@ -1368,12 +1354,12 @@ ex_windows: examples/CMakeFiles/ex_windows.dir/rule
 
 # fast build rule for target.
 ex_windows/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/build
 .PHONY : ex_windows/fast
 
 # Convenience name for target.
 examples/CMakeFiles/ex_winfull.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_winfull.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 examples/CMakeFiles/ex_winfull.dir/rule
 .PHONY : examples/CMakeFiles/ex_winfull.dir/rule
 
 # Convenience name for target.
@@ -1382,7 +1368,7 @@ ex_winfull: examples/CMakeFiles/ex_winfull.dir/rule
 
 # fast build rule for target.
 ex_winfull/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/build
 .PHONY : ex_winfull/fast
 
 ex_acodec.o: ex_acodec.c.o
@@ -1390,7 +1376,7 @@ ex_acodec.o: ex_acodec.c.o
 
 # target to build an object file
 ex_acodec.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/ex_acodec.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/ex_acodec.c.o
 .PHONY : ex_acodec.c.o
 
 ex_acodec.i: ex_acodec.c.i
@@ -1398,7 +1384,7 @@ ex_acodec.i: ex_acodec.c.i
 
 # target to preprocess a source file
 ex_acodec.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/ex_acodec.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/ex_acodec.c.i
 .PHONY : ex_acodec.c.i
 
 ex_acodec.s: ex_acodec.c.s
@@ -1406,7 +1392,7 @@ ex_acodec.s: ex_acodec.c.s
 
 # target to generate assembly for a file
 ex_acodec.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/ex_acodec.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec.dir/build.make examples/CMakeFiles/ex_acodec.dir/ex_acodec.c.s
 .PHONY : ex_acodec.c.s
 
 ex_acodec_multi.o: ex_acodec_multi.c.o
@@ -1414,7 +1400,7 @@ ex_acodec_multi.o: ex_acodec_multi.c.o
 
 # target to build an object file
 ex_acodec_multi.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.o
 .PHONY : ex_acodec_multi.c.o
 
 ex_acodec_multi.i: ex_acodec_multi.c.i
@@ -1422,7 +1408,7 @@ ex_acodec_multi.i: ex_acodec_multi.c.i
 
 # target to preprocess a source file
 ex_acodec_multi.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.i
 .PHONY : ex_acodec_multi.c.i
 
 ex_acodec_multi.s: ex_acodec_multi.c.s
@@ -1430,7 +1416,7 @@ ex_acodec_multi.s: ex_acodec_multi.c.s
 
 # target to generate assembly for a file
 ex_acodec_multi.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_acodec_multi.dir/build.make examples/CMakeFiles/ex_acodec_multi.dir/ex_acodec_multi.c.s
 .PHONY : ex_acodec_multi.c.s
 
 ex_audio_chain.o: ex_audio_chain.cpp.o
@@ -1438,7 +1424,7 @@ ex_audio_chain.o: ex_audio_chain.cpp.o
 
 # target to build an object file
 ex_audio_chain.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/ex_audio_chain.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/ex_audio_chain.cpp.o
 .PHONY : ex_audio_chain.cpp.o
 
 ex_audio_chain.i: ex_audio_chain.cpp.i
@@ -1446,7 +1432,7 @@ ex_audio_chain.i: ex_audio_chain.cpp.i
 
 # target to preprocess a source file
 ex_audio_chain.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/ex_audio_chain.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/ex_audio_chain.cpp.i
 .PHONY : ex_audio_chain.cpp.i
 
 ex_audio_chain.s: ex_audio_chain.cpp.s
@@ -1454,7 +1440,7 @@ ex_audio_chain.s: ex_audio_chain.cpp.s
 
 # target to generate assembly for a file
 ex_audio_chain.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/ex_audio_chain.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_chain.dir/build.make examples/CMakeFiles/ex_audio_chain.dir/ex_audio_chain.cpp.s
 .PHONY : ex_audio_chain.cpp.s
 
 ex_audio_props.o: ex_audio_props.cpp.o
@@ -1462,7 +1448,7 @@ ex_audio_props.o: ex_audio_props.cpp.o
 
 # target to build an object file
 ex_audio_props.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/ex_audio_props.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/ex_audio_props.cpp.o
 .PHONY : ex_audio_props.cpp.o
 
 ex_audio_props.i: ex_audio_props.cpp.i
@@ -1470,7 +1456,7 @@ ex_audio_props.i: ex_audio_props.cpp.i
 
 # target to preprocess a source file
 ex_audio_props.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/ex_audio_props.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/ex_audio_props.cpp.i
 .PHONY : ex_audio_props.cpp.i
 
 ex_audio_props.s: ex_audio_props.cpp.s
@@ -1478,7 +1464,7 @@ ex_audio_props.s: ex_audio_props.cpp.s
 
 # target to generate assembly for a file
 ex_audio_props.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/ex_audio_props.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/ex_audio_props.cpp.s
 .PHONY : ex_audio_props.cpp.s
 
 ex_audio_simple.o: ex_audio_simple.c.o
@@ -1486,7 +1472,7 @@ ex_audio_simple.o: ex_audio_simple.c.o
 
 # target to build an object file
 ex_audio_simple.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/ex_audio_simple.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/ex_audio_simple.c.o
 .PHONY : ex_audio_simple.c.o
 
 ex_audio_simple.i: ex_audio_simple.c.i
@@ -1494,7 +1480,7 @@ ex_audio_simple.i: ex_audio_simple.c.i
 
 # target to preprocess a source file
 ex_audio_simple.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/ex_audio_simple.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/ex_audio_simple.c.i
 .PHONY : ex_audio_simple.c.i
 
 ex_audio_simple.s: ex_audio_simple.c.s
@@ -1502,7 +1488,7 @@ ex_audio_simple.s: ex_audio_simple.c.s
 
 # target to generate assembly for a file
 ex_audio_simple.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/ex_audio_simple.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_simple.dir/build.make examples/CMakeFiles/ex_audio_simple.dir/ex_audio_simple.c.s
 .PHONY : ex_audio_simple.c.s
 
 ex_bitmap.o: ex_bitmap.c.o
@@ -1510,7 +1496,7 @@ ex_bitmap.o: ex_bitmap.c.o
 
 # target to build an object file
 ex_bitmap.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/ex_bitmap.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/ex_bitmap.c.o
 .PHONY : ex_bitmap.c.o
 
 ex_bitmap.i: ex_bitmap.c.i
@@ -1518,7 +1504,7 @@ ex_bitmap.i: ex_bitmap.c.i
 
 # target to preprocess a source file
 ex_bitmap.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/ex_bitmap.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/ex_bitmap.c.i
 .PHONY : ex_bitmap.c.i
 
 ex_bitmap.s: ex_bitmap.c.s
@@ -1526,7 +1512,7 @@ ex_bitmap.s: ex_bitmap.c.s
 
 # target to generate assembly for a file
 ex_bitmap.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/ex_bitmap.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap.dir/build.make examples/CMakeFiles/ex_bitmap.dir/ex_bitmap.c.s
 .PHONY : ex_bitmap.c.s
 
 ex_bitmap_flip.o: ex_bitmap_flip.c.o
@@ -1534,7 +1520,7 @@ ex_bitmap_flip.o: ex_bitmap_flip.c.o
 
 # target to build an object file
 ex_bitmap_flip.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/ex_bitmap_flip.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/ex_bitmap_flip.c.o
 .PHONY : ex_bitmap_flip.c.o
 
 ex_bitmap_flip.i: ex_bitmap_flip.c.i
@@ -1542,7 +1528,7 @@ ex_bitmap_flip.i: ex_bitmap_flip.c.i
 
 # target to preprocess a source file
 ex_bitmap_flip.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/ex_bitmap_flip.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/ex_bitmap_flip.c.i
 .PHONY : ex_bitmap_flip.c.i
 
 ex_bitmap_flip.s: ex_bitmap_flip.c.s
@@ -1550,7 +1536,7 @@ ex_bitmap_flip.s: ex_bitmap_flip.c.s
 
 # target to generate assembly for a file
 ex_bitmap_flip.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/ex_bitmap_flip.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_flip.dir/build.make examples/CMakeFiles/ex_bitmap_flip.dir/ex_bitmap_flip.c.s
 .PHONY : ex_bitmap_flip.c.s
 
 ex_bitmap_target.o: ex_bitmap_target.c.o
@@ -1558,7 +1544,7 @@ ex_bitmap_target.o: ex_bitmap_target.c.o
 
 # target to build an object file
 ex_bitmap_target.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/ex_bitmap_target.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/ex_bitmap_target.c.o
 .PHONY : ex_bitmap_target.c.o
 
 ex_bitmap_target.i: ex_bitmap_target.c.i
@@ -1566,7 +1552,7 @@ ex_bitmap_target.i: ex_bitmap_target.c.i
 
 # target to preprocess a source file
 ex_bitmap_target.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/ex_bitmap_target.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/ex_bitmap_target.c.i
 .PHONY : ex_bitmap_target.c.i
 
 ex_bitmap_target.s: ex_bitmap_target.c.s
@@ -1574,7 +1560,7 @@ ex_bitmap_target.s: ex_bitmap_target.c.s
 
 # target to generate assembly for a file
 ex_bitmap_target.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/ex_bitmap_target.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_bitmap_target.dir/build.make examples/CMakeFiles/ex_bitmap_target.dir/ex_bitmap_target.c.s
 .PHONY : ex_bitmap_target.c.s
 
 ex_blend.o: ex_blend.c.o
@@ -1582,7 +1568,7 @@ ex_blend.o: ex_blend.c.o
 
 # target to build an object file
 ex_blend.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/ex_blend.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/ex_blend.c.o
 .PHONY : ex_blend.c.o
 
 ex_blend.i: ex_blend.c.i
@@ -1590,7 +1576,7 @@ ex_blend.i: ex_blend.c.i
 
 # target to preprocess a source file
 ex_blend.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/ex_blend.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/ex_blend.c.i
 .PHONY : ex_blend.c.i
 
 ex_blend.s: ex_blend.c.s
@@ -1598,7 +1584,7 @@ ex_blend.s: ex_blend.c.s
 
 # target to generate assembly for a file
 ex_blend.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/ex_blend.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend.dir/build.make examples/CMakeFiles/ex_blend.dir/ex_blend.c.s
 .PHONY : ex_blend.c.s
 
 ex_blend2.o: ex_blend2.cpp.o
@@ -1606,7 +1592,7 @@ ex_blend2.o: ex_blend2.cpp.o
 
 # target to build an object file
 ex_blend2.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/ex_blend2.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/ex_blend2.cpp.o
 .PHONY : ex_blend2.cpp.o
 
 ex_blend2.i: ex_blend2.cpp.i
@@ -1614,7 +1600,7 @@ ex_blend2.i: ex_blend2.cpp.i
 
 # target to preprocess a source file
 ex_blend2.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/ex_blend2.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/ex_blend2.cpp.i
 .PHONY : ex_blend2.cpp.i
 
 ex_blend2.s: ex_blend2.cpp.s
@@ -1622,7 +1608,7 @@ ex_blend2.s: ex_blend2.cpp.s
 
 # target to generate assembly for a file
 ex_blend2.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/ex_blend2.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/ex_blend2.cpp.s
 .PHONY : ex_blend2.cpp.s
 
 ex_blend_bench.o: ex_blend_bench.c.o
@@ -1630,7 +1616,7 @@ ex_blend_bench.o: ex_blend_bench.c.o
 
 # target to build an object file
 ex_blend_bench.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/ex_blend_bench.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/ex_blend_bench.c.o
 .PHONY : ex_blend_bench.c.o
 
 ex_blend_bench.i: ex_blend_bench.c.i
@@ -1638,7 +1624,7 @@ ex_blend_bench.i: ex_blend_bench.c.i
 
 # target to preprocess a source file
 ex_blend_bench.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/ex_blend_bench.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/ex_blend_bench.c.i
 .PHONY : ex_blend_bench.c.i
 
 ex_blend_bench.s: ex_blend_bench.c.s
@@ -1646,7 +1632,7 @@ ex_blend_bench.s: ex_blend_bench.c.s
 
 # target to generate assembly for a file
 ex_blend_bench.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/ex_blend_bench.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_bench.dir/build.make examples/CMakeFiles/ex_blend_bench.dir/ex_blend_bench.c.s
 .PHONY : ex_blend_bench.c.s
 
 ex_blend_test.o: ex_blend_test.c.o
@@ -1654,7 +1640,7 @@ ex_blend_test.o: ex_blend_test.c.o
 
 # target to build an object file
 ex_blend_test.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/ex_blend_test.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/ex_blend_test.c.o
 .PHONY : ex_blend_test.c.o
 
 ex_blend_test.i: ex_blend_test.c.i
@@ -1662,7 +1648,7 @@ ex_blend_test.i: ex_blend_test.c.i
 
 # target to preprocess a source file
 ex_blend_test.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/ex_blend_test.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/ex_blend_test.c.i
 .PHONY : ex_blend_test.c.i
 
 ex_blend_test.s: ex_blend_test.c.s
@@ -1670,7 +1656,7 @@ ex_blend_test.s: ex_blend_test.c.s
 
 # target to generate assembly for a file
 ex_blend_test.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/ex_blend_test.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend_test.dir/build.make examples/CMakeFiles/ex_blend_test.dir/ex_blend_test.c.s
 .PHONY : ex_blend_test.c.s
 
 ex_blit.o: ex_blit.c.o
@@ -1678,7 +1664,7 @@ ex_blit.o: ex_blit.c.o
 
 # target to build an object file
 ex_blit.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/ex_blit.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/ex_blit.c.o
 .PHONY : ex_blit.c.o
 
 ex_blit.i: ex_blit.c.i
@@ -1686,7 +1672,7 @@ ex_blit.i: ex_blit.c.i
 
 # target to preprocess a source file
 ex_blit.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/ex_blit.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/ex_blit.c.i
 .PHONY : ex_blit.c.i
 
 ex_blit.s: ex_blit.c.s
@@ -1694,7 +1680,7 @@ ex_blit.s: ex_blit.c.s
 
 # target to generate assembly for a file
 ex_blit.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/ex_blit.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blit.dir/build.make examples/CMakeFiles/ex_blit.dir/ex_blit.c.s
 .PHONY : ex_blit.c.s
 
 ex_clip.o: ex_clip.c.o
@@ -1702,7 +1688,7 @@ ex_clip.o: ex_clip.c.o
 
 # target to build an object file
 ex_clip.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/ex_clip.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/ex_clip.c.o
 .PHONY : ex_clip.c.o
 
 ex_clip.i: ex_clip.c.i
@@ -1710,7 +1696,7 @@ ex_clip.i: ex_clip.c.i
 
 # target to preprocess a source file
 ex_clip.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/ex_clip.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/ex_clip.c.i
 .PHONY : ex_clip.c.i
 
 ex_clip.s: ex_clip.c.s
@@ -1718,7 +1704,7 @@ ex_clip.s: ex_clip.c.s
 
 # target to generate assembly for a file
 ex_clip.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/ex_clip.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_clip.dir/build.make examples/CMakeFiles/ex_clip.dir/ex_clip.c.s
 .PHONY : ex_clip.c.s
 
 ex_color.o: ex_color.cpp.o
@@ -1726,7 +1712,7 @@ ex_color.o: ex_color.cpp.o
 
 # target to build an object file
 ex_color.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/ex_color.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/ex_color.cpp.o
 .PHONY : ex_color.cpp.o
 
 ex_color.i: ex_color.cpp.i
@@ -1734,7 +1720,7 @@ ex_color.i: ex_color.cpp.i
 
 # target to preprocess a source file
 ex_color.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/ex_color.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/ex_color.cpp.i
 .PHONY : ex_color.cpp.i
 
 ex_color.s: ex_color.cpp.s
@@ -1742,7 +1728,7 @@ ex_color.s: ex_color.cpp.s
 
 # target to generate assembly for a file
 ex_color.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/ex_color.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/ex_color.cpp.s
 .PHONY : ex_color.cpp.s
 
 ex_config.o: ex_config.c.o
@@ -1750,7 +1736,7 @@ ex_config.o: ex_config.c.o
 
 # target to build an object file
 ex_config.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/ex_config.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/ex_config.c.o
 .PHONY : ex_config.c.o
 
 ex_config.i: ex_config.c.i
@@ -1758,7 +1744,7 @@ ex_config.i: ex_config.c.i
 
 # target to preprocess a source file
 ex_config.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/ex_config.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/ex_config.c.i
 .PHONY : ex_config.c.i
 
 ex_config.s: ex_config.c.s
@@ -1766,7 +1752,7 @@ ex_config.s: ex_config.c.s
 
 # target to generate assembly for a file
 ex_config.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/ex_config.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_config.dir/build.make examples/CMakeFiles/ex_config.dir/ex_config.c.s
 .PHONY : ex_config.c.s
 
 ex_convert.o: ex_convert.c.o
@@ -1774,7 +1760,7 @@ ex_convert.o: ex_convert.c.o
 
 # target to build an object file
 ex_convert.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/ex_convert.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/ex_convert.c.o
 .PHONY : ex_convert.c.o
 
 ex_convert.i: ex_convert.c.i
@@ -1782,7 +1768,7 @@ ex_convert.i: ex_convert.c.i
 
 # target to preprocess a source file
 ex_convert.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/ex_convert.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/ex_convert.c.i
 .PHONY : ex_convert.c.i
 
 ex_convert.s: ex_convert.c.s
@@ -1790,7 +1776,7 @@ ex_convert.s: ex_convert.c.s
 
 # target to generate assembly for a file
 ex_convert.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/ex_convert.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_convert.dir/build.make examples/CMakeFiles/ex_convert.dir/ex_convert.c.s
 .PHONY : ex_convert.c.s
 
 ex_dir.o: ex_dir.c.o
@@ -1798,7 +1784,7 @@ ex_dir.o: ex_dir.c.o
 
 # target to build an object file
 ex_dir.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/ex_dir.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/ex_dir.c.o
 .PHONY : ex_dir.c.o
 
 ex_dir.i: ex_dir.c.i
@@ -1806,7 +1792,7 @@ ex_dir.i: ex_dir.c.i
 
 # target to preprocess a source file
 ex_dir.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/ex_dir.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/ex_dir.c.i
 .PHONY : ex_dir.c.i
 
 ex_dir.s: ex_dir.c.s
@@ -1814,7 +1800,7 @@ ex_dir.s: ex_dir.c.s
 
 # target to generate assembly for a file
 ex_dir.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/ex_dir.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dir.dir/build.make examples/CMakeFiles/ex_dir.dir/ex_dir.c.s
 .PHONY : ex_dir.c.s
 
 ex_disable_screensaver.o: ex_disable_screensaver.c.o
@@ -1822,7 +1808,7 @@ ex_disable_screensaver.o: ex_disable_screensaver.c.o
 
 # target to build an object file
 ex_disable_screensaver.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/ex_disable_screensaver.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/ex_disable_screensaver.c.o
 .PHONY : ex_disable_screensaver.c.o
 
 ex_disable_screensaver.i: ex_disable_screensaver.c.i
@@ -1830,7 +1816,7 @@ ex_disable_screensaver.i: ex_disable_screensaver.c.i
 
 # target to preprocess a source file
 ex_disable_screensaver.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/ex_disable_screensaver.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/ex_disable_screensaver.c.i
 .PHONY : ex_disable_screensaver.c.i
 
 ex_disable_screensaver.s: ex_disable_screensaver.c.s
@@ -1838,7 +1824,7 @@ ex_disable_screensaver.s: ex_disable_screensaver.c.s
 
 # target to generate assembly for a file
 ex_disable_screensaver.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/ex_disable_screensaver.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_disable_screensaver.dir/build.make examples/CMakeFiles/ex_disable_screensaver.dir/ex_disable_screensaver.c.s
 .PHONY : ex_disable_screensaver.c.s
 
 ex_display_events.o: ex_display_events.c.o
@@ -1846,7 +1832,7 @@ ex_display_events.o: ex_display_events.c.o
 
 # target to build an object file
 ex_display_events.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/ex_display_events.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/ex_display_events.c.o
 .PHONY : ex_display_events.c.o
 
 ex_display_events.i: ex_display_events.c.i
@@ -1854,7 +1840,7 @@ ex_display_events.i: ex_display_events.c.i
 
 # target to preprocess a source file
 ex_display_events.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/ex_display_events.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/ex_display_events.c.i
 .PHONY : ex_display_events.c.i
 
 ex_display_events.s: ex_display_events.c.s
@@ -1862,7 +1848,7 @@ ex_display_events.s: ex_display_events.c.s
 
 # target to generate assembly for a file
 ex_display_events.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/ex_display_events.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_events.dir/build.make examples/CMakeFiles/ex_display_events.dir/ex_display_events.c.s
 .PHONY : ex_display_events.c.s
 
 ex_display_options.o: ex_display_options.c.o
@@ -1870,7 +1856,7 @@ ex_display_options.o: ex_display_options.c.o
 
 # target to build an object file
 ex_display_options.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/ex_display_options.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/ex_display_options.c.o
 .PHONY : ex_display_options.c.o
 
 ex_display_options.i: ex_display_options.c.i
@@ -1878,7 +1864,7 @@ ex_display_options.i: ex_display_options.c.i
 
 # target to preprocess a source file
 ex_display_options.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/ex_display_options.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/ex_display_options.c.i
 .PHONY : ex_display_options.c.i
 
 ex_display_options.s: ex_display_options.c.s
@@ -1886,7 +1872,7 @@ ex_display_options.s: ex_display_options.c.s
 
 # target to generate assembly for a file
 ex_display_options.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/ex_display_options.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_display_options.dir/build.make examples/CMakeFiles/ex_display_options.dir/ex_display_options.c.s
 .PHONY : ex_display_options.c.s
 
 ex_draw.o: ex_draw.c.o
@@ -1894,7 +1880,7 @@ ex_draw.o: ex_draw.c.o
 
 # target to build an object file
 ex_draw.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/ex_draw.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/ex_draw.c.o
 .PHONY : ex_draw.c.o
 
 ex_draw.i: ex_draw.c.i
@@ -1902,7 +1888,7 @@ ex_draw.i: ex_draw.c.i
 
 # target to preprocess a source file
 ex_draw.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/ex_draw.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/ex_draw.c.i
 .PHONY : ex_draw.c.i
 
 ex_draw.s: ex_draw.c.s
@@ -1910,7 +1896,7 @@ ex_draw.s: ex_draw.c.s
 
 # target to generate assembly for a file
 ex_draw.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/ex_draw.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw.dir/build.make examples/CMakeFiles/ex_draw.dir/ex_draw.c.s
 .PHONY : ex_draw.c.s
 
 ex_draw_bitmap.o: ex_draw_bitmap.c.o
@@ -1918,7 +1904,7 @@ ex_draw_bitmap.o: ex_draw_bitmap.c.o
 
 # target to build an object file
 ex_draw_bitmap.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/ex_draw_bitmap.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/ex_draw_bitmap.c.o
 .PHONY : ex_draw_bitmap.c.o
 
 ex_draw_bitmap.i: ex_draw_bitmap.c.i
@@ -1926,7 +1912,7 @@ ex_draw_bitmap.i: ex_draw_bitmap.c.i
 
 # target to preprocess a source file
 ex_draw_bitmap.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/ex_draw_bitmap.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/ex_draw_bitmap.c.i
 .PHONY : ex_draw_bitmap.c.i
 
 ex_draw_bitmap.s: ex_draw_bitmap.c.s
@@ -1934,7 +1920,7 @@ ex_draw_bitmap.s: ex_draw_bitmap.c.s
 
 # target to generate assembly for a file
 ex_draw_bitmap.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/ex_draw_bitmap.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_draw_bitmap.dir/build.make examples/CMakeFiles/ex_draw_bitmap.dir/ex_draw_bitmap.c.s
 .PHONY : ex_draw_bitmap.c.s
 
 ex_drawpixels.o: ex_drawpixels.c.o
@@ -1942,7 +1928,7 @@ ex_drawpixels.o: ex_drawpixels.c.o
 
 # target to build an object file
 ex_drawpixels.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/ex_drawpixels.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/ex_drawpixels.c.o
 .PHONY : ex_drawpixels.c.o
 
 ex_drawpixels.i: ex_drawpixels.c.i
@@ -1950,7 +1936,7 @@ ex_drawpixels.i: ex_drawpixels.c.i
 
 # target to preprocess a source file
 ex_drawpixels.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/ex_drawpixels.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/ex_drawpixels.c.i
 .PHONY : ex_drawpixels.c.i
 
 ex_drawpixels.s: ex_drawpixels.c.s
@@ -1958,7 +1944,7 @@ ex_drawpixels.s: ex_drawpixels.c.s
 
 # target to generate assembly for a file
 ex_drawpixels.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/ex_drawpixels.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_drawpixels.dir/build.make examples/CMakeFiles/ex_drawpixels.dir/ex_drawpixels.c.s
 .PHONY : ex_drawpixels.c.s
 
 ex_dualies.o: ex_dualies.c.o
@@ -1966,7 +1952,7 @@ ex_dualies.o: ex_dualies.c.o
 
 # target to build an object file
 ex_dualies.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/ex_dualies.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/ex_dualies.c.o
 .PHONY : ex_dualies.c.o
 
 ex_dualies.i: ex_dualies.c.i
@@ -1974,7 +1960,7 @@ ex_dualies.i: ex_dualies.c.i
 
 # target to preprocess a source file
 ex_dualies.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/ex_dualies.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/ex_dualies.c.i
 .PHONY : ex_dualies.c.i
 
 ex_dualies.s: ex_dualies.c.s
@@ -1982,7 +1968,7 @@ ex_dualies.s: ex_dualies.c.s
 
 # target to generate assembly for a file
 ex_dualies.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/ex_dualies.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_dualies.dir/build.make examples/CMakeFiles/ex_dualies.dir/ex_dualies.c.s
 .PHONY : ex_dualies.c.s
 
 ex_expose.o: ex_expose.c.o
@@ -1990,7 +1976,7 @@ ex_expose.o: ex_expose.c.o
 
 # target to build an object file
 ex_expose.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/ex_expose.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/ex_expose.c.o
 .PHONY : ex_expose.c.o
 
 ex_expose.i: ex_expose.c.i
@@ -1998,7 +1984,7 @@ ex_expose.i: ex_expose.c.i
 
 # target to preprocess a source file
 ex_expose.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/ex_expose.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/ex_expose.c.i
 .PHONY : ex_expose.c.i
 
 ex_expose.s: ex_expose.c.s
@@ -2006,7 +1992,7 @@ ex_expose.s: ex_expose.c.s
 
 # target to generate assembly for a file
 ex_expose.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/ex_expose.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_expose.dir/build.make examples/CMakeFiles/ex_expose.dir/ex_expose.c.s
 .PHONY : ex_expose.c.s
 
 ex_file_slice.o: ex_file_slice.c.o
@@ -2014,7 +2000,7 @@ ex_file_slice.o: ex_file_slice.c.o
 
 # target to build an object file
 ex_file_slice.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/ex_file_slice.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/ex_file_slice.c.o
 .PHONY : ex_file_slice.c.o
 
 ex_file_slice.i: ex_file_slice.c.i
@@ -2022,7 +2008,7 @@ ex_file_slice.i: ex_file_slice.c.i
 
 # target to preprocess a source file
 ex_file_slice.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/ex_file_slice.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/ex_file_slice.c.i
 .PHONY : ex_file_slice.c.i
 
 ex_file_slice.s: ex_file_slice.c.s
@@ -2030,7 +2016,7 @@ ex_file_slice.s: ex_file_slice.c.s
 
 # target to generate assembly for a file
 ex_file_slice.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/ex_file_slice.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_file_slice.dir/build.make examples/CMakeFiles/ex_file_slice.dir/ex_file_slice.c.s
 .PHONY : ex_file_slice.c.s
 
 ex_filter.o: ex_filter.c.o
@@ -2038,7 +2024,7 @@ ex_filter.o: ex_filter.c.o
 
 # target to build an object file
 ex_filter.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/ex_filter.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/ex_filter.c.o
 .PHONY : ex_filter.c.o
 
 ex_filter.i: ex_filter.c.i
@@ -2046,7 +2032,7 @@ ex_filter.i: ex_filter.c.i
 
 # target to preprocess a source file
 ex_filter.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/ex_filter.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/ex_filter.c.i
 .PHONY : ex_filter.c.i
 
 ex_filter.s: ex_filter.c.s
@@ -2054,7 +2040,7 @@ ex_filter.s: ex_filter.c.s
 
 # target to generate assembly for a file
 ex_filter.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/ex_filter.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_filter.dir/build.make examples/CMakeFiles/ex_filter.dir/ex_filter.c.s
 .PHONY : ex_filter.c.s
 
 ex_font.o: ex_font.c.o
@@ -2062,7 +2048,7 @@ ex_font.o: ex_font.c.o
 
 # target to build an object file
 ex_font.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/ex_font.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/ex_font.c.o
 .PHONY : ex_font.c.o
 
 ex_font.i: ex_font.c.i
@@ -2070,7 +2056,7 @@ ex_font.i: ex_font.c.i
 
 # target to preprocess a source file
 ex_font.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/ex_font.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/ex_font.c.i
 .PHONY : ex_font.c.i
 
 ex_font.s: ex_font.c.s
@@ -2078,7 +2064,7 @@ ex_font.s: ex_font.c.s
 
 # target to generate assembly for a file
 ex_font.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/ex_font.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font.dir/build.make examples/CMakeFiles/ex_font.dir/ex_font.c.s
 .PHONY : ex_font.c.s
 
 ex_font_justify.o: ex_font_justify.cpp.o
@@ -2086,7 +2072,7 @@ ex_font_justify.o: ex_font_justify.cpp.o
 
 # target to build an object file
 ex_font_justify.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/ex_font_justify.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/ex_font_justify.cpp.o
 .PHONY : ex_font_justify.cpp.o
 
 ex_font_justify.i: ex_font_justify.cpp.i
@@ -2094,7 +2080,7 @@ ex_font_justify.i: ex_font_justify.cpp.i
 
 # target to preprocess a source file
 ex_font_justify.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/ex_font_justify.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/ex_font_justify.cpp.i
 .PHONY : ex_font_justify.cpp.i
 
 ex_font_justify.s: ex_font_justify.cpp.s
@@ -2102,7 +2088,7 @@ ex_font_justify.s: ex_font_justify.cpp.s
 
 # target to generate assembly for a file
 ex_font_justify.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/ex_font_justify.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/ex_font_justify.cpp.s
 .PHONY : ex_font_justify.cpp.s
 
 ex_fs_resize.o: ex_fs_resize.c.o
@@ -2110,7 +2096,7 @@ ex_fs_resize.o: ex_fs_resize.c.o
 
 # target to build an object file
 ex_fs_resize.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/ex_fs_resize.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/ex_fs_resize.c.o
 .PHONY : ex_fs_resize.c.o
 
 ex_fs_resize.i: ex_fs_resize.c.i
@@ -2118,7 +2104,7 @@ ex_fs_resize.i: ex_fs_resize.c.i
 
 # target to preprocess a source file
 ex_fs_resize.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/ex_fs_resize.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/ex_fs_resize.c.i
 .PHONY : ex_fs_resize.c.i
 
 ex_fs_resize.s: ex_fs_resize.c.s
@@ -2126,7 +2112,7 @@ ex_fs_resize.s: ex_fs_resize.c.s
 
 # target to generate assembly for a file
 ex_fs_resize.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/ex_fs_resize.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_resize.dir/build.make examples/CMakeFiles/ex_fs_resize.dir/ex_fs_resize.c.s
 .PHONY : ex_fs_resize.c.s
 
 ex_fs_window.o: ex_fs_window.c.o
@@ -2134,7 +2120,7 @@ ex_fs_window.o: ex_fs_window.c.o
 
 # target to build an object file
 ex_fs_window.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/ex_fs_window.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/ex_fs_window.c.o
 .PHONY : ex_fs_window.c.o
 
 ex_fs_window.i: ex_fs_window.c.i
@@ -2142,7 +2128,7 @@ ex_fs_window.i: ex_fs_window.c.i
 
 # target to preprocess a source file
 ex_fs_window.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/ex_fs_window.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/ex_fs_window.c.i
 .PHONY : ex_fs_window.c.i
 
 ex_fs_window.s: ex_fs_window.c.s
@@ -2150,7 +2136,7 @@ ex_fs_window.s: ex_fs_window.c.s
 
 # target to generate assembly for a file
 ex_fs_window.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/ex_fs_window.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_fs_window.dir/build.make examples/CMakeFiles/ex_fs_window.dir/ex_fs_window.c.s
 .PHONY : ex_fs_window.c.s
 
 ex_get_path.o: ex_get_path.c.o
@@ -2158,7 +2144,7 @@ ex_get_path.o: ex_get_path.c.o
 
 # target to build an object file
 ex_get_path.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/ex_get_path.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/ex_get_path.c.o
 .PHONY : ex_get_path.c.o
 
 ex_get_path.i: ex_get_path.c.i
@@ -2166,7 +2152,7 @@ ex_get_path.i: ex_get_path.c.i
 
 # target to preprocess a source file
 ex_get_path.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/ex_get_path.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/ex_get_path.c.i
 .PHONY : ex_get_path.c.i
 
 ex_get_path.s: ex_get_path.c.s
@@ -2174,7 +2160,7 @@ ex_get_path.s: ex_get_path.c.s
 
 # target to generate assembly for a file
 ex_get_path.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/ex_get_path.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_get_path.dir/build.make examples/CMakeFiles/ex_get_path.dir/ex_get_path.c.s
 .PHONY : ex_get_path.c.s
 
 ex_gldepth.o: ex_gldepth.c.o
@@ -2182,7 +2168,7 @@ ex_gldepth.o: ex_gldepth.c.o
 
 # target to build an object file
 ex_gldepth.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/ex_gldepth.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/ex_gldepth.c.o
 .PHONY : ex_gldepth.c.o
 
 ex_gldepth.i: ex_gldepth.c.i
@@ -2190,7 +2176,7 @@ ex_gldepth.i: ex_gldepth.c.i
 
 # target to preprocess a source file
 ex_gldepth.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/ex_gldepth.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/ex_gldepth.c.i
 .PHONY : ex_gldepth.c.i
 
 ex_gldepth.s: ex_gldepth.c.s
@@ -2198,7 +2184,7 @@ ex_gldepth.s: ex_gldepth.c.s
 
 # target to generate assembly for a file
 ex_gldepth.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/ex_gldepth.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_gldepth.dir/build.make examples/CMakeFiles/ex_gldepth.dir/ex_gldepth.c.s
 .PHONY : ex_gldepth.c.s
 
 ex_glext.o: ex_glext.c.o
@@ -2206,7 +2192,7 @@ ex_glext.o: ex_glext.c.o
 
 # target to build an object file
 ex_glext.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/ex_glext.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/ex_glext.c.o
 .PHONY : ex_glext.c.o
 
 ex_glext.i: ex_glext.c.i
@@ -2214,7 +2200,7 @@ ex_glext.i: ex_glext.c.i
 
 # target to preprocess a source file
 ex_glext.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/ex_glext.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/ex_glext.c.i
 .PHONY : ex_glext.c.i
 
 ex_glext.s: ex_glext.c.s
@@ -2222,7 +2208,7 @@ ex_glext.s: ex_glext.c.s
 
 # target to generate assembly for a file
 ex_glext.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/ex_glext.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_glext.dir/build.make examples/CMakeFiles/ex_glext.dir/ex_glext.c.s
 .PHONY : ex_glext.c.s
 
 ex_haiku.o: ex_haiku.c.o
@@ -2230,7 +2216,7 @@ ex_haiku.o: ex_haiku.c.o
 
 # target to build an object file
 ex_haiku.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/ex_haiku.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/ex_haiku.c.o
 .PHONY : ex_haiku.c.o
 
 ex_haiku.i: ex_haiku.c.i
@@ -2238,7 +2224,7 @@ ex_haiku.i: ex_haiku.c.i
 
 # target to preprocess a source file
 ex_haiku.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/ex_haiku.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/ex_haiku.c.i
 .PHONY : ex_haiku.c.i
 
 ex_haiku.s: ex_haiku.c.s
@@ -2246,7 +2232,7 @@ ex_haiku.s: ex_haiku.c.s
 
 # target to generate assembly for a file
 ex_haiku.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/ex_haiku.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_haiku.dir/build.make examples/CMakeFiles/ex_haiku.dir/ex_haiku.c.s
 .PHONY : ex_haiku.c.s
 
 ex_icon.o: ex_icon.c.o
@@ -2254,7 +2240,7 @@ ex_icon.o: ex_icon.c.o
 
 # target to build an object file
 ex_icon.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/ex_icon.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/ex_icon.c.o
 .PHONY : ex_icon.c.o
 
 ex_icon.i: ex_icon.c.i
@@ -2262,7 +2248,7 @@ ex_icon.i: ex_icon.c.i
 
 # target to preprocess a source file
 ex_icon.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/ex_icon.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/ex_icon.c.i
 .PHONY : ex_icon.c.i
 
 ex_icon.s: ex_icon.c.s
@@ -2270,7 +2256,7 @@ ex_icon.s: ex_icon.c.s
 
 # target to generate assembly for a file
 ex_icon.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/ex_icon.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_icon.dir/build.make examples/CMakeFiles/ex_icon.dir/ex_icon.c.s
 .PHONY : ex_icon.c.s
 
 ex_joystick_events.o: ex_joystick_events.c.o
@@ -2278,7 +2264,7 @@ ex_joystick_events.o: ex_joystick_events.c.o
 
 # target to build an object file
 ex_joystick_events.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/ex_joystick_events.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/ex_joystick_events.c.o
 .PHONY : ex_joystick_events.c.o
 
 ex_joystick_events.i: ex_joystick_events.c.i
@@ -2286,7 +2272,7 @@ ex_joystick_events.i: ex_joystick_events.c.i
 
 # target to preprocess a source file
 ex_joystick_events.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/ex_joystick_events.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/ex_joystick_events.c.i
 .PHONY : ex_joystick_events.c.i
 
 ex_joystick_events.s: ex_joystick_events.c.s
@@ -2294,7 +2280,7 @@ ex_joystick_events.s: ex_joystick_events.c.s
 
 # target to generate assembly for a file
 ex_joystick_events.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/ex_joystick_events.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_events.dir/build.make examples/CMakeFiles/ex_joystick_events.dir/ex_joystick_events.c.s
 .PHONY : ex_joystick_events.c.s
 
 ex_joystick_hotplugging.o: ex_joystick_hotplugging.c.o
@@ -2302,7 +2288,7 @@ ex_joystick_hotplugging.o: ex_joystick_hotplugging.c.o
 
 # target to build an object file
 ex_joystick_hotplugging.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/ex_joystick_hotplugging.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/ex_joystick_hotplugging.c.o
 .PHONY : ex_joystick_hotplugging.c.o
 
 ex_joystick_hotplugging.i: ex_joystick_hotplugging.c.i
@@ -2310,7 +2296,7 @@ ex_joystick_hotplugging.i: ex_joystick_hotplugging.c.i
 
 # target to preprocess a source file
 ex_joystick_hotplugging.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/ex_joystick_hotplugging.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/ex_joystick_hotplugging.c.i
 .PHONY : ex_joystick_hotplugging.c.i
 
 ex_joystick_hotplugging.s: ex_joystick_hotplugging.c.s
@@ -2318,7 +2304,7 @@ ex_joystick_hotplugging.s: ex_joystick_hotplugging.c.s
 
 # target to generate assembly for a file
 ex_joystick_hotplugging.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/ex_joystick_hotplugging.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_joystick_hotplugging.dir/build.make examples/CMakeFiles/ex_joystick_hotplugging.dir/ex_joystick_hotplugging.c.s
 .PHONY : ex_joystick_hotplugging.c.s
 
 ex_kcm_direct.o: ex_kcm_direct.c.o
@@ -2326,7 +2312,7 @@ ex_kcm_direct.o: ex_kcm_direct.c.o
 
 # target to build an object file
 ex_kcm_direct.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/ex_kcm_direct.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/ex_kcm_direct.c.o
 .PHONY : ex_kcm_direct.c.o
 
 ex_kcm_direct.i: ex_kcm_direct.c.i
@@ -2334,7 +2320,7 @@ ex_kcm_direct.i: ex_kcm_direct.c.i
 
 # target to preprocess a source file
 ex_kcm_direct.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/ex_kcm_direct.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/ex_kcm_direct.c.i
 .PHONY : ex_kcm_direct.c.i
 
 ex_kcm_direct.s: ex_kcm_direct.c.s
@@ -2342,7 +2328,7 @@ ex_kcm_direct.s: ex_kcm_direct.c.s
 
 # target to generate assembly for a file
 ex_kcm_direct.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/ex_kcm_direct.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_kcm_direct.dir/build.make examples/CMakeFiles/ex_kcm_direct.dir/ex_kcm_direct.c.s
 .PHONY : ex_kcm_direct.c.s
 
 ex_keyboard_events.o: ex_keyboard_events.c.o
@@ -2350,7 +2336,7 @@ ex_keyboard_events.o: ex_keyboard_events.c.o
 
 # target to build an object file
 ex_keyboard_events.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/ex_keyboard_events.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/ex_keyboard_events.c.o
 .PHONY : ex_keyboard_events.c.o
 
 ex_keyboard_events.i: ex_keyboard_events.c.i
@@ -2358,7 +2344,7 @@ ex_keyboard_events.i: ex_keyboard_events.c.i
 
 # target to preprocess a source file
 ex_keyboard_events.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/ex_keyboard_events.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/ex_keyboard_events.c.i
 .PHONY : ex_keyboard_events.c.i
 
 ex_keyboard_events.s: ex_keyboard_events.c.s
@@ -2366,7 +2352,7 @@ ex_keyboard_events.s: ex_keyboard_events.c.s
 
 # target to generate assembly for a file
 ex_keyboard_events.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/ex_keyboard_events.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_events.dir/build.make examples/CMakeFiles/ex_keyboard_events.dir/ex_keyboard_events.c.s
 .PHONY : ex_keyboard_events.c.s
 
 ex_keyboard_focus.o: ex_keyboard_focus.c.o
@@ -2374,7 +2360,7 @@ ex_keyboard_focus.o: ex_keyboard_focus.c.o
 
 # target to build an object file
 ex_keyboard_focus.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/ex_keyboard_focus.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/ex_keyboard_focus.c.o
 .PHONY : ex_keyboard_focus.c.o
 
 ex_keyboard_focus.i: ex_keyboard_focus.c.i
@@ -2382,7 +2368,7 @@ ex_keyboard_focus.i: ex_keyboard_focus.c.i
 
 # target to preprocess a source file
 ex_keyboard_focus.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/ex_keyboard_focus.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/ex_keyboard_focus.c.i
 .PHONY : ex_keyboard_focus.c.i
 
 ex_keyboard_focus.s: ex_keyboard_focus.c.s
@@ -2390,7 +2376,7 @@ ex_keyboard_focus.s: ex_keyboard_focus.c.s
 
 # target to generate assembly for a file
 ex_keyboard_focus.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/ex_keyboard_focus.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_keyboard_focus.dir/build.make examples/CMakeFiles/ex_keyboard_focus.dir/ex_keyboard_focus.c.s
 .PHONY : ex_keyboard_focus.c.s
 
 ex_lines.o: ex_lines.c.o
@@ -2398,7 +2384,7 @@ ex_lines.o: ex_lines.c.o
 
 # target to build an object file
 ex_lines.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/ex_lines.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/ex_lines.c.o
 .PHONY : ex_lines.c.o
 
 ex_lines.i: ex_lines.c.i
@@ -2406,7 +2392,7 @@ ex_lines.i: ex_lines.c.i
 
 # target to preprocess a source file
 ex_lines.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/ex_lines.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/ex_lines.c.i
 .PHONY : ex_lines.c.i
 
 ex_lines.s: ex_lines.c.s
@@ -2414,7 +2400,7 @@ ex_lines.s: ex_lines.c.s
 
 # target to generate assembly for a file
 ex_lines.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/ex_lines.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lines.dir/build.make examples/CMakeFiles/ex_lines.dir/ex_lines.c.s
 .PHONY : ex_lines.c.s
 
 ex_lockbitmap.o: ex_lockbitmap.c.o
@@ -2422,7 +2408,7 @@ ex_lockbitmap.o: ex_lockbitmap.c.o
 
 # target to build an object file
 ex_lockbitmap.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/ex_lockbitmap.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/ex_lockbitmap.c.o
 .PHONY : ex_lockbitmap.c.o
 
 ex_lockbitmap.i: ex_lockbitmap.c.i
@@ -2430,7 +2416,7 @@ ex_lockbitmap.i: ex_lockbitmap.c.i
 
 # target to preprocess a source file
 ex_lockbitmap.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/ex_lockbitmap.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/ex_lockbitmap.c.i
 .PHONY : ex_lockbitmap.c.i
 
 ex_lockbitmap.s: ex_lockbitmap.c.s
@@ -2438,7 +2424,7 @@ ex_lockbitmap.s: ex_lockbitmap.c.s
 
 # target to generate assembly for a file
 ex_lockbitmap.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/ex_lockbitmap.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_lockbitmap.dir/build.make examples/CMakeFiles/ex_lockbitmap.dir/ex_lockbitmap.c.s
 .PHONY : ex_lockbitmap.c.s
 
 ex_logo.o: ex_logo.c.o
@@ -2446,7 +2432,7 @@ ex_logo.o: ex_logo.c.o
 
 # target to build an object file
 ex_logo.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/ex_logo.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/ex_logo.c.o
 .PHONY : ex_logo.c.o
 
 ex_logo.i: ex_logo.c.i
@@ -2454,7 +2440,7 @@ ex_logo.i: ex_logo.c.i
 
 # target to preprocess a source file
 ex_logo.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/ex_logo.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/ex_logo.c.i
 .PHONY : ex_logo.c.i
 
 ex_logo.s: ex_logo.c.s
@@ -2462,7 +2448,7 @@ ex_logo.s: ex_logo.c.s
 
 # target to generate assembly for a file
 ex_logo.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/ex_logo.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_logo.dir/build.make examples/CMakeFiles/ex_logo.dir/ex_logo.c.s
 .PHONY : ex_logo.c.s
 
 ex_membmp.o: ex_membmp.c.o
@@ -2470,7 +2456,7 @@ ex_membmp.o: ex_membmp.c.o
 
 # target to build an object file
 ex_membmp.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/ex_membmp.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/ex_membmp.c.o
 .PHONY : ex_membmp.c.o
 
 ex_membmp.i: ex_membmp.c.i
@@ -2478,7 +2464,7 @@ ex_membmp.i: ex_membmp.c.i
 
 # target to preprocess a source file
 ex_membmp.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/ex_membmp.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/ex_membmp.c.i
 .PHONY : ex_membmp.c.i
 
 ex_membmp.s: ex_membmp.c.s
@@ -2486,7 +2472,7 @@ ex_membmp.s: ex_membmp.c.s
 
 # target to generate assembly for a file
 ex_membmp.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/ex_membmp.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_membmp.dir/build.make examples/CMakeFiles/ex_membmp.dir/ex_membmp.c.s
 .PHONY : ex_membmp.c.s
 
 ex_memfile.o: ex_memfile.c.o
@@ -2494,7 +2480,7 @@ ex_memfile.o: ex_memfile.c.o
 
 # target to build an object file
 ex_memfile.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/ex_memfile.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/ex_memfile.c.o
 .PHONY : ex_memfile.c.o
 
 ex_memfile.i: ex_memfile.c.i
@@ -2502,7 +2488,7 @@ ex_memfile.i: ex_memfile.c.i
 
 # target to preprocess a source file
 ex_memfile.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/ex_memfile.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/ex_memfile.c.i
 .PHONY : ex_memfile.c.i
 
 ex_memfile.s: ex_memfile.c.s
@@ -2510,7 +2496,7 @@ ex_memfile.s: ex_memfile.c.s
 
 # target to generate assembly for a file
 ex_memfile.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/ex_memfile.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_memfile.dir/build.make examples/CMakeFiles/ex_memfile.dir/ex_memfile.c.s
 .PHONY : ex_memfile.c.s
 
 ex_mixer_chain.o: ex_mixer_chain.c.o
@@ -2518,7 +2504,7 @@ ex_mixer_chain.o: ex_mixer_chain.c.o
 
 # target to build an object file
 ex_mixer_chain.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.o
 .PHONY : ex_mixer_chain.c.o
 
 ex_mixer_chain.i: ex_mixer_chain.c.i
@@ -2526,7 +2512,7 @@ ex_mixer_chain.i: ex_mixer_chain.c.i
 
 # target to preprocess a source file
 ex_mixer_chain.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.i
 .PHONY : ex_mixer_chain.c.i
 
 ex_mixer_chain.s: ex_mixer_chain.c.s
@@ -2534,7 +2520,7 @@ ex_mixer_chain.s: ex_mixer_chain.c.s
 
 # target to generate assembly for a file
 ex_mixer_chain.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_chain.dir/build.make examples/CMakeFiles/ex_mixer_chain.dir/ex_mixer_chain.c.s
 .PHONY : ex_mixer_chain.c.s
 
 ex_mixer_pp.o: ex_mixer_pp.c.o
@@ -2542,7 +2528,7 @@ ex_mixer_pp.o: ex_mixer_pp.c.o
 
 # target to build an object file
 ex_mixer_pp.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/ex_mixer_pp.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/ex_mixer_pp.c.o
 .PHONY : ex_mixer_pp.c.o
 
 ex_mixer_pp.i: ex_mixer_pp.c.i
@@ -2550,7 +2536,7 @@ ex_mixer_pp.i: ex_mixer_pp.c.i
 
 # target to preprocess a source file
 ex_mixer_pp.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/ex_mixer_pp.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/ex_mixer_pp.c.i
 .PHONY : ex_mixer_pp.c.i
 
 ex_mixer_pp.s: ex_mixer_pp.c.s
@@ -2558,7 +2544,7 @@ ex_mixer_pp.s: ex_mixer_pp.c.s
 
 # target to generate assembly for a file
 ex_mixer_pp.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/ex_mixer_pp.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mixer_pp.dir/build.make examples/CMakeFiles/ex_mixer_pp.dir/ex_mixer_pp.c.s
 .PHONY : ex_mixer_pp.c.s
 
 ex_monitorinfo.o: ex_monitorinfo.c.o
@@ -2566,7 +2552,7 @@ ex_monitorinfo.o: ex_monitorinfo.c.o
 
 # target to build an object file
 ex_monitorinfo.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/ex_monitorinfo.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/ex_monitorinfo.c.o
 .PHONY : ex_monitorinfo.c.o
 
 ex_monitorinfo.i: ex_monitorinfo.c.i
@@ -2574,7 +2560,7 @@ ex_monitorinfo.i: ex_monitorinfo.c.i
 
 # target to preprocess a source file
 ex_monitorinfo.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/ex_monitorinfo.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/ex_monitorinfo.c.i
 .PHONY : ex_monitorinfo.c.i
 
 ex_monitorinfo.s: ex_monitorinfo.c.s
@@ -2582,7 +2568,7 @@ ex_monitorinfo.s: ex_monitorinfo.c.s
 
 # target to generate assembly for a file
 ex_monitorinfo.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/ex_monitorinfo.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_monitorinfo.dir/build.make examples/CMakeFiles/ex_monitorinfo.dir/ex_monitorinfo.c.s
 .PHONY : ex_monitorinfo.c.s
 
 ex_mouse.o: ex_mouse.c.o
@@ -2590,7 +2576,7 @@ ex_mouse.o: ex_mouse.c.o
 
 # target to build an object file
 ex_mouse.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/ex_mouse.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/ex_mouse.c.o
 .PHONY : ex_mouse.c.o
 
 ex_mouse.i: ex_mouse.c.i
@@ -2598,7 +2584,7 @@ ex_mouse.i: ex_mouse.c.i
 
 # target to preprocess a source file
 ex_mouse.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/ex_mouse.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/ex_mouse.c.i
 .PHONY : ex_mouse.c.i
 
 ex_mouse.s: ex_mouse.c.s
@@ -2606,7 +2592,7 @@ ex_mouse.s: ex_mouse.c.s
 
 # target to generate assembly for a file
 ex_mouse.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/ex_mouse.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse.dir/build.make examples/CMakeFiles/ex_mouse.dir/ex_mouse.c.s
 .PHONY : ex_mouse.c.s
 
 ex_mouse_cursor.o: ex_mouse_cursor.c.o
@@ -2614,7 +2600,7 @@ ex_mouse_cursor.o: ex_mouse_cursor.c.o
 
 # target to build an object file
 ex_mouse_cursor.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/ex_mouse_cursor.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/ex_mouse_cursor.c.o
 .PHONY : ex_mouse_cursor.c.o
 
 ex_mouse_cursor.i: ex_mouse_cursor.c.i
@@ -2622,7 +2608,7 @@ ex_mouse_cursor.i: ex_mouse_cursor.c.i
 
 # target to preprocess a source file
 ex_mouse_cursor.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/ex_mouse_cursor.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/ex_mouse_cursor.c.i
 .PHONY : ex_mouse_cursor.c.i
 
 ex_mouse_cursor.s: ex_mouse_cursor.c.s
@@ -2630,7 +2616,7 @@ ex_mouse_cursor.s: ex_mouse_cursor.c.s
 
 # target to generate assembly for a file
 ex_mouse_cursor.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/ex_mouse_cursor.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_cursor.dir/build.make examples/CMakeFiles/ex_mouse_cursor.dir/ex_mouse_cursor.c.s
 .PHONY : ex_mouse_cursor.c.s
 
 ex_mouse_events.o: ex_mouse_events.c.o
@@ -2638,7 +2624,7 @@ ex_mouse_events.o: ex_mouse_events.c.o
 
 # target to build an object file
 ex_mouse_events.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.o
 .PHONY : ex_mouse_events.c.o
 
 ex_mouse_events.i: ex_mouse_events.c.i
@@ -2646,7 +2632,7 @@ ex_mouse_events.i: ex_mouse_events.c.i
 
 # target to preprocess a source file
 ex_mouse_events.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.i
 .PHONY : ex_mouse_events.c.i
 
 ex_mouse_events.s: ex_mouse_events.c.s
@@ -2654,7 +2640,7 @@ ex_mouse_events.s: ex_mouse_events.c.s
 
 # target to generate assembly for a file
 ex_mouse_events.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_events.dir/build.make examples/CMakeFiles/ex_mouse_events.dir/ex_mouse_events.c.s
 .PHONY : ex_mouse_events.c.s
 
 ex_mouse_focus.o: ex_mouse_focus.c.o
@@ -2662,7 +2648,7 @@ ex_mouse_focus.o: ex_mouse_focus.c.o
 
 # target to build an object file
 ex_mouse_focus.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/ex_mouse_focus.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/ex_mouse_focus.c.o
 .PHONY : ex_mouse_focus.c.o
 
 ex_mouse_focus.i: ex_mouse_focus.c.i
@@ -2670,7 +2656,7 @@ ex_mouse_focus.i: ex_mouse_focus.c.i
 
 # target to preprocess a source file
 ex_mouse_focus.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/ex_mouse_focus.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/ex_mouse_focus.c.i
 .PHONY : ex_mouse_focus.c.i
 
 ex_mouse_focus.s: ex_mouse_focus.c.s
@@ -2678,7 +2664,7 @@ ex_mouse_focus.s: ex_mouse_focus.c.s
 
 # target to generate assembly for a file
 ex_mouse_focus.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/ex_mouse_focus.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_mouse_focus.dir/build.make examples/CMakeFiles/ex_mouse_focus.dir/ex_mouse_focus.c.s
 .PHONY : ex_mouse_focus.c.s
 
 ex_multisample.o: ex_multisample.c.o
@@ -2686,7 +2672,7 @@ ex_multisample.o: ex_multisample.c.o
 
 # target to build an object file
 ex_multisample.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/ex_multisample.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/ex_multisample.c.o
 .PHONY : ex_multisample.c.o
 
 ex_multisample.i: ex_multisample.c.i
@@ -2694,7 +2680,7 @@ ex_multisample.i: ex_multisample.c.i
 
 # target to preprocess a source file
 ex_multisample.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/ex_multisample.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/ex_multisample.c.i
 .PHONY : ex_multisample.c.i
 
 ex_multisample.s: ex_multisample.c.s
@@ -2702,7 +2688,7 @@ ex_multisample.s: ex_multisample.c.s
 
 # target to generate assembly for a file
 ex_multisample.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/ex_multisample.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multisample.dir/build.make examples/CMakeFiles/ex_multisample.dir/ex_multisample.c.s
 .PHONY : ex_multisample.c.s
 
 ex_multiwin.o: ex_multiwin.c.o
@@ -2710,7 +2696,7 @@ ex_multiwin.o: ex_multiwin.c.o
 
 # target to build an object file
 ex_multiwin.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/ex_multiwin.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/ex_multiwin.c.o
 .PHONY : ex_multiwin.c.o
 
 ex_multiwin.i: ex_multiwin.c.i
@@ -2718,7 +2704,7 @@ ex_multiwin.i: ex_multiwin.c.i
 
 # target to preprocess a source file
 ex_multiwin.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/ex_multiwin.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/ex_multiwin.c.i
 .PHONY : ex_multiwin.c.i
 
 ex_multiwin.s: ex_multiwin.c.s
@@ -2726,7 +2712,7 @@ ex_multiwin.s: ex_multiwin.c.s
 
 # target to generate assembly for a file
 ex_multiwin.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/ex_multiwin.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_multiwin.dir/build.make examples/CMakeFiles/ex_multiwin.dir/ex_multiwin.c.s
 .PHONY : ex_multiwin.c.s
 
 ex_native_filechooser.o: ex_native_filechooser.c.o
@@ -2734,7 +2720,7 @@ ex_native_filechooser.o: ex_native_filechooser.c.o
 
 # target to build an object file
 ex_native_filechooser.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/ex_native_filechooser.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/ex_native_filechooser.c.o
 .PHONY : ex_native_filechooser.c.o
 
 ex_native_filechooser.i: ex_native_filechooser.c.i
@@ -2742,7 +2728,7 @@ ex_native_filechooser.i: ex_native_filechooser.c.i
 
 # target to preprocess a source file
 ex_native_filechooser.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/ex_native_filechooser.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/ex_native_filechooser.c.i
 .PHONY : ex_native_filechooser.c.i
 
 ex_native_filechooser.s: ex_native_filechooser.c.s
@@ -2750,7 +2736,7 @@ ex_native_filechooser.s: ex_native_filechooser.c.s
 
 # target to generate assembly for a file
 ex_native_filechooser.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/ex_native_filechooser.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_native_filechooser.dir/build.make examples/CMakeFiles/ex_native_filechooser.dir/ex_native_filechooser.c.s
 .PHONY : ex_native_filechooser.c.s
 
 ex_nodisplay.o: ex_nodisplay.c.o
@@ -2758,7 +2744,7 @@ ex_nodisplay.o: ex_nodisplay.c.o
 
 # target to build an object file
 ex_nodisplay.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/ex_nodisplay.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/ex_nodisplay.c.o
 .PHONY : ex_nodisplay.c.o
 
 ex_nodisplay.i: ex_nodisplay.c.i
@@ -2766,7 +2752,7 @@ ex_nodisplay.i: ex_nodisplay.c.i
 
 # target to preprocess a source file
 ex_nodisplay.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/ex_nodisplay.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/ex_nodisplay.c.i
 .PHONY : ex_nodisplay.c.i
 
 ex_nodisplay.s: ex_nodisplay.c.s
@@ -2774,7 +2760,7 @@ ex_nodisplay.s: ex_nodisplay.c.s
 
 # target to generate assembly for a file
 ex_nodisplay.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/ex_nodisplay.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_nodisplay.dir/build.make examples/CMakeFiles/ex_nodisplay.dir/ex_nodisplay.c.s
 .PHONY : ex_nodisplay.c.s
 
 ex_noframe.o: ex_noframe.c.o
@@ -2782,7 +2768,7 @@ ex_noframe.o: ex_noframe.c.o
 
 # target to build an object file
 ex_noframe.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/ex_noframe.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/ex_noframe.c.o
 .PHONY : ex_noframe.c.o
 
 ex_noframe.i: ex_noframe.c.i
@@ -2790,7 +2776,7 @@ ex_noframe.i: ex_noframe.c.i
 
 # target to preprocess a source file
 ex_noframe.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/ex_noframe.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/ex_noframe.c.i
 .PHONY : ex_noframe.c.i
 
 ex_noframe.s: ex_noframe.c.s
@@ -2798,7 +2784,7 @@ ex_noframe.s: ex_noframe.c.s
 
 # target to generate assembly for a file
 ex_noframe.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/ex_noframe.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_noframe.dir/build.make examples/CMakeFiles/ex_noframe.dir/ex_noframe.c.s
 .PHONY : ex_noframe.c.s
 
 ex_opengl.o: ex_opengl.c.o
@@ -2806,7 +2792,7 @@ ex_opengl.o: ex_opengl.c.o
 
 # target to build an object file
 ex_opengl.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/ex_opengl.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/ex_opengl.c.o
 .PHONY : ex_opengl.c.o
 
 ex_opengl.i: ex_opengl.c.i
@@ -2814,7 +2800,7 @@ ex_opengl.i: ex_opengl.c.i
 
 # target to preprocess a source file
 ex_opengl.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/ex_opengl.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/ex_opengl.c.i
 .PHONY : ex_opengl.c.i
 
 ex_opengl.s: ex_opengl.c.s
@@ -2822,7 +2808,7 @@ ex_opengl.s: ex_opengl.c.s
 
 # target to generate assembly for a file
 ex_opengl.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/ex_opengl.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl.dir/build.make examples/CMakeFiles/ex_opengl.dir/ex_opengl.c.s
 .PHONY : ex_opengl.c.s
 
 ex_opengl_pixel_shader.o: ex_opengl_pixel_shader.c.o
@@ -2830,7 +2816,7 @@ ex_opengl_pixel_shader.o: ex_opengl_pixel_shader.c.o
 
 # target to build an object file
 ex_opengl_pixel_shader.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/ex_opengl_pixel_shader.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/ex_opengl_pixel_shader.c.o
 .PHONY : ex_opengl_pixel_shader.c.o
 
 ex_opengl_pixel_shader.i: ex_opengl_pixel_shader.c.i
@@ -2838,7 +2824,7 @@ ex_opengl_pixel_shader.i: ex_opengl_pixel_shader.c.i
 
 # target to preprocess a source file
 ex_opengl_pixel_shader.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/ex_opengl_pixel_shader.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/ex_opengl_pixel_shader.c.i
 .PHONY : ex_opengl_pixel_shader.c.i
 
 ex_opengl_pixel_shader.s: ex_opengl_pixel_shader.c.s
@@ -2846,7 +2832,7 @@ ex_opengl_pixel_shader.s: ex_opengl_pixel_shader.c.s
 
 # target to generate assembly for a file
 ex_opengl_pixel_shader.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/ex_opengl_pixel_shader.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_opengl_pixel_shader.dir/build.make examples/CMakeFiles/ex_opengl_pixel_shader.dir/ex_opengl_pixel_shader.c.s
 .PHONY : ex_opengl_pixel_shader.c.s
 
 ex_path.o: ex_path.c.o
@@ -2854,7 +2840,7 @@ ex_path.o: ex_path.c.o
 
 # target to build an object file
 ex_path.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/ex_path.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/ex_path.c.o
 .PHONY : ex_path.c.o
 
 ex_path.i: ex_path.c.i
@@ -2862,7 +2848,7 @@ ex_path.i: ex_path.c.i
 
 # target to preprocess a source file
 ex_path.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/ex_path.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/ex_path.c.i
 .PHONY : ex_path.c.i
 
 ex_path.s: ex_path.c.s
@@ -2870,7 +2856,7 @@ ex_path.s: ex_path.c.s
 
 # target to generate assembly for a file
 ex_path.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/ex_path.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path.dir/build.make examples/CMakeFiles/ex_path.dir/ex_path.c.s
 .PHONY : ex_path.c.s
 
 ex_path_test.o: ex_path_test.c.o
@@ -2878,7 +2864,7 @@ ex_path_test.o: ex_path_test.c.o
 
 # target to build an object file
 ex_path_test.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/ex_path_test.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/ex_path_test.c.o
 .PHONY : ex_path_test.c.o
 
 ex_path_test.i: ex_path_test.c.i
@@ -2886,7 +2872,7 @@ ex_path_test.i: ex_path_test.c.i
 
 # target to preprocess a source file
 ex_path_test.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/ex_path_test.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/ex_path_test.c.i
 .PHONY : ex_path_test.c.i
 
 ex_path_test.s: ex_path_test.c.s
@@ -2894,39 +2880,15 @@ ex_path_test.s: ex_path_test.c.s
 
 # target to generate assembly for a file
 ex_path_test.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/ex_path_test.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/ex_path_test.c.s
 .PHONY : ex_path_test.c.s
-
-ex_physfs.o: ex_physfs.c.o
-.PHONY : ex_physfs.o
-
-# target to build an object file
-ex_physfs.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_physfs.dir/build.make examples/CMakeFiles/ex_physfs.dir/ex_physfs.c.o
-.PHONY : ex_physfs.c.o
-
-ex_physfs.i: ex_physfs.c.i
-.PHONY : ex_physfs.i
-
-# target to preprocess a source file
-ex_physfs.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_physfs.dir/build.make examples/CMakeFiles/ex_physfs.dir/ex_physfs.c.i
-.PHONY : ex_physfs.c.i
-
-ex_physfs.s: ex_physfs.c.s
-.PHONY : ex_physfs.s
-
-# target to generate assembly for a file
-ex_physfs.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_physfs.dir/build.make examples/CMakeFiles/ex_physfs.dir/ex_physfs.c.s
-.PHONY : ex_physfs.c.s
 
 ex_pixelformat.o: ex_pixelformat.cpp.o
 .PHONY : ex_pixelformat.o
 
 # target to build an object file
 ex_pixelformat.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/ex_pixelformat.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/ex_pixelformat.cpp.o
 .PHONY : ex_pixelformat.cpp.o
 
 ex_pixelformat.i: ex_pixelformat.cpp.i
@@ -2934,7 +2896,7 @@ ex_pixelformat.i: ex_pixelformat.cpp.i
 
 # target to preprocess a source file
 ex_pixelformat.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/ex_pixelformat.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/ex_pixelformat.cpp.i
 .PHONY : ex_pixelformat.cpp.i
 
 ex_pixelformat.s: ex_pixelformat.cpp.s
@@ -2942,7 +2904,7 @@ ex_pixelformat.s: ex_pixelformat.cpp.s
 
 # target to generate assembly for a file
 ex_pixelformat.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/ex_pixelformat.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/ex_pixelformat.cpp.s
 .PHONY : ex_pixelformat.cpp.s
 
 ex_premulalpha.o: ex_premulalpha.c.o
@@ -2950,7 +2912,7 @@ ex_premulalpha.o: ex_premulalpha.c.o
 
 # target to build an object file
 ex_premulalpha.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/ex_premulalpha.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/ex_premulalpha.c.o
 .PHONY : ex_premulalpha.c.o
 
 ex_premulalpha.i: ex_premulalpha.c.i
@@ -2958,7 +2920,7 @@ ex_premulalpha.i: ex_premulalpha.c.i
 
 # target to preprocess a source file
 ex_premulalpha.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/ex_premulalpha.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/ex_premulalpha.c.i
 .PHONY : ex_premulalpha.c.i
 
 ex_premulalpha.s: ex_premulalpha.c.s
@@ -2966,7 +2928,7 @@ ex_premulalpha.s: ex_premulalpha.c.s
 
 # target to generate assembly for a file
 ex_premulalpha.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/ex_premulalpha.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_premulalpha.dir/build.make examples/CMakeFiles/ex_premulalpha.dir/ex_premulalpha.c.s
 .PHONY : ex_premulalpha.c.s
 
 ex_prim.o: ex_prim.c.o
@@ -2974,7 +2936,7 @@ ex_prim.o: ex_prim.c.o
 
 # target to build an object file
 ex_prim.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/ex_prim.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/ex_prim.c.o
 .PHONY : ex_prim.c.o
 
 ex_prim.i: ex_prim.c.i
@@ -2982,7 +2944,7 @@ ex_prim.i: ex_prim.c.i
 
 # target to preprocess a source file
 ex_prim.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/ex_prim.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/ex_prim.c.i
 .PHONY : ex_prim.c.i
 
 ex_prim.s: ex_prim.c.s
@@ -2990,7 +2952,7 @@ ex_prim.s: ex_prim.c.s
 
 # target to generate assembly for a file
 ex_prim.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/ex_prim.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_prim.dir/build.make examples/CMakeFiles/ex_prim.dir/ex_prim.c.s
 .PHONY : ex_prim.c.s
 
 ex_resample_test.o: ex_resample_test.c.o
@@ -2998,7 +2960,7 @@ ex_resample_test.o: ex_resample_test.c.o
 
 # target to build an object file
 ex_resample_test.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/ex_resample_test.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/ex_resample_test.c.o
 .PHONY : ex_resample_test.c.o
 
 ex_resample_test.i: ex_resample_test.c.i
@@ -3006,7 +2968,7 @@ ex_resample_test.i: ex_resample_test.c.i
 
 # target to preprocess a source file
 ex_resample_test.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/ex_resample_test.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/ex_resample_test.c.i
 .PHONY : ex_resample_test.c.i
 
 ex_resample_test.s: ex_resample_test.c.s
@@ -3014,7 +2976,7 @@ ex_resample_test.s: ex_resample_test.c.s
 
 # target to generate assembly for a file
 ex_resample_test.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/ex_resample_test.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resample_test.dir/build.make examples/CMakeFiles/ex_resample_test.dir/ex_resample_test.c.s
 .PHONY : ex_resample_test.c.s
 
 ex_resize.o: ex_resize.c.o
@@ -3022,7 +2984,7 @@ ex_resize.o: ex_resize.c.o
 
 # target to build an object file
 ex_resize.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/ex_resize.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/ex_resize.c.o
 .PHONY : ex_resize.c.o
 
 ex_resize.i: ex_resize.c.i
@@ -3030,7 +2992,7 @@ ex_resize.i: ex_resize.c.i
 
 # target to preprocess a source file
 ex_resize.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/ex_resize.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/ex_resize.c.i
 .PHONY : ex_resize.c.i
 
 ex_resize.s: ex_resize.c.s
@@ -3038,7 +3000,7 @@ ex_resize.s: ex_resize.c.s
 
 # target to generate assembly for a file
 ex_resize.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/ex_resize.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize.dir/build.make examples/CMakeFiles/ex_resize.dir/ex_resize.c.s
 .PHONY : ex_resize.c.s
 
 ex_resize2.o: ex_resize2.c.o
@@ -3046,7 +3008,7 @@ ex_resize2.o: ex_resize2.c.o
 
 # target to build an object file
 ex_resize2.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/ex_resize2.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/ex_resize2.c.o
 .PHONY : ex_resize2.c.o
 
 ex_resize2.i: ex_resize2.c.i
@@ -3054,7 +3016,7 @@ ex_resize2.i: ex_resize2.c.i
 
 # target to preprocess a source file
 ex_resize2.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/ex_resize2.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/ex_resize2.c.i
 .PHONY : ex_resize2.c.i
 
 ex_resize2.s: ex_resize2.c.s
@@ -3062,7 +3024,7 @@ ex_resize2.s: ex_resize2.c.s
 
 # target to generate assembly for a file
 ex_resize2.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/ex_resize2.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_resize2.dir/build.make examples/CMakeFiles/ex_resize2.dir/ex_resize2.c.s
 .PHONY : ex_resize2.c.s
 
 ex_rotate.o: ex_rotate.c.o
@@ -3070,7 +3032,7 @@ ex_rotate.o: ex_rotate.c.o
 
 # target to build an object file
 ex_rotate.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/ex_rotate.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/ex_rotate.c.o
 .PHONY : ex_rotate.c.o
 
 ex_rotate.i: ex_rotate.c.i
@@ -3078,7 +3040,7 @@ ex_rotate.i: ex_rotate.c.i
 
 # target to preprocess a source file
 ex_rotate.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/ex_rotate.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/ex_rotate.c.i
 .PHONY : ex_rotate.c.i
 
 ex_rotate.s: ex_rotate.c.s
@@ -3086,7 +3048,7 @@ ex_rotate.s: ex_rotate.c.s
 
 # target to generate assembly for a file
 ex_rotate.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/ex_rotate.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_rotate.dir/build.make examples/CMakeFiles/ex_rotate.dir/ex_rotate.c.s
 .PHONY : ex_rotate.c.s
 
 ex_saw.o: ex_saw.c.o
@@ -3094,7 +3056,7 @@ ex_saw.o: ex_saw.c.o
 
 # target to build an object file
 ex_saw.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/ex_saw.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/ex_saw.c.o
 .PHONY : ex_saw.c.o
 
 ex_saw.i: ex_saw.c.i
@@ -3102,7 +3064,7 @@ ex_saw.i: ex_saw.c.i
 
 # target to preprocess a source file
 ex_saw.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/ex_saw.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/ex_saw.c.i
 .PHONY : ex_saw.c.i
 
 ex_saw.s: ex_saw.c.s
@@ -3110,7 +3072,7 @@ ex_saw.s: ex_saw.c.s
 
 # target to generate assembly for a file
 ex_saw.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/ex_saw.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_saw.dir/build.make examples/CMakeFiles/ex_saw.dir/ex_saw.c.s
 .PHONY : ex_saw.c.s
 
 ex_scale.o: ex_scale.c.o
@@ -3118,7 +3080,7 @@ ex_scale.o: ex_scale.c.o
 
 # target to build an object file
 ex_scale.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/ex_scale.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/ex_scale.c.o
 .PHONY : ex_scale.c.o
 
 ex_scale.i: ex_scale.c.i
@@ -3126,7 +3088,7 @@ ex_scale.i: ex_scale.c.i
 
 # target to preprocess a source file
 ex_scale.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/ex_scale.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/ex_scale.c.i
 .PHONY : ex_scale.c.i
 
 ex_scale.s: ex_scale.c.s
@@ -3134,7 +3096,7 @@ ex_scale.s: ex_scale.c.s
 
 # target to generate assembly for a file
 ex_scale.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/ex_scale.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_scale.dir/build.make examples/CMakeFiles/ex_scale.dir/ex_scale.c.s
 .PHONY : ex_scale.c.s
 
 ex_stream_file.o: ex_stream_file.c.o
@@ -3142,7 +3104,7 @@ ex_stream_file.o: ex_stream_file.c.o
 
 # target to build an object file
 ex_stream_file.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/ex_stream_file.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/ex_stream_file.c.o
 .PHONY : ex_stream_file.c.o
 
 ex_stream_file.i: ex_stream_file.c.i
@@ -3150,7 +3112,7 @@ ex_stream_file.i: ex_stream_file.c.i
 
 # target to preprocess a source file
 ex_stream_file.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/ex_stream_file.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/ex_stream_file.c.i
 .PHONY : ex_stream_file.c.i
 
 ex_stream_file.s: ex_stream_file.c.s
@@ -3158,7 +3120,7 @@ ex_stream_file.s: ex_stream_file.c.s
 
 # target to generate assembly for a file
 ex_stream_file.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/ex_stream_file.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_file.dir/build.make examples/CMakeFiles/ex_stream_file.dir/ex_stream_file.c.s
 .PHONY : ex_stream_file.c.s
 
 ex_stream_seek.o: ex_stream_seek.c.o
@@ -3166,7 +3128,7 @@ ex_stream_seek.o: ex_stream_seek.c.o
 
 # target to build an object file
 ex_stream_seek.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/ex_stream_seek.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/ex_stream_seek.c.o
 .PHONY : ex_stream_seek.c.o
 
 ex_stream_seek.i: ex_stream_seek.c.i
@@ -3174,7 +3136,7 @@ ex_stream_seek.i: ex_stream_seek.c.i
 
 # target to preprocess a source file
 ex_stream_seek.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/ex_stream_seek.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/ex_stream_seek.c.i
 .PHONY : ex_stream_seek.c.i
 
 ex_stream_seek.s: ex_stream_seek.c.s
@@ -3182,7 +3144,7 @@ ex_stream_seek.s: ex_stream_seek.c.s
 
 # target to generate assembly for a file
 ex_stream_seek.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/ex_stream_seek.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_stream_seek.dir/build.make examples/CMakeFiles/ex_stream_seek.dir/ex_stream_seek.c.s
 .PHONY : ex_stream_seek.c.s
 
 ex_subbitmap.o: ex_subbitmap.c.o
@@ -3190,7 +3152,7 @@ ex_subbitmap.o: ex_subbitmap.c.o
 
 # target to build an object file
 ex_subbitmap.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/ex_subbitmap.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/ex_subbitmap.c.o
 .PHONY : ex_subbitmap.c.o
 
 ex_subbitmap.i: ex_subbitmap.c.i
@@ -3198,7 +3160,7 @@ ex_subbitmap.i: ex_subbitmap.c.i
 
 # target to preprocess a source file
 ex_subbitmap.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/ex_subbitmap.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/ex_subbitmap.c.i
 .PHONY : ex_subbitmap.c.i
 
 ex_subbitmap.s: ex_subbitmap.c.s
@@ -3206,7 +3168,7 @@ ex_subbitmap.s: ex_subbitmap.c.s
 
 # target to generate assembly for a file
 ex_subbitmap.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/ex_subbitmap.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_subbitmap.dir/build.make examples/CMakeFiles/ex_subbitmap.dir/ex_subbitmap.c.s
 .PHONY : ex_subbitmap.c.s
 
 ex_synth.o: ex_synth.cpp.o
@@ -3214,7 +3176,7 @@ ex_synth.o: ex_synth.cpp.o
 
 # target to build an object file
 ex_synth.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/ex_synth.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/ex_synth.cpp.o
 .PHONY : ex_synth.cpp.o
 
 ex_synth.i: ex_synth.cpp.i
@@ -3222,7 +3184,7 @@ ex_synth.i: ex_synth.cpp.i
 
 # target to preprocess a source file
 ex_synth.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/ex_synth.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/ex_synth.cpp.i
 .PHONY : ex_synth.cpp.i
 
 ex_synth.s: ex_synth.cpp.s
@@ -3230,7 +3192,7 @@ ex_synth.s: ex_synth.cpp.s
 
 # target to generate assembly for a file
 ex_synth.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/ex_synth.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/ex_synth.cpp.s
 .PHONY : ex_synth.cpp.s
 
 ex_threads.o: ex_threads.c.o
@@ -3238,7 +3200,7 @@ ex_threads.o: ex_threads.c.o
 
 # target to build an object file
 ex_threads.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/ex_threads.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/ex_threads.c.o
 .PHONY : ex_threads.c.o
 
 ex_threads.i: ex_threads.c.i
@@ -3246,7 +3208,7 @@ ex_threads.i: ex_threads.c.i
 
 # target to preprocess a source file
 ex_threads.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/ex_threads.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/ex_threads.c.i
 .PHONY : ex_threads.c.i
 
 ex_threads.s: ex_threads.c.s
@@ -3254,7 +3216,7 @@ ex_threads.s: ex_threads.c.s
 
 # target to generate assembly for a file
 ex_threads.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/ex_threads.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads.dir/build.make examples/CMakeFiles/ex_threads.dir/ex_threads.c.s
 .PHONY : ex_threads.c.s
 
 ex_threads2.o: ex_threads2.c.o
@@ -3262,7 +3224,7 @@ ex_threads2.o: ex_threads2.c.o
 
 # target to build an object file
 ex_threads2.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/ex_threads2.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/ex_threads2.c.o
 .PHONY : ex_threads2.c.o
 
 ex_threads2.i: ex_threads2.c.i
@@ -3270,7 +3232,7 @@ ex_threads2.i: ex_threads2.c.i
 
 # target to preprocess a source file
 ex_threads2.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/ex_threads2.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/ex_threads2.c.i
 .PHONY : ex_threads2.c.i
 
 ex_threads2.s: ex_threads2.c.s
@@ -3278,7 +3240,7 @@ ex_threads2.s: ex_threads2.c.s
 
 # target to generate assembly for a file
 ex_threads2.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/ex_threads2.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_threads2.dir/build.make examples/CMakeFiles/ex_threads2.dir/ex_threads2.c.s
 .PHONY : ex_threads2.c.s
 
 ex_timedwait.o: ex_timedwait.c.o
@@ -3286,7 +3248,7 @@ ex_timedwait.o: ex_timedwait.c.o
 
 # target to build an object file
 ex_timedwait.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/ex_timedwait.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/ex_timedwait.c.o
 .PHONY : ex_timedwait.c.o
 
 ex_timedwait.i: ex_timedwait.c.i
@@ -3294,7 +3256,7 @@ ex_timedwait.i: ex_timedwait.c.i
 
 # target to preprocess a source file
 ex_timedwait.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/ex_timedwait.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/ex_timedwait.c.i
 .PHONY : ex_timedwait.c.i
 
 ex_timedwait.s: ex_timedwait.c.s
@@ -3302,7 +3264,7 @@ ex_timedwait.s: ex_timedwait.c.s
 
 # target to generate assembly for a file
 ex_timedwait.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/ex_timedwait.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timedwait.dir/build.make examples/CMakeFiles/ex_timedwait.dir/ex_timedwait.c.s
 .PHONY : ex_timedwait.c.s
 
 ex_timer.o: ex_timer.c.o
@@ -3310,7 +3272,7 @@ ex_timer.o: ex_timer.c.o
 
 # target to build an object file
 ex_timer.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/ex_timer.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/ex_timer.c.o
 .PHONY : ex_timer.c.o
 
 ex_timer.i: ex_timer.c.i
@@ -3318,7 +3280,7 @@ ex_timer.i: ex_timer.c.i
 
 # target to preprocess a source file
 ex_timer.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/ex_timer.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/ex_timer.c.i
 .PHONY : ex_timer.c.i
 
 ex_timer.s: ex_timer.c.s
@@ -3326,7 +3288,7 @@ ex_timer.s: ex_timer.c.s
 
 # target to generate assembly for a file
 ex_timer.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/ex_timer.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_timer.dir/build.make examples/CMakeFiles/ex_timer.dir/ex_timer.c.s
 .PHONY : ex_timer.c.s
 
 ex_transform.o: ex_transform.c.o
@@ -3334,7 +3296,7 @@ ex_transform.o: ex_transform.c.o
 
 # target to build an object file
 ex_transform.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/ex_transform.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/ex_transform.c.o
 .PHONY : ex_transform.c.o
 
 ex_transform.i: ex_transform.c.i
@@ -3342,7 +3304,7 @@ ex_transform.i: ex_transform.c.i
 
 # target to preprocess a source file
 ex_transform.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/ex_transform.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/ex_transform.c.i
 .PHONY : ex_transform.c.i
 
 ex_transform.s: ex_transform.c.s
@@ -3350,7 +3312,7 @@ ex_transform.s: ex_transform.c.s
 
 # target to generate assembly for a file
 ex_transform.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/ex_transform.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_transform.dir/build.make examples/CMakeFiles/ex_transform.dir/ex_transform.c.s
 .PHONY : ex_transform.c.s
 
 ex_ttf.o: ex_ttf.c.o
@@ -3358,7 +3320,7 @@ ex_ttf.o: ex_ttf.c.o
 
 # target to build an object file
 ex_ttf.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/ex_ttf.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/ex_ttf.c.o
 .PHONY : ex_ttf.c.o
 
 ex_ttf.i: ex_ttf.c.i
@@ -3366,7 +3328,7 @@ ex_ttf.i: ex_ttf.c.i
 
 # target to preprocess a source file
 ex_ttf.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/ex_ttf.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/ex_ttf.c.i
 .PHONY : ex_ttf.c.i
 
 ex_ttf.s: ex_ttf.c.s
@@ -3374,7 +3336,7 @@ ex_ttf.s: ex_ttf.c.s
 
 # target to generate assembly for a file
 ex_ttf.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/ex_ttf.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_ttf.dir/build.make examples/CMakeFiles/ex_ttf.dir/ex_ttf.c.s
 .PHONY : ex_ttf.c.s
 
 ex_user_events.o: ex_user_events.c.o
@@ -3382,7 +3344,7 @@ ex_user_events.o: ex_user_events.c.o
 
 # target to build an object file
 ex_user_events.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/ex_user_events.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/ex_user_events.c.o
 .PHONY : ex_user_events.c.o
 
 ex_user_events.i: ex_user_events.c.i
@@ -3390,7 +3352,7 @@ ex_user_events.i: ex_user_events.c.i
 
 # target to preprocess a source file
 ex_user_events.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/ex_user_events.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/ex_user_events.c.i
 .PHONY : ex_user_events.c.i
 
 ex_user_events.s: ex_user_events.c.s
@@ -3398,7 +3360,7 @@ ex_user_events.s: ex_user_events.c.s
 
 # target to generate assembly for a file
 ex_user_events.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/ex_user_events.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_user_events.dir/build.make examples/CMakeFiles/ex_user_events.dir/ex_user_events.c.s
 .PHONY : ex_user_events.c.s
 
 ex_utf8.o: ex_utf8.c.o
@@ -3406,7 +3368,7 @@ ex_utf8.o: ex_utf8.c.o
 
 # target to build an object file
 ex_utf8.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/ex_utf8.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/ex_utf8.c.o
 .PHONY : ex_utf8.c.o
 
 ex_utf8.i: ex_utf8.c.i
@@ -3414,7 +3376,7 @@ ex_utf8.i: ex_utf8.c.i
 
 # target to preprocess a source file
 ex_utf8.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/ex_utf8.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/ex_utf8.c.i
 .PHONY : ex_utf8.c.i
 
 ex_utf8.s: ex_utf8.c.s
@@ -3422,7 +3384,7 @@ ex_utf8.s: ex_utf8.c.s
 
 # target to generate assembly for a file
 ex_utf8.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/ex_utf8.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_utf8.dir/build.make examples/CMakeFiles/ex_utf8.dir/ex_utf8.c.s
 .PHONY : ex_utf8.c.s
 
 ex_vsync.o: ex_vsync.c.o
@@ -3430,7 +3392,7 @@ ex_vsync.o: ex_vsync.c.o
 
 # target to build an object file
 ex_vsync.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/ex_vsync.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/ex_vsync.c.o
 .PHONY : ex_vsync.c.o
 
 ex_vsync.i: ex_vsync.c.i
@@ -3438,7 +3400,7 @@ ex_vsync.i: ex_vsync.c.i
 
 # target to preprocess a source file
 ex_vsync.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/ex_vsync.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/ex_vsync.c.i
 .PHONY : ex_vsync.c.i
 
 ex_vsync.s: ex_vsync.c.s
@@ -3446,7 +3408,7 @@ ex_vsync.s: ex_vsync.c.s
 
 # target to generate assembly for a file
 ex_vsync.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/ex_vsync.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_vsync.dir/build.make examples/CMakeFiles/ex_vsync.dir/ex_vsync.c.s
 .PHONY : ex_vsync.c.s
 
 ex_warp_mouse.o: ex_warp_mouse.c.o
@@ -3454,7 +3416,7 @@ ex_warp_mouse.o: ex_warp_mouse.c.o
 
 # target to build an object file
 ex_warp_mouse.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/ex_warp_mouse.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/ex_warp_mouse.c.o
 .PHONY : ex_warp_mouse.c.o
 
 ex_warp_mouse.i: ex_warp_mouse.c.i
@@ -3462,7 +3424,7 @@ ex_warp_mouse.i: ex_warp_mouse.c.i
 
 # target to preprocess a source file
 ex_warp_mouse.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/ex_warp_mouse.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/ex_warp_mouse.c.i
 .PHONY : ex_warp_mouse.c.i
 
 ex_warp_mouse.s: ex_warp_mouse.c.s
@@ -3470,7 +3432,7 @@ ex_warp_mouse.s: ex_warp_mouse.c.s
 
 # target to generate assembly for a file
 ex_warp_mouse.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/ex_warp_mouse.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_warp_mouse.dir/build.make examples/CMakeFiles/ex_warp_mouse.dir/ex_warp_mouse.c.s
 .PHONY : ex_warp_mouse.c.s
 
 ex_windows.o: ex_windows.c.o
@@ -3478,7 +3440,7 @@ ex_windows.o: ex_windows.c.o
 
 # target to build an object file
 ex_windows.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/ex_windows.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/ex_windows.c.o
 .PHONY : ex_windows.c.o
 
 ex_windows.i: ex_windows.c.i
@@ -3486,7 +3448,7 @@ ex_windows.i: ex_windows.c.i
 
 # target to preprocess a source file
 ex_windows.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/ex_windows.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/ex_windows.c.i
 .PHONY : ex_windows.c.i
 
 ex_windows.s: ex_windows.c.s
@@ -3494,7 +3456,7 @@ ex_windows.s: ex_windows.c.s
 
 # target to generate assembly for a file
 ex_windows.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/ex_windows.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_windows.dir/build.make examples/CMakeFiles/ex_windows.dir/ex_windows.c.s
 .PHONY : ex_windows.c.s
 
 ex_winfull.o: ex_winfull.c.o
@@ -3502,7 +3464,7 @@ ex_winfull.o: ex_winfull.c.o
 
 # target to build an object file
 ex_winfull.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/ex_winfull.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/ex_winfull.c.o
 .PHONY : ex_winfull.c.o
 
 ex_winfull.i: ex_winfull.c.i
@@ -3510,7 +3472,7 @@ ex_winfull.i: ex_winfull.c.i
 
 # target to preprocess a source file
 ex_winfull.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/ex_winfull.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/ex_winfull.c.i
 .PHONY : ex_winfull.c.i
 
 ex_winfull.s: ex_winfull.c.s
@@ -3518,7 +3480,7 @@ ex_winfull.s: ex_winfull.c.s
 
 # target to generate assembly for a file
 ex_winfull.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/ex_winfull.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_winfull.dir/build.make examples/CMakeFiles/ex_winfull.dir/ex_winfull.c.s
 .PHONY : ex_winfull.c.s
 
 nihgui.o: nihgui.cpp.o
@@ -3526,12 +3488,12 @@ nihgui.o: nihgui.cpp.o
 
 # target to build an object file
 nihgui.cpp.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/nihgui.cpp.o
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/nihgui.cpp.o
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/nihgui.cpp.o
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/nihgui.cpp.o
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/nihgui.cpp.o
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/nihgui.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/nihgui.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/nihgui.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/nihgui.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/nihgui.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/nihgui.cpp.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/nihgui.cpp.o
 .PHONY : nihgui.cpp.o
 
 nihgui.i: nihgui.cpp.i
@@ -3539,12 +3501,12 @@ nihgui.i: nihgui.cpp.i
 
 # target to preprocess a source file
 nihgui.cpp.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/nihgui.cpp.i
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/nihgui.cpp.i
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/nihgui.cpp.i
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/nihgui.cpp.i
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/nihgui.cpp.i
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/nihgui.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/nihgui.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/nihgui.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/nihgui.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/nihgui.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/nihgui.cpp.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/nihgui.cpp.i
 .PHONY : nihgui.cpp.i
 
 nihgui.s: nihgui.cpp.s
@@ -3552,12 +3514,12 @@ nihgui.s: nihgui.cpp.s
 
 # target to generate assembly for a file
 nihgui.cpp.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/nihgui.cpp.s
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/nihgui.cpp.s
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/nihgui.cpp.s
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/nihgui.cpp.s
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/nihgui.cpp.s
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/nihgui.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_audio_props.dir/build.make examples/CMakeFiles/ex_audio_props.dir/nihgui.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_blend2.dir/build.make examples/CMakeFiles/ex_blend2.dir/nihgui.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_color.dir/build.make examples/CMakeFiles/ex_color.dir/nihgui.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_font_justify.dir/build.make examples/CMakeFiles/ex_font_justify.dir/nihgui.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_pixelformat.dir/build.make examples/CMakeFiles/ex_pixelformat.dir/nihgui.cpp.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f examples/CMakeFiles/ex_synth.dir/build.make examples/CMakeFiles/ex_synth.dir/nihgui.cpp.s
 .PHONY : nihgui.cpp.s
 
 # Help Target
@@ -3630,7 +3592,6 @@ help:
 	@echo "... ex_opengl_pixel_shader"
 	@echo "... ex_path"
 	@echo "... ex_path_test"
-	@echo "... ex_physfs"
 	@echo "... ex_pixelformat"
 	@echo "... ex_premulalpha"
 	@echo "... ex_prim"
@@ -3850,9 +3811,6 @@ help:
 	@echo "... ex_path_test.o"
 	@echo "... ex_path_test.i"
 	@echo "... ex_path_test.s"
-	@echo "... ex_physfs.o"
-	@echo "... ex_physfs.i"
-	@echo "... ex_physfs.s"
 	@echo "... ex_pixelformat.o"
 	@echo "... ex_pixelformat.i"
 	@echo "... ex_pixelformat.s"
@@ -3942,6 +3900,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

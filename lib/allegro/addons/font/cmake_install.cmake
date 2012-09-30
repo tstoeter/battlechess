@@ -1,4 +1,4 @@
-# Install script for directory: /home/damien/workspace/battlechess/lib/allegro/addons/font
+# Install script for directory: /home/damien/workspace/games/battlechess/lib/allegro/addons/font
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,9 +34,9 @@ ENDIF(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/damien/workspace/battlechess/lib/allegro/addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7"
-    "/home/damien/workspace/battlechess/lib/allegro/addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0"
-    "/home/damien/workspace/battlechess/lib/allegro/addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0"
+    "/home/damien/workspace/games/battlechess/lib/allegro/addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so"
     )
   FOREACH(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/liballegro_font.so.5.0.7"
@@ -53,6 +53,6 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/allegro5" TYPE FILE FILES "/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/allegro5" TYPE FILE FILES "/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 

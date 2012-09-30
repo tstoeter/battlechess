@@ -1,44 +1,39 @@
 gspawn.lo: gspawn.c ../config.h /usr/include/sys/time.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
- /usr/include/gnu/stubs-32.h /usr/include/bits/types.h \
+ /usr/include/gnu/stubs-64.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/time.h \
  /usr/include/bits/time.h /usr/include/sys/select.h \
  /usr/include/bits/select.h /usr/include/bits/sigset.h \
  /usr/include/sys/types.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h /usr/include/endian.h \
- /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
- /usr/include/sys/sysmacros.h /usr/include/bits/pthreadtypes.h \
- /usr/include/sys/wait.h /usr/include/signal.h /usr/include/bits/signum.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/sys/sysmacros.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/sys/wait.h \
+ /usr/include/signal.h /usr/include/bits/signum.h \
  /usr/include/bits/siginfo.h /usr/include/bits/sigaction.h \
- /usr/include/bits/sigcontext.h /usr/include/asm/sigcontext.h \
- /usr/include/linux/types.h /usr/include/asm/types.h \
- /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
- /usr/include/asm/bitsperlong.h /usr/include/asm-generic/bitsperlong.h \
- /usr/include/linux/posix_types.h /usr/include/linux/stddef.h \
- /usr/include/asm/posix_types.h /usr/include/asm/posix_types_32.h \
- /usr/include/bits/sigstack.h /usr/include/sys/ucontext.h \
- /usr/include/bits/sigthread.h /usr/include/sys/resource.h \
- /usr/include/bits/resource.h /usr/include/bits/waitflags.h \
- /usr/include/bits/waitstatus.h /usr/include/unistd.h \
- /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
- /usr/include/bits/confname.h /usr/include/getopt.h /usr/include/errno.h \
- /usr/include/bits/errno.h /usr/include/linux/errno.h \
- /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
- /usr/include/asm-generic/errno-base.h /usr/include/fcntl.h \
- /usr/include/bits/fcntl.h /usr/include/bits/uio.h \
+ /usr/include/bits/sigcontext.h /usr/include/bits/sigstack.h \
+ /usr/include/sys/ucontext.h /usr/include/bits/sigthread.h \
+ /usr/include/sys/resource.h /usr/include/bits/resource.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/getopt.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/fcntl.h /usr/include/bits/fcntl.h /usr/include/bits/uio.h \
  /usr/include/bits/stat.h /usr/include/string.h /usr/include/xlocale.h \
  /usr/include/bits/string.h /usr/include/bits/string2.h \
  /usr/include/stdlib.h /usr/include/alloca.h /usr/include/dirent.h \
  /usr/include/bits/dirent.h /usr/include/bits/posix1_lim.h \
  /usr/include/bits/local_lim.h /usr/include/linux/limits.h gspawn.h \
- ../glib/gerror.h /usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h \
+ ../glib/gerror.h /usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h \
  ../glib/gquark.h ../glib/gtypes.h glibconfig.h ../glib/gmacros.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h \
  /usr/include/limits.h /usr/include/bits/posix2_lim.h \
  /usr/include/bits/xopen_lim.h /usr/include/bits/stdio_lim.h \
- /usr/lib/gcc/i586-suse-linux/4.6/include/float.h \
+ /usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h \
  ../glib/gversionmacros.h /usr/include/bits/timex.h gthread.h \
  ../glib/gatomic.h genviron.h gmem.h gshell.h gstring.h \
  ../glib/gunicode.h ../glib/gbytes.h ../glib/garray.h ../glib/gutils.h \
@@ -58,7 +53,7 @@ gspawn.lo: gspawn.c ../config.h /usr/include/sys/time.h \
 
 /usr/include/gnu/stubs.h:
 
-/usr/include/gnu/stubs-32.h:
+/usr/include/gnu/stubs-64.h:
 
 /usr/include/bits/types.h:
 
@@ -76,7 +71,7 @@ gspawn.lo: gspawn.c ../config.h /usr/include/sys/time.h \
 
 /usr/include/sys/types.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stddef.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stddef.h:
 
 /usr/include/endian.h:
 
@@ -99,28 +94,6 @@ gspawn.lo: gspawn.c ../config.h /usr/include/sys/time.h \
 /usr/include/bits/sigaction.h:
 
 /usr/include/bits/sigcontext.h:
-
-/usr/include/asm/sigcontext.h:
-
-/usr/include/linux/types.h:
-
-/usr/include/asm/types.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/asm-generic/int-ll64.h:
-
-/usr/include/asm/bitsperlong.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/linux/stddef.h:
-
-/usr/include/asm/posix_types.h:
-
-/usr/include/asm/posix_types_32.h:
 
 /usr/include/bits/sigstack.h:
 
@@ -192,7 +165,7 @@ gspawn.h:
 
 ../glib/gerror.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/stdarg.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/stdarg.h:
 
 ../glib/gquark.h:
 
@@ -202,9 +175,9 @@ glibconfig.h:
 
 ../glib/gmacros.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/limits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/limits.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include-fixed/syslimits.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include-fixed/syslimits.h:
 
 /usr/include/limits.h:
 
@@ -214,7 +187,7 @@ glibconfig.h:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/lib/gcc/i586-suse-linux/4.6/include/float.h:
+/usr/lib64/gcc/x86_64-suse-linux/4.7/include/float.h:
 
 ../glib/gversionmacros.h:
 

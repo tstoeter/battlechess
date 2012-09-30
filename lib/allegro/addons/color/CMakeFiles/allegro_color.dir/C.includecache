@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/addons/color/allegro5/allegro_color.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/color/allegro5/allegro_color.h
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/color/allegro5/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/color/allegro5/allegro5/allegro.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/color/color.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/color/color.c
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/color/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/color/allegro5/allegro.h
 allegro5/allegro_color.h
-/home/damien/workspace/battlechess/lib/allegro/addons/color/allegro5/allegro_color.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/color/allegro5/allegro_color.h
 math.h
 -
 stdio.h

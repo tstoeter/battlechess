@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include CMakeFiles/allegro.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/allegro.dir/flags.make
 
 CMakeFiles/allegro.dir/src/allegro.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/allegro.c.o: src/allegro.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/allegro.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/allegro.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/allegro.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/allegro.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/allegro.c
 
 CMakeFiles/allegro.dir/src/allegro.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/allegro.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/allegro.c > CMakeFiles/allegro.dir/src/allegro.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/allegro.c > CMakeFiles/allegro.dir/src/allegro.c.i
 
 CMakeFiles/allegro.dir/src/allegro.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/allegro.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/allegro.c -o CMakeFiles/allegro.dir/src/allegro.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/allegro.c -o CMakeFiles/allegro.dir/src/allegro.c.s
 
 CMakeFiles/allegro.dir/src/allegro.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/allegro.c.o.requires
@@ -74,17 +74,17 @@ CMakeFiles/allegro.dir/src/allegro.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/bitmap_io.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/bitmap_io.c.o: src/bitmap_io.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/bitmap_io.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/bitmap_io.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/bitmap_io.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/bitmap_io.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/bitmap_io.c
 
 CMakeFiles/allegro.dir/src/bitmap_io.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/bitmap_io.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/bitmap_io.c > CMakeFiles/allegro.dir/src/bitmap_io.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/bitmap_io.c > CMakeFiles/allegro.dir/src/bitmap_io.c.i
 
 CMakeFiles/allegro.dir/src/bitmap_io.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/bitmap_io.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/bitmap_io.c -o CMakeFiles/allegro.dir/src/bitmap_io.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/bitmap_io.c -o CMakeFiles/allegro.dir/src/bitmap_io.c.s
 
 CMakeFiles/allegro.dir/src/bitmap_io.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/bitmap_io.c.o.requires
@@ -97,17 +97,17 @@ CMakeFiles/allegro.dir/src/bitmap_io.c.o.provides.build: CMakeFiles/allegro.dir/
 
 CMakeFiles/allegro.dir/src/bitmap.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/bitmap.c.o: src/bitmap.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/bitmap.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/bitmap.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/bitmap.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/bitmap.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/bitmap.c
 
 CMakeFiles/allegro.dir/src/bitmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/bitmap.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/bitmap.c > CMakeFiles/allegro.dir/src/bitmap.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/bitmap.c > CMakeFiles/allegro.dir/src/bitmap.c.i
 
 CMakeFiles/allegro.dir/src/bitmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/bitmap.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/bitmap.c -o CMakeFiles/allegro.dir/src/bitmap.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/bitmap.c -o CMakeFiles/allegro.dir/src/bitmap.c.s
 
 CMakeFiles/allegro.dir/src/bitmap.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/bitmap.c.o.requires
@@ -120,17 +120,17 @@ CMakeFiles/allegro.dir/src/bitmap.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/blenders.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/blenders.c.o: src/blenders.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/blenders.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/blenders.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/blenders.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/blenders.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/blenders.c
 
 CMakeFiles/allegro.dir/src/blenders.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/blenders.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/blenders.c > CMakeFiles/allegro.dir/src/blenders.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/blenders.c > CMakeFiles/allegro.dir/src/blenders.c.i
 
 CMakeFiles/allegro.dir/src/blenders.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/blenders.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/blenders.c -o CMakeFiles/allegro.dir/src/blenders.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/blenders.c -o CMakeFiles/allegro.dir/src/blenders.c.s
 
 CMakeFiles/allegro.dir/src/blenders.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/blenders.c.o.requires
@@ -143,17 +143,17 @@ CMakeFiles/allegro.dir/src/blenders.c.o.provides.build: CMakeFiles/allegro.dir/s
 
 CMakeFiles/allegro.dir/src/config.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/config.c.o: src/config.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/config.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/config.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/config.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/config.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/config.c
 
 CMakeFiles/allegro.dir/src/config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/config.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/config.c > CMakeFiles/allegro.dir/src/config.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/config.c > CMakeFiles/allegro.dir/src/config.c.i
 
 CMakeFiles/allegro.dir/src/config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/config.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/config.c -o CMakeFiles/allegro.dir/src/config.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/config.c -o CMakeFiles/allegro.dir/src/config.c.s
 
 CMakeFiles/allegro.dir/src/config.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/config.c.o.requires
@@ -166,17 +166,17 @@ CMakeFiles/allegro.dir/src/config.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/convert.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/convert.c.o: src/convert.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/convert.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/convert.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/convert.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/convert.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/convert.c
 
 CMakeFiles/allegro.dir/src/convert.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/convert.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/convert.c > CMakeFiles/allegro.dir/src/convert.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/convert.c > CMakeFiles/allegro.dir/src/convert.c.i
 
 CMakeFiles/allegro.dir/src/convert.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/convert.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/convert.c -o CMakeFiles/allegro.dir/src/convert.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/convert.c -o CMakeFiles/allegro.dir/src/convert.c.s
 
 CMakeFiles/allegro.dir/src/convert.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/convert.c.o.requires
@@ -189,17 +189,17 @@ CMakeFiles/allegro.dir/src/convert.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/display.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/display.c.o: src/display.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/display.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/display.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/display.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/display.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/display.c
 
 CMakeFiles/allegro.dir/src/display.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/display.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/display.c > CMakeFiles/allegro.dir/src/display.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/display.c > CMakeFiles/allegro.dir/src/display.c.i
 
 CMakeFiles/allegro.dir/src/display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/display.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/display.c -o CMakeFiles/allegro.dir/src/display.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/display.c -o CMakeFiles/allegro.dir/src/display.c.s
 
 CMakeFiles/allegro.dir/src/display.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/display.c.o.requires
@@ -212,17 +212,17 @@ CMakeFiles/allegro.dir/src/display.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/display_settings.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/display_settings.c.o: src/display_settings.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/display_settings.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/display_settings.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/display_settings.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/display_settings.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/display_settings.c
 
 CMakeFiles/allegro.dir/src/display_settings.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/display_settings.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/display_settings.c > CMakeFiles/allegro.dir/src/display_settings.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/display_settings.c > CMakeFiles/allegro.dir/src/display_settings.c.i
 
 CMakeFiles/allegro.dir/src/display_settings.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/display_settings.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/display_settings.c -o CMakeFiles/allegro.dir/src/display_settings.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/display_settings.c -o CMakeFiles/allegro.dir/src/display_settings.c.s
 
 CMakeFiles/allegro.dir/src/display_settings.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/display_settings.c.o.requires
@@ -235,17 +235,17 @@ CMakeFiles/allegro.dir/src/display_settings.c.o.provides.build: CMakeFiles/alleg
 
 CMakeFiles/allegro.dir/src/dtor.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/dtor.c.o: src/dtor.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/dtor.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/dtor.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/dtor.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/dtor.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/dtor.c
 
 CMakeFiles/allegro.dir/src/dtor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/dtor.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/dtor.c > CMakeFiles/allegro.dir/src/dtor.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/dtor.c > CMakeFiles/allegro.dir/src/dtor.c.i
 
 CMakeFiles/allegro.dir/src/dtor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/dtor.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/dtor.c -o CMakeFiles/allegro.dir/src/dtor.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/dtor.c -o CMakeFiles/allegro.dir/src/dtor.c.s
 
 CMakeFiles/allegro.dir/src/dtor.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/dtor.c.o.requires
@@ -258,17 +258,17 @@ CMakeFiles/allegro.dir/src/dtor.c.o.provides.build: CMakeFiles/allegro.dir/src/d
 
 CMakeFiles/allegro.dir/src/events.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/events.c.o: src/events.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/events.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/events.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/events.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/events.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/events.c
 
 CMakeFiles/allegro.dir/src/events.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/events.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/events.c > CMakeFiles/allegro.dir/src/events.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/events.c > CMakeFiles/allegro.dir/src/events.c.i
 
 CMakeFiles/allegro.dir/src/events.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/events.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/events.c -o CMakeFiles/allegro.dir/src/events.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/events.c -o CMakeFiles/allegro.dir/src/events.c.s
 
 CMakeFiles/allegro.dir/src/events.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/events.c.o.requires
@@ -281,17 +281,17 @@ CMakeFiles/allegro.dir/src/events.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/evtsrc.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/evtsrc.c.o: src/evtsrc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/evtsrc.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/evtsrc.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/evtsrc.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/evtsrc.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/evtsrc.c
 
 CMakeFiles/allegro.dir/src/evtsrc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/evtsrc.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/evtsrc.c > CMakeFiles/allegro.dir/src/evtsrc.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/evtsrc.c > CMakeFiles/allegro.dir/src/evtsrc.c.i
 
 CMakeFiles/allegro.dir/src/evtsrc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/evtsrc.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/evtsrc.c -o CMakeFiles/allegro.dir/src/evtsrc.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/evtsrc.c -o CMakeFiles/allegro.dir/src/evtsrc.c.s
 
 CMakeFiles/allegro.dir/src/evtsrc.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/evtsrc.c.o.requires
@@ -304,17 +304,17 @@ CMakeFiles/allegro.dir/src/evtsrc.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/file.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/file.c.o: src/file.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_12)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/file.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/file.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/file.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/file.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/file.c
 
 CMakeFiles/allegro.dir/src/file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/file.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/file.c > CMakeFiles/allegro.dir/src/file.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/file.c > CMakeFiles/allegro.dir/src/file.c.i
 
 CMakeFiles/allegro.dir/src/file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/file.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/file.c -o CMakeFiles/allegro.dir/src/file.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/file.c -o CMakeFiles/allegro.dir/src/file.c.s
 
 CMakeFiles/allegro.dir/src/file.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/file.c.o.requires
@@ -327,17 +327,17 @@ CMakeFiles/allegro.dir/src/file.c.o.provides.build: CMakeFiles/allegro.dir/src/f
 
 CMakeFiles/allegro.dir/src/file_slice.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/file_slice.c.o: src/file_slice.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_13)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_13)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/file_slice.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/file_slice.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/file_slice.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/file_slice.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/file_slice.c
 
 CMakeFiles/allegro.dir/src/file_slice.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/file_slice.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/file_slice.c > CMakeFiles/allegro.dir/src/file_slice.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/file_slice.c > CMakeFiles/allegro.dir/src/file_slice.c.i
 
 CMakeFiles/allegro.dir/src/file_slice.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/file_slice.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/file_slice.c -o CMakeFiles/allegro.dir/src/file_slice.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/file_slice.c -o CMakeFiles/allegro.dir/src/file_slice.c.s
 
 CMakeFiles/allegro.dir/src/file_slice.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/file_slice.c.o.requires
@@ -350,17 +350,17 @@ CMakeFiles/allegro.dir/src/file_slice.c.o.provides.build: CMakeFiles/allegro.dir
 
 CMakeFiles/allegro.dir/src/file_stdio.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/file_stdio.c.o: src/file_stdio.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_14)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_14)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/file_stdio.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/file_stdio.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/file_stdio.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/file_stdio.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/file_stdio.c
 
 CMakeFiles/allegro.dir/src/file_stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/file_stdio.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/file_stdio.c > CMakeFiles/allegro.dir/src/file_stdio.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/file_stdio.c > CMakeFiles/allegro.dir/src/file_stdio.c.i
 
 CMakeFiles/allegro.dir/src/file_stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/file_stdio.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/file_stdio.c -o CMakeFiles/allegro.dir/src/file_stdio.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/file_stdio.c -o CMakeFiles/allegro.dir/src/file_stdio.c.s
 
 CMakeFiles/allegro.dir/src/file_stdio.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/file_stdio.c.o.requires
@@ -373,17 +373,17 @@ CMakeFiles/allegro.dir/src/file_stdio.c.o.provides.build: CMakeFiles/allegro.dir
 
 CMakeFiles/allegro.dir/src/fshook.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/fshook.c.o: src/fshook.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_15)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_15)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/fshook.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/fshook.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/fshook.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/fshook.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/fshook.c
 
 CMakeFiles/allegro.dir/src/fshook.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/fshook.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/fshook.c > CMakeFiles/allegro.dir/src/fshook.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/fshook.c > CMakeFiles/allegro.dir/src/fshook.c.i
 
 CMakeFiles/allegro.dir/src/fshook.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/fshook.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/fshook.c -o CMakeFiles/allegro.dir/src/fshook.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/fshook.c -o CMakeFiles/allegro.dir/src/fshook.c.s
 
 CMakeFiles/allegro.dir/src/fshook.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/fshook.c.o.requires
@@ -396,17 +396,17 @@ CMakeFiles/allegro.dir/src/fshook.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/fshook_stdio.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/fshook_stdio.c.o: src/fshook_stdio.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_16)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_16)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/fshook_stdio.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/fshook_stdio.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/fshook_stdio.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/fshook_stdio.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/fshook_stdio.c
 
 CMakeFiles/allegro.dir/src/fshook_stdio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/fshook_stdio.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/fshook_stdio.c > CMakeFiles/allegro.dir/src/fshook_stdio.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/fshook_stdio.c > CMakeFiles/allegro.dir/src/fshook_stdio.c.i
 
 CMakeFiles/allegro.dir/src/fshook_stdio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/fshook_stdio.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/fshook_stdio.c -o CMakeFiles/allegro.dir/src/fshook_stdio.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/fshook_stdio.c -o CMakeFiles/allegro.dir/src/fshook_stdio.c.s
 
 CMakeFiles/allegro.dir/src/fshook_stdio.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/fshook_stdio.c.o.requires
@@ -419,17 +419,17 @@ CMakeFiles/allegro.dir/src/fshook_stdio.c.o.provides.build: CMakeFiles/allegro.d
 
 CMakeFiles/allegro.dir/src/inline.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/inline.c.o: src/inline.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_17)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_17)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/inline.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/inline.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/inline.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/inline.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/inline.c
 
 CMakeFiles/allegro.dir/src/inline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/inline.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/inline.c > CMakeFiles/allegro.dir/src/inline.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/inline.c > CMakeFiles/allegro.dir/src/inline.c.i
 
 CMakeFiles/allegro.dir/src/inline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/inline.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/inline.c -o CMakeFiles/allegro.dir/src/inline.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/inline.c -o CMakeFiles/allegro.dir/src/inline.c.s
 
 CMakeFiles/allegro.dir/src/inline.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/inline.c.o.requires
@@ -442,17 +442,17 @@ CMakeFiles/allegro.dir/src/inline.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/joynu.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/joynu.c.o: src/joynu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_18)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_18)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/joynu.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/joynu.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/joynu.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/joynu.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/joynu.c
 
 CMakeFiles/allegro.dir/src/joynu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/joynu.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/joynu.c > CMakeFiles/allegro.dir/src/joynu.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/joynu.c > CMakeFiles/allegro.dir/src/joynu.c.i
 
 CMakeFiles/allegro.dir/src/joynu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/joynu.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/joynu.c -o CMakeFiles/allegro.dir/src/joynu.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/joynu.c -o CMakeFiles/allegro.dir/src/joynu.c.s
 
 CMakeFiles/allegro.dir/src/joynu.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/joynu.c.o.requires
@@ -465,17 +465,17 @@ CMakeFiles/allegro.dir/src/joynu.c.o.provides.build: CMakeFiles/allegro.dir/src/
 
 CMakeFiles/allegro.dir/src/keybdnu.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/keybdnu.c.o: src/keybdnu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_19)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_19)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/keybdnu.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/keybdnu.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/keybdnu.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/keybdnu.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/keybdnu.c
 
 CMakeFiles/allegro.dir/src/keybdnu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/keybdnu.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/keybdnu.c > CMakeFiles/allegro.dir/src/keybdnu.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/keybdnu.c > CMakeFiles/allegro.dir/src/keybdnu.c.i
 
 CMakeFiles/allegro.dir/src/keybdnu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/keybdnu.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/keybdnu.c -o CMakeFiles/allegro.dir/src/keybdnu.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/keybdnu.c -o CMakeFiles/allegro.dir/src/keybdnu.c.s
 
 CMakeFiles/allegro.dir/src/keybdnu.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/keybdnu.c.o.requires
@@ -488,17 +488,17 @@ CMakeFiles/allegro.dir/src/keybdnu.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/libc.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/libc.c.o: src/libc.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_20)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_20)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/libc.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/libc.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/libc.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/libc.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/libc.c
 
 CMakeFiles/allegro.dir/src/libc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/libc.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/libc.c > CMakeFiles/allegro.dir/src/libc.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/libc.c > CMakeFiles/allegro.dir/src/libc.c.i
 
 CMakeFiles/allegro.dir/src/libc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/libc.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/libc.c -o CMakeFiles/allegro.dir/src/libc.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/libc.c -o CMakeFiles/allegro.dir/src/libc.c.s
 
 CMakeFiles/allegro.dir/src/libc.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/libc.c.o.requires
@@ -511,17 +511,17 @@ CMakeFiles/allegro.dir/src/libc.c.o.provides.build: CMakeFiles/allegro.dir/src/l
 
 CMakeFiles/allegro.dir/src/math.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/math.c.o: src/math.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_21)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_21)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/math.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/math.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/math.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/math.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/math.c
 
 CMakeFiles/allegro.dir/src/math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/math.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/math.c > CMakeFiles/allegro.dir/src/math.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/math.c > CMakeFiles/allegro.dir/src/math.c.i
 
 CMakeFiles/allegro.dir/src/math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/math.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/math.c -o CMakeFiles/allegro.dir/src/math.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/math.c -o CMakeFiles/allegro.dir/src/math.c.s
 
 CMakeFiles/allegro.dir/src/math.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/math.c.o.requires
@@ -534,17 +534,17 @@ CMakeFiles/allegro.dir/src/math.c.o.provides.build: CMakeFiles/allegro.dir/src/m
 
 CMakeFiles/allegro.dir/src/memblit.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/memblit.c.o: src/memblit.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_22)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_22)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/memblit.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/memblit.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/memblit.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/memblit.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/memblit.c
 
 CMakeFiles/allegro.dir/src/memblit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/memblit.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/memblit.c > CMakeFiles/allegro.dir/src/memblit.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/memblit.c > CMakeFiles/allegro.dir/src/memblit.c.i
 
 CMakeFiles/allegro.dir/src/memblit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/memblit.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/memblit.c -o CMakeFiles/allegro.dir/src/memblit.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/memblit.c -o CMakeFiles/allegro.dir/src/memblit.c.s
 
 CMakeFiles/allegro.dir/src/memblit.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/memblit.c.o.requires
@@ -557,17 +557,17 @@ CMakeFiles/allegro.dir/src/memblit.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/memdraw.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/memdraw.c.o: src/memdraw.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_23)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_23)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/memdraw.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/memdraw.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/memdraw.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/memdraw.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/memdraw.c
 
 CMakeFiles/allegro.dir/src/memdraw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/memdraw.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/memdraw.c > CMakeFiles/allegro.dir/src/memdraw.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/memdraw.c > CMakeFiles/allegro.dir/src/memdraw.c.i
 
 CMakeFiles/allegro.dir/src/memdraw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/memdraw.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/memdraw.c -o CMakeFiles/allegro.dir/src/memdraw.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/memdraw.c -o CMakeFiles/allegro.dir/src/memdraw.c.s
 
 CMakeFiles/allegro.dir/src/memdraw.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/memdraw.c.o.requires
@@ -580,17 +580,17 @@ CMakeFiles/allegro.dir/src/memdraw.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/memory.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/memory.c.o: src/memory.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_24)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_24)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/memory.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/memory.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/memory.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/memory.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/memory.c
 
 CMakeFiles/allegro.dir/src/memory.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/memory.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/memory.c > CMakeFiles/allegro.dir/src/memory.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/memory.c > CMakeFiles/allegro.dir/src/memory.c.i
 
 CMakeFiles/allegro.dir/src/memory.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/memory.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/memory.c -o CMakeFiles/allegro.dir/src/memory.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/memory.c -o CMakeFiles/allegro.dir/src/memory.c.s
 
 CMakeFiles/allegro.dir/src/memory.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/memory.c.o.requires
@@ -603,17 +603,17 @@ CMakeFiles/allegro.dir/src/memory.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/mousenu.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/mousenu.c.o: src/mousenu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_25)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_25)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/mousenu.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/mousenu.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/mousenu.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/mousenu.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/mousenu.c
 
 CMakeFiles/allegro.dir/src/mousenu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/mousenu.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/mousenu.c > CMakeFiles/allegro.dir/src/mousenu.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/mousenu.c > CMakeFiles/allegro.dir/src/mousenu.c.i
 
 CMakeFiles/allegro.dir/src/mousenu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/mousenu.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/mousenu.c -o CMakeFiles/allegro.dir/src/mousenu.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/mousenu.c -o CMakeFiles/allegro.dir/src/mousenu.c.s
 
 CMakeFiles/allegro.dir/src/mousenu.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/mousenu.c.o.requires
@@ -626,17 +626,17 @@ CMakeFiles/allegro.dir/src/mousenu.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/path.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/path.c.o: src/path.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_26)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_26)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/path.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/path.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/path.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/path.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/path.c
 
 CMakeFiles/allegro.dir/src/path.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/path.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/path.c > CMakeFiles/allegro.dir/src/path.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/path.c > CMakeFiles/allegro.dir/src/path.c.i
 
 CMakeFiles/allegro.dir/src/path.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/path.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/path.c -o CMakeFiles/allegro.dir/src/path.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/path.c -o CMakeFiles/allegro.dir/src/path.c.s
 
 CMakeFiles/allegro.dir/src/path.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/path.c.o.requires
@@ -649,17 +649,17 @@ CMakeFiles/allegro.dir/src/path.c.o.provides.build: CMakeFiles/allegro.dir/src/p
 
 CMakeFiles/allegro.dir/src/pixels.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/pixels.c.o: src/pixels.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_27)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_27)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/pixels.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/pixels.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/pixels.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/pixels.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/pixels.c
 
 CMakeFiles/allegro.dir/src/pixels.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/pixels.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/pixels.c > CMakeFiles/allegro.dir/src/pixels.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/pixels.c > CMakeFiles/allegro.dir/src/pixels.c.i
 
 CMakeFiles/allegro.dir/src/pixels.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/pixels.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/pixels.c -o CMakeFiles/allegro.dir/src/pixels.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/pixels.c -o CMakeFiles/allegro.dir/src/pixels.c.s
 
 CMakeFiles/allegro.dir/src/pixels.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/pixels.c.o.requires
@@ -672,17 +672,17 @@ CMakeFiles/allegro.dir/src/pixels.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/system.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/system.c.o: src/system.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_28)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_28)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/system.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/system.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/system.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/system.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/system.c
 
 CMakeFiles/allegro.dir/src/system.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/system.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/system.c > CMakeFiles/allegro.dir/src/system.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/system.c > CMakeFiles/allegro.dir/src/system.c.i
 
 CMakeFiles/allegro.dir/src/system.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/system.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/system.c -o CMakeFiles/allegro.dir/src/system.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/system.c -o CMakeFiles/allegro.dir/src/system.c.s
 
 CMakeFiles/allegro.dir/src/system.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/system.c.o.requires
@@ -695,17 +695,17 @@ CMakeFiles/allegro.dir/src/system.c.o.provides.build: CMakeFiles/allegro.dir/src
 
 CMakeFiles/allegro.dir/src/threads.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/threads.c.o: src/threads.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_29)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_29)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/threads.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/threads.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/threads.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/threads.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/threads.c
 
 CMakeFiles/allegro.dir/src/threads.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/threads.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/threads.c > CMakeFiles/allegro.dir/src/threads.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/threads.c > CMakeFiles/allegro.dir/src/threads.c.i
 
 CMakeFiles/allegro.dir/src/threads.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/threads.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/threads.c -o CMakeFiles/allegro.dir/src/threads.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/threads.c -o CMakeFiles/allegro.dir/src/threads.c.s
 
 CMakeFiles/allegro.dir/src/threads.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/threads.c.o.requires
@@ -718,17 +718,17 @@ CMakeFiles/allegro.dir/src/threads.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/timernu.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/timernu.c.o: src/timernu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_30)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_30)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/timernu.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/timernu.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/timernu.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/timernu.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/timernu.c
 
 CMakeFiles/allegro.dir/src/timernu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/timernu.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/timernu.c > CMakeFiles/allegro.dir/src/timernu.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/timernu.c > CMakeFiles/allegro.dir/src/timernu.c.i
 
 CMakeFiles/allegro.dir/src/timernu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/timernu.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/timernu.c -o CMakeFiles/allegro.dir/src/timernu.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/timernu.c -o CMakeFiles/allegro.dir/src/timernu.c.s
 
 CMakeFiles/allegro.dir/src/timernu.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/timernu.c.o.requires
@@ -741,17 +741,17 @@ CMakeFiles/allegro.dir/src/timernu.c.o.provides.build: CMakeFiles/allegro.dir/sr
 
 CMakeFiles/allegro.dir/src/tls.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/tls.c.o: src/tls.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_31)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_31)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/tls.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/tls.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/tls.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/tls.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/tls.c
 
 CMakeFiles/allegro.dir/src/tls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/tls.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/tls.c > CMakeFiles/allegro.dir/src/tls.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/tls.c > CMakeFiles/allegro.dir/src/tls.c.i
 
 CMakeFiles/allegro.dir/src/tls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/tls.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/tls.c -o CMakeFiles/allegro.dir/src/tls.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/tls.c -o CMakeFiles/allegro.dir/src/tls.c.s
 
 CMakeFiles/allegro.dir/src/tls.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/tls.c.o.requires
@@ -764,17 +764,17 @@ CMakeFiles/allegro.dir/src/tls.c.o.provides.build: CMakeFiles/allegro.dir/src/tl
 
 CMakeFiles/allegro.dir/src/transformations.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/transformations.c.o: src/transformations.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_32)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_32)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/transformations.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/transformations.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/transformations.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/transformations.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/transformations.c
 
 CMakeFiles/allegro.dir/src/transformations.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/transformations.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/transformations.c > CMakeFiles/allegro.dir/src/transformations.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/transformations.c > CMakeFiles/allegro.dir/src/transformations.c.i
 
 CMakeFiles/allegro.dir/src/transformations.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/transformations.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/transformations.c -o CMakeFiles/allegro.dir/src/transformations.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/transformations.c -o CMakeFiles/allegro.dir/src/transformations.c.s
 
 CMakeFiles/allegro.dir/src/transformations.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/transformations.c.o.requires
@@ -787,17 +787,17 @@ CMakeFiles/allegro.dir/src/transformations.c.o.provides.build: CMakeFiles/allegr
 
 CMakeFiles/allegro.dir/src/tri_soft.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/tri_soft.c.o: src/tri_soft.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_33)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_33)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/tri_soft.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/tri_soft.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/tri_soft.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/tri_soft.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/tri_soft.c
 
 CMakeFiles/allegro.dir/src/tri_soft.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/tri_soft.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/tri_soft.c > CMakeFiles/allegro.dir/src/tri_soft.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/tri_soft.c > CMakeFiles/allegro.dir/src/tri_soft.c.i
 
 CMakeFiles/allegro.dir/src/tri_soft.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/tri_soft.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/tri_soft.c -o CMakeFiles/allegro.dir/src/tri_soft.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/tri_soft.c -o CMakeFiles/allegro.dir/src/tri_soft.c.s
 
 CMakeFiles/allegro.dir/src/tri_soft.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/tri_soft.c.o.requires
@@ -810,17 +810,17 @@ CMakeFiles/allegro.dir/src/tri_soft.c.o.provides.build: CMakeFiles/allegro.dir/s
 
 CMakeFiles/allegro.dir/src/utf8.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/utf8.c.o: src/utf8.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_34)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_34)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/utf8.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/utf8.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/utf8.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/utf8.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/utf8.c
 
 CMakeFiles/allegro.dir/src/utf8.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/utf8.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/utf8.c > CMakeFiles/allegro.dir/src/utf8.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/utf8.c > CMakeFiles/allegro.dir/src/utf8.c.i
 
 CMakeFiles/allegro.dir/src/utf8.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/utf8.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/utf8.c -o CMakeFiles/allegro.dir/src/utf8.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/utf8.c -o CMakeFiles/allegro.dir/src/utf8.c.s
 
 CMakeFiles/allegro.dir/src/utf8.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/utf8.c.o.requires
@@ -833,17 +833,17 @@ CMakeFiles/allegro.dir/src/utf8.c.o.provides.build: CMakeFiles/allegro.dir/src/u
 
 CMakeFiles/allegro.dir/src/misc/aatree.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/misc/aatree.c.o: src/misc/aatree.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_35)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_35)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/misc/aatree.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/aatree.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/misc/aatree.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/aatree.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/misc/aatree.c
 
 CMakeFiles/allegro.dir/src/misc/aatree.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/misc/aatree.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/misc/aatree.c > CMakeFiles/allegro.dir/src/misc/aatree.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/misc/aatree.c > CMakeFiles/allegro.dir/src/misc/aatree.c.i
 
 CMakeFiles/allegro.dir/src/misc/aatree.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/misc/aatree.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/misc/aatree.c -o CMakeFiles/allegro.dir/src/misc/aatree.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/misc/aatree.c -o CMakeFiles/allegro.dir/src/misc/aatree.c.s
 
 CMakeFiles/allegro.dir/src/misc/aatree.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/misc/aatree.c.o.requires
@@ -856,17 +856,17 @@ CMakeFiles/allegro.dir/src/misc/aatree.c.o.provides.build: CMakeFiles/allegro.di
 
 CMakeFiles/allegro.dir/src/misc/bstrlib.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/misc/bstrlib.c.o: src/misc/bstrlib.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_36)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_36)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/misc/bstrlib.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/bstrlib.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/misc/bstrlib.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/bstrlib.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/misc/bstrlib.c
 
 CMakeFiles/allegro.dir/src/misc/bstrlib.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/misc/bstrlib.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/misc/bstrlib.c > CMakeFiles/allegro.dir/src/misc/bstrlib.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/misc/bstrlib.c > CMakeFiles/allegro.dir/src/misc/bstrlib.c.i
 
 CMakeFiles/allegro.dir/src/misc/bstrlib.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/misc/bstrlib.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/misc/bstrlib.c -o CMakeFiles/allegro.dir/src/misc/bstrlib.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/misc/bstrlib.c -o CMakeFiles/allegro.dir/src/misc/bstrlib.c.s
 
 CMakeFiles/allegro.dir/src/misc/bstrlib.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/misc/bstrlib.c.o.requires
@@ -879,17 +879,17 @@ CMakeFiles/allegro.dir/src/misc/bstrlib.c.o.provides.build: CMakeFiles/allegro.d
 
 CMakeFiles/allegro.dir/src/misc/list.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/misc/list.c.o: src/misc/list.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_37)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_37)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/misc/list.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/list.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/misc/list.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/list.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/misc/list.c
 
 CMakeFiles/allegro.dir/src/misc/list.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/misc/list.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/misc/list.c > CMakeFiles/allegro.dir/src/misc/list.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/misc/list.c > CMakeFiles/allegro.dir/src/misc/list.c.i
 
 CMakeFiles/allegro.dir/src/misc/list.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/misc/list.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/misc/list.c -o CMakeFiles/allegro.dir/src/misc/list.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/misc/list.c -o CMakeFiles/allegro.dir/src/misc/list.c.s
 
 CMakeFiles/allegro.dir/src/misc/list.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/misc/list.c.o.requires
@@ -902,17 +902,17 @@ CMakeFiles/allegro.dir/src/misc/list.c.o.provides.build: CMakeFiles/allegro.dir/
 
 CMakeFiles/allegro.dir/src/misc/vector.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/misc/vector.c.o: src/misc/vector.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_38)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_38)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/misc/vector.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/vector.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/misc/vector.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/misc/vector.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/misc/vector.c
 
 CMakeFiles/allegro.dir/src/misc/vector.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/misc/vector.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/misc/vector.c > CMakeFiles/allegro.dir/src/misc/vector.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/misc/vector.c > CMakeFiles/allegro.dir/src/misc/vector.c.i
 
 CMakeFiles/allegro.dir/src/misc/vector.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/misc/vector.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/misc/vector.c -o CMakeFiles/allegro.dir/src/misc/vector.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/misc/vector.c -o CMakeFiles/allegro.dir/src/misc/vector.c.s
 
 CMakeFiles/allegro.dir/src/misc/vector.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/misc/vector.c.o.requires
@@ -925,17 +925,17 @@ CMakeFiles/allegro.dir/src/misc/vector.c.o.provides.build: CMakeFiles/allegro.di
 
 CMakeFiles/allegro.dir/src/unix/udrvlist.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/udrvlist.c.o: src/unix/udrvlist.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_39)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_39)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/udrvlist.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/udrvlist.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/udrvlist.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/udrvlist.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/udrvlist.c
 
 CMakeFiles/allegro.dir/src/unix/udrvlist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/udrvlist.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/udrvlist.c > CMakeFiles/allegro.dir/src/unix/udrvlist.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/udrvlist.c > CMakeFiles/allegro.dir/src/unix/udrvlist.c.i
 
 CMakeFiles/allegro.dir/src/unix/udrvlist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/udrvlist.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/udrvlist.c -o CMakeFiles/allegro.dir/src/unix/udrvlist.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/udrvlist.c -o CMakeFiles/allegro.dir/src/unix/udrvlist.c.s
 
 CMakeFiles/allegro.dir/src/unix/udrvlist.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/udrvlist.c.o.requires
@@ -948,17 +948,17 @@ CMakeFiles/allegro.dir/src/unix/udrvlist.c.o.provides.build: CMakeFiles/allegro.
 
 CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o: src/unix/ufdwatch.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_40)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_40)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/ufdwatch.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ufdwatch.c
 
 CMakeFiles/allegro.dir/src/unix/ufdwatch.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/ufdwatch.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/ufdwatch.c > CMakeFiles/allegro.dir/src/unix/ufdwatch.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ufdwatch.c > CMakeFiles/allegro.dir/src/unix/ufdwatch.c.i
 
 CMakeFiles/allegro.dir/src/unix/ufdwatch.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/ufdwatch.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/ufdwatch.c -o CMakeFiles/allegro.dir/src/unix/ufdwatch.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ufdwatch.c -o CMakeFiles/allegro.dir/src/unix/ufdwatch.c.s
 
 CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o.requires
@@ -971,17 +971,17 @@ CMakeFiles/allegro.dir/src/unix/ufdwatch.c.o.provides.build: CMakeFiles/allegro.
 
 CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o: src/unix/ugfxdrv.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_41)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_41)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/ugfxdrv.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ugfxdrv.c
 
 CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/ugfxdrv.c > CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ugfxdrv.c > CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.i
 
 CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/ugfxdrv.c -o CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ugfxdrv.c -o CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.s
 
 CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o.requires
@@ -994,17 +994,17 @@ CMakeFiles/allegro.dir/src/unix/ugfxdrv.c.o.provides.build: CMakeFiles/allegro.d
 
 CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o: src/unix/ujoydrv.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_42)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_42)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/ujoydrv.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ujoydrv.c
 
 CMakeFiles/allegro.dir/src/unix/ujoydrv.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/ujoydrv.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/ujoydrv.c > CMakeFiles/allegro.dir/src/unix/ujoydrv.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ujoydrv.c > CMakeFiles/allegro.dir/src/unix/ujoydrv.c.i
 
 CMakeFiles/allegro.dir/src/unix/ujoydrv.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/ujoydrv.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/ujoydrv.c -o CMakeFiles/allegro.dir/src/unix/ujoydrv.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ujoydrv.c -o CMakeFiles/allegro.dir/src/unix/ujoydrv.c.s
 
 CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o.requires
@@ -1017,17 +1017,17 @@ CMakeFiles/allegro.dir/src/unix/ujoydrv.c.o.provides.build: CMakeFiles/allegro.d
 
 CMakeFiles/allegro.dir/src/unix/ukeybd.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/ukeybd.c.o: src/unix/ukeybd.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_43)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_43)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/ukeybd.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ukeybd.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/ukeybd.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/ukeybd.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ukeybd.c
 
 CMakeFiles/allegro.dir/src/unix/ukeybd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/ukeybd.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/ukeybd.c > CMakeFiles/allegro.dir/src/unix/ukeybd.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ukeybd.c > CMakeFiles/allegro.dir/src/unix/ukeybd.c.i
 
 CMakeFiles/allegro.dir/src/unix/ukeybd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/ukeybd.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/ukeybd.c -o CMakeFiles/allegro.dir/src/unix/ukeybd.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/ukeybd.c -o CMakeFiles/allegro.dir/src/unix/ukeybd.c.s
 
 CMakeFiles/allegro.dir/src/unix/ukeybd.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/ukeybd.c.o.requires
@@ -1040,17 +1040,17 @@ CMakeFiles/allegro.dir/src/unix/ukeybd.c.o.provides.build: CMakeFiles/allegro.di
 
 CMakeFiles/allegro.dir/src/unix/umouse.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/umouse.c.o: src/unix/umouse.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_44)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_44)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/umouse.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/umouse.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/umouse.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/umouse.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/umouse.c
 
 CMakeFiles/allegro.dir/src/unix/umouse.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/umouse.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/umouse.c > CMakeFiles/allegro.dir/src/unix/umouse.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/umouse.c > CMakeFiles/allegro.dir/src/unix/umouse.c.i
 
 CMakeFiles/allegro.dir/src/unix/umouse.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/umouse.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/umouse.c -o CMakeFiles/allegro.dir/src/unix/umouse.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/umouse.c -o CMakeFiles/allegro.dir/src/unix/umouse.c.s
 
 CMakeFiles/allegro.dir/src/unix/umouse.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/umouse.c.o.requires
@@ -1063,17 +1063,17 @@ CMakeFiles/allegro.dir/src/unix/umouse.c.o.provides.build: CMakeFiles/allegro.di
 
 CMakeFiles/allegro.dir/src/unix/upath.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/upath.c.o: src/unix/upath.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_45)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_45)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/upath.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/upath.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/upath.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/upath.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/upath.c
 
 CMakeFiles/allegro.dir/src/unix/upath.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/upath.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/upath.c > CMakeFiles/allegro.dir/src/unix/upath.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/upath.c > CMakeFiles/allegro.dir/src/unix/upath.c.i
 
 CMakeFiles/allegro.dir/src/unix/upath.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/upath.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/upath.c -o CMakeFiles/allegro.dir/src/unix/upath.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/upath.c -o CMakeFiles/allegro.dir/src/unix/upath.c.s
 
 CMakeFiles/allegro.dir/src/unix/upath.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/upath.c.o.requires
@@ -1086,17 +1086,17 @@ CMakeFiles/allegro.dir/src/unix/upath.c.o.provides.build: CMakeFiles/allegro.dir
 
 CMakeFiles/allegro.dir/src/unix/utime.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/utime.c.o: src/unix/utime.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_46)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_46)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/utime.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/utime.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/utime.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/utime.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/utime.c
 
 CMakeFiles/allegro.dir/src/unix/utime.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/utime.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/utime.c > CMakeFiles/allegro.dir/src/unix/utime.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/utime.c > CMakeFiles/allegro.dir/src/unix/utime.c.i
 
 CMakeFiles/allegro.dir/src/unix/utime.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/utime.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/utime.c -o CMakeFiles/allegro.dir/src/unix/utime.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/utime.c -o CMakeFiles/allegro.dir/src/unix/utime.c.s
 
 CMakeFiles/allegro.dir/src/unix/utime.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/utime.c.o.requires
@@ -1109,17 +1109,17 @@ CMakeFiles/allegro.dir/src/unix/utime.c.o.provides.build: CMakeFiles/allegro.dir
 
 CMakeFiles/allegro.dir/src/unix/uxthread.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/unix/uxthread.c.o: src/unix/uxthread.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_47)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_47)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/unix/uxthread.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/uxthread.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/unix/uxthread.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/unix/uxthread.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/unix/uxthread.c
 
 CMakeFiles/allegro.dir/src/unix/uxthread.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/unix/uxthread.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/unix/uxthread.c > CMakeFiles/allegro.dir/src/unix/uxthread.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/unix/uxthread.c > CMakeFiles/allegro.dir/src/unix/uxthread.c.i
 
 CMakeFiles/allegro.dir/src/unix/uxthread.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/unix/uxthread.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/unix/uxthread.c -o CMakeFiles/allegro.dir/src/unix/uxthread.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/unix/uxthread.c -o CMakeFiles/allegro.dir/src/unix/uxthread.c.s
 
 CMakeFiles/allegro.dir/src/unix/uxthread.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/unix/uxthread.c.o.requires
@@ -1132,17 +1132,17 @@ CMakeFiles/allegro.dir/src/unix/uxthread.c.o.provides.build: CMakeFiles/allegro.
 
 CMakeFiles/allegro.dir/src/x/xcursor.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xcursor.c.o: src/x/xcursor.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_48)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_48)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xcursor.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xcursor.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xcursor.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xcursor.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xcursor.c
 
 CMakeFiles/allegro.dir/src/x/xcursor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xcursor.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xcursor.c > CMakeFiles/allegro.dir/src/x/xcursor.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xcursor.c > CMakeFiles/allegro.dir/src/x/xcursor.c.i
 
 CMakeFiles/allegro.dir/src/x/xcursor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xcursor.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xcursor.c -o CMakeFiles/allegro.dir/src/x/xcursor.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xcursor.c -o CMakeFiles/allegro.dir/src/x/xcursor.c.s
 
 CMakeFiles/allegro.dir/src/x/xcursor.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xcursor.c.o.requires
@@ -1155,17 +1155,17 @@ CMakeFiles/allegro.dir/src/x/xcursor.c.o.provides.build: CMakeFiles/allegro.dir/
 
 CMakeFiles/allegro.dir/src/x/xkeyboard.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xkeyboard.c.o: src/x/xkeyboard.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_49)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_49)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xkeyboard.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xkeyboard.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xkeyboard.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xkeyboard.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xkeyboard.c
 
 CMakeFiles/allegro.dir/src/x/xkeyboard.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xkeyboard.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xkeyboard.c > CMakeFiles/allegro.dir/src/x/xkeyboard.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xkeyboard.c > CMakeFiles/allegro.dir/src/x/xkeyboard.c.i
 
 CMakeFiles/allegro.dir/src/x/xkeyboard.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xkeyboard.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xkeyboard.c -o CMakeFiles/allegro.dir/src/x/xkeyboard.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xkeyboard.c -o CMakeFiles/allegro.dir/src/x/xkeyboard.c.s
 
 CMakeFiles/allegro.dir/src/x/xkeyboard.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xkeyboard.c.o.requires
@@ -1178,17 +1178,17 @@ CMakeFiles/allegro.dir/src/x/xkeyboard.c.o.provides.build: CMakeFiles/allegro.di
 
 CMakeFiles/allegro.dir/src/x/xmousenu.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xmousenu.c.o: src/x/xmousenu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_50)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_50)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xmousenu.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xmousenu.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xmousenu.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xmousenu.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xmousenu.c
 
 CMakeFiles/allegro.dir/src/x/xmousenu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xmousenu.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xmousenu.c > CMakeFiles/allegro.dir/src/x/xmousenu.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xmousenu.c > CMakeFiles/allegro.dir/src/x/xmousenu.c.i
 
 CMakeFiles/allegro.dir/src/x/xmousenu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xmousenu.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xmousenu.c -o CMakeFiles/allegro.dir/src/x/xmousenu.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xmousenu.c -o CMakeFiles/allegro.dir/src/x/xmousenu.c.s
 
 CMakeFiles/allegro.dir/src/x/xmousenu.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xmousenu.c.o.requires
@@ -1201,17 +1201,17 @@ CMakeFiles/allegro.dir/src/x/xmousenu.c.o.provides.build: CMakeFiles/allegro.dir
 
 CMakeFiles/allegro.dir/src/x/xdisplay.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xdisplay.c.o: src/x/xdisplay.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_51)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_51)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xdisplay.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xdisplay.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xdisplay.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xdisplay.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xdisplay.c
 
 CMakeFiles/allegro.dir/src/x/xdisplay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xdisplay.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xdisplay.c > CMakeFiles/allegro.dir/src/x/xdisplay.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xdisplay.c > CMakeFiles/allegro.dir/src/x/xdisplay.c.i
 
 CMakeFiles/allegro.dir/src/x/xdisplay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xdisplay.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xdisplay.c -o CMakeFiles/allegro.dir/src/x/xdisplay.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xdisplay.c -o CMakeFiles/allegro.dir/src/x/xdisplay.c.s
 
 CMakeFiles/allegro.dir/src/x/xdisplay.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xdisplay.c.o.requires
@@ -1224,17 +1224,17 @@ CMakeFiles/allegro.dir/src/x/xdisplay.c.o.provides.build: CMakeFiles/allegro.dir
 
 CMakeFiles/allegro.dir/src/x/xfullscreen.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xfullscreen.c.o: src/x/xfullscreen.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_52)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_52)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xfullscreen.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xfullscreen.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xfullscreen.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xfullscreen.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xfullscreen.c
 
 CMakeFiles/allegro.dir/src/x/xfullscreen.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xfullscreen.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xfullscreen.c > CMakeFiles/allegro.dir/src/x/xfullscreen.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xfullscreen.c > CMakeFiles/allegro.dir/src/x/xfullscreen.c.i
 
 CMakeFiles/allegro.dir/src/x/xfullscreen.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xfullscreen.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xfullscreen.c -o CMakeFiles/allegro.dir/src/x/xfullscreen.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xfullscreen.c -o CMakeFiles/allegro.dir/src/x/xfullscreen.c.s
 
 CMakeFiles/allegro.dir/src/x/xfullscreen.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xfullscreen.c.o.requires
@@ -1247,17 +1247,17 @@ CMakeFiles/allegro.dir/src/x/xfullscreen.c.o.provides.build: CMakeFiles/allegro.
 
 CMakeFiles/allegro.dir/src/x/xglx_config.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xglx_config.c.o: src/x/xglx_config.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_53)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_53)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xglx_config.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xglx_config.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xglx_config.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xglx_config.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xglx_config.c
 
 CMakeFiles/allegro.dir/src/x/xglx_config.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xglx_config.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xglx_config.c > CMakeFiles/allegro.dir/src/x/xglx_config.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xglx_config.c > CMakeFiles/allegro.dir/src/x/xglx_config.c.i
 
 CMakeFiles/allegro.dir/src/x/xglx_config.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xglx_config.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xglx_config.c -o CMakeFiles/allegro.dir/src/x/xglx_config.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xglx_config.c -o CMakeFiles/allegro.dir/src/x/xglx_config.c.s
 
 CMakeFiles/allegro.dir/src/x/xglx_config.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xglx_config.c.o.requires
@@ -1270,17 +1270,17 @@ CMakeFiles/allegro.dir/src/x/xglx_config.c.o.provides.build: CMakeFiles/allegro.
 
 CMakeFiles/allegro.dir/src/x/xrandr.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xrandr.c.o: src/x/xrandr.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_54)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_54)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xrandr.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xrandr.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xrandr.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xrandr.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xrandr.c
 
 CMakeFiles/allegro.dir/src/x/xrandr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xrandr.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xrandr.c > CMakeFiles/allegro.dir/src/x/xrandr.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xrandr.c > CMakeFiles/allegro.dir/src/x/xrandr.c.i
 
 CMakeFiles/allegro.dir/src/x/xrandr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xrandr.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xrandr.c -o CMakeFiles/allegro.dir/src/x/xrandr.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xrandr.c -o CMakeFiles/allegro.dir/src/x/xrandr.c.s
 
 CMakeFiles/allegro.dir/src/x/xrandr.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xrandr.c.o.requires
@@ -1293,17 +1293,17 @@ CMakeFiles/allegro.dir/src/x/xrandr.c.o.provides.build: CMakeFiles/allegro.dir/s
 
 CMakeFiles/allegro.dir/src/x/xsystem.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/x/xsystem.c.o: src/x/xsystem.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_55)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_55)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/x/xsystem.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xsystem.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/x/xsystem.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/x/xsystem.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/x/xsystem.c
 
 CMakeFiles/allegro.dir/src/x/xsystem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/x/xsystem.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/x/xsystem.c > CMakeFiles/allegro.dir/src/x/xsystem.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/x/xsystem.c > CMakeFiles/allegro.dir/src/x/xsystem.c.i
 
 CMakeFiles/allegro.dir/src/x/xsystem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/x/xsystem.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/x/xsystem.c -o CMakeFiles/allegro.dir/src/x/xsystem.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/x/xsystem.c -o CMakeFiles/allegro.dir/src/x/xsystem.c.s
 
 CMakeFiles/allegro.dir/src/x/xsystem.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/x/xsystem.c.o.requires
@@ -1316,17 +1316,17 @@ CMakeFiles/allegro.dir/src/x/xsystem.c.o.provides.build: CMakeFiles/allegro.dir/
 
 CMakeFiles/allegro.dir/src/linux/ljoynu.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/linux/ljoynu.c.o: src/linux/ljoynu.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_56)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_56)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/linux/ljoynu.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/linux/ljoynu.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/linux/ljoynu.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/linux/ljoynu.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/linux/ljoynu.c
 
 CMakeFiles/allegro.dir/src/linux/ljoynu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/linux/ljoynu.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/linux/ljoynu.c > CMakeFiles/allegro.dir/src/linux/ljoynu.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/linux/ljoynu.c > CMakeFiles/allegro.dir/src/linux/ljoynu.c.i
 
 CMakeFiles/allegro.dir/src/linux/ljoynu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/linux/ljoynu.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/linux/ljoynu.c -o CMakeFiles/allegro.dir/src/linux/ljoynu.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/linux/ljoynu.c -o CMakeFiles/allegro.dir/src/linux/ljoynu.c.s
 
 CMakeFiles/allegro.dir/src/linux/ljoynu.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/linux/ljoynu.c.o.requires
@@ -1339,17 +1339,17 @@ CMakeFiles/allegro.dir/src/linux/ljoynu.c.o.provides.build: CMakeFiles/allegro.d
 
 CMakeFiles/allegro.dir/src/opengl/extensions.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/opengl/extensions.c.o: src/opengl/extensions.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_57)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_57)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/opengl/extensions.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/extensions.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/opengl/extensions.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/extensions.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/extensions.c
 
 CMakeFiles/allegro.dir/src/opengl/extensions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/opengl/extensions.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/opengl/extensions.c > CMakeFiles/allegro.dir/src/opengl/extensions.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/extensions.c > CMakeFiles/allegro.dir/src/opengl/extensions.c.i
 
 CMakeFiles/allegro.dir/src/opengl/extensions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/opengl/extensions.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/opengl/extensions.c -o CMakeFiles/allegro.dir/src/opengl/extensions.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/extensions.c -o CMakeFiles/allegro.dir/src/opengl/extensions.c.s
 
 CMakeFiles/allegro.dir/src/opengl/extensions.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/opengl/extensions.c.o.requires
@@ -1362,17 +1362,17 @@ CMakeFiles/allegro.dir/src/opengl/extensions.c.o.provides.build: CMakeFiles/alle
 
 CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o: src/opengl/ogl_bitmap.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_58)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_58)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_bitmap.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_bitmap.c
 
 CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_bitmap.c > CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_bitmap.c > CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.i
 
 CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_bitmap.c -o CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_bitmap.c -o CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.s
 
 CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o.requires
@@ -1385,17 +1385,17 @@ CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o.provides.build: CMakeFiles/alle
 
 CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o: src/opengl/ogl_draw.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_59)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_59)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_draw.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_draw.c
 
 CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_draw.c > CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_draw.c > CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.i
 
 CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_draw.c -o CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_draw.c -o CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.s
 
 CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o.requires
@@ -1408,17 +1408,17 @@ CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o.provides.build: CMakeFiles/allegr
 
 CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o: CMakeFiles/allegro.dir/flags.make
 CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o: src/opengl/ogl_display.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_60)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_60)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o   -c /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_display.c
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_display.c
 
 CMakeFiles/allegro.dir/src/opengl/ogl_display.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro.dir/src/opengl/ogl_display.c.i"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_display.c > CMakeFiles/allegro.dir/src/opengl/ogl_display.c.i
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_display.c > CMakeFiles/allegro.dir/src/opengl/ogl_display.c.i
 
 CMakeFiles/allegro.dir/src/opengl/ogl_display.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro.dir/src/opengl/ogl_display.c.s"
-	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/src/opengl/ogl_display.c -o CMakeFiles/allegro.dir/src/opengl/ogl_display.c.s
+	/usr/bin/gcc  $(C_DEFINES) $(C_FLAGS)  -DALLEGRO_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/src/opengl/ogl_display.c -o CMakeFiles/allegro.dir/src/opengl/ogl_display.c.s
 
 CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o.requires:
 .PHONY : CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o.requires
@@ -1555,13 +1555,13 @@ lib/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/opengl/extensions.c.o
 lib/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o
 lib/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o
 lib/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o
-lib/liballegro.so.5.0.7: /usr/lib/libSM.so
-lib/liballegro.so.5.0.7: /usr/lib/libICE.so
-lib/liballegro.so.5.0.7: /usr/lib/libX11.so
-lib/liballegro.so.5.0.7: /usr/lib/libXext.so
-lib/liballegro.so.5.0.7: /usr/lib/libGL.so
-lib/liballegro.so.5.0.7: /usr/lib/libGLU.so
 lib/liballegro.so.5.0.7: CMakeFiles/allegro.dir/build.make
+lib/liballegro.so.5.0.7: /usr/lib64/libSM.so
+lib/liballegro.so.5.0.7: /usr/lib64/libICE.so
+lib/liballegro.so.5.0.7: /usr/lib64/libX11.so
+lib/liballegro.so.5.0.7: /usr/lib64/libXext.so
+lib/liballegro.so.5.0.7: /usr/lib64/libGL.so
+lib/liballegro.so.5.0.7: /usr/lib64/libGLU.so
 lib/liballegro.so.5.0.7: CMakeFiles/allegro.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library lib/liballegro.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro.dir/link.txt --verbose=$(VERBOSE)
@@ -1701,13 +1701,13 @@ CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/openg
 CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/opengl/ogl_bitmap.c.o
 CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/opengl/ogl_draw.c.o
 CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: CMakeFiles/allegro.dir/src/opengl/ogl_display.c.o
-CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib/libSM.so
-CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib/libICE.so
-CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib/libX11.so
-CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib/libXext.so
-CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib/libGL.so
-CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib/libGLU.so
 CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: CMakeFiles/allegro.dir/build.make
+CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib64/libSM.so
+CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib64/libICE.so
+CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib64/libX11.so
+CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib64/libXext.so
+CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib64/libGL.so
+CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: /usr/lib64/libGLU.so
 CMakeFiles/CMakeRelink.dir/liballegro.so.5.0.7: CMakeFiles/allegro.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library CMakeFiles/CMakeRelink.dir/liballegro.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro.dir/relink.txt --verbose=$(VERBOSE)
@@ -1788,6 +1788,6 @@ CMakeFiles/allegro.dir/clean:
 .PHONY : CMakeFiles/allegro.dir/clean
 
 CMakeFiles/allegro.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/CMakeFiles/allegro.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/allegro.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/allegro.dir/depend
 

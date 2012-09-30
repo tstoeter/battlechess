@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,9 +110,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -300,24 +300,6 @@ allegro_memfile/fast:
 allegro_memfile/preinstall:
 	$(MAKE) -f addons/memfile/CMakeFiles/allegro_memfile.dir/build.make addons/memfile/CMakeFiles/allegro_memfile.dir/preinstall
 .PHONY : allegro_memfile/preinstall
-
-#=============================================================================
-# Target rules for targets named allegro_physfs
-
-# Build rule for target.
-allegro_physfs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 allegro_physfs
-.PHONY : allegro_physfs
-
-# fast build rule for target.
-allegro_physfs/fast:
-	$(MAKE) -f addons/physfs/CMakeFiles/allegro_physfs.dir/build.make addons/physfs/CMakeFiles/allegro_physfs.dir/build
-.PHONY : allegro_physfs/fast
-
-# Manual pre-install relink rule for target.
-allegro_physfs/preinstall:
-	$(MAKE) -f addons/physfs/CMakeFiles/allegro_physfs.dir/build.make addons/physfs/CMakeFiles/allegro_physfs.dir/preinstall
-.PHONY : allegro_physfs/preinstall
 
 #=============================================================================
 # Target rules for targets named allegro_dialog
@@ -1199,19 +1181,6 @@ ex_path_test: cmake_check_build_system
 ex_path_test/fast:
 	$(MAKE) -f examples/CMakeFiles/ex_path_test.dir/build.make examples/CMakeFiles/ex_path_test.dir/build
 .PHONY : ex_path_test/fast
-
-#=============================================================================
-# Target rules for targets named ex_physfs
-
-# Build rule for target.
-ex_physfs: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 ex_physfs
-.PHONY : ex_physfs
-
-# fast build rule for target.
-ex_physfs/fast:
-	$(MAKE) -f examples/CMakeFiles/ex_physfs.dir/build.make examples/CMakeFiles/ex_physfs.dir/build
-.PHONY : ex_physfs/fast
 
 #=============================================================================
 # Target rules for targets named ex_pixelformat
@@ -3116,7 +3085,6 @@ help:
 	@echo "... allegro_ttf"
 	@echo "... allegro_color"
 	@echo "... allegro_memfile"
-	@echo "... allegro_physfs"
 	@echo "... allegro_dialog"
 	@echo "... allegro_main"
 	@echo "... a5teroids"
@@ -3184,7 +3152,6 @@ help:
 	@echo "... ex_opengl_pixel_shader"
 	@echo "... ex_path"
 	@echo "... ex_path_test"
-	@echo "... ex_physfs"
 	@echo "... ex_pixelformat"
 	@echo "... ex_premulalpha"
 	@echo "... ex_prim"

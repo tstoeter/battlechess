@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include addons/font/CMakeFiles/allegro_font.dir/depend.make
@@ -51,17 +51,17 @@ include addons/font/CMakeFiles/allegro_font.dir/flags.make
 
 addons/font/CMakeFiles/allegro_font.dir/font.c.o: addons/font/CMakeFiles/allegro_font.dir/flags.make
 addons/font/CMakeFiles/allegro_font.dir/font.c.o: addons/font/font.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/font/CMakeFiles/allegro_font.dir/font.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_font.dir/font.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/font/font.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_font.dir/font.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/font/font.c
 
 addons/font/CMakeFiles/allegro_font.dir/font.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_font.dir/font.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/font/font.c > CMakeFiles/allegro_font.dir/font.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/font/font.c > CMakeFiles/allegro_font.dir/font.c.i
 
 addons/font/CMakeFiles/allegro_font.dir/font.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_font.dir/font.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/font/font.c -o CMakeFiles/allegro_font.dir/font.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/font/font.c -o CMakeFiles/allegro_font.dir/font.c.s
 
 addons/font/CMakeFiles/allegro_font.dir/font.c.o.requires:
 .PHONY : addons/font/CMakeFiles/allegro_font.dir/font.c.o.requires
@@ -74,17 +74,17 @@ addons/font/CMakeFiles/allegro_font.dir/font.c.o.provides.build: addons/font/CMa
 
 addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o: addons/font/CMakeFiles/allegro_font.dir/flags.make
 addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o: addons/font/fontbmp.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_font.dir/fontbmp.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/font/fontbmp.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_font.dir/fontbmp.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/font/fontbmp.c
 
 addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_font.dir/fontbmp.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/font/fontbmp.c > CMakeFiles/allegro_font.dir/fontbmp.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/font/fontbmp.c > CMakeFiles/allegro_font.dir/fontbmp.c.i
 
 addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_font.dir/fontbmp.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/font/fontbmp.c -o CMakeFiles/allegro_font.dir/fontbmp.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/font/fontbmp.c -o CMakeFiles/allegro_font.dir/fontbmp.c.s
 
 addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o.requires:
 .PHONY : addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o.requires
@@ -97,17 +97,17 @@ addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o.provides.build: addons/font/
 
 addons/font/CMakeFiles/allegro_font.dir/text.c.o: addons/font/CMakeFiles/allegro_font.dir/flags.make
 addons/font/CMakeFiles/allegro_font.dir/text.c.o: addons/font/text.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object addons/font/CMakeFiles/allegro_font.dir/text.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_font.dir/text.c.o   -c /home/damien/workspace/battlechess/lib/allegro/addons/font/text.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -o CMakeFiles/allegro_font.dir/text.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/addons/font/text.c
 
 addons/font/CMakeFiles/allegro_font.dir/text.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/allegro_font.dir/text.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/battlechess/lib/allegro/addons/font/text.c > CMakeFiles/allegro_font.dir/text.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -E /home/damien/workspace/games/battlechess/lib/allegro/addons/font/text.c > CMakeFiles/allegro_font.dir/text.c.i
 
 addons/font/CMakeFiles/allegro_font.dir/text.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/allegro_font.dir/text.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/battlechess/lib/allegro/addons/font/text.c -o CMakeFiles/allegro_font.dir/text.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -DALLEGRO_FONT_SRC  -DALLEGRO_LIB_BUILD -S /home/damien/workspace/games/battlechess/lib/allegro/addons/font/text.c -o CMakeFiles/allegro_font.dir/text.c.s
 
 addons/font/CMakeFiles/allegro_font.dir/text.c.o.requires:
 .PHONY : addons/font/CMakeFiles/allegro_font.dir/text.c.o.requires
@@ -130,18 +130,18 @@ allegro_font_EXTERNAL_OBJECTS =
 lib/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/font.c.o
 lib/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o
 lib/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/text.c.o
-lib/liballegro_font.so.5.0.7: lib/liballegro.so.5.0.7
-lib/liballegro_font.so.5.0.7: /usr/lib/libSM.so
-lib/liballegro_font.so.5.0.7: /usr/lib/libICE.so
-lib/liballegro_font.so.5.0.7: /usr/lib/libX11.so
-lib/liballegro_font.so.5.0.7: /usr/lib/libXext.so
-lib/liballegro_font.so.5.0.7: /usr/lib/libGL.so
-lib/liballegro_font.so.5.0.7: /usr/lib/libGLU.so
 lib/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/build.make
+lib/liballegro_font.so.5.0.7: lib/liballegro.so.5.0.7
+lib/liballegro_font.so.5.0.7: /usr/lib64/libSM.so
+lib/liballegro_font.so.5.0.7: /usr/lib64/libICE.so
+lib/liballegro_font.so.5.0.7: /usr/lib64/libX11.so
+lib/liballegro_font.so.5.0.7: /usr/lib64/libXext.so
+lib/liballegro_font.so.5.0.7: /usr/lib64/libGL.so
+lib/liballegro_font.so.5.0.7: /usr/lib64/libGLU.so
 lib/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library ../../lib/liballegro_font.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_font.dir/link.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_font.so.5.0.7 ../../lib/liballegro_font.so.5.0 ../../lib/liballegro_font.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_font.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_symlink_library ../../lib/liballegro_font.so.5.0.7 ../../lib/liballegro_font.so.5.0 ../../lib/liballegro_font.so
 
 lib/liballegro_font.so.5.0: lib/liballegro_font.so.5.0.7
 
@@ -163,18 +163,18 @@ allegro_font_EXTERNAL_OBJECTS =
 addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/font.c.o
 addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/fontbmp.c.o
 addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/text.c.o
-addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: lib/liballegro.so.5.0.7
-addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib/libSM.so
-addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib/libICE.so
-addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib/libX11.so
-addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib/libXext.so
-addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib/libGL.so
-addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib/libGLU.so
 addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/build.make
+addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: lib/liballegro.so.5.0.7
+addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib64/libSM.so
+addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib64/libICE.so
+addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib64/libX11.so
+addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib64/libXext.so
+addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib64/libGL.so
+addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: /usr/lib64/libGLU.so
 addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7: addons/font/CMakeFiles/allegro_font.dir/relink.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C shared library CMakeFiles/CMakeRelink.dir/liballegro_font.so"
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_font.dir/relink.txt --verbose=$(VERBOSE)
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_font.so
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/allegro_font.dir/relink.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -E cmake_symlink_library CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7 CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0 CMakeFiles/CMakeRelink.dir/liballegro_font.so
 
 addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0: addons/font/CMakeFiles/CMakeRelink.dir/liballegro_font.so.5.0.7
 
@@ -190,10 +190,10 @@ addons/font/CMakeFiles/allegro_font.dir/requires: addons/font/CMakeFiles/allegro
 .PHONY : addons/font/CMakeFiles/allegro_font.dir/requires
 
 addons/font/CMakeFiles/allegro_font.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -P CMakeFiles/allegro_font.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/addons/font && $(CMAKE_COMMAND) -P CMakeFiles/allegro_font.dir/cmake_clean.cmake
 .PHONY : addons/font/CMakeFiles/allegro_font.dir/clean
 
 addons/font/CMakeFiles/allegro_font.dir/depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/font /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/addons/font /home/damien/workspace/battlechess/lib/allegro/addons/font/CMakeFiles/allegro_font.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/font /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/addons/font /home/damien/workspace/games/battlechess/lib/allegro/addons/font/CMakeFiles/allegro_font.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : addons/font/CMakeFiles/allegro_font.dir/depend
 

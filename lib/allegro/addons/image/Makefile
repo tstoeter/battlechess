@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/addons/image/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/addons/image/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 addons/image/CMakeFiles/allegro_image.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/CMakeFiles/allegro_image.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/CMakeFiles/allegro_image.dir/rule
 .PHONY : addons/image/CMakeFiles/allegro_image.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ allegro_image: addons/image/CMakeFiles/allegro_image.dir/rule
 
 # fast build rule for target.
 allegro_image/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/build
 .PHONY : allegro_image/fast
 
 # Manual pre-install relink rule for target.
 allegro_image/preinstall:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/CMakeFiles/allegro_image.dir/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/image/CMakeFiles/allegro_image.dir/preinstall
 .PHONY : allegro_image/preinstall
 
 bmp.o: bmp.c.o
@@ -163,7 +163,7 @@ bmp.o: bmp.c.o
 
 # target to build an object file
 bmp.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/bmp.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/bmp.c.o
 .PHONY : bmp.c.o
 
 bmp.i: bmp.c.i
@@ -171,7 +171,7 @@ bmp.i: bmp.c.i
 
 # target to preprocess a source file
 bmp.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/bmp.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/bmp.c.i
 .PHONY : bmp.c.i
 
 bmp.s: bmp.c.s
@@ -179,7 +179,7 @@ bmp.s: bmp.c.s
 
 # target to generate assembly for a file
 bmp.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/bmp.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/bmp.c.s
 .PHONY : bmp.c.s
 
 iio.o: iio.c.o
@@ -187,7 +187,7 @@ iio.o: iio.c.o
 
 # target to build an object file
 iio.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/iio.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/iio.c.o
 .PHONY : iio.c.o
 
 iio.i: iio.c.i
@@ -195,7 +195,7 @@ iio.i: iio.c.i
 
 # target to preprocess a source file
 iio.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/iio.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/iio.c.i
 .PHONY : iio.c.i
 
 iio.s: iio.c.s
@@ -203,7 +203,7 @@ iio.s: iio.c.s
 
 # target to generate assembly for a file
 iio.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/iio.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/iio.c.s
 .PHONY : iio.c.s
 
 jpg.o: jpg.c.o
@@ -211,7 +211,7 @@ jpg.o: jpg.c.o
 
 # target to build an object file
 jpg.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/jpg.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/jpg.c.o
 .PHONY : jpg.c.o
 
 jpg.i: jpg.c.i
@@ -219,7 +219,7 @@ jpg.i: jpg.c.i
 
 # target to preprocess a source file
 jpg.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/jpg.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/jpg.c.i
 .PHONY : jpg.c.i
 
 jpg.s: jpg.c.s
@@ -227,7 +227,7 @@ jpg.s: jpg.c.s
 
 # target to generate assembly for a file
 jpg.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/jpg.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/jpg.c.s
 .PHONY : jpg.c.s
 
 pcx.o: pcx.c.o
@@ -235,7 +235,7 @@ pcx.o: pcx.c.o
 
 # target to build an object file
 pcx.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/pcx.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/pcx.c.o
 .PHONY : pcx.c.o
 
 pcx.i: pcx.c.i
@@ -243,7 +243,7 @@ pcx.i: pcx.c.i
 
 # target to preprocess a source file
 pcx.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/pcx.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/pcx.c.i
 .PHONY : pcx.c.i
 
 pcx.s: pcx.c.s
@@ -251,7 +251,7 @@ pcx.s: pcx.c.s
 
 # target to generate assembly for a file
 pcx.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/pcx.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/pcx.c.s
 .PHONY : pcx.c.s
 
 png.o: png.c.o
@@ -259,7 +259,7 @@ png.o: png.c.o
 
 # target to build an object file
 png.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/png.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/png.c.o
 .PHONY : png.c.o
 
 png.i: png.c.i
@@ -267,7 +267,7 @@ png.i: png.c.i
 
 # target to preprocess a source file
 png.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/png.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/png.c.i
 .PHONY : png.c.i
 
 png.s: png.c.s
@@ -275,7 +275,7 @@ png.s: png.c.s
 
 # target to generate assembly for a file
 png.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/png.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/png.c.s
 .PHONY : png.c.s
 
 tga.o: tga.c.o
@@ -283,7 +283,7 @@ tga.o: tga.c.o
 
 # target to build an object file
 tga.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/tga.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/tga.c.o
 .PHONY : tga.c.o
 
 tga.i: tga.c.i
@@ -291,7 +291,7 @@ tga.i: tga.c.i
 
 # target to preprocess a source file
 tga.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/tga.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/tga.c.i
 .PHONY : tga.c.i
 
 tga.s: tga.c.s
@@ -299,7 +299,7 @@ tga.s: tga.c.s
 
 # target to generate assembly for a file
 tga.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/tga.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/image/CMakeFiles/allegro_image.dir/build.make addons/image/CMakeFiles/allegro_image.dir/tga.c.s
 .PHONY : tga.c.s
 
 # Help Target
@@ -344,6 +344,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

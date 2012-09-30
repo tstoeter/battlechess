@@ -6,35 +6,35 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/allegro_ttf.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/allegro_ttf.h
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/allegro5/allegro.h
 allegro5/allegro_font.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/allegro5/allegro_font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/allegro5/allegro_font.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/ttf.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/ttf.c
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/allegro.h
 allegro5/allegro_opengl.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/allegro_opengl.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/allegro_opengl.h
 allegro5/internal/aintern.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern.h
 allegro5/internal/aintern_vector.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_vector.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_vector.h
 allegro5/allegro_ttf.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/allegro_ttf.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/allegro_ttf.h
 allegro5/internal/aintern_ttf_cfg.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_ttf_cfg.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_ttf_cfg.h
 allegro5/internal/aintern_dtor.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_dtor.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_dtor.h
 allegro5/internal/aintern_system.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_system.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/internal/aintern_system.h
 ft2build.h
 -
 stdlib.h
 -
 allegro5/allegro_image.h
-/home/damien/workspace/battlechess/lib/allegro/addons/ttf/allegro5/allegro_image.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/ttf/allegro5/allegro_image.h
 
 addons/ttf/../font/allegro5/allegro_font.h
 allegro5/allegro.h

@@ -6,49 +6,49 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Asteroid.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/BitmapResource.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Bullet.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ButtonWidget.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Debug.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/DisplayResource.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Entity.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Explosion.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/FontResource.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/GUI.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Game.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 stdio.h
 -
 allegro5/fshook.h
@@ -56,85 +56,85 @@ allegro5/fshook.h
 allegro5/path.h
 -
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Input.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeAsteroid.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeBullet.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/LargeSlowBullet.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/MediumAsteroid.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Player.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/PowerUp.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/Resource.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/ResourceManager.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SampleResource.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallAsteroid.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/SmallBullet.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/StreamResource.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/UFO.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/collision.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/logic.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/render.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/render.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/sound.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/wave.cpp
 a5teroids.hpp
-/home/damien/workspace/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
+/home/damien/workspace/games/battlechess/lib/allegro/demos/a5teroids/src/a5teroids.hpp
 
 addons/acodec/allegro5/allegro_acodec.h
 allegro5/allegro.h

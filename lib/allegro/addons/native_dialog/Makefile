@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/addons/native_dialog/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/addons/native_dialog/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 addons/native_dialog/CMakeFiles/allegro_dialog.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/CMakeFiles/allegro_dialog.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/CMakeFiles/allegro_dialog.dir/rule
 .PHONY : addons/native_dialog/CMakeFiles/allegro_dialog.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ allegro_dialog: addons/native_dialog/CMakeFiles/allegro_dialog.dir/rule
 
 # fast build rule for target.
 allegro_dialog/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/build
 .PHONY : allegro_dialog/fast
 
 # Manual pre-install relink rule for target.
 allegro_dialog/preinstall:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/CMakeFiles/allegro_dialog.dir/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 addons/native_dialog/CMakeFiles/allegro_dialog.dir/preinstall
 .PHONY : allegro_dialog/preinstall
 
 dialog.o: dialog.c.o
@@ -163,7 +163,7 @@ dialog.o: dialog.c.o
 
 # target to build an object file
 dialog.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/dialog.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/dialog.c.o
 .PHONY : dialog.c.o
 
 dialog.i: dialog.c.i
@@ -171,7 +171,7 @@ dialog.i: dialog.c.i
 
 # target to preprocess a source file
 dialog.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/dialog.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/dialog.c.i
 .PHONY : dialog.c.i
 
 dialog.s: dialog.c.s
@@ -179,7 +179,7 @@ dialog.s: dialog.c.s
 
 # target to generate assembly for a file
 dialog.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/dialog.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/dialog.c.s
 .PHONY : dialog.c.s
 
 gtk_dialog.o: gtk_dialog.c.o
@@ -187,7 +187,7 @@ gtk_dialog.o: gtk_dialog.c.o
 
 # target to build an object file
 gtk_dialog.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.o
 .PHONY : gtk_dialog.c.o
 
 gtk_dialog.i: gtk_dialog.c.i
@@ -195,7 +195,7 @@ gtk_dialog.i: gtk_dialog.c.i
 
 # target to preprocess a source file
 gtk_dialog.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.i
 .PHONY : gtk_dialog.c.i
 
 gtk_dialog.s: gtk_dialog.c.s
@@ -203,7 +203,7 @@ gtk_dialog.s: gtk_dialog.c.s
 
 # target to generate assembly for a file
 gtk_dialog.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/gtk_dialog.c.s
 .PHONY : gtk_dialog.c.s
 
 textlog.o: textlog.c.o
@@ -211,7 +211,7 @@ textlog.o: textlog.c.o
 
 # target to build an object file
 textlog.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/textlog.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/textlog.c.o
 .PHONY : textlog.c.o
 
 textlog.i: textlog.c.i
@@ -219,7 +219,7 @@ textlog.i: textlog.c.i
 
 # target to preprocess a source file
 textlog.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/textlog.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/textlog.c.i
 .PHONY : textlog.c.i
 
 textlog.s: textlog.c.s
@@ -227,7 +227,7 @@ textlog.s: textlog.c.s
 
 # target to generate assembly for a file
 textlog.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/textlog.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f addons/native_dialog/CMakeFiles/allegro_dialog.dir/build.make addons/native_dialog/CMakeFiles/allegro_dialog.dir/textlog.c.s
 .PHONY : textlog.c.s
 
 # Help Target
@@ -263,6 +263,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

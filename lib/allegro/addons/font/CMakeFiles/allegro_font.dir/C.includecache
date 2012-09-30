@@ -6,53 +6,53 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro5/allegro.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/font/font.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/font.c
 string.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro.h
 allegro5/internal/aintern.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/internal/aintern.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/internal/aintern.h
 allegro5/internal/aintern_vector.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_vector.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_vector.h
 allegro5/allegro_font.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
 allegro5/internal/aintern_bitmap.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_bitmap.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_bitmap.h
 font.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/font.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/font/font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/font.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/font/fontbmp.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/fontbmp.c
 string.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro.h
 allegro5/allegro_font.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
 allegro5/internal/aintern_dtor.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_dtor.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_dtor.h
 allegro5/internal/aintern_system.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_system.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_system.h
 font.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/font.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/font/text.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/text.c
 math.h
 -
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro.h
 allegro5/allegro_font.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/allegro_font.h
 allegro5/internal/aintern_dtor.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_dtor.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_dtor.h
 allegro5/internal/aintern_system.h
-/home/damien/workspace/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_system.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/font/allegro5/internal/aintern_system.h
 
 include/allegro5/alcompat.h
 

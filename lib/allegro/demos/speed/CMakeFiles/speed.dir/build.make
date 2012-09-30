@@ -4,7 +4,7 @@
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # Include any dependencies generated for this target.
 include demos/speed/CMakeFiles/speed.dir/depend.make
@@ -49,19 +49,24 @@ include demos/speed/CMakeFiles/speed.dir/progress.make
 # Include the compile flags for this target's objects.
 include demos/speed/CMakeFiles/speed.dir/flags.make
 
+demos/speed/a4_font.tga:
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating a4_font.tga"
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/cmake -E copy /home/damien/workspace/games/battlechess/lib/allegro/examples/data/a4_font.tga /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/a4_font.tga
+
 demos/speed/CMakeFiles/speed.dir/a4_aux.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/a4_aux.c.o: demos/speed/a4_aux.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/a4_aux.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/a4_aux.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/a4_aux.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/a4_aux.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/a4_aux.c
 
 demos/speed/CMakeFiles/speed.dir/a4_aux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/a4_aux.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/a4_aux.c > CMakeFiles/speed.dir/a4_aux.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/a4_aux.c > CMakeFiles/speed.dir/a4_aux.c.i
 
 demos/speed/CMakeFiles/speed.dir/a4_aux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/a4_aux.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/a4_aux.c -o CMakeFiles/speed.dir/a4_aux.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/a4_aux.c -o CMakeFiles/speed.dir/a4_aux.c.s
 
 demos/speed/CMakeFiles/speed.dir/a4_aux.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/a4_aux.c.o.requires
@@ -74,17 +79,17 @@ demos/speed/CMakeFiles/speed.dir/a4_aux.c.o.provides.build: demos/speed/CMakeFil
 
 demos/speed/CMakeFiles/speed.dir/badguys.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/badguys.c.o: demos/speed/badguys.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/badguys.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/badguys.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/badguys.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/badguys.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/badguys.c
 
 demos/speed/CMakeFiles/speed.dir/badguys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/badguys.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/badguys.c > CMakeFiles/speed.dir/badguys.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/badguys.c > CMakeFiles/speed.dir/badguys.c.i
 
 demos/speed/CMakeFiles/speed.dir/badguys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/badguys.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/badguys.c -o CMakeFiles/speed.dir/badguys.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/badguys.c -o CMakeFiles/speed.dir/badguys.c.s
 
 demos/speed/CMakeFiles/speed.dir/badguys.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/badguys.c.o.requires
@@ -97,17 +102,17 @@ demos/speed/CMakeFiles/speed.dir/badguys.c.o.provides.build: demos/speed/CMakeFi
 
 demos/speed/CMakeFiles/speed.dir/bullets.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/bullets.c.o: demos/speed/bullets.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/bullets.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/bullets.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/bullets.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/bullets.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/bullets.c
 
 demos/speed/CMakeFiles/speed.dir/bullets.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/bullets.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/bullets.c > CMakeFiles/speed.dir/bullets.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/bullets.c > CMakeFiles/speed.dir/bullets.c.i
 
 demos/speed/CMakeFiles/speed.dir/bullets.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/bullets.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/bullets.c -o CMakeFiles/speed.dir/bullets.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/bullets.c -o CMakeFiles/speed.dir/bullets.c.s
 
 demos/speed/CMakeFiles/speed.dir/bullets.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/bullets.c.o.requires
@@ -120,17 +125,17 @@ demos/speed/CMakeFiles/speed.dir/bullets.c.o.provides.build: demos/speed/CMakeFi
 
 demos/speed/CMakeFiles/speed.dir/explode.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/explode.c.o: demos/speed/explode.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/explode.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/explode.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/explode.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/explode.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/explode.c
 
 demos/speed/CMakeFiles/speed.dir/explode.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/explode.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/explode.c > CMakeFiles/speed.dir/explode.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/explode.c > CMakeFiles/speed.dir/explode.c.i
 
 demos/speed/CMakeFiles/speed.dir/explode.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/explode.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/explode.c -o CMakeFiles/speed.dir/explode.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/explode.c -o CMakeFiles/speed.dir/explode.c.s
 
 demos/speed/CMakeFiles/speed.dir/explode.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/explode.c.o.requires
@@ -143,17 +148,17 @@ demos/speed/CMakeFiles/speed.dir/explode.c.o.provides.build: demos/speed/CMakeFi
 
 demos/speed/CMakeFiles/speed.dir/hiscore.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/hiscore.c.o: demos/speed/hiscore.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/hiscore.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/hiscore.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/hiscore.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/hiscore.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/hiscore.c
 
 demos/speed/CMakeFiles/speed.dir/hiscore.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/hiscore.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/hiscore.c > CMakeFiles/speed.dir/hiscore.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/hiscore.c > CMakeFiles/speed.dir/hiscore.c.i
 
 demos/speed/CMakeFiles/speed.dir/hiscore.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/hiscore.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/hiscore.c -o CMakeFiles/speed.dir/hiscore.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/hiscore.c -o CMakeFiles/speed.dir/hiscore.c.s
 
 demos/speed/CMakeFiles/speed.dir/hiscore.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/hiscore.c.o.requires
@@ -166,17 +171,17 @@ demos/speed/CMakeFiles/speed.dir/hiscore.c.o.provides.build: demos/speed/CMakeFi
 
 demos/speed/CMakeFiles/speed.dir/main.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/main.c.o: demos/speed/main.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/main.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/main.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/main.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/main.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/main.c
 
 demos/speed/CMakeFiles/speed.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/main.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/main.c > CMakeFiles/speed.dir/main.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/main.c > CMakeFiles/speed.dir/main.c.i
 
 demos/speed/CMakeFiles/speed.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/main.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/main.c -o CMakeFiles/speed.dir/main.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/main.c -o CMakeFiles/speed.dir/main.c.s
 
 demos/speed/CMakeFiles/speed.dir/main.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/main.c.o.requires
@@ -189,17 +194,17 @@ demos/speed/CMakeFiles/speed.dir/main.c.o.provides.build: demos/speed/CMakeFiles
 
 demos/speed/CMakeFiles/speed.dir/message.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/message.c.o: demos/speed/message.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/message.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/message.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/message.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/message.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/message.c
 
 demos/speed/CMakeFiles/speed.dir/message.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/message.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/message.c > CMakeFiles/speed.dir/message.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/message.c > CMakeFiles/speed.dir/message.c.i
 
 demos/speed/CMakeFiles/speed.dir/message.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/message.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/message.c -o CMakeFiles/speed.dir/message.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/message.c -o CMakeFiles/speed.dir/message.c.s
 
 demos/speed/CMakeFiles/speed.dir/message.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/message.c.o.requires
@@ -212,17 +217,17 @@ demos/speed/CMakeFiles/speed.dir/message.c.o.provides.build: demos/speed/CMakeFi
 
 demos/speed/CMakeFiles/speed.dir/player.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/player.c.o: demos/speed/player.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/player.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/player.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/player.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/player.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/player.c
 
 demos/speed/CMakeFiles/speed.dir/player.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/player.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/player.c > CMakeFiles/speed.dir/player.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/player.c > CMakeFiles/speed.dir/player.c.i
 
 demos/speed/CMakeFiles/speed.dir/player.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/player.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/player.c -o CMakeFiles/speed.dir/player.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/player.c -o CMakeFiles/speed.dir/player.c.s
 
 demos/speed/CMakeFiles/speed.dir/player.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/player.c.o.requires
@@ -235,17 +240,17 @@ demos/speed/CMakeFiles/speed.dir/player.c.o.provides.build: demos/speed/CMakeFil
 
 demos/speed/CMakeFiles/speed.dir/sound.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/sound.c.o: demos/speed/sound.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_9)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/sound.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/sound.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/sound.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/sound.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/sound.c
 
 demos/speed/CMakeFiles/speed.dir/sound.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/sound.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/sound.c > CMakeFiles/speed.dir/sound.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/sound.c > CMakeFiles/speed.dir/sound.c.i
 
 demos/speed/CMakeFiles/speed.dir/sound.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/sound.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/sound.c -o CMakeFiles/speed.dir/sound.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/sound.c -o CMakeFiles/speed.dir/sound.c.s
 
 demos/speed/CMakeFiles/speed.dir/sound.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/sound.c.o.requires
@@ -258,17 +263,17 @@ demos/speed/CMakeFiles/speed.dir/sound.c.o.provides.build: demos/speed/CMakeFile
 
 demos/speed/CMakeFiles/speed.dir/title.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/title.c.o: demos/speed/title.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/title.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/title.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/title.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/title.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/title.c
 
 demos/speed/CMakeFiles/speed.dir/title.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/title.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/title.c > CMakeFiles/speed.dir/title.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/title.c > CMakeFiles/speed.dir/title.c.i
 
 demos/speed/CMakeFiles/speed.dir/title.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/title.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/title.c -o CMakeFiles/speed.dir/title.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/title.c -o CMakeFiles/speed.dir/title.c.s
 
 demos/speed/CMakeFiles/speed.dir/title.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/title.c.o.requires
@@ -281,17 +286,17 @@ demos/speed/CMakeFiles/speed.dir/title.c.o.provides.build: demos/speed/CMakeFile
 
 demos/speed/CMakeFiles/speed.dir/view.c.o: demos/speed/CMakeFiles/speed.dir/flags.make
 demos/speed/CMakeFiles/speed.dir/view.c.o: demos/speed/view.c
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_11)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_12)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building C object demos/speed/CMakeFiles/speed.dir/view.c.o"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/view.c.o   -c /home/damien/workspace/battlechess/lib/allegro/demos/speed/view.c
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -o CMakeFiles/speed.dir/view.c.o   -c /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/view.c
 
 demos/speed/CMakeFiles/speed.dir/view.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/speed.dir/view.c.i"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/battlechess/lib/allegro/demos/speed/view.c > CMakeFiles/speed.dir/view.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -E /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/view.c > CMakeFiles/speed.dir/view.c.i
 
 demos/speed/CMakeFiles/speed.dir/view.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/speed.dir/view.c.s"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/battlechess/lib/allegro/demos/speed/view.c -o CMakeFiles/speed.dir/view.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && /usr/bin/gcc  $(C_DEFINES) $(C_FLAGS) -S /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/view.c -o CMakeFiles/speed.dir/view.c.s
 
 demos/speed/CMakeFiles/speed.dir/view.c.o.requires:
 .PHONY : demos/speed/CMakeFiles/speed.dir/view.c.o.requires
@@ -301,11 +306,6 @@ demos/speed/CMakeFiles/speed.dir/view.c.o.provides: demos/speed/CMakeFiles/speed
 .PHONY : demos/speed/CMakeFiles/speed.dir/view.c.o.provides
 
 demos/speed/CMakeFiles/speed.dir/view.c.o.provides.build: demos/speed/CMakeFiles/speed.dir/view.c.o
-
-demos/speed/a4_font.tga:
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/damien/workspace/battlechess/lib/allegro/CMakeFiles $(CMAKE_PROGRESS_12)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Generating a4_font.tga"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && /usr/bin/cmake -E copy /home/damien/workspace/battlechess/lib/allegro/examples/data/a4_font.tga /home/damien/workspace/battlechess/lib/allegro/demos/speed/a4_font.tga
 
 # Object files for target speed
 speed_OBJECTS = \
@@ -335,26 +335,25 @@ demos/speed/speed: demos/speed/CMakeFiles/speed.dir/player.c.o
 demos/speed/speed: demos/speed/CMakeFiles/speed.dir/sound.c.o
 demos/speed/speed: demos/speed/CMakeFiles/speed.dir/title.c.o
 demos/speed/speed: demos/speed/CMakeFiles/speed.dir/view.c.o
+demos/speed/speed: demos/speed/CMakeFiles/speed.dir/build.make
 demos/speed/speed: lib/liballegro_main.so.5.0.7
 demos/speed/speed: lib/liballegro_audio.so.5.0.7
 demos/speed/speed: lib/liballegro_primitives.so.5.0.7
 demos/speed/speed: lib/liballegro_font.so.5.0.7
 demos/speed/speed: lib/liballegro_image.so.5.0.7
-demos/speed/speed: /usr/lib/libopenal.so
 demos/speed/speed: lib/liballegro.so.5.0.7
-demos/speed/speed: /usr/lib/libSM.so
-demos/speed/speed: /usr/lib/libICE.so
-demos/speed/speed: /usr/lib/libX11.so
-demos/speed/speed: /usr/lib/libXext.so
-demos/speed/speed: /usr/lib/libGL.so
-demos/speed/speed: /usr/lib/libGLU.so
-demos/speed/speed: /usr/lib/libpng.so
-demos/speed/speed: /usr/lib/libz.so
-demos/speed/speed: /usr/lib/libjpeg.so
-demos/speed/speed: demos/speed/CMakeFiles/speed.dir/build.make
+demos/speed/speed: /usr/lib64/libSM.so
+demos/speed/speed: /usr/lib64/libICE.so
+demos/speed/speed: /usr/lib64/libX11.so
+demos/speed/speed: /usr/lib64/libXext.so
+demos/speed/speed: /usr/lib64/libGL.so
+demos/speed/speed: /usr/lib64/libGLU.so
+demos/speed/speed: /usr/lib64/libpng.so
+demos/speed/speed: /usr/lib64/libz.so
+demos/speed/speed: /usr/lib64/libjpeg.so
 demos/speed/speed: demos/speed/CMakeFiles/speed.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking C executable speed"
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/speed.dir/link.txt --verbose=$(VERBOSE)
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/speed.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 demos/speed/CMakeFiles/speed.dir/build: demos/speed/speed
@@ -374,10 +373,10 @@ demos/speed/CMakeFiles/speed.dir/requires: demos/speed/CMakeFiles/speed.dir/view
 .PHONY : demos/speed/CMakeFiles/speed.dir/requires
 
 demos/speed/CMakeFiles/speed.dir/clean:
-	cd /home/damien/workspace/battlechess/lib/allegro/demos/speed && $(CMAKE_COMMAND) -P CMakeFiles/speed.dir/cmake_clean.cmake
+	cd /home/damien/workspace/games/battlechess/lib/allegro/demos/speed && $(CMAKE_COMMAND) -P CMakeFiles/speed.dir/cmake_clean.cmake
 .PHONY : demos/speed/CMakeFiles/speed.dir/clean
 
 demos/speed/CMakeFiles/speed.dir/depend: demos/speed/a4_font.tga
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/demos/speed /home/damien/workspace/battlechess/lib/allegro /home/damien/workspace/battlechess/lib/allegro/demos/speed /home/damien/workspace/battlechess/lib/allegro/demos/speed/CMakeFiles/speed.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/demos/speed /home/damien/workspace/games/battlechess/lib/allegro /home/damien/workspace/games/battlechess/lib/allegro/demos/speed /home/damien/workspace/games/battlechess/lib/allegro/demos/speed/CMakeFiles/speed.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : demos/speed/CMakeFiles/speed.dir/depend
 

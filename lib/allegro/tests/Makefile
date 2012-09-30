@@ -8,7 +8,7 @@ default_target: all
 #=============================================================================
 # Special targets provided by cmake.
 
-# Disable implicit rules so canoncical targets will work.
+# Disable implicit rules so canonical targets will work.
 .SUFFIXES:
 
 # Remove some rules from gmake that .SUFFIXES does not remove.
@@ -39,10 +39,10 @@ RM = /usr/bin/cmake -E remove -f
 CMAKE_EDIT_COMMAND = /usr/bin/ccmake
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_SOURCE_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/damien/workspace/battlechess/lib/allegro
+CMAKE_BINARY_DIR = /home/damien/workspace/games/battlechess/lib/allegro
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -110,14 +110,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/battlechess/lib/allegro/tests/CMakeFiles/progress.marks
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/battlechess/lib/allegro/CMakeFiles 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles /home/damien/workspace/games/battlechess/lib/allegro/tests/CMakeFiles/progress.marks
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/damien/workspace/games/battlechess/lib/allegro/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -126,22 +126,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/run_tests.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests.dir/rule
 .PHONY : tests/CMakeFiles/run_tests.dir/rule
 
 # Convenience name for target.
@@ -150,12 +150,12 @@ run_tests: tests/CMakeFiles/run_tests.dir/rule
 
 # fast build rule for target.
 run_tests/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests.dir/build.make tests/CMakeFiles/run_tests.dir/build
 .PHONY : run_tests/fast
 
 # Convenience name for target.
 tests/CMakeFiles/run_tests_d3d.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_d3d.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_d3d.dir/rule
 .PHONY : tests/CMakeFiles/run_tests_d3d.dir/rule
 
 # Convenience name for target.
@@ -164,12 +164,12 @@ run_tests_d3d: tests/CMakeFiles/run_tests_d3d.dir/rule
 
 # fast build rule for target.
 run_tests_d3d/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_d3d.dir/build.make tests/CMakeFiles/run_tests_d3d.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_d3d.dir/build.make tests/CMakeFiles/run_tests_d3d.dir/build
 .PHONY : run_tests_d3d/fast
 
 # Convenience name for target.
 tests/CMakeFiles/run_tests_gl.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_gl.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_gl.dir/rule
 .PHONY : tests/CMakeFiles/run_tests_gl.dir/rule
 
 # Convenience name for target.
@@ -178,12 +178,12 @@ run_tests_gl: tests/CMakeFiles/run_tests_gl.dir/rule
 
 # fast build rule for target.
 run_tests_gl/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_gl.dir/build.make tests/CMakeFiles/run_tests_gl.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_gl.dir/build.make tests/CMakeFiles/run_tests_gl.dir/build
 .PHONY : run_tests_gl/fast
 
 # Convenience name for target.
 tests/CMakeFiles/run_tests_gl12.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_gl12.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_gl12.dir/rule
 .PHONY : tests/CMakeFiles/run_tests_gl12.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ run_tests_gl12: tests/CMakeFiles/run_tests_gl12.dir/rule
 
 # fast build rule for target.
 run_tests_gl12/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_gl12.dir/build.make tests/CMakeFiles/run_tests_gl12.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_gl12.dir/build.make tests/CMakeFiles/run_tests_gl12.dir/build
 .PHONY : run_tests_gl12/fast
 
 # Convenience name for target.
 tests/CMakeFiles/run_tests_gl20.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_gl20.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_gl20.dir/rule
 .PHONY : tests/CMakeFiles/run_tests_gl20.dir/rule
 
 # Convenience name for target.
@@ -206,12 +206,12 @@ run_tests_gl20: tests/CMakeFiles/run_tests_gl20.dir/rule
 
 # fast build rule for target.
 run_tests_gl20/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_gl20.dir/build.make tests/CMakeFiles/run_tests_gl20.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_gl20.dir/build.make tests/CMakeFiles/run_tests_gl20.dir/build
 .PHONY : run_tests_gl20/fast
 
 # Convenience name for target.
 tests/CMakeFiles/run_tests_wine.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_wine.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_wine.dir/rule
 .PHONY : tests/CMakeFiles/run_tests_wine.dir/rule
 
 # Convenience name for target.
@@ -220,12 +220,12 @@ run_tests_wine: tests/CMakeFiles/run_tests_wine.dir/rule
 
 # fast build rule for target.
 run_tests_wine/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_wine.dir/build.make tests/CMakeFiles/run_tests_wine.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_wine.dir/build.make tests/CMakeFiles/run_tests_wine.dir/build
 .PHONY : run_tests_wine/fast
 
 # Convenience name for target.
 tests/CMakeFiles/run_tests_wine_gl.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_wine_gl.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/run_tests_wine_gl.dir/rule
 .PHONY : tests/CMakeFiles/run_tests_wine_gl.dir/rule
 
 # Convenience name for target.
@@ -234,12 +234,12 @@ run_tests_wine_gl: tests/CMakeFiles/run_tests_wine_gl.dir/rule
 
 # fast build rule for target.
 run_tests_wine_gl/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_wine_gl.dir/build.make tests/CMakeFiles/run_tests_wine_gl.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/run_tests_wine_gl.dir/build.make tests/CMakeFiles/run_tests_wine_gl.dir/build
 .PHONY : run_tests_wine_gl/fast
 
 # Convenience name for target.
 tests/CMakeFiles/test_driver.dir/rule:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_driver.dir/rule
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/test_driver.dir/rule
 .PHONY : tests/CMakeFiles/test_driver.dir/rule
 
 # Convenience name for target.
@@ -248,7 +248,7 @@ test_driver: tests/CMakeFiles/test_driver.dir/rule
 
 # fast build rule for target.
 test_driver/fast:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/build
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/build
 .PHONY : test_driver/fast
 
 test_driver.o: test_driver.c.o
@@ -256,7 +256,7 @@ test_driver.o: test_driver.c.o
 
 # target to build an object file
 test_driver.c.o:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/test_driver.c.o
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/test_driver.c.o
 .PHONY : test_driver.c.o
 
 test_driver.i: test_driver.c.i
@@ -264,7 +264,7 @@ test_driver.i: test_driver.c.i
 
 # target to preprocess a source file
 test_driver.c.i:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/test_driver.c.i
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/test_driver.c.i
 .PHONY : test_driver.c.i
 
 test_driver.s: test_driver.c.s
@@ -272,7 +272,7 @@ test_driver.s: test_driver.c.s
 
 # target to generate assembly for a file
 test_driver.c.s:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/test_driver.c.s
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(MAKE) -f tests/CMakeFiles/test_driver.dir/build.make tests/CMakeFiles/test_driver.dir/test_driver.c.s
 .PHONY : test_driver.c.s
 
 # Help Target
@@ -309,6 +309,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/damien/workspace/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/damien/workspace/games/battlechess/lib/allegro && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

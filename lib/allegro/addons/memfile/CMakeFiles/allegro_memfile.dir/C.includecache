@@ -6,15 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/damien/workspace/battlechess/lib/allegro/addons/memfile/allegro5/allegro_memfile.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/allegro5/allegro_memfile.h
 allegro5/allegro.h
-/home/damien/workspace/battlechess/lib/allegro/addons/memfile/allegro5/allegro5/allegro.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/allegro5/allegro5/allegro.h
 
-/home/damien/workspace/battlechess/lib/allegro/addons/memfile/memfile.c
+/home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/memfile.c
 allegro5/allegro.h
 -
 allegro5/allegro_memfile.h
-/home/damien/workspace/battlechess/lib/allegro/addons/memfile/allegro5/allegro_memfile.h
+/home/damien/workspace/games/battlechess/lib/allegro/addons/memfile/allegro5/allegro_memfile.h
 
 include/allegro5/alcompat.h
 
