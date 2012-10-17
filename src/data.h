@@ -1,6 +1,8 @@
 #ifndef DATA_H
 #define DATA_H
 
+#include <stdbool.h>
+
 #define NEW(x) (x*)g_malloc(sizeof(x))
 
 #define SQUARE_SIZE 50
@@ -29,6 +31,12 @@ typedef struct
 	Position pos;
 	ChessPiece *piece;
 } Square;
+
+typedef struct
+{
+	Square *square;
+	bool threatened;
+} SquareThreat;
 
 enum GameState {
 	PLAYING

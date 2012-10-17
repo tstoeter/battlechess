@@ -14,6 +14,4 @@ void game_run();
 void game_event(ALLEGRO_EVENT *event);
 void game_redraw();
 
-void test();
-
 #endif

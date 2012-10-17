@@ -130,8 +130,8 @@ void load_game()
 	board[7][0].piece = new_piece(ROOK,   BLACK);
 	board[7][1].piece = new_piece(KNIGHT, BLACK);
 	board[7][2].piece = new_piece(BISHOP, BLACK);
-	board[7][3].piece = new_piece(KING,   BLACK);
-	board[7][4].piece = new_piece(QUEEN,  BLACK);
+	board[7][3].piece = new_piece(QUEEN,  BLACK);
+	board[7][4].piece = new_piece(KING,   BLACK);
 	board[7][5].piece = new_piece(BISHOP, BLACK);
 	board[7][6].piece = new_piece(KNIGHT, BLACK);
 	board[7][7].piece = new_piece(ROOK,   BLACK);
@@ -208,5 +208,10 @@ void game_redraw()
 	}
 
 	g_list_foreach(threats, draw_threat, NULL);
+
+	char *turn_txt = (turn == WHITE ? "White" : "Black");
+	ALLEGRO_COLOR turn_color = (turn == WHITE ? al_map_rgb(255, 255, 255) : al_map_rgb(0, 0, 0));
+	al_draw_text(get_default_font(), turn_color, board_x/2, 50, ALLEGRO_ALIGN_CENTRE, turn_txt);
+
 	al_flip_display();
 }

@@ -2,8 +2,9 @@
 #include <glib.h>
 #include <allegro5/allegro.h>
 #include <allegro5/allegro_image.h>
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_ttf.h>
 
-#include "board.h"
 #include "game.h"
 #include "graphics.h"
 #include "movement.h"
@@ -105,6 +106,7 @@ int main(int argc, char *argv[])
 
 	// Install the font addon
 	al_init_font_addon();
+	al_init_ttf_addon();
 
 	// Create the display
 	display = al_create_display(screen_width, screen_height);

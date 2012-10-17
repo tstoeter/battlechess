@@ -1,6 +1,8 @@
 #include "graphics.h"
 
 #include <stdio.h>
+#include <allegro5/allegro_font.h>
+#include <allegro5/allegro_ttf.h>
 #include "data.h"
 
 ALLEGRO_BITMAP *black_square;
@@ -22,6 +24,8 @@ ALLEGRO_BITMAP *black_knight;
 ALLEGRO_BITMAP *black_bishop;
 
 ALLEGRO_BITMAP *square_highlight;
+
+ALLEGRO_FONT *emulogic;
 
 /*
  * Draws a chess board to the target bitmap.
@@ -139,6 +143,8 @@ void init_graphics()
 
 	// reset to the original
 	al_set_target_bitmap(screen);
+
+	emulogic = al_load_ttf_font("data/font/emulogic.ttf", 15, 0);
 }
 
 ALLEGRO_BITMAP *get_board_bitmap()
@@ -200,4 +206,9 @@ ALLEGRO_BITMAP *get_piece_bitmap(int piece, int color)
 	}
 
 	return NULL;
+}
+
+ALLEGRO_FONT *get_default_font()
+{
+	return emulogic;
 }

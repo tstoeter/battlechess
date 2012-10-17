@@ -1,41 +1,39 @@
 #include <glib.h>
 #include <stdio.h>
+#include <assert.h>
 
 #include "game.h"
 #include "piece.h"
 #include "data.h"
 
-static GList *get_valid_pawn_moves(Square (*board)[8][8], short _x, short _y, bool check)
+static GList *get_valid_pawn_moves(Square (*board)[8][8], short _x, short _y)
 {
 	GList *results = NULL;
 	ChessPiece *piece = (*board)[_y][_x].piece;
+	assert(piece != NULL);
 	short dir = (piece->color == WHITE ? 1 : -1);
 
 	short x = _x;
 	short y = _y + dir;
 
-	if (IN_BOUNDS(x, y) && (*board)[y][x].piece == NULL && !check) {
+	if (IN_BOUNDS(x, y) && (*board)[y][x].piece == NULL) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
-	// can we attack the guy (if any) to the left?
 	x = _x - 1;
-	if (check) {
-		results = g_list_prepend(results, &(*board)[y][x]);
-	} else if (IN_BOUNDS(x, y) && (*board)[y][x].piece != NULL && are_enemies(piece, (*board)[y][x].piece)) {
+	// can we attack the guy (if any) to the left?
+	if (IN_BOUNDS(x,y) && (*board)[y][x].piece != NULL && are_enemies(piece, (*board)[y][x].piece)) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	// can we attack the guy (if any) to the right?
 	x = _x + 1;
-	if (check) {
-		results = g_list_prepend(results, &(*board)[y][x]);
-	} else if (IN_BOUNDS(x, y) && (*board)[y][x].piece != NULL && are_enemies(piece, (*board)[y][x].piece)) {
+	if (IN_BOUNDS(x,y) && (*board)[y][x].piece != NULL && are_enemies(piece, (*board)[y][x].piece)) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	// if this pawn is in its starting position, it can move another space (provided it's empty)
-	if (!check && ((piece->color == WHITE && _y == 1) || (piece->color == BLACK && _y == 6))) {
+	if (((piece->color == WHITE && _y == 1) || (piece->color == BLACK && _y == 6))) {
 		y += dir;
 		x = _x;
 		if (IN_BOUNDS(x, y) && (*board)[y][x].piece == NULL) {
@@ -50,6 +48,7 @@ static GList *get_valid_rook_moves(Square (*board)[8][8], short _x, short _y)
 {
 	GList *results = NULL;
 	ChessPiece *piece = (*board)[_y][_x].piece;
+	assert(piece != NULL);
 
 	short x = _x;
 	short y = _y;
@@ -107,6 +106,7 @@ static GList *get_valid_knight_moves(Square (*board)[8][8], short _x, short _y)
 {
 	GList *results = NULL;
 	ChessPiece *piece = (*board)[_y][_x].piece;
+	assert(piece != NULL);
 
 	short x = _x;
 	short y = _y;
@@ -162,6 +162,7 @@ static GList *get_valid_bishop_moves(Square (*board)[8][8], short _x, short _y)
 {
 	GList *results = NULL;
 	ChessPiece *piece = (*board)[_y][_x].piece;
+	assert(piece != NULL);
 
 	short x = _x;
 	short y = _y;
@@ -232,6 +233,7 @@ static GList *get_valid_king_moves(Square (*board)[8][8], short _x, short _y)
 {
 	GList *results = NULL;
 	ChessPiece *piece = (*board)[_y][_x].piece;
+	assert(piece != NULL);
 
 	short x = _x;
 	short y = _y;
@@ -294,31 +296,18 @@ static GList *get_valid_king_moves(Square (*board)[8][8], short _x, short _y)
 }
 
 /*
- * Used to remove threatened location from a King's list of valid moves.
- */
-static void remove_threats(gpointer data, gpointer user_data)
-{
-	Square *threat = (Square*)data;
-	GList *moves = (GList*)user_data;
-	moves = g_list_remove(moves, threat);
-}
-
-/*
  * Get a list of valid moves.
  */
-GList *get_valid_moves(Square (*board)[8][8], Square *square, bool check)
+GList *get_valid_moves(Square (*board)[8][8], Square *square, bool checking)
 {
-	if (square->piece == NULL) {
-		//fprintf(stderr, "error: no piece at (%d,%d)\n", square->pos.x, square->pos.y);
-		return NULL;
-	}
-
 	GList *moves = NULL;
+	ChessPiece *king = NULL;
+	short x, y;
 
 	switch (square->piece->type)
 	{
 		case PAWN:
-			return get_valid_pawn_moves(board, square->pos.x, square->pos.y, check);
+			return get_valid_pawn_moves(board, square->pos.x, square->pos.y);
 		case ROOK:
 			return get_valid_rook_moves(board, square->pos.x, square->pos.y);
 		case KNIGHT:
@@ -329,21 +318,52 @@ GList *get_valid_moves(Square (*board)[8][8], Square *square, bool check)
 			return get_valid_queen_moves(board, square->pos.x, square->pos.y);
 		case KING:
 			moves = get_valid_king_moves(board, square->pos.x, square->pos.y);
-			// since we're the king, prevent movements into check
-			if (!check) {
-				GList *threats = NULL;
-				short x;
-				short y;
+			if (checking) {
+				return moves;
+			}
+
+			// since we're moving the king, make sure no move would put it in check
+			king = square->piece;
+			square->piece = NULL;
+
+			// iterate through each of the possible moves, maintaining a separate list
+			// of which ones are threatened
+			GList *threats = NULL;
+			GList *move = moves;
+			while (move != NULL) {
+				// for each move, move the king over and see if any piece is attacking it
+				bool done = false;
+				ChessPiece *existing = ((Square*)move->data)->piece;
+				((Square*)move->data)->piece = king;
 				for (y = 0; y<8; y++) {
 					for (x = 0; x<8; x++) {
-						if ((*board)[y][x].piece != NULL && are_enemies(square->piece, (*board)[y][x].piece)) {
-							threats = g_list_concat(threats, get_valid_moves(board, &(*board)[y][x], true));
+						Square *s = &(*board)[y][x];
+						if (s->piece != NULL && are_enemies(s->piece, king)) {
+							GList *attacks = get_valid_moves(board, s, true);
+							if (g_list_find(attacks, move->data)) {
+								// this move was threatened, so add it to the threats and break out
+								threats = g_list_prepend(threats, move->data);
+								done = true;
+							}
 						}
 					}
+
+					if (done)
+						break;
 				}
 
-				g_list_foreach(threats, &remove_threats, moves);
+				((Square*)move->data)->piece = existing;
+				move = g_list_next(move);
 			}
+
+			GList *threat = threats;
+			while (threat != NULL) {
+				moves = g_list_remove(moves, threat->data);
+				threat = g_list_next(threat);
+			}
+
+			g_list_free(threats);
+			square->piece = king;
 			return moves;
 		default:
 			fprintf(stderr, "error: unrecognized piece type: %d\n", square->piece->type);
