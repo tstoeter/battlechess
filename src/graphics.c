@@ -167,7 +167,7 @@ ALLEGRO_BITMAP *get_square_highlight_bitmap()
 	return square_highlight;
 }
 
-ALLEGRO_BITMAP *get_piece_bitmap(int piece, int color)
+ALLEGRO_BITMAP *get_piece_bitmap(GameState *state, int piece, int color)
 {
 	if (color == WHITE) {
 		switch (piece) {

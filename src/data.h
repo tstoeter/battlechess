@@ -15,14 +15,7 @@ typedef struct
 
 typedef struct
 {
-	enum {
-		BISHOP,
-		KING,
-		KNIGHT,
-		PAWN,
-		QUEEN,
-		ROOK
-	} type;
+	enum { BISHOP, KING, KNIGHT, PAWN, QUEEN, ROOK } type;
 	enum { WHITE, BLACK } color;
 } ChessPiece;
 
@@ -38,14 +31,20 @@ typedef struct
 	bool threatened;
 } SquareThreat;
 
-enum GameState {
-	PLAYING
-};
+typedef struct
+{
+	/* useful globals */
+	int screen_width;
+	int screen_height;
+	int mouse_x;
+	int mouse_y;
 
-int screen_width;
-int screen_height;
+	int turn;
+	Square *selected_square;
+	Square board[8][8];
+	Position *board_position; /* where to draw the board */
 
-int mouse_x;
-int mouse_y;
+	bool in_check;
+} GameState;
 
 #endif

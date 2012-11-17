@@ -37,7 +37,7 @@ void clear_board(Square (*board)[8][8])
 	}
 }
 
-void game_loop()
+void game_loop(GameState *state)
 {
 	// Fetch the event (if one exists)
 	bool get_event = al_wait_for_event_until(event_queue, &event, &timeout);
@@ -51,7 +51,7 @@ void game_loop()
 				running = false;
 				break;
 			default:
-				game_event(&event);
+				game_event(state, &event);
 				break;
 		}
 	}
@@ -60,22 +60,23 @@ void game_loop()
 		return;
 	}
 
-	game_run();
+	game_run(state);
 
 	if (redraw && al_is_event_queue_empty(event_queue)) {
-		game_redraw();
+		game_redraw(state);
 		redraw = false;
 	}
 }
 
 int main(int argc, char *argv[])
 {
+	GameState state;
 	running = true;
 	redraw = true;
-	state = PLAYING;
+	//state->state = PLAYING;
 
-	screen_width = 640;
-	screen_height = 480;
+	state.screen_width = 640;
+	state.screen_height = 480;
 
 	//{{{ initialization
 	
@@ -109,7 +110,7 @@ int main(int argc, char *argv[])
 	al_init_ttf_addon();
 
 	// Create the display
-	display = al_create_display(screen_width, screen_height);
+	display = al_create_display(state.screen_width, state.screen_height);
 	if (!display) {
 		fprintf(stderr, "Failed to create display.\n");
 		return 1;
@@ -139,22 +140,25 @@ int main(int argc, char *argv[])
 	al_flip_display();
 
 	// ???: why the hell does this not work the other way around?
-	load_game();
-	init_graphics();
+	load_game(&state);
+	init_graphics(&state);
 
 	// Main loop
 	while (running) {
 		al_get_mouse_state(&mouse_state);
-		mouse_x = mouse_state.x;
-		mouse_y = mouse_state.y;
+		state.mouse_x = mouse_state.x;
+		state.mouse_y = mouse_state.y;
 
+		/*
 		switch (state) {
 			case PLAYING:
-				game_loop();
+				game_loop(&state);
 				break;
 			default:
 				fprintf(stderr, "unknown state: %d\n", state);
 				break;
 		}
+		*/
+		game_loop(&state);
 	}
 }

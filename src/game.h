@@ -4,14 +4,9 @@
 #include "data.h"
 #include <allegro5/allegro.h>
 
-int board_x;
-int board_y;
-
-Square board[8][8];
-
-void load_game();
-void game_run();
-void game_event(ALLEGRO_EVENT *event);
-void game_redraw();
+void load_game(GameState *state);
+void game_run(GameState *state);
+void game_event(GameState *state, ALLEGRO_EVENT *event);
+void game_redraw(GameState *state);
 
 #endif
