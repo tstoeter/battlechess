@@ -211,9 +211,16 @@ static void handle_click(GameState *state, Square *square)
 		// disable first-move-only moves like castling
 		moving_piece->moved = true;
 
+		// do the move
 		square->piece = moving_piece;
 		state->selected_square->piece = NULL;
 		state->selected_square = NULL;
+
+		// check for promotion
+		if (square->piece->type == PAWN && (square->pos.y == 0 || square->pos.y == 7)) {
+			// TODO: prompt the player for a piece to promote to
+			square->piece->type = QUEEN;
+		}
 
 		g_list_free(threats);
 		threats = NULL;
