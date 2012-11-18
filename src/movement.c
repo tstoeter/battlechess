@@ -11,7 +11,7 @@ static GList *get_valid_pawn_moves(Square (*board)[8][8], short _x, short _y)
 	GList *results = NULL;
 	ChessPiece *piece = (*board)[_y][_x].piece;
 	assert(piece != NULL);
-	short dir = (piece->color == WHITE ? 1 : -1);
+	short dir = (piece->color == WHITE ? -1 : 1);
 
 	short x = _x;
 	short y = _y + dir;
@@ -33,7 +33,7 @@ static GList *get_valid_pawn_moves(Square (*board)[8][8], short _x, short _y)
 	}
 
 	// if this pawn is in its starting position, it can move another space (provided it's empty)
-	if (((piece->color == WHITE && _y == 1) || (piece->color == BLACK && _y == 6))) {
+	if (((piece->color == WHITE && _y == 6) || (piece->color == BLACK && _y == 1))) {
 		y += dir;
 		x = _x;
 		if (IN_BOUNDS(x, y) && (*board)[y][x].piece == NULL) {

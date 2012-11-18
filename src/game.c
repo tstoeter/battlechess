@@ -68,7 +68,7 @@ static bool is_in_check(GameState *state)
 				GList *iter = moves;
 				while (iter != NULL) {
 					Square *move = (Square*)iter->data;
-					if (move->piece != NULL && move->piece->type == KING) {
+					if (move->piece != NULL && move->piece->color != current->color && move->piece->type == KING) {
 						in_check = true;
 					}
 
@@ -101,31 +101,32 @@ static bool is_checkmate(GameState *state)
 	short x, y;
 	for (y = 0; y<8; y++) {
 		for (x = 0; x<8; x++) {
-			ChessPiece *current = state->board[y][x].piece;
-			if (current == NULL) {
+			ChessPiece *moving_piece = state->board[y][x].piece;
+			if (moving_piece == NULL) {
 				continue;
 			}
 
-			if (state->turn == current->color) {
+			if (state->turn == moving_piece->color) {
 				GList *moves = get_valid_moves(&state->board, &state->board[y][x], true);
 				GList *iter = moves;
 				while (iter != NULL) {
 					Square *move = (Square*)iter->data;
-					ChessPiece *existing = move->piece;
+					ChessPiece *existing_piece = move->piece;
 
-					move->piece = current;
+					move->piece = moving_piece;
 					state->board[y][x].piece = NULL;
 					if (!is_in_check(state)) {
 						checkmate = false;
 					}
 
-					move->piece = existing;
-					state->board[y][x].piece = current;
+					move->piece = existing_piece;
+					state->board[y][x].piece = moving_piece;
 
-					iter = g_list_next(iter);
 					if (!checkmate) {
 						break;
 					}
+
+					iter = g_list_next(iter);
 				}
 			}
 
@@ -201,7 +202,9 @@ static void handle_click(GameState *state, Square *square)
 		state->in_check = is_in_check(state);
 		if (state->in_check) {
 			state->checkmate = is_checkmate(state);
-			printf("CHECKMATE!!!\n");
+			if (state->checkmate) {
+				printf("CHECKMATE!!!\n");
+			}
 		}
 	}
 }
@@ -235,40 +238,39 @@ void load_game(GameState *state)
 		}
 	}
 
-	// TODO: verify the positions of the queen and king
-	state->board[0][0].piece = new_piece(ROOK,   WHITE);
-	state->board[0][1].piece = new_piece(KNIGHT, WHITE);
-	state->board[0][2].piece = new_piece(BISHOP, WHITE);
-	state->board[0][3].piece = new_piece(QUEEN,  WHITE);
-	state->board[0][4].piece = new_piece(KING,   WHITE);
-	state->board[0][5].piece = new_piece(BISHOP, WHITE);
-	state->board[0][6].piece = new_piece(KNIGHT, WHITE);
-	state->board[0][7].piece = new_piece(ROOK,   WHITE);
-	state->board[1][0].piece = new_piece(PAWN,   WHITE);
-	state->board[1][1].piece = new_piece(PAWN,   WHITE);
-	state->board[1][2].piece = new_piece(PAWN,   WHITE);
-	state->board[1][3].piece = new_piece(PAWN,   WHITE);
-	state->board[1][4].piece = new_piece(PAWN,   WHITE);
-	state->board[1][5].piece = new_piece(PAWN,   WHITE);
-	state->board[1][6].piece = new_piece(PAWN,   WHITE);
-	state->board[1][7].piece = new_piece(PAWN,   WHITE);
+	state->board[0][0].piece = new_piece(ROOK,   BLACK);
+	state->board[0][1].piece = new_piece(KNIGHT, BLACK);
+	state->board[0][2].piece = new_piece(BISHOP, BLACK);
+	state->board[0][3].piece = new_piece(KING,   BLACK);
+	state->board[0][4].piece = new_piece(QUEEN,  BLACK);
+	state->board[0][5].piece = new_piece(BISHOP, BLACK);
+	state->board[0][6].piece = new_piece(KNIGHT, BLACK);
+	state->board[0][7].piece = new_piece(ROOK,   BLACK);
+	state->board[1][0].piece = new_piece(PAWN,   BLACK);
+	state->board[1][1].piece = new_piece(PAWN,   BLACK);
+	state->board[1][2].piece = new_piece(PAWN,   BLACK);
+	state->board[1][3].piece = new_piece(PAWN,   BLACK);
+	state->board[1][4].piece = new_piece(PAWN,   BLACK);
+	state->board[1][5].piece = new_piece(PAWN,   BLACK);
+	state->board[1][6].piece = new_piece(PAWN,   BLACK);
+	state->board[1][7].piece = new_piece(PAWN,   BLACK);
 
-	state->board[7][0].piece = new_piece(ROOK,   BLACK);
-	state->board[7][1].piece = new_piece(KNIGHT, BLACK);
-	state->board[7][2].piece = new_piece(BISHOP, BLACK);
-	state->board[7][3].piece = new_piece(QUEEN,  BLACK);
-	state->board[7][4].piece = new_piece(KING,   BLACK);
-	state->board[7][5].piece = new_piece(BISHOP, BLACK);
-	state->board[7][6].piece = new_piece(KNIGHT, BLACK);
-	state->board[7][7].piece = new_piece(ROOK,   BLACK);
-	state->board[6][0].piece = new_piece(PAWN,   BLACK);
-	state->board[6][1].piece = new_piece(PAWN,   BLACK);
-	state->board[6][2].piece = new_piece(PAWN,   BLACK);
-	state->board[6][3].piece = new_piece(PAWN,   BLACK);
-	state->board[6][4].piece = new_piece(PAWN,   BLACK);
-	state->board[6][5].piece = new_piece(PAWN,   BLACK);
-	state->board[6][6].piece = new_piece(PAWN,   BLACK);
-	state->board[6][7].piece = new_piece(PAWN,   BLACK);
+	state->board[7][0].piece = new_piece(ROOK,   WHITE);
+	state->board[7][1].piece = new_piece(KNIGHT, WHITE);
+	state->board[7][2].piece = new_piece(BISHOP, WHITE);
+	state->board[7][3].piece = new_piece(KING,   WHITE);
+	state->board[7][4].piece = new_piece(QUEEN,  WHITE);
+	state->board[7][5].piece = new_piece(BISHOP, WHITE);
+	state->board[7][6].piece = new_piece(KNIGHT, WHITE);
+	state->board[7][7].piece = new_piece(ROOK,   WHITE);
+	state->board[6][0].piece = new_piece(PAWN,   WHITE);
+	state->board[6][1].piece = new_piece(PAWN,   WHITE);
+	state->board[6][2].piece = new_piece(PAWN,   WHITE);
+	state->board[6][3].piece = new_piece(PAWN,   WHITE);
+	state->board[6][4].piece = new_piece(PAWN,   WHITE);
+	state->board[6][5].piece = new_piece(PAWN,   WHITE);
+	state->board[6][6].piece = new_piece(PAWN,   WHITE);
+	state->board[6][7].piece = new_piece(PAWN,   WHITE);
 
 	state->board_position = NEW(Position);
 	state->board_position->x = (state->screen_width  - (8*SQUARE_SIZE)) / 2;
