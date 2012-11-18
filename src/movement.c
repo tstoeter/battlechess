@@ -33,7 +33,7 @@ static GList *get_valid_pawn_moves(Square (*board)[8][8], short _x, short _y)
 	}
 
 	// if this pawn is in its starting position, it can move another space (provided it's empty)
-	if (((piece->color == WHITE && _y == 6) || (piece->color == BLACK && _y == 1))) {
+	if (!piece->moved) {
 		y += dir;
 		x = _x;
 		if (IN_BOUNDS(x, y) && (*board)[y][x].piece == NULL) {
@@ -232,64 +232,97 @@ static GList *get_valid_queen_moves(Square (*board)[8][8], short _x, short _y)
 static GList *get_valid_king_moves(Square (*board)[8][8], short _x, short _y)
 {
 	GList *results = NULL;
-	ChessPiece *piece = (*board)[_y][_x].piece;
-	assert(piece != NULL);
+	ChessPiece *king = (*board)[_y][_x].piece;
+	assert(king != NULL);
 
 	short x = _x;
 	short y = _y;
 
 	x = _x - 1;
 	y = _y - 1;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x;
 	y = _y - 1;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x + 1;
 	y = _y - 1;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x - 1;
 	y = _y;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x;
 	y = _y;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x + 1;
 	y = _y;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x - 1;
 	y = _y + 1;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x;
 	y = _y + 1;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
 	}
 
 	x = _x + 1;
 	y = _y + 1;
-	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(piece, (*board)[y][x].piece))) {
+	if (IN_BOUNDS(x, y) && ((*board)[y][x].piece == NULL || are_enemies(king, (*board)[y][x].piece))) {
 		results = g_list_prepend(results, &(*board)[y][x]);
+	}
+
+	if (!king->moved) {
+		// check for castling
+		ChessPiece *rook = (*board)[_y][0].piece;
+		if (rook != NULL && rook->type == ROOK && !rook->moved && !are_enemies(king, rook)) {
+			bool can_castle = true;
+			for (x = 1; x<_x; x++) {
+				if ((*board)[_y][x].piece != NULL) {
+					can_castle = false;
+					break;
+				}
+			}
+
+			if (can_castle) {
+				results = g_list_prepend(results, &(*board)[_y][_x-2]);
+			}
+		}
+
+		rook = (*board)[_y][7].piece;
+		if (rook != NULL && rook->type == ROOK && !rook->moved && !are_enemies(king, rook)) {
+			bool can_castle = true;
+			for (x = 6; x>_x; x--) {
+				if ((*board)[_y][x].piece != NULL) {
+					can_castle = false;
+					break;
+				}
+			}
+
+			if (can_castle) {
+				results = g_list_prepend(results, &(*board)[_y][_x+2]);
+			}
+		}
 	}
 
 	return results;

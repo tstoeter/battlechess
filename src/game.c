@@ -193,12 +193,33 @@ static void handle_click(GameState *state, Square *square)
 			al_free(square->piece);
 		}
 
-		square->piece = state->selected_square->piece;
+		ChessPiece *moving_piece = state->selected_square->piece;
+
+		// check if this is a special move
+		if (moving_piece->type == KING && !moving_piece->moved) {
+			if (square->pos.x == (state->selected_square->pos.x - 2)) {
+				Square *rook_square = &state->board[square->pos.y][0];
+				(&state->board[square->pos.y][square->pos.x+1])->piece = rook_square->piece;
+				rook_square->piece = NULL;
+			} else if (square->pos.x == (state->selected_square->pos.x + 2)) {
+				Square *rook_square = &state->board[square->pos.y][7];
+				(&state->board[square->pos.y][square->pos.x-1])->piece = rook_square->piece;
+				rook_square->piece = NULL;
+			}
+		}
+
+		// disable first-move-only moves like castling
+		moving_piece->moved = true;
+
+		square->piece = moving_piece;
 		state->selected_square->piece = NULL;
 		state->selected_square = NULL;
+
 		g_list_free(threats);
 		threats = NULL;
+
 		state->turn = !state->turn;
+
 		state->in_check = is_in_check(state);
 		if (state->in_check) {
 			state->checkmate = is_checkmate(state);
@@ -241,8 +262,8 @@ void load_game(GameState *state)
 	state->board[0][0].piece = new_piece(ROOK,   BLACK);
 	state->board[0][1].piece = new_piece(KNIGHT, BLACK);
 	state->board[0][2].piece = new_piece(BISHOP, BLACK);
-	state->board[0][3].piece = new_piece(KING,   BLACK);
-	state->board[0][4].piece = new_piece(QUEEN,  BLACK);
+	state->board[0][3].piece = new_piece(QUEEN,  BLACK);
+	state->board[0][4].piece = new_piece(KING,   BLACK);
 	state->board[0][5].piece = new_piece(BISHOP, BLACK);
 	state->board[0][6].piece = new_piece(KNIGHT, BLACK);
 	state->board[0][7].piece = new_piece(ROOK,   BLACK);
@@ -258,8 +279,8 @@ void load_game(GameState *state)
 	state->board[7][0].piece = new_piece(ROOK,   WHITE);
 	state->board[7][1].piece = new_piece(KNIGHT, WHITE);
 	state->board[7][2].piece = new_piece(BISHOP, WHITE);
-	state->board[7][3].piece = new_piece(KING,   WHITE);
-	state->board[7][4].piece = new_piece(QUEEN,  WHITE);
+	state->board[7][3].piece = new_piece(QUEEN,  WHITE);
+	state->board[7][4].piece = new_piece(KING,   WHITE);
 	state->board[7][5].piece = new_piece(BISHOP, WHITE);
 	state->board[7][6].piece = new_piece(KNIGHT, WHITE);
 	state->board[7][7].piece = new_piece(ROOK,   WHITE);

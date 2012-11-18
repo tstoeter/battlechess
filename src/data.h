@@ -17,6 +17,7 @@ typedef struct
 {
 	enum { BISHOP, KING, KNIGHT, PAWN, QUEEN, ROOK } type;
 	enum { WHITE, BLACK } color;
+	bool moved; /* whether or not the piece has moved yet */
 } ChessPiece;
 
 typedef struct

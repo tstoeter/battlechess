@@ -12,6 +12,7 @@ ChessPiece *new_piece(int type, int color)
 	ChessPiece *piece = NEW(ChessPiece);
 	piece->type = type;
 	piece->color = color;
+	piece->moved = false;
 	return piece;
 }
 
