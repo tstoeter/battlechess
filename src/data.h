@@ -45,6 +45,7 @@ typedef struct
 	Position *board_position; /* where to draw the board */
 
 	bool in_check;
+	bool checkmate;
 } GameState;
 
 #endif

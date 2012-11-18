@@ -93,6 +93,56 @@ static bool is_in_check(GameState *state)
 }
 
 /*
+ * Tests whether or not the current player is in checkmate
+ */
+static bool is_checkmate(GameState *state)
+{
+	bool checkmate = true;
+	short x, y;
+	for (y = 0; y<8; y++) {
+		for (x = 0; x<8; x++) {
+			ChessPiece *current = state->board[y][x].piece;
+			if (current == NULL) {
+				continue;
+			}
+
+			if (state->turn == current->color) {
+				GList *moves = get_valid_moves(&state->board, &state->board[y][x], true);
+				GList *iter = moves;
+				while (iter != NULL) {
+					Square *move = (Square*)iter->data;
+					ChessPiece *existing = move->piece;
+
+					move->piece = current;
+					state->board[y][x].piece = NULL;
+					if (!is_in_check(state)) {
+						checkmate = false;
+					}
+
+					move->piece = existing;
+					state->board[y][x].piece = current;
+
+					iter = g_list_next(iter);
+					if (!checkmate) {
+						break;
+					}
+				}
+			}
+
+			if (!checkmate) {
+				break;
+			}
+		}
+
+		if (!checkmate) {
+			break;
+		}
+	}
+
+	return checkmate;
+}
+
+/*
  * Checks if the piece on the currently selected square can move to the target
  * square or not
  */
@@ -149,7 +199,10 @@ static void handle_click(GameState *state, Square *square)
 		threats = NULL;
 		state->turn = !state->turn;
 		state->in_check = is_in_check(state);
-		printf("in check: %d\n", state->in_check);
+		if (state->in_check) {
+			state->checkmate = is_checkmate(state);
+			printf("CHECKMATE!!!\n");
+		}
 	}
 }
 
@@ -223,6 +276,7 @@ void load_game(GameState *state)
 
 	state->turn = WHITE;
 	state->in_check = false;
+	state->checkmate = false;
 }
 
 /*

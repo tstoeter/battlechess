@@ -5,27 +5,27 @@
 #include <allegro5/allegro_ttf.h>
 #include "data.h"
 
-ALLEGRO_BITMAP *black_square;
-ALLEGRO_BITMAP *white_square;
-ALLEGRO_BITMAP *full_board;
+static ALLEGRO_BITMAP *black_square;
+static ALLEGRO_BITMAP *white_square;
+static ALLEGRO_BITMAP *full_board;
 
-ALLEGRO_BITMAP *white_pawn;
-ALLEGRO_BITMAP *white_king;
-ALLEGRO_BITMAP *white_queen;
-ALLEGRO_BITMAP *white_rook;
-ALLEGRO_BITMAP *white_knight;
-ALLEGRO_BITMAP *white_bishop;
+static ALLEGRO_BITMAP *white_pawn;
+static ALLEGRO_BITMAP *white_king;
+static ALLEGRO_BITMAP *white_queen;
+static ALLEGRO_BITMAP *white_rook;
+static ALLEGRO_BITMAP *white_knight;
+static ALLEGRO_BITMAP *white_bishop;
 
-ALLEGRO_BITMAP *black_pawn;
-ALLEGRO_BITMAP *black_king;
-ALLEGRO_BITMAP *black_queen;
-ALLEGRO_BITMAP *black_rook;
-ALLEGRO_BITMAP *black_knight;
-ALLEGRO_BITMAP *black_bishop;
+static ALLEGRO_BITMAP *black_pawn;
+static ALLEGRO_BITMAP *black_king;
+static ALLEGRO_BITMAP *black_queen;
+static ALLEGRO_BITMAP *black_rook;
+static ALLEGRO_BITMAP *black_knight;
+static ALLEGRO_BITMAP *black_bishop;
 
-ALLEGRO_BITMAP *square_highlight;
+static ALLEGRO_BITMAP *square_highlight;
 
-ALLEGRO_FONT *emulogic;
+static ALLEGRO_FONT *emulogic;
 
 /*
  * Draws a chess board to the target bitmap.
