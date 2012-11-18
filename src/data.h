@@ -43,10 +43,11 @@ typedef struct
 	int turn;
 	Square *selected_square;
 	Square board[8][8];
-	Position *board_position; /* where to draw the board */
+	Position *board_position; /* where to draw the board on screen */
 
 	bool in_check;
 	bool checkmate;
+	Square *en_passant; /* a square holding a pawn that can be captured via en passant */
 } GameState;
 
 #endif

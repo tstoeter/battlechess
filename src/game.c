@@ -64,7 +64,7 @@ static bool is_in_check(GameState *state)
 			}
 
 			if (state->turn != current->color) {
-				GList *moves = get_valid_moves(&state->board, &state->board[y][x], true);
+				GList *moves = get_valid_moves(state, &state->board, &state->board[y][x], true);
 				GList *iter = moves;
 				while (iter != NULL) {
 					Square *move = (Square*)iter->data;
@@ -107,7 +107,7 @@ static bool is_checkmate(GameState *state)
 			}
 
 			if (state->turn == moving_piece->color) {
-				GList *moves = get_valid_moves(&state->board, &state->board[y][x], true);
+				GList *moves = get_valid_moves(state, &state->board, &state->board[y][x], true);
 				GList *iter = moves;
 				while (iter != NULL) {
 					Square *move = (Square*)iter->data;
@@ -179,7 +179,7 @@ static void handle_click(GameState *state, Square *square)
 		state->selected_square = square;
 		ALLEGRO_BITMAP *bmp = get_piece_bitmap(state, square->piece->type, square->piece->color);
 		threat_ghost = draw_ghost(bmp, al_map_rgba(255, 0, 0, 0), true);
-		threats = get_valid_moves(&state->board, square, false);
+		threats = get_valid_moves(state, &state->board, square, false);
 	}
 	// if we clicked on a threatened square, move it
 	else if (g_list_find(threats, square)) {
@@ -193,19 +193,34 @@ static void handle_click(GameState *state, Square *square)
 			al_free(square->piece);
 		}
 
+		Position start_pos = state->selected_square->pos;
+		Position end_pos = square->pos;
 		ChessPiece *moving_piece = state->selected_square->piece;
 
 		// check if this is a special move
 		if (moving_piece->type == KING && !moving_piece->moved) {
-			if (square->pos.x == (state->selected_square->pos.x - 2)) {
-				Square *rook_square = &state->board[square->pos.y][0];
-				(&state->board[square->pos.y][square->pos.x+1])->piece = rook_square->piece;
+			if (end_pos.x == (start_pos.x - 2)) {
+				Square *rook_square = &state->board[end_pos.y][0];
+				(&state->board[end_pos.y][end_pos.x+1])->piece = rook_square->piece;
 				rook_square->piece = NULL;
-			} else if (square->pos.x == (state->selected_square->pos.x + 2)) {
-				Square *rook_square = &state->board[square->pos.y][7];
-				(&state->board[square->pos.y][square->pos.x-1])->piece = rook_square->piece;
+			} else if (end_pos.x == (start_pos.x + 2)) {
+				Square *rook_square = &state->board[end_pos.y][7];
+				(&state->board[end_pos.y][end_pos.x-1])->piece = rook_square->piece;
 				rook_square->piece = NULL;
 			}
+		}
+
+		if (moving_piece->type == PAWN && state->en_passant != NULL && start_pos.x != end_pos.x) {
+			if (&state->board[start_pos.y][end_pos.x] == state->en_passant) {
+				state->en_passant->piece = NULL;
+			}
+		}
+
+		// if a pawn is moving two places, give the opponent the opportunity to do en_passant
+		if (moving_piece->type == PAWN && !moving_piece->moved && abs(start_pos.y - end_pos.y) == 2) {
+			state->en_passant = square;
+		} else {
+			state->en_passant = NULL;
 		}
 
 		// disable first-move-only moves like castling
@@ -217,7 +232,7 @@ static void handle_click(GameState *state, Square *square)
 		state->selected_square = NULL;
 
 		// check for promotion
-		if (square->piece->type == PAWN && (square->pos.y == 0 || square->pos.y == 7)) {
+		if (square->piece->type == PAWN && (end_pos.y == 0 || end_pos.y == 7)) {
 			// TODO: prompt the player for a piece to promote to
 			square->piece->type = QUEEN;
 		}
@@ -307,6 +322,7 @@ void load_game(GameState *state)
 	state->turn = WHITE;
 	state->in_check = false;
 	state->checkmate = false;
+	state->en_passant = NULL;
 }
 
 /*

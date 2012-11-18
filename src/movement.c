@@ -6,7 +6,7 @@
 #include "piece.h"
 #include "data.h"
 
-static GList *get_valid_pawn_moves(Square (*board)[8][8], short _x, short _y)
+static GList *get_valid_pawn_moves(GameState *state, Square (*board)[8][8], short _x, short _y)
 {
 	GList *results = NULL;
 	ChessPiece *piece = (*board)[_y][_x].piece;
@@ -38,6 +38,20 @@ static GList *get_valid_pawn_moves(Square (*board)[8][8], short _x, short _y)
 		x = _x;
 		if (IN_BOUNDS(x, y) && (*board)[y][x].piece == NULL) {
 			results = g_list_prepend(results, &(*board)[y][x]);
+		}
+	}
+
+	// check for en passant
+	if (state->en_passant != NULL) {
+		short x = _x - 1;
+		short y = _y;
+		if (IN_BOUNDS(x,y) && &(*board)[y][x] == state->en_passant) {
+			results = g_list_prepend(results, &(*board)[y+dir][x]);
+		}
+
+		x = _x + 1;
+		if (IN_BOUNDS(x,y) && &(*board)[y][x] == state->en_passant) {
+			results = g_list_prepend(results, &(*board)[y+dir][x]);
 		}
 	}
 
@@ -331,7 +345,7 @@ static GList *get_valid_king_moves(Square (*board)[8][8], short _x, short _y)
 /*
  * Get a list of valid moves.
  */
-GList *get_valid_moves(Square (*board)[8][8], Square *square, bool checking)
+GList *get_valid_moves(GameState *state, Square (*board)[8][8], Square *square, bool checking)
 {
 	GList *moves = NULL;
 	ChessPiece *king = NULL;
@@ -340,7 +354,7 @@ GList *get_valid_moves(Square (*board)[8][8], Square *square, bool checking)
 	switch (square->piece->type)
 	{
 		case PAWN:
-			return get_valid_pawn_moves(board, square->pos.x, square->pos.y);
+			return get_valid_pawn_moves(state, board, square->pos.x, square->pos.y);
 		case ROOK:
 			return get_valid_rook_moves(board, square->pos.x, square->pos.y);
 		case KNIGHT:
@@ -372,7 +386,7 @@ GList *get_valid_moves(Square (*board)[8][8], Square *square, bool checking)
 					for (x = 0; x<8; x++) {
 						Square *s = &(*board)[y][x];
 						if (s->piece != NULL && are_enemies(s->piece, king)) {
-							GList *attacks = get_valid_moves(board, s, true);
+							GList *attacks = get_valid_moves(state, board, s, true);
 							if (g_list_find(attacks, move->data)) {
 								// this move was threatened, so add it to the threats and break out
 								threats = g_list_prepend(threats, move->data);
