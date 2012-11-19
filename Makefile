@@ -1,8 +1,8 @@
 CC           := clang
 TARGET       := game
 
-AL_MODULES   := image font ttf
-AL_CFLAGS    := $(patsubst %,-Ilib/allegro/addons/%,$(AL_MODULES))
+AL_MODULES   := image font ttf primitives
+AL_CFLAGS    := $(patsubst %,-Ilib/allegro/addons/%,$(AL_MODULES)) -Ilib/allegro/include
 AL_LDFLAGS   := -Llib/allegro/lib
 GLIB_CFLAGS  := -Ilib/glib -Ilib/glib/glib
 GLIB_LDFLAGS := -Llib/glib/glib/.libs -Llib/glib/gio/.libs
@@ -34,7 +34,7 @@ run: $(TARGET)
 	@LD_LIBRARY_PATH=$(LIB_PATH) ./$(TARGET)
 
 debug: $(TARGET)
-	@LD_LIBRARY_PATH=$(LIB_PATH) gdb ./$(TARGET)
+	@LD_LIBRARY_PATH=$(LIB_PATH) nemiver ./$(TARGET)
 
 -include $(DEPS)
 
