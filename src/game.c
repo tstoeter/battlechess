@@ -357,7 +357,7 @@ void game_redraw(GameState *state)
 	short mx = (short)floor((state->mouse_x - state->board_position->x) / SQUARE_SIZE);
 	short my = (short)floor((state->mouse_y - state->board_position->y) / SQUARE_SIZE);
 
-	al_clear_to_color(al_map_rgb(100, 100, 0));
+	al_clear_to_color(al_map_rgb(100, 168, 189));
 	al_draw_bitmap(get_board_bitmap(state), state->board_position->x, state->board_position->y, 0);
 
 	for (y = 0; y<8; y++) {

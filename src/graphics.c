@@ -3,10 +3,12 @@
 #include <stdio.h>
 #include <allegro5/allegro_font.h>
 #include <allegro5/allegro_ttf.h>
+#include <allegro5/allegro_primitives.h>
 #include "data.h"
 
 static ALLEGRO_BITMAP *black_square;
 static ALLEGRO_BITMAP *white_square;
+static ALLEGRO_BITMAP *border;
 static ALLEGRO_BITMAP *full_board;
 
 static ALLEGRO_BITMAP *white_pawn;
