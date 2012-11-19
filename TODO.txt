@@ -1,0 +1,5 @@
+
+* Find a better background, or at the very least, a better color for it
+* Change piece highlighting to be more obvious (use the whole square)
+* Better check/you can't move/checkmate notifications
+
