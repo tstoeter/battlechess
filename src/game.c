@@ -13,6 +13,15 @@ static GList 			*threats;
 static ALLEGRO_BITMAP 	*threat_ghost;
 
 /*
+ * Convert the mouse position into (x,y) coordinates on the board
+ */
+void get_mouse_position(GameState *state, short *x, short *y)
+{
+	(*x) = (short)floor((state->mouse_state->x - state->board_position->x - BORDER_WIDTH) / SQUARE_SIZE);
+	(*y) = (short)floor((state->mouse_state->y - state->board_position->y - BORDER_WIDTH) / SQUARE_SIZE);
+}
+
+/*
  * Draw a ghost
  */
 static ALLEGRO_BITMAP *draw_ghost(ALLEGRO_BITMAP *bmp, ALLEGRO_COLOR color, bool full)
@@ -260,8 +269,8 @@ static void draw_threat(void *data, void *user_data)
 	Square *threat = (Square*)data;
 	GameState *state = (GameState*)user_data;
 	if (threat) {
-		int px = state->board_position->x + (threat->pos.x * SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
-		int py = state->board_position->y + (threat->pos.y * SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
+		int px = state->board_position->x + BORDER_WIDTH + (threat->pos.x * SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
+		int py = state->board_position->y + BORDER_WIDTH + (threat->pos.y * SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
 		al_draw_bitmap(threat_ghost, px, py, 0);
 	}
 }
@@ -316,8 +325,8 @@ void load_game(GameState *state)
 	state->board[6][7].piece = new_piece(PAWN,   WHITE);
 
 	state->board_position = NEW(Position);
-	state->board_position->x = (state->screen_width  - (8*SQUARE_SIZE)) / 2;
-	state->board_position->y = (state->screen_height - (8*SQUARE_SIZE)) / 2;
+	state->board_position->x = (state->screen_width  - (8*SQUARE_SIZE) - (BORDER_WIDTH*2)) / 2;
+	state->board_position->y = (state->screen_height - (8*SQUARE_SIZE) - (BORDER_WIDTH*2)) / 2;
 
 	state->turn = WHITE;
 	state->in_check = false;
@@ -328,19 +337,17 @@ void load_game(GameState *state)
 /*
  * Main game loop, runs once per frame.
  */
-void game_run()
+void game_run(GameState *state)
 {
 }
 
 void game_event(GameState *state, ALLEGRO_EVENT *event)
 {
-	short x;
-	short y;
+	short x, y;
 
 	switch (event->type) {
 		case ALLEGRO_EVENT_MOUSE_BUTTON_DOWN:
-			x = (short)floor((event->mouse.x - state->board_position->x) / SQUARE_SIZE);
-			y = (short)floor((event->mouse.y - state->board_position->y) / SQUARE_SIZE);
+			get_mouse_position(state, &x, &y);
 			if (IN_BOUNDS(x,y)) {
 				handle_click(state, &state->board[y][x]);
 			}
@@ -352,10 +359,12 @@ void game_event(GameState *state, ALLEGRO_EVENT *event)
 
 void game_redraw(GameState *state)
 {
-	short y;
-	short x;
-	short mx = (short)floor((state->mouse_x - state->board_position->x) / SQUARE_SIZE);
-	short my = (short)floor((state->mouse_y - state->board_position->y) / SQUARE_SIZE);
+	short x, y, mx, my;
+	get_mouse_position(state, &mx, &my);
+	/*
+	short mx = (short)floor((state->mouse_state->x - state->board_position->x) / SQUARE_SIZE);
+	short my = (short)floor((state->mouse_state->y - state->board_position->y) / SQUARE_SIZE);
+	*/
 
 	al_clear_to_color(al_map_rgb(100, 168, 189));
 	al_draw_bitmap(get_board_bitmap(state), state->board_position->x, state->board_position->y, 0);
@@ -364,8 +373,8 @@ void game_redraw(GameState *state)
 		for (x = 0; x<8; x++) {
 			ChessPiece *piece = state->board[y][x].piece;
 			if (piece != NULL) {
-				int piece_x = state->board_position->x + (x*SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
-				int piece_y = state->board_position->y + (y*SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
+				int piece_x = state->board_position->x + BORDER_WIDTH + (x*SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
+				int piece_y = state->board_position->y + BORDER_WIDTH + (y*SQUARE_SIZE) + (SQUARE_SIZE - PIECE_SIZE)/2;
 				ALLEGRO_BITMAP *bmp = get_piece_bitmap(state, piece->type, piece->color);
 				if (bmp) {
 					al_draw_bitmap(bmp, piece_x, piece_y, 0);

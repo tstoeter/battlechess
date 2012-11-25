@@ -2,11 +2,13 @@
 #define DATA_H
 
 #include <stdbool.h>
+#include <allegro5/allegro.h>
 
 #define NEW(x) (x*)g_malloc(sizeof(x))
 
-#define SQUARE_SIZE 50
-#define PIECE_SIZE  36
+#define SQUARE_SIZE  50
+#define BORDER_WIDTH 25
+#define PIECE_SIZE   36
 
 typedef struct
 {
@@ -34,11 +36,12 @@ typedef struct
 
 typedef struct
 {
+	/* pointers to allegro state structs */
+	ALLEGRO_MOUSE_STATE *mouse_state;
+
 	/* useful globals */
 	int screen_width;
 	int screen_height;
-	int mouse_x;
-	int mouse_y;
 
 	int turn;
 	Square *selected_square;

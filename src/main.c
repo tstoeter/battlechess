@@ -17,7 +17,6 @@ ALLEGRO_TIMER 		*timer;
 
 ALLEGRO_EVENT 		event;
 ALLEGRO_TIMEOUT		timeout;
-ALLEGRO_MOUSE_STATE mouse_state;
 
 bool redraw;
 bool running;
@@ -73,7 +72,6 @@ int main(int argc, char *argv[])
 	GameState state;
 	running = true;
 	redraw = true;
-	//state->state = PLAYING;
 
 	state.screen_width = 640;
 	state.screen_height = 480;
@@ -143,11 +141,11 @@ int main(int argc, char *argv[])
 	load_game(&state);
 	init_graphics(&state);
 
+	state.mouse_state = NEW(ALLEGRO_MOUSE_STATE);
+
 	// Main loop
 	while (running) {
-		al_get_mouse_state(&mouse_state);
-		state.mouse_x = mouse_state.x;
-		state.mouse_y = mouse_state.y;
+		al_get_mouse_state(state.mouse_state);
 
 		/*
 		switch (state) {
@@ -161,4 +159,6 @@ int main(int argc, char *argv[])
 		*/
 		game_loop(&state);
 	}
+
+	al_free(state.mouse_state);
 }

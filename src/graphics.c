@@ -8,7 +8,6 @@
 
 static ALLEGRO_BITMAP *black_square;
 static ALLEGRO_BITMAP *white_square;
-static ALLEGRO_BITMAP *border;
 static ALLEGRO_BITMAP *full_board;
 
 static ALLEGRO_BITMAP *white_pawn;
@@ -34,77 +33,77 @@ static ALLEGRO_FONT *emulogic;
  */
 static void draw_board()
 {
-	al_draw_bitmap(white_square, 0*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 1*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 2*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 3*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 4*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 5*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 6*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 7*SQUARE_SIZE, 0*SQUARE_SIZE, 0);
+	al_draw_bitmap(white_square, 0*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 1*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 2*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 3*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 4*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 5*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 6*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 7*SQUARE_SIZE + BORDER_WIDTH, 0*SQUARE_SIZE + BORDER_WIDTH, 0);
 
-	al_draw_bitmap(black_square, 0*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 1*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 2*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 3*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 4*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 5*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 6*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 7*SQUARE_SIZE, 1*SQUARE_SIZE, 0);
+	al_draw_bitmap(black_square, 0*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 1*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 2*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 3*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 4*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 5*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 6*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 7*SQUARE_SIZE + BORDER_WIDTH, 1*SQUARE_SIZE + BORDER_WIDTH, 0);
 
-	al_draw_bitmap(white_square, 0*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 1*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 2*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 3*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 4*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 5*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 6*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 7*SQUARE_SIZE, 2*SQUARE_SIZE, 0);
+	al_draw_bitmap(white_square, 0*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 1*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 2*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 3*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 4*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 5*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 6*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 7*SQUARE_SIZE + BORDER_WIDTH, 2*SQUARE_SIZE + BORDER_WIDTH, 0);
 
-	al_draw_bitmap(black_square, 0*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 1*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 2*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 3*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 4*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 5*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 6*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 7*SQUARE_SIZE, 3*SQUARE_SIZE, 0);
+	al_draw_bitmap(black_square, 0*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 1*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 2*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 3*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 4*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 5*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 6*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 7*SQUARE_SIZE + BORDER_WIDTH, 3*SQUARE_SIZE + BORDER_WIDTH, 0);
 
-	al_draw_bitmap(white_square, 0*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 1*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 2*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 3*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 4*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 5*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 6*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 7*SQUARE_SIZE, 4*SQUARE_SIZE, 0);
+	al_draw_bitmap(white_square, 0*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 1*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 2*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 3*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 4*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 5*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 6*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 7*SQUARE_SIZE + BORDER_WIDTH, 4*SQUARE_SIZE + BORDER_WIDTH, 0);
 
-	al_draw_bitmap(black_square, 0*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 1*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 2*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 3*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 4*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 5*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 6*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 7*SQUARE_SIZE, 5*SQUARE_SIZE, 0);
+	al_draw_bitmap(black_square, 0*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 1*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 2*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 3*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 4*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 5*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 6*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 7*SQUARE_SIZE + BORDER_WIDTH, 5*SQUARE_SIZE + BORDER_WIDTH, 0);
 
-	al_draw_bitmap(white_square, 0*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 1*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 2*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 3*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 4*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 5*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 6*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 7*SQUARE_SIZE, 6*SQUARE_SIZE, 0);
+	al_draw_bitmap(white_square, 0*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 1*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 2*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 3*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 4*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 5*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 6*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 7*SQUARE_SIZE + BORDER_WIDTH, 6*SQUARE_SIZE + BORDER_WIDTH, 0);
 
-	al_draw_bitmap(black_square, 0*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 1*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 2*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 3*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 4*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 5*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
-	al_draw_bitmap(black_square, 6*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
-	al_draw_bitmap(white_square, 7*SQUARE_SIZE, 7*SQUARE_SIZE, 0);
+	al_draw_bitmap(black_square, 0*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 1*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 2*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 3*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 4*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 5*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(black_square, 6*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
+	al_draw_bitmap(white_square, 7*SQUARE_SIZE + BORDER_WIDTH, 7*SQUARE_SIZE + BORDER_WIDTH, 0);
 }
 
 void init_graphics()
@@ -121,8 +120,9 @@ void init_graphics()
 	al_set_target_bitmap(white_square);
 	al_clear_to_color(al_map_rgb(255, 255, 255));
 
-	full_board = al_create_bitmap(8*SQUARE_SIZE, 8*SQUARE_SIZE);
+	full_board = al_create_bitmap(8*SQUARE_SIZE + 2*BORDER_WIDTH, 8*SQUARE_SIZE + 2*BORDER_WIDTH);
 	al_set_target_bitmap(full_board);
+	al_clear_to_color(al_map_rgb(138, 65, 23));
 	draw_board();
 
 	white_bishop = al_load_bitmap("data/img/pieces/white/bishop.png");
