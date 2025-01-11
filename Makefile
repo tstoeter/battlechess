@@ -1,11 +1,11 @@
-CC           := clang
+CC           := gcc
 TARGET       := game
 
 AL_MODULES   := image font ttf primitives
-AL_CFLAGS    := $(patsubst %,-Ilib/allegro/addons/%,$(AL_MODULES)) -Ilib/allegro/include
-AL_LDFLAGS   := -Llib/allegro/lib
-GLIB_CFLAGS  := -Ilib/glib -Ilib/glib/glib
-GLIB_LDFLAGS := -Llib/glib/glib/.libs -Llib/glib/gio/.libs
+#AL_CFLAGS    := $(patsubst %,-Ilib/allegro/addons/%,$(AL_MODULES)) -Ilib/allegro/include
+#AL_LDFLAGS   := -Llib/allegro/lib
+GLIB_CFLAGS  := $(shell pkg-config gtk+-2.0 --cflags) #-Ilib/glib -Ilib/glib/glib
+GLIB_LDFLAGS := $(shell pkg-config gtk+-2.0 --libs) #-Llib/glib/glib/.libs -Llib/glib/gio/.libs
 CFLAGS       := -g -Wall $(AL_CFLAGS) $(GLIB_CFLAGS)
 LDFLAGS      := $(AL_LDFLAGS) $(GLIB_LDFLAGS)
 
